@@ -96,8 +96,8 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
           SafeArea(
             child: Column(
               children: [
-                // Banner ad at top
-                const StickyBannerAd(),
+                // Banner ad at top - use different key for input vs loading to force reload
+                StickyBannerAd(key: ValueKey('banner_${_isLoading ? 'loading' : 'input'}')),
 
                 // Custom app bar
                 _buildAppBar(l10n),
