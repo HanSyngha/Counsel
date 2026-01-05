@@ -689,7 +689,13 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
         locale: locale,
       );
 
-      final adviceResponse = await ref.read(adviceRequestProvider(request).future);
+      // Ensure minimum 2 second loading time for ad display
+      final results = await Future.wait([
+        ref.read(adviceRequestProvider(request).future),
+        Future.delayed(const Duration(seconds: 2)),
+      ]);
+
+      final adviceResponse = results[0] as AdviceResponse;
 
       // Show interstitial ad every 5 requests
       final adService = ref.read(adServiceProvider);
