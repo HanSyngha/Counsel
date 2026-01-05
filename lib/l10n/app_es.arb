@@ -1,0 +1,158 @@
+{
+  "@@locale": "es",
+  "appName": "Voz de Sabios",
+
+  "onboardingTitle": "Conoce a Tus Mentores\nDe la Historia",
+  "onboardingSubtitle": "De Jesús a Sócrates, de Napoleón a Steve Jobs.\nToma prestada la sabiduría atemporal para tus preocupaciones.",
+  "getStarted": "Comenzar",
+
+  "homeTitle": "¿De quién buscas consejo hoy?",
+  "searchPlaceholder": "Buscar a Platón, Lincoln, Hamlet...",
+  "featuredMentors": "Mentores Destacados",
+  "exploreWisdom": "Explorar Sabiduría",
+  "seeAll": "Ver todo",
+  "trending": "Tendencia",
+  "new_": "Nuevo",
+
+  "categoryAll": "Todo",
+  "categoryHistory": "Historia",
+  "categoryPhilosophy": "Filosofía",
+  "categoryReligion": "Religión",
+  "categoryLiterature": "Literatura",
+  "categoryFavorites": "Favoritos",
+
+  "inputTitle": "¿Qué pesa en tu mente?",
+  "inputSubtitle": "Sé honesto. El detalle es el camino hacia la claridad.",
+  "inputPlaceholder": "Me encuentro luchando con...\nComenzó cuando...\nTemo que...",
+  "inputHelperDilemma": "Dilema Actual",
+  "inputHelperEmotion": "Estado Emocional",
+  "inputHelperOutcome": "Resultado Deseado",
+  "seekWisdom": "Buscar Sabiduría",
+  "privacyNote": "Tu confesión es privada y anónima.",
+  "characterCount": "{count} / {max}",
+
+  "loadingConnecting": "Conectando con",
+  "loadingConsulting": "Consultando los archivos antiguos de sabiduría",
+  "loadingAnalyzing": "Analizando Consulta",
+  "loadingRecalling": "RECORDANDO CONTEXTO HISTÓRICO...",
+  "loadingOnline": "En línea",
+  "cancelRequest": "Cancelar Solicitud",
+  "loadingNote": "Esto puede tomar un momento mientras canalizamos la persona.",
+
+  "resultWisdom": "Sabiduría",
+  "resultAiPersona": "Consejo de Persona IA",
+  "resultGeneratedBy": "Generado por Persona IA",
+  "resultScrollOfWisdom": "Pergamino de Sabiduría",
+  "resultHistoricalRecords": "Registros Históricos",
+  "resultInHisOwnWords": "En Sus Propias Palabras",
+  "resultKeyDecision": "Decisión Clave",
+  "resultCopy": "Copiar",
+  "resultShare": "Compartir",
+  "askAnotherSage": "Preguntar a Otro Sabio",
+  "resultActionSteps": "Pasos de Acción",
+
+  "historyTitle": "Mi Historial de Consejos",
+  "historySearch": "¿Qué preocupación estás buscando?",
+  "historyEmpty": "Aún no hay historial de consejos",
+  "historyEmptySubtitle": "Inicia una conversación con un mentor",
+
+  "navSelect": "Seleccionar",
+  "navChat": "Chat",
+  "navSaved": "Guardado",
+  "navHistory": "Historial",
+  "navProfile": "Perfil",
+  "navSettings": "Ajustes",
+
+  "settingsLanguage": "Idioma",
+  "settingsAbout": "Acerca de",
+  "settingsPrivacy": "Política de Privacidad",
+  "settingsTerms": "Términos de Servicio",
+  "settingsVersion": "Versión",
+
+  "errorGeneric": "Algo salió mal. Por favor, inténtalo de nuevo.",
+  "errorNetwork": "Por favor, verifica tu conexión a internet.",
+  "errorTimeout": "La solicitud expiró. Por favor, inténtalo de nuevo.",
+  "retry": "Reintentar",
+  "ok": "OK",
+  "cancel": "Cancelar",
+  "close": "Cerrar",
+  "save": "Guardar",
+  "delete": "Eliminar",
+  "confirm": "Confirmar",
+
+  "personaSocrates": "Sócrates",
+  "personaSocratesTitle": "Padre de la Filosofía Occidental",
+  "personaSocratesQuote": "Una vida sin examinar no merece ser vivida.",
+
+  "personaPlato": "Platón",
+  "personaPlatoTitle": "Filósofo de las Formas",
+  "personaPlatoQuote": "Sé amable, porque cada persona que conoces está librando una dura batalla.",
+
+  "personaAristotle": "Aristóteles",
+  "personaAristotleTitle": "El Primer Maestro",
+  "personaAristotleQuote": "Somos lo que hacemos repetidamente. La excelencia no es un acto, sino un hábito.",
+
+  "personaSeneca": "Séneca",
+  "personaSenecaTitle": "Filósofo Estoico",
+  "personaSenecaQuote": "No es que tengamos poco tiempo, sino que desperdiciamos mucho.",
+
+  "personaConfucius": "Confucio",
+  "personaConfuciusTitle": "El Gran Sabio",
+  "personaConfuciusQuote": "No importa cuán lento vayas, siempre y cuando no te detengas.",
+
+  "personaLaozi": "Laozi",
+  "personaLaoziTitle": "Fundador del Taoísmo",
+  "personaLaoziQuote": "Un viaje de mil millas comienza con un solo paso.",
+
+  "personaJesus": "Jesús",
+  "personaJesusTitle": "Maestro Espiritual",
+  "personaJesusQuote": "Ama a tu prójimo como a ti mismo.",
+
+  "personaBuddha": "Buda",
+  "personaBuddhaTitle": "El Iluminado",
+  "personaBuddhaQuote": "La paz viene de dentro. No la busques fuera.",
+
+  "personaMuhammad": "Mahoma",
+  "personaMuhammadTitle": "Profeta del Islam",
+  "personaMuhammadQuote": "Los mejores entre vosotros son los que tienen el mejor carácter.",
+
+  "personaLincoln": "Abraham Lincoln",
+  "personaLincolnTitle": "16º Presidente de EE.UU.",
+  "personaLincolnQuote": "Al final, no son los años de tu vida los que cuentan. Es la vida en tus años.",
+
+  "personaNapoleon": "Napoleón",
+  "personaNapoleonTitle": "Emperador de Francia",
+  "personaNapoleonQuote": "Imposible es una palabra que solo se encuentra en el diccionario de los tontos.",
+
+  "personaSteveJobs": "Steve Jobs",
+  "personaSteveJobsTitle": "Emprendedor Visionario",
+  "personaSteveJobsQuote": "Mantente hambriento. Mantente alocado.",
+
+  "personaSherlockHolmes": "Sherlock Holmes",
+  "personaSherlockHolmesTitle": "Maestro de la Deducción",
+  "personaSherlockHolmesQuote": "Cuando hayas eliminado lo imposible, lo que quede debe ser la verdad.",
+
+  "personaDumbledore": "Albus Dumbledore",
+  "personaDumbledoreTitle": "Director de Hogwarts",
+  "personaDumbledoreQuote": "La felicidad se puede encontrar incluso en los momentos más oscuros, si uno solo recuerda encender la luz.",
+
+  "personaGandhi": "Mahatma Gandhi",
+  "personaGandhiTitle": "Padre de la Nación India",
+  "personaGandhiQuote": "Sé el cambio que deseas ver en el mundo.",
+
+  "personaRumi": "Rumi",
+  "personaRumiTitle": "Poeta Sufí y Místico",
+  "personaRumiQuote": "La herida es el lugar por donde entra la Luz en ti.",
+
+  "personaKrishna": "Krishna",
+  "personaKrishnaTitle": "Guía Divino del Bhagavad Gita",
+  "personaKrishnaQuote": "Tienes derecho a trabajar, pero nunca al fruto del trabajo.",
+
+  "personaBrahma": "Brahma",
+  "personaBrahmaTitle": "El Dios Creador",
+  "personaBrahmaQuote": "De lo irreal llévame a lo real, de la oscuridad llévame a la luz.",
+
+  "personaTolstoy": "León Tolstói",
+  "personaTolstoyTitle": "Gigante de la Literatura Rusa",
+  "personaTolstoyQuote": "Todos piensan en cambiar el mundo, pero nadie piensa en cambiarse a sí mismo."
+}

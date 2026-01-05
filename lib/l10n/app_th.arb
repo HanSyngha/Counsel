@@ -1,0 +1,158 @@
+{
+  "@@locale": "th",
+  "appName": "เสียงปราชญ์",
+
+  "onboardingTitle": "พบกับที่ปรึกษา\nจากประวัติศาสตร์",
+  "onboardingSubtitle": "จากพระเยซูถึงโสกราตีส จากนโปเลียนถึงสตีฟ จ็อบส์\nยืมภูมิปัญญาอันเป็นนิรันดร์สำหรับปัญหาของคุณ",
+  "getStarted": "เริ่มต้นใช้งาน",
+
+  "homeTitle": "วันนี้คุณต้องการขอคำปรึกษาจากใคร?",
+  "searchPlaceholder": "ค้นหาเพลโต, ลินคอล์น, แฮมเล็ต...",
+  "featuredMentors": "ที่ปรึกษาแนะนำ",
+  "exploreWisdom": "สำรวจภูมิปัญญา",
+  "seeAll": "ดูทั้งหมด",
+  "trending": "กำลังฮิต",
+  "new_": "ใหม่",
+
+  "categoryAll": "ทั้งหมด",
+  "categoryHistory": "ประวัติศาสตร์",
+  "categoryPhilosophy": "ปรัชญา",
+  "categoryReligion": "ศาสนา",
+  "categoryLiterature": "วรรณกรรม",
+  "categoryFavorites": "รายการโปรด",
+
+  "inputTitle": "อะไรกำลังหนักใจคุณอยู่?",
+  "inputSubtitle": "จงซื่อสัตย์ รายละเอียดคือเส้นทางสู่ความชัดเจน",
+  "inputPlaceholder": "ฉันกำลังดิ้นรนกับ...\nมันเริ่มต้นเมื่อ...\nฉันกลัวว่า...",
+  "inputHelperDilemma": "ปัญหาปัจจุบัน",
+  "inputHelperEmotion": "สภาวะอารมณ์",
+  "inputHelperOutcome": "ผลลัพธ์ที่ต้องการ",
+  "seekWisdom": "ขอภูมิปัญญา",
+  "privacyNote": "คำสารภาพของคุณเป็นความลับและไม่ระบุตัวตน",
+  "characterCount": "{count} / {max}",
+
+  "loadingConnecting": "กำลังเชื่อมต่อกับ",
+  "loadingConsulting": "กำลังปรึกษาคลังภูมิปัญญาโบราณ",
+  "loadingAnalyzing": "กำลังวิเคราะห์คำถาม",
+  "loadingRecalling": "กำลังเรียกบริบททางประวัติศาสตร์...",
+  "loadingOnline": "ออนไลน์",
+  "cancelRequest": "ยกเลิกคำขอ",
+  "loadingNote": "อาจใช้เวลาสักครู่ขณะเรียกบุคลิกภาพ",
+
+  "resultWisdom": "ภูมิปัญญา",
+  "resultAiPersona": "คำแนะนำจาก AI Persona",
+  "resultGeneratedBy": "สร้างโดย AI Persona",
+  "resultScrollOfWisdom": "ม้วนแห่งภูมิปัญญา",
+  "resultHistoricalRecords": "บันทึกทางประวัติศาสตร์",
+  "resultInHisOwnWords": "ในคำพูดของท่านเอง",
+  "resultKeyDecision": "การตัดสินใจสำคัญ",
+  "resultCopy": "คัดลอก",
+  "resultShare": "แชร์",
+  "askAnotherSage": "ถามปราชญ์ท่านอื่น",
+  "resultActionSteps": "ขั้นตอนปฏิบัติ",
+
+  "historyTitle": "ประวัติคำแนะนำของฉัน",
+  "historySearch": "คุณกำลังค้นหาปัญหาอะไร?",
+  "historyEmpty": "ยังไม่มีประวัติคำแนะนำ",
+  "historyEmptySubtitle": "เริ่มสนทนากับที่ปรึกษา",
+
+  "navSelect": "เลือก",
+  "navChat": "แชท",
+  "navSaved": "บันทึกแล้ว",
+  "navHistory": "ประวัติ",
+  "navProfile": "โปรไฟล์",
+  "navSettings": "ตั้งค่า",
+
+  "settingsLanguage": "ภาษา",
+  "settingsAbout": "เกี่ยวกับ",
+  "settingsPrivacy": "นโยบายความเป็นส่วนตัว",
+  "settingsTerms": "เงื่อนไขการให้บริการ",
+  "settingsVersion": "เวอร์ชัน",
+
+  "errorGeneric": "เกิดข้อผิดพลาด กรุณาลองอีกครั้ง",
+  "errorNetwork": "กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ต",
+  "errorTimeout": "คำขอหมดเวลา กรุณาลองอีกครั้ง",
+  "retry": "ลองอีกครั้ง",
+  "ok": "ตกลง",
+  "cancel": "ยกเลิก",
+  "close": "ปิด",
+  "save": "บันทึก",
+  "delete": "ลบ",
+  "confirm": "ยืนยัน",
+
+  "personaSocrates": "โสกราตีส",
+  "personaSocratesTitle": "บิดาแห่งปรัชญาตะวันตก",
+  "personaSocratesQuote": "ชีวิตที่ไม่ได้ตรวจสอบไม่คุ้มค่าแก่การมีชีวิตอยู่",
+
+  "personaPlato": "เพลโต",
+  "personaPlatoTitle": "นักปรัชญาแห่งอุดมคติ",
+  "personaPlatoQuote": "จงเมตตา เพราะทุกคนที่คุณพบกำลังต่อสู้กับสงครามที่ยากลำบาก",
+
+  "personaAristotle": "อริสโตเติล",
+  "personaAristotleTitle": "ครูคนแรก",
+  "personaAristotleQuote": "เราคือสิ่งที่เราทำซ้ำแล้วซ้ำเล่า ความเป็นเลิศไม่ใช่การกระทำ แต่เป็นนิสัย",
+
+  "personaSeneca": "เซเนกา",
+  "personaSenecaTitle": "นักปรัชญาสโตอิก",
+  "personaSenecaQuote": "ไม่ใช่ว่าเรามีเวลาน้อย แต่เราสูญเสียมันไปมาก",
+
+  "personaConfucius": "ขงจื๊อ",
+  "personaConfuciusTitle": "ปราชญ์ผู้ยิ่งใหญ่",
+  "personaConfuciusQuote": "ไม่สำคัญว่าคุณจะเดินช้าแค่ไหน ตราบใดที่คุณไม่หยุด",
+
+  "personaLaozi": "เล่าจื๊อ",
+  "personaLaoziTitle": "ผู้ก่อตั้งลัทธิเต๋า",
+  "personaLaoziQuote": "การเดินทางพันไมล์เริ่มต้นด้วยก้าวเดียว",
+
+  "personaJesus": "พระเยซู",
+  "personaJesusTitle": "ครูทางจิตวิญญาณ",
+  "personaJesusQuote": "จงรักเพื่อนบ้านเหมือนรักตนเอง",
+
+  "personaBuddha": "พระพุทธเจ้า",
+  "personaBuddhaTitle": "ผู้ตรัสรู้",
+  "personaBuddhaQuote": "ความสงบมาจากภายใน อย่าแสวงหาจากภายนอก",
+
+  "personaMuhammad": "ท่านนบีมุฮัมมัด",
+  "personaMuhammadTitle": "ศาสดาแห่งอิสลาม",
+  "personaMuhammadQuote": "ผู้ที่ดีที่สุดคือผู้ที่มีอุปนิสัยดีที่สุด",
+
+  "personaLincoln": "อับราฮัม ลินคอล์น",
+  "personaLincolnTitle": "ประธานาธิบดีสหรัฐคนที่ 16",
+  "personaLincolnQuote": "ในที่สุด ไม่ใช่จำนวนปีในชีวิตที่สำคัญ แต่เป็นชีวิตในปีเหล่านั้น",
+
+  "personaNapoleon": "นโปเลียน",
+  "personaNapoleonTitle": "จักรพรรดิแห่งฝรั่งเศส",
+  "personaNapoleonQuote": "เป็นไปไม่ได้คือคำที่พบได้เฉพาะในพจนานุกรมของคนโง่",
+
+  "personaSteveJobs": "สตีฟ จ็อบส์",
+  "personaSteveJobsTitle": "ผู้ประกอบการผู้มีวิสัยทัศน์",
+  "personaSteveJobsQuote": "จงหิวกระหาย จงโง่เขลา",
+
+  "personaSherlockHolmes": "เชอร์ล็อก โฮล์มส์",
+  "personaSherlockHolmesTitle": "ปรมาจารย์แห่งการอนุมาน",
+  "personaSherlockHolmesQuote": "เมื่อคุณตัดสิ่งที่เป็นไปไม่ได้ออกไป สิ่งที่เหลืออยู่ไม่ว่าจะไม่น่าเป็นไปได้แค่ไหน ต้องเป็นความจริง",
+
+  "personaDumbledore": "อัลบัส ดัมเบิลดอร์",
+  "personaDumbledoreTitle": "อาจารย์ใหญ่ฮอกวอตส์",
+  "personaDumbledoreQuote": "ความสุขสามารถพบได้แม้ในเวลาที่มืดมนที่สุด หากเพียงจำไว้ว่าต้องเปิดไฟ",
+
+  "personaGandhi": "มหาตมะ คานธี",
+  "personaGandhiTitle": "บิดาแห่งชาติอินเดีย",
+  "personaGandhiQuote": "จงเป็นการเปลี่ยนแปลงที่คุณอยากเห็นในโลก",
+
+  "personaRumi": "รูมี",
+  "personaRumiTitle": "กวีซูฟีและนักลึกลับ",
+  "personaRumiQuote": "บาดแผลคือที่ที่แสงเข้าสู่ตัวคุณ",
+
+  "personaKrishna": "พระกฤษณะ",
+  "personaKrishnaTitle": "ผู้นำทางศักดิ์สิทธิ์แห่งภควัทคีตา",
+  "personaKrishnaQuote": "คุณมีสิทธิ์ในการกระทำ แต่ไม่ใช่ในผลของมัน",
+
+  "personaBrahma": "พระพรหม",
+  "personaBrahmaTitle": "เทพแห่งการสร้างสรรค์",
+  "personaBrahmaQuote": "จากมายาสู่ความจริง จากความมืดสู่แสงสว่าง",
+
+  "personaTolstoy": "เลโอ ตอลสตอย",
+  "personaTolstoyTitle": "ยักษ์ใหญ่วรรณกรรมรัสเซีย",
+  "personaTolstoyQuote": "ทุกคนคิดจะเปลี่ยนโลก แต่ไม่มีใครคิดจะเปลี่ยนตัวเอง"
+}

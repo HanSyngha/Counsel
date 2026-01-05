@@ -1,0 +1,158 @@
+{
+  "@@locale": "de",
+  "appName": "Stimme der Weisen",
+
+  "onboardingTitle": "Triff Deine Mentoren\nAus der Geschichte",
+  "onboardingSubtitle": "Von Jesus bis Sokrates, von Napoleon bis Steve Jobs.\nLeihe dir zeitlose Weisheit für deine Sorgen.",
+  "getStarted": "Loslegen",
+
+  "homeTitle": "Von wem suchst du heute Rat?",
+  "searchPlaceholder": "Suche nach Platon, Lincoln, Hamlet...",
+  "featuredMentors": "Empfohlene Mentoren",
+  "exploreWisdom": "Weisheit Erkunden",
+  "seeAll": "Alle anzeigen",
+  "trending": "Im Trend",
+  "new_": "Neu",
+
+  "categoryAll": "Alle",
+  "categoryHistory": "Geschichte",
+  "categoryPhilosophy": "Philosophie",
+  "categoryReligion": "Religion",
+  "categoryLiterature": "Literatur",
+  "categoryFavorites": "Favoriten",
+
+  "inputTitle": "Was belastet deinen Geist?",
+  "inputSubtitle": "Sei ehrlich. Detail ist der Weg zur Klarheit.",
+  "inputPlaceholder": "Ich kämpfe mit...\nEs begann als...\nIch fürchte, dass...",
+  "inputHelperDilemma": "Aktuelles Dilemma",
+  "inputHelperEmotion": "Emotionaler Zustand",
+  "inputHelperOutcome": "Gewünschtes Ergebnis",
+  "seekWisdom": "Weisheit Suchen",
+  "privacyNote": "Dein Geständnis ist privat und anonym.",
+  "characterCount": "{count} / {max}",
+
+  "loadingConnecting": "Verbinde mit",
+  "loadingConsulting": "Konsultiere die alten Archive der Weisheit",
+  "loadingAnalyzing": "Analysiere Anfrage",
+  "loadingRecalling": "RUFE HISTORISCHEN KONTEXT AB...",
+  "loadingOnline": "Online",
+  "cancelRequest": "Anfrage Abbrechen",
+  "loadingNote": "Dies kann einen Moment dauern, während wir die Persona kanalisieren.",
+
+  "resultWisdom": "Weisheit",
+  "resultAiPersona": "KI-Persona Ratschlag",
+  "resultGeneratedBy": "Generiert von KI-Persona",
+  "resultScrollOfWisdom": "Schriftrolle der Weisheit",
+  "resultHistoricalRecords": "Historische Aufzeichnungen",
+  "resultInHisOwnWords": "In Seinen Eigenen Worten",
+  "resultKeyDecision": "Schlüsselentscheidung",
+  "resultCopy": "Kopieren",
+  "resultShare": "Teilen",
+  "askAnotherSage": "Anderen Weisen Fragen",
+  "resultActionSteps": "Handlungsschritte",
+
+  "historyTitle": "Meine Ratschlag-Historie",
+  "historySearch": "Welche Sorge suchst du?",
+  "historyEmpty": "Noch keine Ratschlag-Historie",
+  "historyEmptySubtitle": "Starte ein Gespräch mit einem Mentor",
+
+  "navSelect": "Auswählen",
+  "navChat": "Chat",
+  "navSaved": "Gespeichert",
+  "navHistory": "Historie",
+  "navProfile": "Profil",
+  "navSettings": "Einstellungen",
+
+  "settingsLanguage": "Sprache",
+  "settingsAbout": "Über",
+  "settingsPrivacy": "Datenschutzrichtlinie",
+  "settingsTerms": "Nutzungsbedingungen",
+  "settingsVersion": "Version",
+
+  "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+  "errorNetwork": "Bitte überprüfe deine Internetverbindung.",
+  "errorTimeout": "Zeitüberschreitung. Bitte versuche es erneut.",
+  "retry": "Erneut Versuchen",
+  "ok": "OK",
+  "cancel": "Abbrechen",
+  "close": "Schließen",
+  "save": "Speichern",
+  "delete": "Löschen",
+  "confirm": "Bestätigen",
+
+  "personaSocrates": "Sokrates",
+  "personaSocratesTitle": "Vater der westlichen Philosophie",
+  "personaSocratesQuote": "Ein ungeprüftes Leben ist nicht lebenswert.",
+
+  "personaPlato": "Platon",
+  "personaPlatoTitle": "Philosoph der Formen",
+  "personaPlatoQuote": "Sei freundlich, denn jeder, dem du begegnest, kämpft einen harten Kampf.",
+
+  "personaAristotle": "Aristoteles",
+  "personaAristotleTitle": "Der Erste Lehrer",
+  "personaAristotleQuote": "Wir sind, was wir wiederholt tun. Exzellenz ist keine Handlung, sondern eine Gewohnheit.",
+
+  "personaSeneca": "Seneca",
+  "personaSenecaTitle": "Stoischer Philosoph",
+  "personaSenecaQuote": "Es ist nicht so, dass wir wenig Zeit haben, sondern dass wir viel davon verschwenden.",
+
+  "personaConfucius": "Konfuzius",
+  "personaConfuciusTitle": "Der Große Weise",
+  "personaConfuciusQuote": "Es ist egal, wie langsam du gehst, solange du nicht stehen bleibst.",
+
+  "personaLaozi": "Laozi",
+  "personaLaoziTitle": "Gründer des Taoismus",
+  "personaLaoziQuote": "Eine Reise von tausend Meilen beginnt mit einem einzigen Schritt.",
+
+  "personaJesus": "Jesus",
+  "personaJesusTitle": "Spiritueller Lehrer",
+  "personaJesusQuote": "Liebe deinen Nächsten wie dich selbst.",
+
+  "personaBuddha": "Buddha",
+  "personaBuddhaTitle": "Der Erwachte",
+  "personaBuddhaQuote": "Frieden kommt von innen. Suche ihn nicht außerhalb.",
+
+  "personaMuhammad": "Mohammed",
+  "personaMuhammadTitle": "Prophet des Islam",
+  "personaMuhammadQuote": "Die Besten unter euch sind diejenigen mit dem besten Charakter.",
+
+  "personaLincoln": "Abraham Lincoln",
+  "personaLincolnTitle": "16. US-Präsident",
+  "personaLincolnQuote": "Am Ende zählen nicht die Jahre in deinem Leben. Es ist das Leben in deinen Jahren.",
+
+  "personaNapoleon": "Napoleon",
+  "personaNapoleonTitle": "Kaiser von Frankreich",
+  "personaNapoleonQuote": "Unmöglich ist ein Wort, das nur im Wörterbuch der Narren zu finden ist.",
+
+  "personaSteveJobs": "Steve Jobs",
+  "personaSteveJobsTitle": "Visionärer Unternehmer",
+  "personaSteveJobsQuote": "Bleib hungrig. Bleib verrückt.",
+
+  "personaSherlockHolmes": "Sherlock Holmes",
+  "personaSherlockHolmesTitle": "Meister der Deduktion",
+  "personaSherlockHolmesQuote": "Wenn du das Unmögliche ausgeschlossen hast, muss das, was übrig bleibt, die Wahrheit sein.",
+
+  "personaDumbledore": "Albus Dumbledore",
+  "personaDumbledoreTitle": "Schulleiter von Hogwarts",
+  "personaDumbledoreQuote": "Glück kann selbst in den dunkelsten Zeiten gefunden werden, wenn man nur daran denkt, das Licht anzuschalten.",
+
+  "personaGandhi": "Mahatma Gandhi",
+  "personaGandhiTitle": "Vater der indischen Nation",
+  "personaGandhiQuote": "Sei die Veränderung, die du in der Welt sehen möchtest.",
+
+  "personaRumi": "Rumi",
+  "personaRumiTitle": "Sufi-Dichter & Mystiker",
+  "personaRumiQuote": "Die Wunde ist der Ort, an dem das Licht in dich eindringt.",
+
+  "personaKrishna": "Krishna",
+  "personaKrishnaTitle": "Göttlicher Führer der Bhagavad Gita",
+  "personaKrishnaQuote": "Du hast das Recht zu handeln, aber niemals auf die Früchte des Handelns.",
+
+  "personaBrahma": "Brahma",
+  "personaBrahmaTitle": "Der Schöpfergott",
+  "personaBrahmaQuote": "Vom Unwirklichen führe mich zum Wirklichen, von der Dunkelheit führe mich zum Licht.",
+
+  "personaTolstoy": "Leo Tolstoi",
+  "personaTolstoyTitle": "Riese der russischen Literatur",
+  "personaTolstoyQuote": "Jeder denkt daran, die Welt zu verändern, aber niemand denkt daran, sich selbst zu verändern."
+}

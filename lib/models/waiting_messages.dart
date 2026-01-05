@@ -1,0 +1,191 @@
+/// Waiting messages for each persona during LLM response loading
+/// These messages rotate randomly to keep the user engaged
+class WaitingMessages {
+  WaitingMessages._();
+
+  static const Map<String, List<String>> messages = {
+    'socrates': [
+      '"Let me ponder your question deeply..."',
+      '"The unexamined question is not worth answering..."',
+      '"I am searching my soul for wisdom..."',
+      '"What is the true nature of your concern, I wonder..."',
+      '"Allow me to question my own understanding first..."',
+      '"The oracle speaks slowly, but truly..."',
+      '"Wisdom takes time to surface..."',
+      '"I must consider all angles of this matter..."',
+      '"Truth reveals itself to the patient mind..."',
+      '"Even I need a moment to find the right questions..."',
+    ],
+    'plato': [
+      '"I am contemplating the ideal form of your answer..."',
+      '"Let me ascend from the cave to find clarity..."',
+      '"The realm of Forms holds your answer..."',
+      '"I am recalling what my soul once knew..."',
+      '"The truth is emerging from the shadows..."',
+      '"Philosophy requires patience, dear friend..."',
+      '"I am consulting the eternal truths..."',
+      '"The Good illuminates all - give me a moment..."',
+      '"Your question touches the very essence of being..."',
+      '"The dialectic process takes time..."',
+    ],
+    'aristotle': [
+      '"I am analyzing this systematically..."',
+      '"Let me observe and reason carefully..."',
+      '"The golden mean of your answer awaits..."',
+      '"I am categorizing the relevant wisdom..."',
+      '"Logic takes its course..."',
+      '"All things in good time, with proper method..."',
+      '"I am consulting my treatises..."',
+      '"Nature reveals herself gradually..."',
+      '"Patience is a virtue of the wise..."',
+      '"Let me apply practical wisdom here..."',
+    ],
+    'seneca': [
+      '"I am composing my thoughts as a letter to you..."',
+      '"Time spent waiting is not time wasted..."',
+      '"Let me reflect on what truly matters here..."',
+      '"The Stoic way requires careful consideration..."',
+      '"I am preparing words worthy of your situation..."',
+      '"Fortune favors the patient mind..."',
+      '"Let us not rush to judgment..."',
+      '"I am seeking tranquility in my response..."',
+      '"Wisdom flows like a calm river..."',
+      '"A moment of patience yields a lifetime of insight..."',
+    ],
+    'confucius': [
+      '"I am consulting the wisdom of the ancients..."',
+      '"The superior person thinks before speaking..."',
+      '"Let me consider the proper way..."',
+      '"Harmony requires careful thought..."',
+      '"I am reflecting on the rites and virtues..."',
+      '"The master speaks when the time is right..."',
+      '"Patience is the companion of wisdom..."',
+      '"I am seeking the balanced path..."',
+      '"Learning without thought is labor lost..."',
+      '"Let me find the words of a true gentleman..."',
+    ],
+    'laozi': [
+      '"The Tao that can be hurried is not the eternal Tao..."',
+      '"I am flowing like water toward your answer..."',
+      '"In stillness, wisdom emerges..."',
+      '"The wise one acts without haste..."',
+      '"Wu wei - effortless action takes time..."',
+      '"The valley is filling with insight..."',
+      '"Like an uncarved block, the answer forms..."',
+      '"Nature does not hurry, yet accomplishes everything..."',
+      '"I am following the way..."',
+      '"In emptiness, the answer crystallizes..."',
+    ],
+    'jesus': [
+      '"I am seeking the Father\'s wisdom for you..."',
+      '"Let me find the right parable for your heart..."',
+      '"Peace be with you as I consider your words..."',
+      '"The Kingdom\'s wisdom comes to those who wait..."',
+      '"I am preparing bread for your soul..."',
+      '"Have faith - the answer is coming..."',
+      '"Let me find the way, the truth, for you..."',
+      '"Blessed are the patient..."',
+      '"I am listening to your heart\'s true need..."',
+      '"Love guides my response to you..."',
+    ],
+    'buddha': [
+      '"I am entering deep contemplation..."',
+      '"The dharma unfolds in its own time..."',
+      '"Mindfully, I consider your suffering..."',
+      '"The middle way reveals itself gradually..."',
+      '"In stillness, insight arises..."',
+      '"The lotus of wisdom is blooming..."',
+      '"I am sending you compassionate thoughts..."',
+      '"Attachment to speed causes suffering..."',
+      '"The path becomes clear to the patient..."',
+      '"Enlightenment cannot be rushed..."',
+    ],
+    'muhammad': [
+      '"I am seeking guidance from divine wisdom..."',
+      '"Patience is half of faith..."',
+      '"Let me find the merciful path for you..."',
+      '"The words of wisdom take time to form..."',
+      '"Trust in the process, as I trust in Allah..."',
+      '"I am considering your situation with care..."',
+      '"Mercy guides my thoughts..."',
+      '"The straight path reveals itself..."',
+      '"In patience there is great reward..."',
+      '"Let me find the just answer..."',
+    ],
+    'lincoln': [
+      '"I\'m pondering this as carefully as a legal brief..."',
+      '"Let me think on this by the fireside..."',
+      '"The better angels need a moment..."',
+      '"I\'m drafting my thoughts carefully..."',
+      '"Honest answers take honest time..."',
+      '"Let me split this problem like a rail..."',
+      '"I\'m consulting my experience..."',
+      '"A house divided needs careful words..."',
+      '"Democracy of thought takes patience..."',
+      '"The Union of ideas is forming..."',
+    ],
+    'napoleon': [
+      '"I am strategizing your solution..."',
+      '"Victory requires careful planning..."',
+      '"The battle plan is being drawn..."',
+      '"Impossible is being removed from my dictionary..."',
+      '"I am marshaling my thoughts..."',
+      '"The Grande Armée of ideas assembles..."',
+      '"Strategy before action, always..."',
+      '"I am surveying the terrain of your problem..."',
+      '"The campaign for your answer begins..."',
+      '"Destiny takes shape..."',
+    ],
+    'steve_jobs': [
+      '"I\'m connecting the dots..."',
+      '"Let me think different about this..."',
+      '"Something insanely great is coming..."',
+      '"Simplicity takes time to achieve..."',
+      '"I\'m at the intersection of technology and humanities..."',
+      '"The answer is being designed perfectly..."',
+      '"Stay hungry, stay patient..."',
+      '"One more thing is loading..."',
+      '"Innovation is brewing..."',
+      '"The dent in the universe takes shape..."',
+    ],
+    'sherlock_holmes': [
+      '"I am eliminating the impossible..."',
+      '"The game is afoot - analysis in progress..."',
+      '"My mind palace is being consulted..."',
+      '"The data is being processed..."',
+      '"Elementary deductions take time..."',
+      '"I am observing what others overlook..."',
+      '"The curious case unfolds..."',
+      '"221B Baker Street is thinking..."',
+      '"When you eliminate the impossible..."',
+      '"The solution crystallizes..."',
+    ],
+    'dumbledore': [
+      '"The Pensieve is revealing memories..."',
+      '"Happiness can be found even in waiting..."',
+      '"I am consulting the wisdom of ages..."',
+      '"The phoenix of insight is rising..."',
+      '"Hogwarts\' magic takes time..."',
+      '"Love is guiding my answer..."',
+      '"The Elder wisdom awakens..."',
+      '"Nitwit! Blubber! Oddment! ...I mean, please wait..."',
+      '"The light of truth approaches..."',
+      '"After all this time, wisdom comes..."',
+    ],
+  };
+
+  /// Get random waiting message for a persona
+  static String getRandomMessage(String personaId) {
+    final personaMessages = messages[personaId];
+    if (personaMessages == null || personaMessages.isEmpty) {
+      return '"Wisdom is being gathered..."';
+    }
+    personaMessages.shuffle();
+    return personaMessages.first;
+  }
+
+  /// Get list of messages for a persona
+  static List<String> getMessages(String personaId) {
+    return messages[personaId] ?? ['"Wisdom is being gathered..."'];
+  }
+}

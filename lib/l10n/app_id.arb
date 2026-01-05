@@ -1,0 +1,158 @@
+{
+  "@@locale": "id",
+  "appName": "Suara Bijaksana",
+
+  "onboardingTitle": "Temui Mentor Anda\nDari Sejarah",
+  "onboardingSubtitle": "Dari Yesus hingga Socrates, Napoleon hingga Steve Jobs.\nPinjam kebijaksanaan abadi untuk kekhawatiran Anda.",
+  "getStarted": "Mulai",
+
+  "homeTitle": "Siapa yang ingin Anda mintai nasihat hari ini?",
+  "searchPlaceholder": "Cari Plato, Lincoln, Hamlet...",
+  "featuredMentors": "Mentor Unggulan",
+  "exploreWisdom": "Jelajahi Kebijaksanaan",
+  "seeAll": "Lihat semua",
+  "trending": "Trending",
+  "new_": "Baru",
+
+  "categoryAll": "Semua",
+  "categoryHistory": "Sejarah",
+  "categoryPhilosophy": "Filsafat",
+  "categoryReligion": "Agama",
+  "categoryLiterature": "Sastra",
+  "categoryFavorites": "Favorit",
+
+  "inputTitle": "Apa yang membebani pikiran Anda?",
+  "inputSubtitle": "Jujurlah. Detail adalah jalan menuju kejelasan.",
+  "inputPlaceholder": "Saya sedang berjuang dengan...\nIni dimulai ketika...\nSaya takut bahwa...",
+  "inputHelperDilemma": "Dilema Saat Ini",
+  "inputHelperEmotion": "Keadaan Emosional",
+  "inputHelperOutcome": "Hasil yang Diinginkan",
+  "seekWisdom": "Cari Kebijaksanaan",
+  "privacyNote": "Pengakuan Anda bersifat pribadi dan anonim.",
+  "characterCount": "{count} / {max}",
+
+  "loadingConnecting": "Menghubungkan dengan",
+  "loadingConsulting": "Berkonsultasi dengan arsip kebijaksanaan kuno",
+  "loadingAnalyzing": "Menganalisis Pertanyaan",
+  "loadingRecalling": "MENGINGAT KONTEKS SEJARAH...",
+  "loadingOnline": "Online",
+  "cancelRequest": "Batalkan Permintaan",
+  "loadingNote": "Ini mungkin memerlukan waktu saat kami menyalurkan persona.",
+
+  "resultWisdom": "Kebijaksanaan",
+  "resultAiPersona": "Nasihat Persona AI",
+  "resultGeneratedBy": "Dihasilkan oleh Persona AI",
+  "resultScrollOfWisdom": "Gulungan Kebijaksanaan",
+  "resultHistoricalRecords": "Catatan Sejarah",
+  "resultInHisOwnWords": "Dalam Kata-katanya Sendiri",
+  "resultKeyDecision": "Keputusan Kunci",
+  "resultCopy": "Salin",
+  "resultShare": "Bagikan",
+  "askAnotherSage": "Tanya Orang Bijak Lain",
+  "resultActionSteps": "Langkah Tindakan",
+
+  "historyTitle": "Riwayat Nasihat Saya",
+  "historySearch": "Kekhawatiran apa yang Anda cari?",
+  "historyEmpty": "Belum ada riwayat nasihat",
+  "historyEmptySubtitle": "Mulai percakapan dengan mentor",
+
+  "navSelect": "Pilih",
+  "navChat": "Obrolan",
+  "navSaved": "Tersimpan",
+  "navHistory": "Riwayat",
+  "navProfile": "Profil",
+  "navSettings": "Pengaturan",
+
+  "settingsLanguage": "Bahasa",
+  "settingsAbout": "Tentang",
+  "settingsPrivacy": "Kebijakan Privasi",
+  "settingsTerms": "Ketentuan Layanan",
+  "settingsVersion": "Versi",
+
+  "errorGeneric": "Terjadi kesalahan. Silakan coba lagi.",
+  "errorNetwork": "Silakan periksa koneksi internet Anda.",
+  "errorTimeout": "Waktu permintaan habis. Silakan coba lagi.",
+  "retry": "Coba Lagi",
+  "ok": "OK",
+  "cancel": "Batal",
+  "close": "Tutup",
+  "save": "Simpan",
+  "delete": "Hapus",
+  "confirm": "Konfirmasi",
+
+  "personaSocrates": "Socrates",
+  "personaSocratesTitle": "Bapak Filsafat Barat",
+  "personaSocratesQuote": "Hidup yang tidak diperiksa tidak layak untuk dijalani.",
+
+  "personaPlato": "Plato",
+  "personaPlatoTitle": "Filsuf Bentuk",
+  "personaPlatoQuote": "Bersikaplah baik, karena setiap orang yang Anda temui sedang berjuang keras.",
+
+  "personaAristotle": "Aristoteles",
+  "personaAristotleTitle": "Guru Pertama",
+  "personaAristotleQuote": "Kita adalah apa yang kita lakukan berulang kali. Keunggulan bukan tindakan, tapi kebiasaan.",
+
+  "personaSeneca": "Seneca",
+  "personaSenecaTitle": "Filsuf Stoik",
+  "personaSenecaQuote": "Bukan waktu kita yang sedikit, tapi kita yang membuang-buangnya.",
+
+  "personaConfucius": "Konfusius",
+  "personaConfuciusTitle": "Orang Bijak Agung",
+  "personaConfuciusQuote": "Tidak masalah seberapa lambat Anda berjalan selama Anda tidak berhenti.",
+
+  "personaLaozi": "Laozi",
+  "personaLaoziTitle": "Pendiri Taoisme",
+  "personaLaoziQuote": "Perjalanan seribu mil dimulai dengan satu langkah.",
+
+  "personaJesus": "Yesus",
+  "personaJesusTitle": "Guru Spiritual",
+  "personaJesusQuote": "Kasihilah sesamamu seperti dirimu sendiri.",
+
+  "personaBuddha": "Buddha",
+  "personaBuddhaTitle": "Yang Tercerahkan",
+  "personaBuddhaQuote": "Kedamaian datang dari dalam. Jangan mencarinya di luar.",
+
+  "personaMuhammad": "Muhammad",
+  "personaMuhammadTitle": "Nabi Islam",
+  "personaMuhammadQuote": "Yang terbaik di antara kalian adalah yang paling baik akhlaknya.",
+
+  "personaLincoln": "Abraham Lincoln",
+  "personaLincolnTitle": "Presiden AS ke-16",
+  "personaLincolnQuote": "Pada akhirnya, bukan tahun-tahun dalam hidupmu yang penting. Tapi kehidupan dalam tahun-tahunmu.",
+
+  "personaNapoleon": "Napoleon",
+  "personaNapoleonTitle": "Kaisar Prancis",
+  "personaNapoleonQuote": "Mustahil adalah kata yang hanya ada dalam kamus orang bodoh.",
+
+  "personaSteveJobs": "Steve Jobs",
+  "personaSteveJobsTitle": "Pengusaha Visioner",
+  "personaSteveJobsQuote": "Tetaplah lapar. Tetaplah bodoh.",
+
+  "personaSherlockHolmes": "Sherlock Holmes",
+  "personaSherlockHolmesTitle": "Ahli Deduksi",
+  "personaSherlockHolmesQuote": "Ketika Anda telah menghilangkan yang mustahil, apa yang tersisa pasti kebenaran.",
+
+  "personaDumbledore": "Albus Dumbledore",
+  "personaDumbledoreTitle": "Kepala Sekolah Hogwarts",
+  "personaDumbledoreQuote": "Kebahagiaan dapat ditemukan bahkan di saat-saat tergelap, jika seseorang ingat untuk menyalakan lampu.",
+
+  "personaGandhi": "Mahatma Gandhi",
+  "personaGandhiTitle": "Bapak Bangsa India",
+  "personaGandhiQuote": "Jadilah perubahan yang ingin Anda lihat di dunia.",
+
+  "personaRumi": "Rumi",
+  "personaRumiTitle": "Penyair Sufi & Mistikus",
+  "personaRumiQuote": "Luka adalah tempat cahaya masuk ke dalam dirimu.",
+
+  "personaKrishna": "Krishna",
+  "personaKrishnaTitle": "Pembimbing Ilahi Bhagavad Gita",
+  "personaKrishnaQuote": "Kamu berhak untuk bekerja, tetapi tidak berhak atas hasilnya.",
+
+  "personaBrahma": "Brahma",
+  "personaBrahmaTitle": "Dewa Pencipta",
+  "personaBrahmaQuote": "Dari yang tidak nyata bawa aku ke yang nyata, dari kegelapan bawa aku ke cahaya.",
+
+  "personaTolstoy": "Leo Tolstoy",
+  "personaTolstoyTitle": "Raksasa Sastra Rusia",
+  "personaTolstoyQuote": "Semua orang berpikir untuk mengubah dunia, tetapi tidak ada yang berpikir untuk mengubah dirinya sendiri."
+}

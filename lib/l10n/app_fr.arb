@@ -1,0 +1,158 @@
+{
+  "@@locale": "fr",
+  "appName": "Voix des Sages",
+
+  "onboardingTitle": "Rencontrez Vos Mentors\nDe l'Histoire",
+  "onboardingSubtitle": "De Jésus à Socrate, de Napoléon à Steve Jobs.\nEmpruntez la sagesse intemporelle pour vos préoccupations.",
+  "getStarted": "Commencer",
+
+  "homeTitle": "De qui cherchez-vous conseil aujourd'hui?",
+  "searchPlaceholder": "Rechercher Platon, Lincoln, Hamlet...",
+  "featuredMentors": "Mentors Recommandés",
+  "exploreWisdom": "Explorer la Sagesse",
+  "seeAll": "Voir tout",
+  "trending": "Tendance",
+  "new_": "Nouveau",
+
+  "categoryAll": "Tout",
+  "categoryHistory": "Histoire",
+  "categoryPhilosophy": "Philosophie",
+  "categoryReligion": "Religion",
+  "categoryLiterature": "Littérature",
+  "categoryFavorites": "Favoris",
+
+  "inputTitle": "Qu'est-ce qui pèse sur votre esprit?",
+  "inputSubtitle": "Soyez honnête. Le détail est le chemin vers la clarté.",
+  "inputPlaceholder": "Je me retrouve à lutter avec...\nCela a commencé quand...\nJ'ai peur que...",
+  "inputHelperDilemma": "Dilemme Actuel",
+  "inputHelperEmotion": "État Émotionnel",
+  "inputHelperOutcome": "Résultat Souhaité",
+  "seekWisdom": "Chercher la Sagesse",
+  "privacyNote": "Votre confession est privée et anonyme.",
+  "characterCount": "{count} / {max}",
+
+  "loadingConnecting": "Connexion avec",
+  "loadingConsulting": "Consultation des archives anciennes de sagesse",
+  "loadingAnalyzing": "Analyse de la Requête",
+  "loadingRecalling": "RAPPEL DU CONTEXTE HISTORIQUE...",
+  "loadingOnline": "En ligne",
+  "cancelRequest": "Annuler la Demande",
+  "loadingNote": "Cela peut prendre un moment pendant que nous canalisons le personnage.",
+
+  "resultWisdom": "Sagesse",
+  "resultAiPersona": "Conseil du Personnage IA",
+  "resultGeneratedBy": "Généré par Personnage IA",
+  "resultScrollOfWisdom": "Parchemin de Sagesse",
+  "resultHistoricalRecords": "Archives Historiques",
+  "resultInHisOwnWords": "Dans Ses Propres Mots",
+  "resultKeyDecision": "Décision Clé",
+  "resultCopy": "Copier",
+  "resultShare": "Partager",
+  "askAnotherSage": "Demander à un Autre Sage",
+  "resultActionSteps": "Étapes d'Action",
+
+  "historyTitle": "Mon Historique de Conseils",
+  "historySearch": "Quelle préoccupation cherchez-vous?",
+  "historyEmpty": "Pas encore d'historique de conseils",
+  "historyEmptySubtitle": "Commencez une conversation avec un mentor",
+
+  "navSelect": "Sélectionner",
+  "navChat": "Discussion",
+  "navSaved": "Enregistré",
+  "navHistory": "Historique",
+  "navProfile": "Profil",
+  "navSettings": "Paramètres",
+
+  "settingsLanguage": "Langue",
+  "settingsAbout": "À propos",
+  "settingsPrivacy": "Politique de Confidentialité",
+  "settingsTerms": "Conditions d'Utilisation",
+  "settingsVersion": "Version",
+
+  "errorGeneric": "Quelque chose s'est mal passé. Veuillez réessayer.",
+  "errorNetwork": "Veuillez vérifier votre connexion internet.",
+  "errorTimeout": "La demande a expiré. Veuillez réessayer.",
+  "retry": "Réessayer",
+  "ok": "OK",
+  "cancel": "Annuler",
+  "close": "Fermer",
+  "save": "Enregistrer",
+  "delete": "Supprimer",
+  "confirm": "Confirmer",
+
+  "personaSocrates": "Socrate",
+  "personaSocratesTitle": "Père de la Philosophie Occidentale",
+  "personaSocratesQuote": "Une vie sans examen ne vaut pas la peine d'être vécue.",
+
+  "personaPlato": "Platon",
+  "personaPlatoTitle": "Philosophe des Formes",
+  "personaPlatoQuote": "Soyez gentil, car chaque personne que vous rencontrez mène un dur combat.",
+
+  "personaAristotle": "Aristote",
+  "personaAristotleTitle": "Le Premier Maître",
+  "personaAristotleQuote": "Nous sommes ce que nous faisons de manière répétée. L'excellence n'est pas un acte, mais une habitude.",
+
+  "personaSeneca": "Sénèque",
+  "personaSenecaTitle": "Philosophe Stoïcien",
+  "personaSenecaQuote": "Ce n'est pas que nous avons peu de temps, mais que nous en gaspillons beaucoup.",
+
+  "personaConfucius": "Confucius",
+  "personaConfuciusTitle": "Le Grand Sage",
+  "personaConfuciusQuote": "Peu importe à quel point vous allez lentement, tant que vous ne vous arrêtez pas.",
+
+  "personaLaozi": "Laozi",
+  "personaLaoziTitle": "Fondateur du Taoïsme",
+  "personaLaoziQuote": "Un voyage de mille lieues commence par un seul pas.",
+
+  "personaJesus": "Jésus",
+  "personaJesusTitle": "Maître Spirituel",
+  "personaJesusQuote": "Aime ton prochain comme toi-même.",
+
+  "personaBuddha": "Bouddha",
+  "personaBuddhaTitle": "L'Éveillé",
+  "personaBuddhaQuote": "La paix vient de l'intérieur. Ne la cherchez pas à l'extérieur.",
+
+  "personaMuhammad": "Mahomet",
+  "personaMuhammadTitle": "Prophète de l'Islam",
+  "personaMuhammadQuote": "Les meilleurs d'entre vous sont ceux qui ont le meilleur caractère.",
+
+  "personaLincoln": "Abraham Lincoln",
+  "personaLincolnTitle": "16e Président des États-Unis",
+  "personaLincolnQuote": "En fin de compte, ce ne sont pas les années de votre vie qui comptent. C'est la vie dans vos années.",
+
+  "personaNapoleon": "Napoléon",
+  "personaNapoleonTitle": "Empereur de France",
+  "personaNapoleonQuote": "Impossible est un mot qui ne se trouve que dans le dictionnaire des imbéciles.",
+
+  "personaSteveJobs": "Steve Jobs",
+  "personaSteveJobsTitle": "Entrepreneur Visionnaire",
+  "personaSteveJobsQuote": "Restez affamé. Restez fou.",
+
+  "personaSherlockHolmes": "Sherlock Holmes",
+  "personaSherlockHolmesTitle": "Maître de la Déduction",
+  "personaSherlockHolmesQuote": "Quand vous avez éliminé l'impossible, ce qui reste doit être la vérité.",
+
+  "personaDumbledore": "Albus Dumbledore",
+  "personaDumbledoreTitle": "Directeur de Poudlard",
+  "personaDumbledoreQuote": "Le bonheur peut être trouvé même dans les moments les plus sombres, si l'on se souvient seulement d'allumer la lumière.",
+
+  "personaGandhi": "Mahatma Gandhi",
+  "personaGandhiTitle": "Père de la Nation Indienne",
+  "personaGandhiQuote": "Soyez le changement que vous voulez voir dans le monde.",
+
+  "personaRumi": "Rûmî",
+  "personaRumiTitle": "Poète Soufi & Mystique",
+  "personaRumiQuote": "La blessure est l'endroit par où la Lumière entre en vous.",
+
+  "personaKrishna": "Krishna",
+  "personaKrishnaTitle": "Guide Divin de la Bhagavad Gita",
+  "personaKrishnaQuote": "Tu as le droit d'agir, mais jamais sur les fruits de l'action.",
+
+  "personaBrahma": "Brahma",
+  "personaBrahmaTitle": "Le Dieu Créateur",
+  "personaBrahmaQuote": "De l'irréel mène-moi au réel, des ténèbres mène-moi à la lumière.",
+
+  "personaTolstoy": "Léon Tolstoï",
+  "personaTolstoyTitle": "Géant de la Littérature Russe",
+  "personaTolstoyQuote": "Tout le monde pense à changer le monde, mais personne ne pense à se changer lui-même."
+}

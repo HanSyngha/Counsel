@@ -1,0 +1,158 @@
+{
+  "@@locale": "ru",
+  "appName": "Голос Мудрецов",
+
+  "onboardingTitle": "Встретьте Своих\nНаставников Из Истории",
+  "onboardingSubtitle": "От Иисуса до Сократа, от Наполеона до Стива Джобса.\nОдолжите вечную мудрость для ваших забот.",
+  "getStarted": "Начать",
+
+  "homeTitle": "У кого вы хотите попросить совета сегодня?",
+  "searchPlaceholder": "Искать Платона, Линкольна, Гамлета...",
+  "featuredMentors": "Рекомендуемые Наставники",
+  "exploreWisdom": "Исследовать Мудрость",
+  "seeAll": "Смотреть все",
+  "trending": "В тренде",
+  "new_": "Новое",
+
+  "categoryAll": "Все",
+  "categoryHistory": "История",
+  "categoryPhilosophy": "Философия",
+  "categoryReligion": "Религия",
+  "categoryLiterature": "Литература",
+  "categoryFavorites": "Избранное",
+
+  "inputTitle": "Что тяготит ваш разум?",
+  "inputSubtitle": "Будьте честны. Детали — путь к ясности.",
+  "inputPlaceholder": "Я борюсь с...\nЭто началось когда...\nЯ боюсь, что...",
+  "inputHelperDilemma": "Текущая Дилемма",
+  "inputHelperEmotion": "Эмоциональное Состояние",
+  "inputHelperOutcome": "Желаемый Результат",
+  "seekWisdom": "Искать Мудрость",
+  "privacyNote": "Ваше признание конфиденциально и анонимно.",
+  "characterCount": "{count} / {max}",
+
+  "loadingConnecting": "Подключение к",
+  "loadingConsulting": "Обращение к древним архивам мудрости",
+  "loadingAnalyzing": "Анализ Запроса",
+  "loadingRecalling": "ВСПОМИНАЕМ ИСТОРИЧЕСКИЙ КОНТЕКСТ...",
+  "loadingOnline": "Онлайн",
+  "cancelRequest": "Отменить Запрос",
+  "loadingNote": "Это может занять некоторое время, пока мы связываемся с персоной.",
+
+  "resultWisdom": "Мудрость",
+  "resultAiPersona": "Совет AI Персоны",
+  "resultGeneratedBy": "Создано AI Персоной",
+  "resultScrollOfWisdom": "Свиток Мудрости",
+  "resultHistoricalRecords": "Исторические Записи",
+  "resultInHisOwnWords": "Его Собственными Словами",
+  "resultKeyDecision": "Ключевое Решение",
+  "resultCopy": "Копировать",
+  "resultShare": "Поделиться",
+  "askAnotherSage": "Спросить Другого Мудреца",
+  "resultActionSteps": "Шаги К Действию",
+
+  "historyTitle": "История Моих Советов",
+  "historySearch": "Какую проблему вы ищете?",
+  "historyEmpty": "История советов пуста",
+  "historyEmptySubtitle": "Начните разговор с наставником",
+
+  "navSelect": "Выбрать",
+  "navChat": "Чат",
+  "navSaved": "Сохранённое",
+  "navHistory": "История",
+  "navProfile": "Профиль",
+  "navSettings": "Настройки",
+
+  "settingsLanguage": "Язык",
+  "settingsAbout": "О приложении",
+  "settingsPrivacy": "Политика Конфиденциальности",
+  "settingsTerms": "Условия Использования",
+  "settingsVersion": "Версия",
+
+  "errorGeneric": "Что-то пошло не так. Пожалуйста, попробуйте снова.",
+  "errorNetwork": "Пожалуйста, проверьте подключение к интернету.",
+  "errorTimeout": "Время запроса истекло. Пожалуйста, попробуйте снова.",
+  "retry": "Повторить",
+  "ok": "ОК",
+  "cancel": "Отмена",
+  "close": "Закрыть",
+  "save": "Сохранить",
+  "delete": "Удалить",
+  "confirm": "Подтвердить",
+
+  "personaSocrates": "Сократ",
+  "personaSocratesTitle": "Отец Западной Философии",
+  "personaSocratesQuote": "Неисследованная жизнь не стоит того, чтобы жить.",
+
+  "personaPlato": "Платон",
+  "personaPlatoTitle": "Философ Идей",
+  "personaPlatoQuote": "Будьте добры, ибо каждый, кого вы встречаете, ведёт тяжёлую битву.",
+
+  "personaAristotle": "Аристотель",
+  "personaAristotleTitle": "Первый Учитель",
+  "personaAristotleQuote": "Мы — то, что мы делаем постоянно. Совершенство — не действие, а привычка.",
+
+  "personaSeneca": "Сенека",
+  "personaSenecaTitle": "Философ-Стоик",
+  "personaSenecaQuote": "Дело не в том, что у нас мало времени, а в том, что мы много теряем.",
+
+  "personaConfucius": "Конфуций",
+  "personaConfuciusTitle": "Великий Мудрец",
+  "personaConfuciusQuote": "Неважно, как медленно ты идёшь, главное — не останавливайся.",
+
+  "personaLaozi": "Лао-цзы",
+  "personaLaoziTitle": "Основатель Даосизма",
+  "personaLaoziQuote": "Путь в тысячу ли начинается с одного шага.",
+
+  "personaJesus": "Иисус",
+  "personaJesusTitle": "Духовный Учитель",
+  "personaJesusQuote": "Возлюби ближнего своего, как самого себя.",
+
+  "personaBuddha": "Будда",
+  "personaBuddhaTitle": "Просветлённый",
+  "personaBuddhaQuote": "Мир приходит изнутри. Не ищи его снаружи.",
+
+  "personaMuhammad": "Мухаммад",
+  "personaMuhammadTitle": "Пророк Ислама",
+  "personaMuhammadQuote": "Лучшие из вас — те, у кого лучший характер.",
+
+  "personaLincoln": "Авраам Линкольн",
+  "personaLincolnTitle": "16-й Президент США",
+  "personaLincolnQuote": "В конце концов, важны не годы в вашей жизни, а жизнь в ваших годах.",
+
+  "personaNapoleon": "Наполеон",
+  "personaNapoleonTitle": "Император Франции",
+  "personaNapoleonQuote": "Невозможно — слово из словаря глупцов.",
+
+  "personaSteveJobs": "Стив Джобс",
+  "personaSteveJobsTitle": "Визионер-Предприниматель",
+  "personaSteveJobsQuote": "Оставайся голодным. Оставайся безрассудным.",
+
+  "personaSherlockHolmes": "Шерлок Холмс",
+  "personaSherlockHolmesTitle": "Мастер Дедукции",
+  "personaSherlockHolmesQuote": "Когда вы исключили невозможное, то, что осталось, должно быть правдой.",
+
+  "personaDumbledore": "Альбус Дамблдор",
+  "personaDumbledoreTitle": "Директор Хогвартса",
+  "personaDumbledoreQuote": "Счастье можно найти даже в самые тёмные времена, если не забывать зажигать свет.",
+
+  "personaGandhi": "Махатма Ганди",
+  "personaGandhiTitle": "Отец Индийской Нации",
+  "personaGandhiQuote": "Будь тем изменением, которое ты хочешь увидеть в мире.",
+
+  "personaRumi": "Руми",
+  "personaRumiTitle": "Суфийский Поэт и Мистик",
+  "personaRumiQuote": "Рана — это место, через которое в тебя входит Свет.",
+
+  "personaKrishna": "Кришна",
+  "personaKrishnaTitle": "Божественный Наставник Бхагавад-гиты",
+  "personaKrishnaQuote": "Ты имеешь право на действие, но никогда — на его плоды.",
+
+  "personaBrahma": "Брахма",
+  "personaBrahmaTitle": "Бог-Творец",
+  "personaBrahmaQuote": "От нереального веди меня к реальному, от тьмы веди меня к свету.",
+
+  "personaTolstoy": "Лев Толстой",
+  "personaTolstoyTitle": "Гигант Русской Литературы",
+  "personaTolstoyQuote": "Все думают о том, как изменить мир, но никто не думает о том, как изменить себя."
+}

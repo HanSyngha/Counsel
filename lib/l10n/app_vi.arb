@@ -1,0 +1,158 @@
+{
+  "@@locale": "vi",
+  "appName": "Tiếng Nói Hiền Triết",
+
+  "onboardingTitle": "Gặp Gỡ Những Người\nDẫn Đường Từ Lịch Sử",
+  "onboardingSubtitle": "Từ Chúa Giêsu đến Socrates, từ Napoleon đến Steve Jobs.\nVay mượn trí tuệ vượt thời gian cho những lo lắng của bạn.",
+  "getStarted": "Bắt Đầu",
+
+  "homeTitle": "Hôm nay bạn muốn xin lời khuyên từ ai?",
+  "searchPlaceholder": "Tìm kiếm Plato, Lincoln, Hamlet...",
+  "featuredMentors": "Người Hướng Dẫn Nổi Bật",
+  "exploreWisdom": "Khám Phá Trí Tuệ",
+  "seeAll": "Xem tất cả",
+  "trending": "Xu hướng",
+  "new_": "Mới",
+
+  "categoryAll": "Tất cả",
+  "categoryHistory": "Lịch sử",
+  "categoryPhilosophy": "Triết học",
+  "categoryReligion": "Tôn giáo",
+  "categoryLiterature": "Văn học",
+  "categoryFavorites": "Yêu thích",
+
+  "inputTitle": "Điều gì đang đè nặng tâm trí bạn?",
+  "inputSubtitle": "Hãy thành thật. Chi tiết là con đường dẫn đến sự rõ ràng.",
+  "inputPlaceholder": "Tôi đang vật lộn với...\nNó bắt đầu khi...\nTôi sợ rằng...",
+  "inputHelperDilemma": "Tình Huống Hiện Tại",
+  "inputHelperEmotion": "Trạng Thái Cảm Xúc",
+  "inputHelperOutcome": "Kết Quả Mong Muốn",
+  "seekWisdom": "Tìm Kiếm Trí Tuệ",
+  "privacyNote": "Lời tâm sự của bạn là riêng tư và ẩn danh.",
+  "characterCount": "{count} / {max}",
+
+  "loadingConnecting": "Đang kết nối với",
+  "loadingConsulting": "Đang tham vấn kho tàng trí tuệ cổ đại",
+  "loadingAnalyzing": "Đang Phân Tích Câu Hỏi",
+  "loadingRecalling": "ĐANG GỢI LẠI BỐI CẢNH LỊCH SỬ...",
+  "loadingOnline": "Trực tuyến",
+  "cancelRequest": "Hủy Yêu Cầu",
+  "loadingNote": "Điều này có thể mất một chút thời gian khi chúng tôi kết nối với nhân vật.",
+
+  "resultWisdom": "Trí Tuệ",
+  "resultAiPersona": "Lời Khuyên Từ AI",
+  "resultGeneratedBy": "Được Tạo Bởi AI",
+  "resultScrollOfWisdom": "Cuộn Trí Tuệ",
+  "resultHistoricalRecords": "Hồ Sơ Lịch Sử",
+  "resultInHisOwnWords": "Bằng Lời Của Họ",
+  "resultKeyDecision": "Quyết Định Then Chốt",
+  "resultCopy": "Sao chép",
+  "resultShare": "Chia sẻ",
+  "askAnotherSage": "Hỏi Hiền Triết Khác",
+  "resultActionSteps": "Các Bước Hành Động",
+
+  "historyTitle": "Lịch Sử Lời Khuyên",
+  "historySearch": "Bạn đang tìm kiếm mối lo ngại nào?",
+  "historyEmpty": "Chưa có lịch sử lời khuyên",
+  "historyEmptySubtitle": "Bắt đầu cuộc trò chuyện với người hướng dẫn",
+
+  "navSelect": "Chọn",
+  "navChat": "Trò chuyện",
+  "navSaved": "Đã lưu",
+  "navHistory": "Lịch sử",
+  "navProfile": "Hồ sơ",
+  "navSettings": "Cài đặt",
+
+  "settingsLanguage": "Ngôn ngữ",
+  "settingsAbout": "Giới thiệu",
+  "settingsPrivacy": "Chính Sách Bảo Mật",
+  "settingsTerms": "Điều Khoản Dịch Vụ",
+  "settingsVersion": "Phiên bản",
+
+  "errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại.",
+  "errorNetwork": "Vui lòng kiểm tra kết nối internet của bạn.",
+  "errorTimeout": "Yêu cầu đã hết thời gian. Vui lòng thử lại.",
+  "retry": "Thử Lại",
+  "ok": "OK",
+  "cancel": "Hủy",
+  "close": "Đóng",
+  "save": "Lưu",
+  "delete": "Xóa",
+  "confirm": "Xác nhận",
+
+  "personaSocrates": "Socrates",
+  "personaSocratesTitle": "Cha Đẻ Triết Học Phương Tây",
+  "personaSocratesQuote": "Cuộc sống không được xem xét thì không đáng sống.",
+
+  "personaPlato": "Plato",
+  "personaPlatoTitle": "Triết Gia Của Các Hình Thức",
+  "personaPlatoQuote": "Hãy tử tế, vì mỗi người bạn gặp đều đang chiến đấu một trận chiến khó khăn.",
+
+  "personaAristotle": "Aristotle",
+  "personaAristotleTitle": "Người Thầy Đầu Tiên",
+  "personaAristotleQuote": "Chúng ta là những gì chúng ta làm lặp đi lặp lại. Sự xuất sắc không phải là hành động, mà là thói quen.",
+
+  "personaSeneca": "Seneca",
+  "personaSenecaTitle": "Triết Gia Khắc Kỷ",
+  "personaSenecaQuote": "Không phải chúng ta có ít thời gian, mà là chúng ta lãng phí nhiều.",
+
+  "personaConfucius": "Khổng Tử",
+  "personaConfuciusTitle": "Bậc Thánh Nhân Vĩ Đại",
+  "personaConfuciusQuote": "Không quan trọng bạn đi chậm đến đâu, miễn là bạn không dừng lại.",
+
+  "personaLaozi": "Lão Tử",
+  "personaLaoziTitle": "Người Sáng Lập Đạo Giáo",
+  "personaLaoziQuote": "Hành trình ngàn dặm bắt đầu từ một bước chân.",
+
+  "personaJesus": "Chúa Giêsu",
+  "personaJesusTitle": "Người Thầy Tâm Linh",
+  "personaJesusQuote": "Hãy yêu người lân cận như chính mình.",
+
+  "personaBuddha": "Đức Phật",
+  "personaBuddhaTitle": "Đấng Giác Ngộ",
+  "personaBuddhaQuote": "Bình an đến từ bên trong. Đừng tìm kiếm nó bên ngoài.",
+
+  "personaMuhammad": "Muhammad",
+  "personaMuhammadTitle": "Nhà Tiên Tri Của Hồi Giáo",
+  "personaMuhammadQuote": "Người tốt nhất trong các ngươi là người có phẩm hạnh tốt nhất.",
+
+  "personaLincoln": "Abraham Lincoln",
+  "personaLincolnTitle": "Tổng Thống Thứ 16 Của Hoa Kỳ",
+  "personaLincolnQuote": "Cuối cùng, không phải số năm trong cuộc đời bạn quan trọng. Mà là cuộc sống trong những năm đó.",
+
+  "personaNapoleon": "Napoleon",
+  "personaNapoleonTitle": "Hoàng Đế Nước Pháp",
+  "personaNapoleonQuote": "Không thể là từ chỉ tìm thấy trong từ điển của kẻ ngốc.",
+
+  "personaSteveJobs": "Steve Jobs",
+  "personaSteveJobsTitle": "Doanh Nhân Có Tầm Nhìn",
+  "personaSteveJobsQuote": "Hãy luôn khao khát. Hãy luôn dại khờ.",
+
+  "personaSherlockHolmes": "Sherlock Holmes",
+  "personaSherlockHolmesTitle": "Bậc Thầy Suy Luận",
+  "personaSherlockHolmesQuote": "Khi bạn đã loại bỏ những điều không thể, những gì còn lại phải là sự thật.",
+
+  "personaDumbledore": "Albus Dumbledore",
+  "personaDumbledoreTitle": "Hiệu Trưởng Hogwarts",
+  "personaDumbledoreQuote": "Hạnh phúc có thể được tìm thấy ngay cả trong những thời khắc tăm tối nhất, nếu ta chỉ nhớ bật đèn lên.",
+
+  "personaGandhi": "Mahatma Gandhi",
+  "personaGandhiTitle": "Cha Đẻ Quốc Gia Ấn Độ",
+  "personaGandhiQuote": "Hãy là sự thay đổi mà bạn muốn thấy trên thế giới.",
+
+  "personaRumi": "Rumi",
+  "personaRumiTitle": "Nhà Thơ Sufi & Nhà Huyền Bí",
+  "personaRumiQuote": "Vết thương là nơi Ánh sáng đi vào bạn.",
+
+  "personaKrishna": "Krishna",
+  "personaKrishnaTitle": "Người Dẫn Đường Thần Thánh Của Bhagavad Gita",
+  "personaKrishnaQuote": "Bạn có quyền hành động, nhưng không bao giờ có quyền về kết quả.",
+
+  "personaBrahma": "Brahma",
+  "personaBrahmaTitle": "Thần Sáng Tạo",
+  "personaBrahmaQuote": "Từ ảo ảnh dẫn ta đến thực tại, từ bóng tối dẫn ta đến ánh sáng.",
+
+  "personaTolstoy": "Lev Tolstoy",
+  "personaTolstoyTitle": "Người Khổng Lồ Văn Học Nga",
+  "personaTolstoyQuote": "Ai cũng nghĩ đến việc thay đổi thế giới, nhưng không ai nghĩ đến việc thay đổi chính mình."
+}

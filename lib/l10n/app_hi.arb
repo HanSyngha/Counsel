@@ -1,0 +1,158 @@
+{
+  "@@locale": "hi",
+  "appName": "महापुरुषों की वाणी",
+
+  "onboardingTitle": "इतिहास के अपने\nमार्गदर्शकों से मिलें",
+  "onboardingSubtitle": "ईसा से सुकरात तक, नेपोलियन से स्टीव जॉब्स तक।\nअपनी चिंताओं के लिए शाश्वत ज्ञान उधार लें।",
+  "getStarted": "शुरू करें",
+
+  "homeTitle": "आज आप किससे सलाह लेना चाहते हैं?",
+  "searchPlaceholder": "प्लेटो, लिंकन, हैमलेट खोजें...",
+  "featuredMentors": "विशेष मार्गदर्शक",
+  "exploreWisdom": "ज्ञान का अन्वेषण करें",
+  "seeAll": "सभी देखें",
+  "trending": "ट्रेंडिंग",
+  "new_": "नया",
+
+  "categoryAll": "सभी",
+  "categoryHistory": "इतिहास",
+  "categoryPhilosophy": "दर्शन",
+  "categoryReligion": "धर्म",
+  "categoryLiterature": "साहित्य",
+  "categoryFavorites": "पसंदीदा",
+
+  "inputTitle": "आपके मन में क्या बोझ है?",
+  "inputSubtitle": "ईमानदार रहें। विस्तार स्पष्टता का मार्ग है।",
+  "inputPlaceholder": "मैं इस समस्या से जूझ रहा हूं...\nयह तब शुरू हुआ जब...\nमुझे डर है कि...",
+  "inputHelperDilemma": "वर्तमान दुविधा",
+  "inputHelperEmotion": "भावनात्मक स्थिति",
+  "inputHelperOutcome": "वांछित परिणाम",
+  "seekWisdom": "ज्ञान की खोज करें",
+  "privacyNote": "आपका कथन निजी और गुमनाम है।",
+  "characterCount": "{count} / {max}",
+
+  "loadingConnecting": "से जुड़ रहे हैं",
+  "loadingConsulting": "प्राचीन ज्ञान के अभिलेखागार से परामर्श",
+  "loadingAnalyzing": "प्रश्न का विश्लेषण",
+  "loadingRecalling": "ऐतिहासिक संदर्भ याद कर रहे हैं...",
+  "loadingOnline": "ऑनलाइन",
+  "cancelRequest": "अनुरोध रद्द करें",
+  "loadingNote": "व्यक्तित्व को चैनल करते समय इसमें कुछ समय लग सकता है।",
+
+  "resultWisdom": "ज्ञान",
+  "resultAiPersona": "AI व्यक्तित्व सलाह",
+  "resultGeneratedBy": "AI व्यक्तित्व द्वारा निर्मित",
+  "resultScrollOfWisdom": "ज्ञान का पत्र",
+  "resultHistoricalRecords": "ऐतिहासिक अभिलेख",
+  "resultInHisOwnWords": "उनके अपने शब्दों में",
+  "resultKeyDecision": "मुख्य निर्णय",
+  "resultCopy": "कॉपी",
+  "resultShare": "शेयर",
+  "askAnotherSage": "अन्य ऋषि से पूछें",
+  "resultActionSteps": "कार्य योजना",
+
+  "historyTitle": "मेरा सलाह इतिहास",
+  "historySearch": "आप कौन सी चिंता खोज रहे हैं?",
+  "historyEmpty": "अभी तक कोई सलाह इतिहास नहीं",
+  "historyEmptySubtitle": "एक मार्गदर्शक से बातचीत शुरू करें",
+
+  "navSelect": "चुनें",
+  "navChat": "चैट",
+  "navSaved": "सहेजा गया",
+  "navHistory": "इतिहास",
+  "navProfile": "प्रोफ़ाइल",
+  "navSettings": "सेटिंग्स",
+
+  "settingsLanguage": "भाषा",
+  "settingsAbout": "के बारे में",
+  "settingsPrivacy": "गोपनीयता नीति",
+  "settingsTerms": "सेवा की शर्तें",
+  "settingsVersion": "संस्करण",
+
+  "errorGeneric": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।",
+  "errorNetwork": "कृपया अपना इंटरनेट कनेक्शन जांचें।",
+  "errorTimeout": "अनुरोध समय समाप्त। कृपया पुनः प्रयास करें।",
+  "retry": "पुनः प्रयास",
+  "ok": "ठीक है",
+  "cancel": "रद्द करें",
+  "close": "बंद करें",
+  "save": "सहेजें",
+  "delete": "हटाएं",
+  "confirm": "पुष्टि करें",
+
+  "personaSocrates": "सुकरात",
+  "personaSocratesTitle": "पश्चिमी दर्शन के जनक",
+  "personaSocratesQuote": "अपरीक्षित जीवन जीने योग्य नहीं है।",
+
+  "personaPlato": "प्लेटो",
+  "personaPlatoTitle": "आदर्शों के दार्शनिक",
+  "personaPlatoQuote": "दयालु बनें, क्योंकि जिससे भी आप मिलते हैं वह कठिन लड़ाई लड़ रहा है।",
+
+  "personaAristotle": "अरस्तू",
+  "personaAristotleTitle": "प्रथम शिक्षक",
+  "personaAristotleQuote": "हम वही हैं जो हम बार-बार करते हैं। उत्कृष्टता कोई कार्य नहीं, बल्कि आदत है।",
+
+  "personaSeneca": "सेनेका",
+  "personaSenecaTitle": "स्टोइक दार्शनिक",
+  "personaSenecaQuote": "ऐसा नहीं है कि हमारे पास कम समय है, बल्कि हम इसे बर्बाद करते हैं।",
+
+  "personaConfucius": "कन्फ्यूशियस",
+  "personaConfuciusTitle": "महान ऋषि",
+  "personaConfuciusQuote": "आप कितनी धीमी गति से चलते हैं यह मायने नहीं रखता, जब तक आप रुकते नहीं।",
+
+  "personaLaozi": "लाओत्से",
+  "personaLaoziTitle": "ताओवाद के संस्थापक",
+  "personaLaoziQuote": "हजार मील की यात्रा एक कदम से शुरू होती है।",
+
+  "personaJesus": "ईसा मसीह",
+  "personaJesusTitle": "आध्यात्मिक गुरु",
+  "personaJesusQuote": "अपने पड़ोसी से वैसे ही प्रेम करो जैसे स्वयं से करते हो।",
+
+  "personaBuddha": "गौतम बुद्ध",
+  "personaBuddhaTitle": "प्रबुद्ध",
+  "personaBuddhaQuote": "शांति भीतर से आती है। इसे बाहर मत खोजो।",
+
+  "personaMuhammad": "पैगंबर मुहम्मद",
+  "personaMuhammadTitle": "इस्लाम के पैगंबर",
+  "personaMuhammadQuote": "तुम में से सबसे अच्छे वे हैं जिनका चरित्र सबसे अच्छा है।",
+
+  "personaLincoln": "अब्राहम लिंकन",
+  "personaLincolnTitle": "अमेरिका के 16वें राष्ट्रपति",
+  "personaLincolnQuote": "अंत में, आपके जीवन के वर्ष नहीं गिने जाते। आपके वर्षों में जीवन गिना जाता है।",
+
+  "personaNapoleon": "नेपोलियन",
+  "personaNapoleonTitle": "फ्रांस के सम्राट",
+  "personaNapoleonQuote": "असंभव शब्द केवल मूर्खों के शब्दकोश में पाया जाता है।",
+
+  "personaSteveJobs": "स्टीव जॉब्स",
+  "personaSteveJobsTitle": "दूरदर्शी उद्यमी",
+  "personaSteveJobsQuote": "भूखे रहो। मूर्ख रहो।",
+
+  "personaSherlockHolmes": "शर्लक होम्स",
+  "personaSherlockHolmesTitle": "निगमन के उस्ताद",
+  "personaSherlockHolmesQuote": "जब आप असंभव को हटा देते हैं, जो बचता है वह सत्य होना चाहिए।",
+
+  "personaDumbledore": "एल्बस डंबलडोर",
+  "personaDumbledoreTitle": "हॉगवर्ट्स के प्रधानाचार्य",
+  "personaDumbledoreQuote": "सबसे अंधेरे समय में भी खुशी मिल सकती है, अगर कोई बस रोशनी जलाना याद रखे।",
+
+  "personaGandhi": "महात्मा गांधी",
+  "personaGandhiTitle": "राष्ट्रपिता",
+  "personaGandhiQuote": "जो बदलाव आप दुनिया में देखना चाहते हैं, वह खुद बनें।",
+
+  "personaRumi": "रूमी",
+  "personaRumiTitle": "सूफी कवि एवं रहस्यवादी",
+  "personaRumiQuote": "घाव वह स्थान है जहाँ से प्रकाश आप में प्रवेश करता है।",
+
+  "personaKrishna": "श्री कृष्ण",
+  "personaKrishnaTitle": "भगवद्गीता के दिव्य मार्गदर्शक",
+  "personaKrishnaQuote": "कर्म पर तुम्हारा अधिकार है, फल पर कभी नहीं।",
+
+  "personaBrahma": "ब्रह्मा",
+  "personaBrahmaTitle": "सृष्टिकर्ता देव",
+  "personaBrahmaQuote": "असत्य से सत्य की ओर, अंधकार से प्रकाश की ओर ले चलो।",
+
+  "personaTolstoy": "लियो टॉल्स्टॉय",
+  "personaTolstoyTitle": "रूसी साहित्य के दिग्गज",
+  "personaTolstoyQuote": "हर कोई दुनिया बदलने की सोचता है, लेकिन कोई खुद को बदलने की नहीं सोचता।"
+}

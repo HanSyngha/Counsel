@@ -1,0 +1,158 @@
+{
+  "@@locale": "ar",
+  "appName": "صوت الحكماء",
+
+  "onboardingTitle": "التقِ بمرشديك\nمن التاريخ",
+  "onboardingSubtitle": "من المسيح إلى سقراط، ومن نابليون إلى ستيف جوبز.\nاستعر حكمة الأجيال لمخاوفك.",
+  "getStarted": "ابدأ الآن",
+
+  "homeTitle": "ممن تطلب المشورة اليوم؟",
+  "searchPlaceholder": "ابحث عن أفلاطون، لينكولن، هاملت...",
+  "featuredMentors": "المرشدون المميزون",
+  "exploreWisdom": "استكشف الحكمة",
+  "seeAll": "عرض الكل",
+  "trending": "رائج",
+  "new_": "جديد",
+
+  "categoryAll": "الكل",
+  "categoryHistory": "التاريخ",
+  "categoryPhilosophy": "الفلسفة",
+  "categoryReligion": "الدين",
+  "categoryLiterature": "الأدب",
+  "categoryFavorites": "المفضلة",
+
+  "inputTitle": "ما الذي يثقل قلبك؟",
+  "inputSubtitle": "كن صادقاً. التفاصيل هي طريق الوضوح.",
+  "inputPlaceholder": "أجد نفسي أعاني من...\nبدأ الأمر عندما...\nأخشى أن...",
+  "inputHelperDilemma": "المعضلة الحالية",
+  "inputHelperEmotion": "الحالة العاطفية",
+  "inputHelperOutcome": "النتيجة المرجوة",
+  "seekWisdom": "اطلب الحكمة",
+  "privacyNote": "اعترافك خاص ومجهول الهوية.",
+  "characterCount": "{count} / {max}",
+
+  "loadingConnecting": "جارٍ الاتصال بـ",
+  "loadingConsulting": "استشارة أرشيفات الحكمة القديمة",
+  "loadingAnalyzing": "جارٍ تحليل السؤال",
+  "loadingRecalling": "استدعاء السياق التاريخي...",
+  "loadingOnline": "متصل",
+  "cancelRequest": "إلغاء الطلب",
+  "loadingNote": "قد يستغرق استدعاء الشخصية بعض الوقت.",
+
+  "resultWisdom": "الحكمة",
+  "resultAiPersona": "نصيحة شخصية الذكاء الاصطناعي",
+  "resultGeneratedBy": "تم إنشاؤها بواسطة شخصية AI",
+  "resultScrollOfWisdom": "لفافة الحكمة",
+  "resultHistoricalRecords": "السجلات التاريخية",
+  "resultInHisOwnWords": "بكلماته الخاصة",
+  "resultKeyDecision": "القرار الرئيسي",
+  "resultCopy": "نسخ",
+  "resultShare": "مشاركة",
+  "askAnotherSage": "اسأل حكيماً آخر",
+  "resultActionSteps": "خطوات العمل",
+
+  "historyTitle": "سجل نصائحي",
+  "historySearch": "ما المخاوف التي تبحث عنها؟",
+  "historyEmpty": "لا يوجد سجل نصائح بعد",
+  "historyEmptySubtitle": "ابدأ محادثة مع مرشد",
+
+  "navSelect": "اختر",
+  "navChat": "دردشة",
+  "navSaved": "المحفوظة",
+  "navHistory": "السجل",
+  "navProfile": "الملف الشخصي",
+  "navSettings": "الإعدادات",
+
+  "settingsLanguage": "اللغة",
+  "settingsAbout": "حول التطبيق",
+  "settingsPrivacy": "سياسة الخصوصية",
+  "settingsTerms": "شروط الخدمة",
+  "settingsVersion": "الإصدار",
+
+  "errorGeneric": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+  "errorNetwork": "يرجى التحقق من اتصالك بالإنترنت.",
+  "errorTimeout": "انتهت مهلة الطلب. يرجى المحاولة مرة أخرى.",
+  "retry": "إعادة المحاولة",
+  "ok": "حسناً",
+  "cancel": "إلغاء",
+  "close": "إغلاق",
+  "save": "حفظ",
+  "delete": "حذف",
+  "confirm": "تأكيد",
+
+  "personaSocrates": "سقراط",
+  "personaSocratesTitle": "أبو الفلسفة الغربية",
+  "personaSocratesQuote": "الحياة غير المختبرة لا تستحق العيش.",
+
+  "personaPlato": "أفلاطون",
+  "personaPlatoTitle": "فيلسوف المُثُل",
+  "personaPlatoQuote": "كن لطيفاً، فكل شخص تقابله يخوض معركة صعبة.",
+
+  "personaAristotle": "أرسطو",
+  "personaAristotleTitle": "المعلم الأول",
+  "personaAristotleQuote": "نحن ما نفعله بشكل متكرر. التميز ليس فعلاً، بل عادة.",
+
+  "personaSeneca": "سينيكا",
+  "personaSenecaTitle": "الفيلسوف الرواقي",
+  "personaSenecaQuote": "ليس الوقت قصيراً، بل نحن نضيع الكثير منه.",
+
+  "personaConfucius": "كونفوشيوس",
+  "personaConfuciusTitle": "الحكيم العظيم",
+  "personaConfuciusQuote": "لا يهم كم تسير ببطء طالما أنك لا تتوقف.",
+
+  "personaLaozi": "لاوتزي",
+  "personaLaoziTitle": "مؤسس الطاوية",
+  "personaLaoziQuote": "رحلة الألف ميل تبدأ بخطوة واحدة.",
+
+  "personaJesus": "يسوع",
+  "personaJesusTitle": "المعلم الروحي",
+  "personaJesusQuote": "أحب قريبك كنفسك.",
+
+  "personaBuddha": "بوذا",
+  "personaBuddhaTitle": "المستنير",
+  "personaBuddhaQuote": "السلام يأتي من الداخل. لا تبحث عنه في الخارج.",
+
+  "personaMuhammad": "محمد",
+  "personaMuhammadTitle": "نبي الإسلام",
+  "personaMuhammadQuote": "خيركم أحسنكم أخلاقاً.",
+
+  "personaLincoln": "أبراهام لينكولن",
+  "personaLincolnTitle": "الرئيس الأمريكي السادس عشر",
+  "personaLincolnQuote": "في النهاية، ليست سنوات الحياة هي المهمة، بل الحياة في تلك السنوات.",
+
+  "personaNapoleon": "نابليون",
+  "personaNapoleonTitle": "إمبراطور فرنسا",
+  "personaNapoleonQuote": "المستحيل كلمة موجودة فقط في قاموس الحمقى.",
+
+  "personaSteveJobs": "ستيف جوبز",
+  "personaSteveJobsTitle": "رائد الأعمال صاحب الرؤية",
+  "personaSteveJobsQuote": "ابقَ جائعاً. ابقَ أحمق.",
+
+  "personaSherlockHolmes": "شيرلوك هولمز",
+  "personaSherlockHolmesTitle": "سيد الاستنتاج",
+  "personaSherlockHolmesQuote": "عندما تستبعد المستحيل، فإن ما يتبقى مهما كان غير محتمل يجب أن يكون الحقيقة.",
+
+  "personaDumbledore": "ألباس دمبلدور",
+  "personaDumbledoreTitle": "مدير هوغوورتس",
+  "personaDumbledoreQuote": "يمكن العثور على السعادة حتى في أحلك الأوقات، إذا تذكر المرء فقط أن يضيء النور.",
+
+  "personaGandhi": "المهاتما غاندي",
+  "personaGandhiTitle": "أبو الأمة الهندية",
+  "personaGandhiQuote": "كن أنت التغيير الذي تريد أن تراه في العالم.",
+
+  "personaRumi": "جلال الدين الرومي",
+  "personaRumiTitle": "الشاعر الصوفي والعارف",
+  "personaRumiQuote": "الجرح هو المكان الذي يدخل منه النور إليك.",
+
+  "personaKrishna": "كريشنا",
+  "personaKrishnaTitle": "المرشد الإلهي في البهاغافاد غيتا",
+  "personaKrishnaQuote": "لك الحق في العمل، ولكن ليس في ثماره.",
+
+  "personaBrahma": "براهما",
+  "personaBrahmaTitle": "إله الخلق",
+  "personaBrahmaQuote": "من الوهم قدني إلى الحقيقة، ومن الظلام قدني إلى النور.",
+
+  "personaTolstoy": "ليو تولستوي",
+  "personaTolstoyTitle": "عملاق الأدب الروسي",
+  "personaTolstoyQuote": "الجميع يفكر في تغيير العالم، لكن لا أحد يفكر في تغيير نفسه."
+}

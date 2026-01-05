@@ -1,0 +1,158 @@
+{
+  "@@locale": "ja",
+  "appName": "偉人の声",
+
+  "onboardingTitle": "歴史上の\nメンターに出会う",
+  "onboardingSubtitle": "イエスからソクラテス、スティーブ・ジョブズまで。\nあなたの悩みに時代を超えた知恵を借りましょう。",
+  "getStarted": "始める",
+
+  "homeTitle": "今日は誰に相談しますか？",
+  "searchPlaceholder": "プラトン、リンカーン、ハムレットを検索...",
+  "featuredMentors": "おすすめメンター",
+  "exploreWisdom": "知恵を探る",
+  "seeAll": "すべて見る",
+  "trending": "人気",
+  "new_": "新着",
+
+  "categoryAll": "すべて",
+  "categoryHistory": "歴史",
+  "categoryPhilosophy": "哲学",
+  "categoryReligion": "宗教",
+  "categoryLiterature": "文学",
+  "categoryFavorites": "お気に入り",
+
+  "inputTitle": "何があなたの心に重くのしかかっていますか？",
+  "inputSubtitle": "正直に話してください。詳細であるほど明確な答えが得られます。",
+  "inputPlaceholder": "私はこんな困難に直面しています...\nそれはこう始まりました...\n私はこれが怖いです...",
+  "inputHelperDilemma": "現在のジレンマ",
+  "inputHelperEmotion": "感情の状態",
+  "inputHelperOutcome": "望む結果",
+  "seekWisdom": "知恵を求める",
+  "privacyNote": "あなたの相談は非公開で匿名です。",
+  "characterCount": "{count} / {max}",
+
+  "loadingConnecting": "接続中",
+  "loadingConsulting": "古代の知恵のアーカイブを参照しています",
+  "loadingAnalyzing": "質問を分析中",
+  "loadingRecalling": "歴史的背景を思い出しています...",
+  "loadingOnline": "オンライン",
+  "cancelRequest": "リクエストをキャンセル",
+  "loadingNote": "ペルソナを呼び出すのに少し時間がかかる場合があります。",
+
+  "resultWisdom": "知恵",
+  "resultAiPersona": "AIペルソナアドバイス",
+  "resultGeneratedBy": "AIペルソナが生成",
+  "resultScrollOfWisdom": "知恵の巻物",
+  "resultHistoricalRecords": "歴史的記録",
+  "resultInHisOwnWords": "彼自身の言葉で",
+  "resultKeyDecision": "重要な決断",
+  "resultCopy": "コピー",
+  "resultShare": "共有",
+  "askAnotherSage": "別の賢者に聞く",
+  "resultActionSteps": "行動ステップ",
+
+  "historyTitle": "私のアドバイス履歴",
+  "historySearch": "どんな悩みを検索しますか？",
+  "historyEmpty": "まだアドバイス履歴がありません",
+  "historyEmptySubtitle": "メンターとの会話を始めましょう",
+
+  "navSelect": "選択",
+  "navChat": "チャット",
+  "navSaved": "保存済み",
+  "navHistory": "履歴",
+  "navProfile": "プロフィール",
+  "navSettings": "設定",
+
+  "settingsLanguage": "言語",
+  "settingsAbout": "アプリについて",
+  "settingsPrivacy": "プライバシーポリシー",
+  "settingsTerms": "利用規約",
+  "settingsVersion": "バージョン",
+
+  "errorGeneric": "問題が発生しました。もう一度お試しください。",
+  "errorNetwork": "インターネット接続を確認してください。",
+  "errorTimeout": "リクエストがタイムアウトしました。もう一度お試しください。",
+  "retry": "再試行",
+  "ok": "OK",
+  "cancel": "キャンセル",
+  "close": "閉じる",
+  "save": "保存",
+  "delete": "削除",
+  "confirm": "確認",
+
+  "personaSocrates": "ソクラテス",
+  "personaSocratesTitle": "西洋哲学の父",
+  "personaSocratesQuote": "吟味されない人生は生きる価値がない。",
+
+  "personaPlato": "プラトン",
+  "personaPlatoTitle": "イデアの哲学者",
+  "personaPlatoQuote": "親切にしなさい、あなたが出会うすべての人は厳しい戦いをしているのだから。",
+
+  "personaAristotle": "アリストテレス",
+  "personaAristotleTitle": "最初の教師",
+  "personaAristotleQuote": "私たちは繰り返し行うことがそのまま私たちである。卓越とは行為ではなく、習慣である。",
+
+  "personaSeneca": "セネカ",
+  "personaSenecaTitle": "ストア派哲学者",
+  "personaSenecaQuote": "時間が足りないのではない、私たちがそれを多く浪費しているのだ。",
+
+  "personaConfucius": "孔子",
+  "personaConfuciusTitle": "偉大な聖人",
+  "personaConfuciusQuote": "止まらない限り、どんなにゆっくり進んでも構わない。",
+
+  "personaLaozi": "老子",
+  "personaLaoziTitle": "道教の創始者",
+  "personaLaoziQuote": "千里の道も一歩から始まる。",
+
+  "personaJesus": "イエス",
+  "personaJesusTitle": "精神的指導者",
+  "personaJesusQuote": "汝の隣人を汝自身のように愛せよ。",
+
+  "personaBuddha": "仏陀",
+  "personaBuddhaTitle": "悟りを開いた者",
+  "personaBuddhaQuote": "平和は内から来る。外に求めるな。",
+
+  "personaMuhammad": "ムハンマド",
+  "personaMuhammadTitle": "イスラムの預言者",
+  "personaMuhammadQuote": "最も優れた者は最も良い品性を持つ者である。",
+
+  "personaLincoln": "エイブラハム・リンカーン",
+  "personaLincolnTitle": "第16代アメリカ大統領",
+  "personaLincolnQuote": "結局、人生の年数ではなく、その年数の中の人生が重要なのだ。",
+
+  "personaNapoleon": "ナポレオン",
+  "personaNapoleonTitle": "フランス皇帝",
+  "personaNapoleonQuote": "不可能という言葉は愚か者の辞書にしかない。",
+
+  "personaSteveJobs": "スティーブ・ジョブズ",
+  "personaSteveJobsTitle": "ビジョナリー起業家",
+  "personaSteveJobsQuote": "ハングリーであれ。愚かであれ。",
+
+  "personaSherlockHolmes": "シャーロック・ホームズ",
+  "personaSherlockHolmesTitle": "推理の達人",
+  "personaSherlockHolmesQuote": "不可能を排除したとき、残ったものがどんなに信じがたくても、それが真実である。",
+
+  "personaDumbledore": "アルバス・ダンブルドア",
+  "personaDumbledoreTitle": "ホグワーツ校長",
+  "personaDumbledoreQuote": "最も暗い時でも、明かりをつけることを忘れなければ、幸福を見つけることができる。",
+
+  "personaGandhi": "マハトマ・ガンジー",
+  "personaGandhiTitle": "インド建国の父",
+  "personaGandhiQuote": "世界に見たい変化に、あなた自身がなりなさい。",
+
+  "personaRumi": "ルーミー",
+  "personaRumiTitle": "スーフィー詩人・神秘家",
+  "personaRumiQuote": "傷こそが光があなたに入る場所である。",
+
+  "personaKrishna": "クリシュナ",
+  "personaKrishnaTitle": "バガヴァッド・ギーターの神聖な導き手",
+  "personaKrishnaQuote": "行動する権利はあるが、その結果に対する権利はない。",
+
+  "personaBrahma": "ブラフマー",
+  "personaBrahmaTitle": "創造の神",
+  "personaBrahmaQuote": "偽りから真実へ、闘から光へ導きたまえ。",
+
+  "personaTolstoy": "レフ・トルストイ",
+  "personaTolstoyTitle": "ロシア文学の巨匠",
+  "personaTolstoyQuote": "誰もが世界を変えようと考えるが、自分を変えようとは考えない。"
+}

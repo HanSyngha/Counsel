@@ -1,0 +1,158 @@
+{
+  "@@locale": "tr",
+  "appName": "Bilgelerin Sesi",
+
+  "onboardingTitle": "Tarihten Gelen\nMentörlerinizle Tanışın",
+  "onboardingSubtitle": "İsa'dan Sokrates'e, Napolyon'dan Steve Jobs'a.\nEndişeleriniz için zamansız bilgelik ödünç alın.",
+  "getStarted": "Başla",
+
+  "homeTitle": "Bugün kimden tavsiye almak istiyorsunuz?",
+  "searchPlaceholder": "Platon, Lincoln, Hamlet ara...",
+  "featuredMentors": "Öne Çıkan Mentörler",
+  "exploreWisdom": "Bilgeliği Keşfet",
+  "seeAll": "Tümünü gör",
+  "trending": "Trend",
+  "new_": "Yeni",
+
+  "categoryAll": "Tümü",
+  "categoryHistory": "Tarih",
+  "categoryPhilosophy": "Felsefe",
+  "categoryReligion": "Din",
+  "categoryLiterature": "Edebiyat",
+  "categoryFavorites": "Favoriler",
+
+  "inputTitle": "Aklınızı ne meşgul ediyor?",
+  "inputSubtitle": "Dürüst olun. Detay, netliğe giden yoldur.",
+  "inputPlaceholder": "Kendimi şununla mücadele ederken buluyorum...\nBu şöyle başladı...\nKorkuyorum ki...",
+  "inputHelperDilemma": "Mevcut İkilem",
+  "inputHelperEmotion": "Duygusal Durum",
+  "inputHelperOutcome": "İstenen Sonuç",
+  "seekWisdom": "Bilgelik Ara",
+  "privacyNote": "İtirafınız özel ve anonimdir.",
+  "characterCount": "{count} / {max}",
+
+  "loadingConnecting": "Bağlanıyor",
+  "loadingConsulting": "Kadim bilgelik arşivlerine danışılıyor",
+  "loadingAnalyzing": "Sorgu Analiz Ediliyor",
+  "loadingRecalling": "TARİHİ BAĞLAM HATIRLANIYOR...",
+  "loadingOnline": "Çevrimiçi",
+  "cancelRequest": "İsteği İptal Et",
+  "loadingNote": "Kişiliği kanallarken bu biraz zaman alabilir.",
+
+  "resultWisdom": "Bilgelik",
+  "resultAiPersona": "AI Kişilik Tavsiyesi",
+  "resultGeneratedBy": "AI Kişiliği Tarafından Oluşturuldu",
+  "resultScrollOfWisdom": "Bilgelik Tomarı",
+  "resultHistoricalRecords": "Tarihi Kayıtlar",
+  "resultInHisOwnWords": "Kendi Sözleriyle",
+  "resultKeyDecision": "Anahtar Karar",
+  "resultCopy": "Kopyala",
+  "resultShare": "Paylaş",
+  "askAnotherSage": "Başka Bir Bilgeye Sor",
+  "resultActionSteps": "Eylem Adımları",
+
+  "historyTitle": "Tavsiye Geçmişim",
+  "historySearch": "Hangi endişeyi arıyorsunuz?",
+  "historyEmpty": "Henüz tavsiye geçmişi yok",
+  "historyEmptySubtitle": "Bir mentörle sohbet başlatın",
+
+  "navSelect": "Seç",
+  "navChat": "Sohbet",
+  "navSaved": "Kaydedilenler",
+  "navHistory": "Geçmiş",
+  "navProfile": "Profil",
+  "navSettings": "Ayarlar",
+
+  "settingsLanguage": "Dil",
+  "settingsAbout": "Hakkında",
+  "settingsPrivacy": "Gizlilik Politikası",
+  "settingsTerms": "Hizmet Şartları",
+  "settingsVersion": "Sürüm",
+
+  "errorGeneric": "Bir şeyler yanlış gitti. Lütfen tekrar deneyin.",
+  "errorNetwork": "Lütfen internet bağlantınızı kontrol edin.",
+  "errorTimeout": "İstek zaman aşımına uğradı. Lütfen tekrar deneyin.",
+  "retry": "Tekrar Dene",
+  "ok": "Tamam",
+  "cancel": "İptal",
+  "close": "Kapat",
+  "save": "Kaydet",
+  "delete": "Sil",
+  "confirm": "Onayla",
+
+  "personaSocrates": "Sokrates",
+  "personaSocratesTitle": "Batı Felsefesinin Babası",
+  "personaSocratesQuote": "Sorgulanmamış hayat yaşanmaya değmez.",
+
+  "personaPlato": "Platon",
+  "personaPlatoTitle": "Formların Filozofu",
+  "personaPlatoQuote": "Nazik ol, çünkü karşılaştığın herkes zorlu bir savaş veriyor.",
+
+  "personaAristotle": "Aristoteles",
+  "personaAristotleTitle": "İlk Öğretmen",
+  "personaAristotleQuote": "Biz tekrar tekrar yaptığımız şeyiz. Mükemmellik bir eylem değil, alışkanlıktır.",
+
+  "personaSeneca": "Seneca",
+  "personaSenecaTitle": "Stoacı Filozof",
+  "personaSenecaQuote": "Zamanımız az değil, çoğunu israf ediyoruz.",
+
+  "personaConfucius": "Konfüçyüs",
+  "personaConfuciusTitle": "Büyük Bilge",
+  "personaConfuciusQuote": "Durmadığın sürece ne kadar yavaş gittiğin önemli değil.",
+
+  "personaLaozi": "Laozi",
+  "personaLaoziTitle": "Taoizmin Kurucusu",
+  "personaLaoziQuote": "Bin millik yolculuk tek bir adımla başlar.",
+
+  "personaJesus": "İsa",
+  "personaJesusTitle": "Manevi Öğretmen",
+  "personaJesusQuote": "Komşunu kendin gibi sev.",
+
+  "personaBuddha": "Buda",
+  "personaBuddhaTitle": "Aydınlanmış",
+  "personaBuddhaQuote": "Huzur içten gelir. Dışarıda arama.",
+
+  "personaMuhammad": "Hz. Muhammed",
+  "personaMuhammadTitle": "İslam Peygamberi",
+  "personaMuhammadQuote": "Sizin en hayırlınız ahlakı en güzel olanınızdır.",
+
+  "personaLincoln": "Abraham Lincoln",
+  "personaLincolnTitle": "ABD'nin 16. Başkanı",
+  "personaLincolnQuote": "Sonunda, hayatınızdaki yıllar değil, yıllarınızdaki hayat önemlidir.",
+
+  "personaNapoleon": "Napolyon",
+  "personaNapoleonTitle": "Fransa İmparatoru",
+  "personaNapoleonQuote": "İmkansız sadece aptalların sözlüğünde bulunan bir kelimedir.",
+
+  "personaSteveJobs": "Steve Jobs",
+  "personaSteveJobsTitle": "Vizyoner Girişimci",
+  "personaSteveJobsQuote": "Aç kal. Aptal kal.",
+
+  "personaSherlockHolmes": "Sherlock Holmes",
+  "personaSherlockHolmesTitle": "Çıkarım Ustası",
+  "personaSherlockHolmesQuote": "İmkansızı elediğinizde, geriye kalan ne kadar inanılmaz olursa olsun gerçek olmalıdır.",
+
+  "personaDumbledore": "Albus Dumbledore",
+  "personaDumbledoreTitle": "Hogwarts Müdürü",
+  "personaDumbledoreQuote": "En karanlık zamanlarda bile mutluluk bulunabilir, yeter ki ışığı açmayı unutmayın.",
+
+  "personaGandhi": "Mahatma Gandhi",
+  "personaGandhiTitle": "Hindistan'ın Babası",
+  "personaGandhiQuote": "Dünyada görmek istediğin değişiklik sen ol.",
+
+  "personaRumi": "Mevlana",
+  "personaRumiTitle": "Sufi Şair & Mutasavvıf",
+  "personaRumiQuote": "Yara, ışığın sana girdiği yerdir.",
+
+  "personaKrishna": "Krishna",
+  "personaKrishnaTitle": "Bhagavad Gita'nın İlahi Rehberi",
+  "personaKrishnaQuote": "Eyleme hakkın var, ama asla eylemin meyvesine değil.",
+
+  "personaBrahma": "Brahma",
+  "personaBrahmaTitle": "Yaratıcı Tanrı",
+  "personaBrahmaQuote": "Gerçek olmayandan gerçeğe, karanlıktan aydınlığa götür beni.",
+
+  "personaTolstoy": "Lev Tolstoy",
+  "personaTolstoyTitle": "Rus Edebiyatının Devi",
+  "personaTolstoyQuote": "Herkes dünyayı değiştirmeyi düşünür, ama kimse kendini değiştirmeyi düşünmez."
+}
