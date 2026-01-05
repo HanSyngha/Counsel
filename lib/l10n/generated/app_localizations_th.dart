@@ -9,35 +9,35 @@ class AppLocalizationsTh extends AppLocalizations {
   AppLocalizationsTh([String locale = 'th']) : super(locale);
 
   @override
-  String get appName => 'เสียงปราชญ์';
+  String get appName => 'เสียงแห่งปราชญ์';
 
   @override
   String get onboardingTitle => 'พบกับที่ปรึกษา\nจากประวัติศาสตร์';
 
   @override
   String get onboardingSubtitle =>
-      'จากพระเยซูถึงโสกราตีส จากนโปเลียนถึงสตีฟ จ็อบส์\nยืมภูมิปัญญาอันเป็นนิรันดร์สำหรับปัญหาของคุณ';
+      'จากพระเยซู โสกราตีส นายพลอี ซุนชิน ไปจนถึงสตีฟ จ็อบส์\nเรามอบปัญญาที่ข้ามกาลเวลาสำหรับปัญหาของคุณ';
 
   @override
-  String get getStarted => 'เริ่มต้นใช้งาน';
+  String get getStarted => 'เริ่มต้นเลย';
 
   @override
-  String get homeTitle => 'วันนี้คุณต้องการขอคำปรึกษาจากใคร?';
+  String get homeTitle => 'วันนี้คุณต้องการคำปรึกษาจากใคร?';
 
   @override
-  String get searchPlaceholder => 'ค้นหาเพลโต, ลินคอล์น, แฮมเล็ต...';
+  String get searchPlaceholder => 'ค้นหา เพลโต ลินคอล์น แฮมเล็ต...';
 
   @override
   String get featuredMentors => 'ที่ปรึกษาแนะนำ';
 
   @override
-  String get exploreWisdom => 'สำรวจภูมิปัญญา';
+  String get exploreWisdom => 'สำรวจปัญญา';
 
   @override
   String get seeAll => 'ดูทั้งหมด';
 
   @override
-  String get trending => 'กำลังฮิต';
+  String get trending => 'ยอดนิยม';
 
   @override
   String get new_ => 'ใหม่';
@@ -61,29 +61,30 @@ class AppLocalizationsTh extends AppLocalizations {
   String get categoryFavorites => 'รายการโปรด';
 
   @override
-  String get inputTitle => 'อะไรกำลังหนักใจคุณอยู่?';
+  String get inputTitle => 'อะไรอยู่ในใจของคุณ?';
 
   @override
-  String get inputSubtitle => 'จงซื่อสัตย์ รายละเอียดคือเส้นทางสู่ความชัดเจน';
+  String get inputSubtitle =>
+      'โปรดพูดตรงๆ ยิ่งเจาะจงมากเท่าไหร่ คำตอบก็จะชัดเจนมากเท่านั้น';
 
   @override
   String get inputPlaceholder =>
-      'ฉันกำลังดิ้นรนกับ...\nมันเริ่มต้นเมื่อ...\nฉันกลัวว่า...';
+      'ฉันกำลังเผชิญกับความยากลำบากนี้...\nมันเริ่มต้นแบบนี้...\nฉันกลัวว่า...';
 
   @override
   String get inputHelperDilemma => 'ปัญหาปัจจุบัน';
 
   @override
-  String get inputHelperEmotion => 'สภาวะอารมณ์';
+  String get inputHelperEmotion => 'สภาพอารมณ์';
 
   @override
   String get inputHelperOutcome => 'ผลลัพธ์ที่ต้องการ';
 
   @override
-  String get seekWisdom => 'ขอภูมิปัญญา';
+  String get seekWisdom => 'ขอคำปรึกษา';
 
   @override
-  String get privacyNote => 'คำสารภาพของคุณเป็นความลับและไม่ระบุตัวตน';
+  String get privacyNote => 'ปัญหาของคุณเป็นความลับและไม่ระบุตัวตน';
 
   @override
   String characterCount(int count, int max) {
@@ -91,16 +92,16 @@ class AppLocalizationsTh extends AppLocalizations {
   }
 
   @override
-  String get loadingConnecting => 'กำลังเชื่อมต่อกับ';
+  String get loadingConnecting => 'กำลังเชื่อมต่อ';
 
   @override
-  String get loadingConsulting => 'กำลังปรึกษาคลังภูมิปัญญาโบราณ';
+  String get loadingConsulting => 'กำลังค้นหาคลังปัญญาโบราณ';
 
   @override
   String get loadingAnalyzing => 'กำลังวิเคราะห์คำถาม';
 
   @override
-  String get loadingRecalling => 'กำลังเรียกบริบททางประวัติศาสตร์...';
+  String get loadingRecalling => 'กำลังระลึกบริบททางประวัติศาสตร์...';
 
   @override
   String get loadingOnline => 'ออนไลน์';
@@ -109,25 +110,25 @@ class AppLocalizationsTh extends AppLocalizations {
   String get cancelRequest => 'ยกเลิกคำขอ';
 
   @override
-  String get loadingNote => 'อาจใช้เวลาสักครู่ขณะเรียกบุคลิกภาพ';
+  String get loadingNote => 'อาจใช้เวลาสักครู่ในการเรียกตัวตน';
 
   @override
-  String get resultWisdom => 'ภูมิปัญญา';
+  String get resultWisdom => 'ปัญญา';
 
   @override
-  String get resultAiPersona => 'คำแนะนำจาก AI Persona';
+  String get resultAiPersona => 'คำแนะนำจากตัวตน AI';
 
   @override
-  String get resultGeneratedBy => 'สร้างโดย AI Persona';
+  String get resultGeneratedBy => 'สร้างโดยตัวตน AI';
 
   @override
-  String get resultScrollOfWisdom => 'ม้วนแห่งภูมิปัญญา';
+  String get resultScrollOfWisdom => 'ม้วนแห่งปัญญา';
 
   @override
   String get resultHistoricalRecords => 'บันทึกทางประวัติศาสตร์';
 
   @override
-  String get resultInHisOwnWords => 'ในคำพูดของท่านเอง';
+  String get resultInHisOwnWords => 'ในถ้อยคำของท่าน';
 
   @override
   String get resultKeyDecision => 'การตัดสินใจสำคัญ';
@@ -145,16 +146,16 @@ class AppLocalizationsTh extends AppLocalizations {
   String get resultActionSteps => 'ขั้นตอนปฏิบัติ';
 
   @override
-  String get historyTitle => 'ประวัติคำแนะนำของฉัน';
+  String get historyTitle => 'ประวัติคำปรึกษาของฉัน';
 
   @override
-  String get historySearch => 'คุณกำลังค้นหาปัญหาอะไร?';
+  String get historySearch => 'ค้นหาปัญหาอะไร?';
 
   @override
-  String get historyEmpty => 'ยังไม่มีประวัติคำแนะนำ';
+  String get historyEmpty => 'ยังไม่มีประวัติคำปรึกษา';
 
   @override
-  String get historyEmptySubtitle => 'เริ่มสนทนากับที่ปรึกษา';
+  String get historyEmptySubtitle => 'เริ่มสนทนากับที่ปรึกษาสักท่าน';
 
   @override
   String get navSelect => 'เลือก';
@@ -178,28 +179,28 @@ class AppLocalizationsTh extends AppLocalizations {
   String get settingsLanguage => 'ภาษา';
 
   @override
-  String get settingsAbout => 'เกี่ยวกับ';
+  String get settingsAbout => 'เกี่ยวกับแอป';
 
   @override
   String get settingsPrivacy => 'นโยบายความเป็นส่วนตัว';
 
   @override
-  String get settingsTerms => 'เงื่อนไขการให้บริการ';
+  String get settingsTerms => 'ข้อกำหนดการใช้งาน';
 
   @override
   String get settingsVersion => 'เวอร์ชัน';
 
   @override
-  String get errorGeneric => 'เกิดข้อผิดพลาด กรุณาลองอีกครั้ง';
+  String get errorGeneric => 'เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง';
 
   @override
-  String get errorNetwork => 'กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ต';
+  String get errorNetwork => 'กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ';
 
   @override
-  String get errorTimeout => 'คำขอหมดเวลา กรุณาลองอีกครั้ง';
+  String get errorTimeout => 'คำขอหมดเวลา กรุณาลองใหม่อีกครั้ง';
 
   @override
-  String get retry => 'ลองอีกครั้ง';
+  String get retry => 'ลองใหม่';
 
   @override
   String get ok => 'ตกลง';
@@ -227,7 +228,7 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get personaSocratesQuote =>
-      'ชีวิตที่ไม่ได้ตรวจสอบไม่คุ้มค่าแก่การมีชีวิตอยู่';
+      'ชีวิตที่ไม่ได้รับการตรวจสอบไม่คุ้มค่าแก่การมีชีวิตอยู่';
 
   @override
   String get personaPlato => 'เพลโต';
@@ -237,17 +238,17 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get personaPlatoQuote =>
-      'จงเมตตา เพราะทุกคนที่คุณพบกำลังต่อสู้กับสงครามที่ยากลำบาก';
+      'จงมีเมตตา เพราะทุกคนที่คุณพบกำลังต่อสู้ในศึกที่ยากลำบาก';
 
   @override
   String get personaAristotle => 'อริสโตเติล';
 
   @override
-  String get personaAristotleTitle => 'ครูคนแรก';
+  String get personaAristotleTitle => 'ปรมาจารย์คนแรก';
 
   @override
   String get personaAristotleQuote =>
-      'เราคือสิ่งที่เราทำซ้ำแล้วซ้ำเล่า ความเป็นเลิศไม่ใช่การกระทำ แต่เป็นนิสัย';
+      'เราคือสิ่งที่เราทำซ้ำๆ ความเป็นเลิศจึงไม่ใช่การกระทำ แต่เป็นนิสัย';
 
   @override
   String get personaSeneca => 'เซเนกา';
@@ -257,17 +258,17 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get personaSenecaQuote =>
-      'ไม่ใช่ว่าเรามีเวลาน้อย แต่เราสูญเสียมันไปมาก';
+      'ไม่ใช่ว่าเรามีเวลาน้อยเกินไป แต่เราสูญเสียเวลาไปมากเกินไป';
 
   @override
   String get personaConfucius => 'ขงจื๊อ';
 
   @override
-  String get personaConfuciusTitle => 'ปราชญ์ผู้ยิ่งใหญ่';
+  String get personaConfuciusTitle => 'นักปราชญ์ผู้ยิ่งใหญ่';
 
   @override
   String get personaConfuciusQuote =>
-      'ไม่สำคัญว่าคุณจะเดินช้าแค่ไหน ตราบใดที่คุณไม่หยุด';
+      'ไม่สำคัญว่าคุณจะเดินช้าแค่ไหน ตราบใดที่คุณไม่หยุดเดิน';
 
   @override
   String get personaLaozi => 'เล่าจื๊อ';
@@ -276,7 +277,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get personaLaoziTitle => 'ผู้ก่อตั้งลัทธิเต๋า';
 
   @override
-  String get personaLaoziQuote => 'การเดินทางพันไมล์เริ่มต้นด้วยก้าวเดียว';
+  String get personaLaoziQuote => 'การเดินทางพันลี้เริ่มต้นด้วยก้าวเดียว';
 
   @override
   String get personaJesus => 'พระเยซู';
@@ -294,27 +295,27 @@ class AppLocalizationsTh extends AppLocalizations {
   String get personaBuddhaTitle => 'ผู้ตรัสรู้';
 
   @override
-  String get personaBuddhaQuote => 'ความสงบมาจากภายใน อย่าแสวงหาจากภายนอก';
+  String get personaBuddhaQuote => 'สันติสุขมาจากภายใน อย่าแสวงหาจากภายนอก';
 
   @override
-  String get personaMuhammad => 'ท่านนบีมุฮัมมัด';
+  String get personaMuhammad => 'มุฮัมมัด';
 
   @override
   String get personaMuhammadTitle => 'ศาสดาแห่งอิสลาม';
 
   @override
   String get personaMuhammadQuote =>
-      'ผู้ที่ดีที่สุดคือผู้ที่มีอุปนิสัยดีที่สุด';
+      'ผู้ที่ดีที่สุดในหมู่พวกท่านคือผู้ที่มีอุปนิสัยดีที่สุด';
 
   @override
   String get personaLincoln => 'อับราฮัม ลินคอล์น';
 
   @override
-  String get personaLincolnTitle => 'ประธานาธิบดีสหรัฐคนที่ 16';
+  String get personaLincolnTitle => 'ประธานาธิบดีคนที่ 16 ของสหรัฐอเมริกา';
 
   @override
   String get personaLincolnQuote =>
-      'ในที่สุด ไม่ใช่จำนวนปีในชีวิตที่สำคัญ แต่เป็นชีวิตในปีเหล่านั้น';
+      'สุดท้ายแล้ว สิ่งสำคัญไม่ใช่จำนวนปีในชีวิต แต่คือชีวิตในปีเหล่านั้น';
 
   @override
   String get personaNapoleon => 'นโปเลียน';
@@ -324,7 +325,7 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get personaNapoleonQuote =>
-      'เป็นไปไม่ได้คือคำที่พบได้เฉพาะในพจนานุกรมของคนโง่';
+      'คำว่าเป็นไปไม่ได้มีอยู่ในพจนานุกรมของคนโง่เท่านั้น';
 
   @override
   String get personaSteveJobs => 'สตีฟ จ็อบส์';
@@ -333,7 +334,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get personaSteveJobsTitle => 'ผู้ประกอบการผู้มีวิสัยทัศน์';
 
   @override
-  String get personaSteveJobsQuote => 'จงหิวกระหาย จงโง่เขลา';
+  String get personaSteveJobsQuote => 'จงหิวโหย จงโง่เขลา';
 
   @override
   String get personaSherlockHolmes => 'เชอร์ล็อก โฮล์มส์';
@@ -343,26 +344,26 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get personaSherlockHolmesQuote =>
-      'เมื่อคุณตัดสิ่งที่เป็นไปไม่ได้ออกไป สิ่งที่เหลืออยู่ไม่ว่าจะไม่น่าเป็นไปได้แค่ไหน ต้องเป็นความจริง';
+      'เมื่อคุณตัดสิ่งที่เป็นไปไม่ได้ออกไป สิ่งที่เหลืออยู่แม้จะดูไม่น่าเชื่อแค่ไหนก็ต้องเป็นความจริง';
 
   @override
   String get personaDumbledore => 'อัลบัส ดัมเบิลดอร์';
 
   @override
-  String get personaDumbledoreTitle => 'อาจารย์ใหญ่ฮอกวอตส์';
+  String get personaDumbledoreTitle => 'ครูใหญ่ฮอกวอตส์';
 
   @override
   String get personaDumbledoreQuote =>
-      'ความสุขสามารถพบได้แม้ในเวลาที่มืดมนที่สุด หากเพียงจำไว้ว่าต้องเปิดไฟ';
+      'ความสุขสามารถพบได้แม้ในเวลาที่มืดมนที่สุด ถ้าเพียงแต่จำได้ที่จะจุดไฟ';
 
   @override
   String get personaGandhi => 'มหาตมะ คานธี';
 
   @override
-  String get personaGandhiTitle => 'บิดาแห่งชาติอินเดีย';
+  String get personaGandhiTitle => 'บิดาแห่งอินเดีย';
 
   @override
-  String get personaGandhiQuote => 'จงเป็นการเปลี่ยนแปลงที่คุณอยากเห็นในโลก';
+  String get personaGandhiQuote => 'จงเป็นการเปลี่ยนแปลงที่คุณต้องการเห็นในโลก';
 
   @override
   String get personaRumi => 'รูมี';
@@ -371,7 +372,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get personaRumiTitle => 'กวีซูฟีและนักลึกลับ';
 
   @override
-  String get personaRumiQuote => 'บาดแผลคือที่ที่แสงเข้าสู่ตัวคุณ';
+  String get personaRumiQuote => 'บาดแผลคือที่ที่แสงเข้ามาหาคุณ';
 
   @override
   String get personaKrishna => 'พระกฤษณะ';
@@ -380,7 +381,8 @@ class AppLocalizationsTh extends AppLocalizations {
   String get personaKrishnaTitle => 'ผู้นำทางศักดิ์สิทธิ์แห่งภควัทคีตา';
 
   @override
-  String get personaKrishnaQuote => 'คุณมีสิทธิ์ในการกระทำ แต่ไม่ใช่ในผลของมัน';
+  String get personaKrishnaQuote =>
+      'คุณมีสิทธิ์ในการกระทำเท่านั้น ไม่มีสิทธิ์ในผลของมัน';
 
   @override
   String get personaBrahma => 'พระพรหม';
@@ -389,269 +391,272 @@ class AppLocalizationsTh extends AppLocalizations {
   String get personaBrahmaTitle => 'เทพแห่งการสร้างสรรค์';
 
   @override
-  String get personaBrahmaQuote => 'จากมายาสู่ความจริง จากความมืดสู่แสงสว่าง';
+  String get personaBrahmaQuote =>
+      'นำข้าพเจ้าจากมายาสู่ความจริง จากความมืดสู่แสงสว่าง';
 
   @override
   String get personaTolstoy => 'เลโอ ตอลสตอย';
 
   @override
-  String get personaTolstoyTitle => 'ยักษ์ใหญ่วรรณกรรมรัสเซีย';
+  String get personaTolstoyTitle => 'ยักษ์ใหญ่แห่งวรรณกรรมรัสเซีย';
 
   @override
   String get personaTolstoyQuote =>
-      'ทุกคนคิดจะเปลี่ยนโลก แต่ไม่มีใครคิดจะเปลี่ยนตัวเอง';
+      'ทุกคนคิดที่จะเปลี่ยนโลก แต่ไม่มีใครคิดที่จะเปลี่ยนตัวเอง';
 
   @override
-  String get adviceYourQuestion => 'Your Question';
+  String get adviceYourQuestion => 'คำถามของคุณ';
 
   @override
-  String get adviceCitation => 'Citation';
+  String get adviceCitation => 'อ้างอิง';
 
   @override
-  String get adviceRelevance => 'Why This Matters';
+  String get adviceRelevance => 'ทำไมจึงสำคัญ';
 
   @override
-  String get adviceSourceType => 'Source Type';
+  String get adviceSourceType => 'ประเภทแหล่งที่มา';
 
   @override
-  String get adviceSourceName => 'Source';
+  String get adviceSourceName => 'แหล่งที่มา';
 
   @override
-  String get adviceSourceLocation => 'Location';
+  String get adviceSourceLocation => 'ตำแหน่ง';
 
   @override
-  String get adviceSourceYear => 'Year';
+  String get adviceSourceYear => 'ปี';
 
   @override
-  String get adviceSourceContext => 'Context';
+  String get adviceSourceContext => 'บริบท';
 
   @override
-  String get adviceMainCounsel => 'Counsel';
+  String get adviceMainCounsel => 'คำปรึกษา';
 
   @override
-  String get adviceActionSteps => 'Action Steps';
+  String get adviceActionSteps => 'ขั้นตอนปฏิบัติ';
 
   @override
-  String get adviceClosingWords => 'Closing Words';
+  String get adviceClosingWords => 'คำลงท้าย';
 
   @override
-  String get adviceCopy => 'Copy';
+  String get adviceCopy => 'คัดลอก';
 
   @override
-  String get adviceShare => 'Share';
+  String get adviceShare => 'แชร์';
 
   @override
-  String get adviceAddedToFavorites => 'Added to favorites';
+  String get adviceAddedToFavorites => 'เพิ่มในรายการโปรดแล้ว';
 
   @override
-  String get adviceRemovedFromFavorites => 'Removed from favorites';
+  String get adviceRemovedFromFavorites => 'ลบออกจากรายการโปรดแล้ว';
 
   @override
-  String get adviceCopied => 'Copied to clipboard';
+  String get adviceCopied => 'คัดลอกไปยังคลิปบอร์ดแล้ว';
 
   @override
-  String get sourceTypeScripture => 'Scripture';
+  String get adviceShareError => 'ไม่สามารถแชร์ได้ กรุณาลองใหม่';
 
   @override
-  String get sourceTypeBook => 'Book';
+  String get sourceTypeScripture => 'พระคัมภีร์';
 
   @override
-  String get sourceTypeSpeech => 'Speech';
+  String get sourceTypeBook => 'หนังสือ';
 
   @override
-  String get sourceTypeBattle => 'Battle';
+  String get sourceTypeSpeech => 'สุนทรพจน์';
 
   @override
-  String get sourceTypeLetter => 'Letter';
+  String get sourceTypeBattle => 'สมรภูมิ';
 
   @override
-  String get sourceTypeDialogue => 'Dialogue';
+  String get sourceTypeLetter => 'จดหมาย';
 
   @override
-  String get sourceTypeMoment => 'Moment';
+  String get sourceTypeDialogue => 'บทสนทนา';
 
   @override
-  String get sourceTypeTeaching => 'Teaching';
+  String get sourceTypeMoment => 'ช่วงเวลา';
 
   @override
-  String get sourceTypeNovel => 'Novel';
+  String get sourceTypeTeaching => 'คำสอน';
 
   @override
-  String get chatSuggestionsTitle => 'Suggested Topics';
+  String get sourceTypeNovel => 'นิยาย';
+
+  @override
+  String get chatSuggestionsTitle => 'หัวข้อแนะนำ';
 
   @override
   String get chatIntroMessage =>
-      'Share what weighs on your heart, and I shall offer what wisdom I can.';
+      'แบ่งปันสิ่งที่อยู่ในใจของคุณ แล้วฉันจะมอบปัญญาเท่าที่ทำได้';
 
   @override
-  String get chatSuggestion1 => 'How do I find my purpose?';
+  String get chatSuggestion1 => 'ฉันจะค้นพบจุดมุ่งหมายของตัวเองได้อย่างไร?';
 
   @override
-  String get chatSuggestion2 => 'I\'m struggling with a difficult decision...';
+  String get chatSuggestion2 => 'ฉันกำลังเผชิญกับการตัดสินใจที่ยากลำบาก...';
 
   @override
-  String get chatSuggestion3 => 'How do I overcome my fears?';
+  String get chatSuggestion3 => 'ฉันจะเอาชนะความกลัวได้อย่างไร?';
 
   @override
-  String get chatLoading => 'Contemplating...';
+  String get chatLoading => 'กำลังใคร่ครวญอย่างลึกซึ้ง...';
 
   @override
-  String get chatViewFullAdvice => 'View Full Advice';
+  String get chatViewFullAdvice => 'ดูคำปรึกษาฉบับเต็ม';
 
   @override
-  String get chatInputPlaceholder => 'Share your concern...';
+  String get chatInputPlaceholder => 'แบ่งปันปัญหาของคุณ...';
 
   @override
-  String get chatInputHint => 'Type your message here...';
+  String get chatInputHint => 'พิมพ์ข้อความ...';
 
   @override
-  String get chatSend => 'Send';
+  String get chatSend => 'ส่ง';
 
   @override
-  String get favoritesTitle => 'Saved Advice';
+  String get favoritesTitle => 'คำปรึกษาที่บันทึกไว้';
 
   @override
-  String get favoritesEmpty => 'No saved advice yet';
+  String get favoritesEmpty => 'ยังไม่มีคำปรึกษาที่บันทึกไว้';
 
   @override
-  String get favoritesEmptySubtitle => 'Tap the bookmark icon to save wisdom';
+  String get favoritesEmptySubtitle => 'แตะไอคอนบุ๊กมาร์กเพื่อบันทึกปัญญา';
 
   @override
-  String get favoritesViewFull => 'View Full';
+  String get favoritesViewFull => 'ดูฉบับเต็ม';
 
   @override
-  String get favoritesRemoveTitle => 'Remove from Saved';
+  String get favoritesRemoveTitle => 'ลบออกจากที่บันทึกไว้';
 
   @override
   String get favoritesRemoveMessage =>
-      'Are you sure you want to remove this advice from your saved items?';
+      'คุณต้องการลบคำปรึกษานี้ออกจากที่บันทึกไว้หรือไม่?';
 
   @override
-  String get favoritesRemoved => 'Removed from saved';
+  String get favoritesRemoved => 'ลบออกจากที่บันทึกไว้แล้ว';
 
   @override
-  String get remove => 'Remove';
+  String get remove => 'ลบ';
 
   @override
-  String get historyDeleted => 'Deleted from history';
+  String get historyDeleted => 'ลบออกจากประวัติแล้ว';
 
   @override
-  String get historyToday => 'Today';
+  String get historyToday => 'วันนี้';
 
   @override
-  String get historyYesterday => 'Yesterday';
+  String get historyYesterday => 'เมื่อวาน';
 
   @override
-  String get historyDeleteTitle => 'Delete Advice';
+  String get historyDeleteTitle => 'ลบคำปรึกษา';
 
   @override
-  String get historyDeleteMessage =>
-      'Are you sure you want to delete this advice?';
+  String get historyDeleteMessage => 'คุณต้องการลบคำปรึกษานี้หรือไม่?';
 
   @override
-  String get historyClearTitle => 'Clear History';
+  String get historyClearTitle => 'ล้างประวัติ';
 
   @override
   String get historyClearMessage =>
-      'Are you sure you want to clear all history? This cannot be undone.';
+      'คุณต้องการล้างประวัติทั้งหมดหรือไม่? การกระทำนี้ไม่สามารถยกเลิกได้';
 
   @override
-  String get historyCleared => 'History cleared';
+  String get historyCleared => 'ล้างประวัติแล้ว';
 
   @override
-  String get clear => 'Clear';
+  String get clear => 'ล้าง';
 
   @override
-  String get navHome => 'Home';
+  String get navHome => 'หน้าแรก';
 
   @override
-  String get navFavorites => 'Saved';
+  String get navFavorites => 'บันทึกแล้ว';
 
   @override
-  String get appTitle => 'Counsel';
+  String get appTitle => 'เสียงแห่งปราชญ์';
 
   @override
-  String get homeWelcome => 'Who do you seek wisdom from today?';
+  String get homeWelcome => 'วันนี้คุณต้องการปัญญาจากใคร?';
 
   @override
-  String get homeSubtitle => 'Choose a mentor to guide you';
+  String get homeSubtitle => 'เลือกที่ปรึกษาที่จะนำทางคุณ';
 
   @override
-  String get languageTitle => 'Select Language';
+  String get languageTitle => 'เลือกภาษา';
 
   @override
-  String get languageSelectPrompt => 'Choose your preferred language';
+  String get languageSelectPrompt => 'เลือกภาษาที่ต้องการ';
 
   @override
   String get languageSelectSubtitle =>
-      'You can change this anytime in settings';
+      'คุณสามารถเปลี่ยนได้ทุกเมื่อในการตั้งค่า';
 
   @override
-  String get personaFeatured => 'Featured';
+  String get personaFeatured => 'แนะนำ';
 
   @override
-  String get personaSignatureQuote => 'Signature Quote';
+  String get personaSignatureQuote => 'คำคมเด่น';
 
   @override
-  String get personaAbout => 'About';
+  String get personaAbout => 'เกี่ยวกับ';
 
   @override
-  String get personaStartChat => 'Start Conversation';
+  String get personaStartChat => 'เริ่มสนทนา';
 
   @override
-  String get personaCategory => 'Category';
+  String get personaCategory => 'หมวดหมู่';
 
   @override
-  String get personaEra => 'Era';
+  String get personaEra => 'ยุคสมัย';
 
   @override
-  String get personaExpertise => 'Areas of Wisdom';
+  String get personaExpertise => 'ขอบเขตแห่งปัญญา';
 
   @override
-  String get personaAskQuestion => 'Ask a Question';
+  String get personaAskQuestion => 'ถามคำถาม';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get settingsTitle => 'ตั้งค่า';
 
   @override
-  String get settingsData => 'Data';
+  String get settingsData => 'ข้อมูล';
 
   @override
-  String get settingsClearHistory => 'Clear History';
+  String get settingsClearHistory => 'ล้างประวัติ';
 
   @override
-  String get settingsClearHistorySubtitle => 'Remove all saved conversations';
+  String get settingsClearHistorySubtitle => 'ลบการสนทนาที่บันทึกไว้ทั้งหมด';
 
   @override
-  String get settingsAboutApp => 'About Counsel';
+  String get settingsAboutApp => 'เกี่ยวกับเสียงแห่งปราชญ์';
 
   @override
-  String get settingsAboutAppSubtitle => 'Version and app information';
+  String get settingsAboutAppSubtitle => 'เวอร์ชันและข้อมูลแอป';
 
   @override
-  String get settingsPrivacyPolicy => 'Privacy Policy';
+  String get settingsPrivacyPolicy => 'นโยบายความเป็นส่วนตัว';
 
   @override
-  String get settingsPrivacyPolicySubtitle => 'How we handle your data';
+  String get settingsPrivacyPolicySubtitle => 'วิธีที่เราจัดการข้อมูลของคุณ';
 
   @override
-  String get settingsTermsSubtitle => 'Read our terms of service';
+  String get settingsTermsSubtitle => 'อ่านข้อกำหนดการใช้งาน';
 
   @override
   String get settingsAppDescription =>
-      'Get wisdom from history\'s greatest minds';
+      'รับปัญญาจากจิตใจที่ยิ่งใหญ่ที่สุดในประวัติศาสตร์';
 
   @override
-  String get settingsClearHistoryDialogTitle => 'Clear All History?';
+  String get settingsClearHistoryDialogTitle => 'ล้างประวัติทั้งหมด?';
 
   @override
   String get settingsClearHistoryDialogMessage =>
-      'This will permanently delete all your conversation history. This action cannot be undone.';
+      'การสนทนาทั้งหมดจะถูกลบอย่างถาวร การกระทำนี้ไม่สามารถยกเลิกได้';
 
   @override
-  String get settingsHistoryCleared => 'History cleared successfully';
+  String get settingsHistoryCleared => 'ล้างประวัติสำเร็จแล้ว';
 
   @override
   String get settingsAboutContent =>
-      'Counsel connects you with the wisdom of history\'s greatest philosophers, leaders, and thinkers through AI-powered conversations.';
+      'เสียงแห่งปราชญ์เชื่อมต่อคุณกับปัญญาของนักปรัชญา ผู้นำ และนักคิดที่ยิ่งใหญ่ที่สุดในประวัติศาสตร์ผ่านการสนทนาที่ขับเคลื่อนด้วย AI';
 }

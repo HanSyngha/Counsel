@@ -9,29 +9,29 @@ class AppLocalizationsJa extends AppLocalizations {
   AppLocalizationsJa([String locale = 'ja']) : super(locale);
 
   @override
-  String get appName => '偉人の声';
+  String get appName => '賢者の声';
 
   @override
-  String get onboardingTitle => '歴史上の\nメンターに出会う';
+  String get onboardingTitle => '歴史の中のメンターに\n今すぐ会いましょう';
 
   @override
   String get onboardingSubtitle =>
-      'イエスからソクラテス、スティーブ・ジョブズまで。\nあなたの悩みに時代を超えた知恵を借りましょう。';
+      'イエス、ソクラテス、李舜臣将軍からスティーブ・ジョブズまで。\nあなたの悩みに時代を超えた知恵をお届けします。';
 
   @override
-  String get getStarted => '始める';
+  String get getStarted => '今すぐ始める';
 
   @override
-  String get homeTitle => '今日は誰に相談しますか？';
+  String get homeTitle => '今日は誰にアドバイスを求めますか？';
 
   @override
   String get searchPlaceholder => 'プラトン、リンカーン、ハムレットを検索...';
 
   @override
-  String get featuredMentors => 'おすすめメンター';
+  String get featuredMentors => 'おすすめのメンター';
 
   @override
-  String get exploreWisdom => '知恵を探る';
+  String get exploreWisdom => '知恵を探求する';
 
   @override
   String get seeAll => 'すべて見る';
@@ -61,17 +61,17 @@ class AppLocalizationsJa extends AppLocalizations {
   String get categoryFavorites => 'お気に入り';
 
   @override
-  String get inputTitle => '何があなたの心に重くのしかかっていますか？';
+  String get inputTitle => '何が心に引っかかっていますか？';
 
   @override
-  String get inputSubtitle => '正直に話してください。詳細であるほど明確な答えが得られます。';
+  String get inputSubtitle => '正直にお話しください。具体的であるほど、明確な答えをお伝えできます。';
 
   @override
   String get inputPlaceholder =>
-      '私はこんな困難に直面しています...\nそれはこう始まりました...\n私はこれが怖いです...';
+      '私はこのような困難を抱えています...\nこれはこのように始まりました...\n私はこれが怖いです...';
 
   @override
-  String get inputHelperDilemma => '現在のジレンマ';
+  String get inputHelperDilemma => '現在の悩み';
 
   @override
   String get inputHelperEmotion => '感情の状態';
@@ -83,7 +83,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get seekWisdom => '知恵を求める';
 
   @override
-  String get privacyNote => 'あなたの相談は非公開で匿名です。';
+  String get privacyNote => 'あなたの悩みは非公開で、匿名で処理されます。';
 
   @override
   String characterCount(int count, int max) {
@@ -94,13 +94,13 @@ class AppLocalizationsJa extends AppLocalizations {
   String get loadingConnecting => '接続中';
 
   @override
-  String get loadingConsulting => '古代の知恵のアーカイブを参照しています';
+  String get loadingConsulting => '古代の知恵の書庫を探索しています';
 
   @override
   String get loadingAnalyzing => '質問を分析中';
 
   @override
-  String get loadingRecalling => '歴史的背景を思い出しています...';
+  String get loadingRecalling => '歴史的な背景を思い出しています...';
 
   @override
   String get loadingOnline => 'オンライン';
@@ -109,13 +109,13 @@ class AppLocalizationsJa extends AppLocalizations {
   String get cancelRequest => 'リクエストをキャンセル';
 
   @override
-  String get loadingNote => 'ペルソナを呼び出すのに少し時間がかかる場合があります。';
+  String get loadingNote => 'ペルソナの読み込みに少し時間がかかる場合があります。';
 
   @override
   String get resultWisdom => '知恵';
 
   @override
-  String get resultAiPersona => 'AIペルソナアドバイス';
+  String get resultAiPersona => 'AIペルソナのアドバイス';
 
   @override
   String get resultGeneratedBy => 'AIペルソナが生成';
@@ -127,7 +127,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get resultHistoricalRecords => '歴史的記録';
 
   @override
-  String get resultInHisOwnWords => '彼自身の言葉で';
+  String get resultInHisOwnWords => '彼の言葉で';
 
   @override
   String get resultKeyDecision => '重要な決断';
@@ -139,10 +139,10 @@ class AppLocalizationsJa extends AppLocalizations {
   String get resultShare => '共有';
 
   @override
-  String get askAnotherSage => '別の賢者に聞く';
+  String get askAnotherSage => '別の賢者に尋ねる';
 
   @override
-  String get resultActionSteps => '行動ステップ';
+  String get resultActionSteps => '実践ステップ';
 
   @override
   String get historyTitle => '私のアドバイス履歴';
@@ -154,7 +154,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get historyEmpty => 'まだアドバイス履歴がありません';
 
   @override
-  String get historyEmptySubtitle => 'メンターとの会話を始めましょう';
+  String get historyEmptySubtitle => 'メンターとの会話を始めてみましょう';
 
   @override
   String get navSelect => '選択';
@@ -226,7 +226,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get personaSocratesTitle => '西洋哲学の父';
 
   @override
-  String get personaSocratesQuote => '吟味されない人生は生きる価値がない。';
+  String get personaSocratesQuote => '吟味されない人生は生きるに値しない。';
 
   @override
   String get personaPlato => 'プラトン';
@@ -235,26 +235,25 @@ class AppLocalizationsJa extends AppLocalizations {
   String get personaPlatoTitle => 'イデアの哲学者';
 
   @override
-  String get personaPlatoQuote => '親切にしなさい、あなたが出会うすべての人は厳しい戦いをしているのだから。';
+  String get personaPlatoQuote => '親切であれ、あなたが出会うすべての人は厳しい戦いを戦っているのだから。';
 
   @override
   String get personaAristotle => 'アリストテレス';
 
   @override
-  String get personaAristotleTitle => '最初の教師';
+  String get personaAristotleTitle => '万学の祖';
 
   @override
-  String get personaAristotleQuote =>
-      '私たちは繰り返し行うことがそのまま私たちである。卓越とは行為ではなく、習慣である。';
+  String get personaAristotleQuote => '私たちは繰り返し行うことの結果である。卓越は行為ではなく習慣である。';
 
   @override
   String get personaSeneca => 'セネカ';
 
   @override
-  String get personaSenecaTitle => 'ストア派哲学者';
+  String get personaSenecaTitle => 'ストア派の哲学者';
 
   @override
-  String get personaSenecaQuote => '時間が足りないのではない、私たちがそれを多く浪費しているのだ。';
+  String get personaSenecaQuote => '私たちには時間が足りないのではない。多くの時間を無駄にしているのだ。';
 
   @override
   String get personaConfucius => '孔子';
@@ -278,19 +277,19 @@ class AppLocalizationsJa extends AppLocalizations {
   String get personaJesus => 'イエス';
 
   @override
-  String get personaJesusTitle => '精神的指導者';
+  String get personaJesusTitle => '精神的な師';
 
   @override
   String get personaJesusQuote => '汝の隣人を汝自身のように愛せよ。';
 
   @override
-  String get personaBuddha => '仏陀';
+  String get personaBuddha => '釈迦';
 
   @override
   String get personaBuddhaTitle => '悟りを開いた者';
 
   @override
-  String get personaBuddhaQuote => '平和は内から来る。外に求めるな。';
+  String get personaBuddhaQuote => '平和は内面から来る。外に求めてはならない。';
 
   @override
   String get personaMuhammad => 'ムハンマド';
@@ -299,16 +298,16 @@ class AppLocalizationsJa extends AppLocalizations {
   String get personaMuhammadTitle => 'イスラムの預言者';
 
   @override
-  String get personaMuhammadQuote => '最も優れた者は最も良い品性を持つ者である。';
+  String get personaMuhammadQuote => '最も優れた人とは、最も良い品性を持つ人である。';
 
   @override
   String get personaLincoln => 'エイブラハム・リンカーン';
 
   @override
-  String get personaLincolnTitle => '第16代アメリカ大統領';
+  String get personaLincolnTitle => 'アメリカ合衆国第16代大統領';
 
   @override
-  String get personaLincolnQuote => '結局、人生の年数ではなく、その年数の中の人生が重要なのだ。';
+  String get personaLincolnQuote => '結局大切なのは、人生の年数ではなく、その年数の中の人生である。';
 
   @override
   String get personaNapoleon => 'ナポレオン';
@@ -336,7 +335,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get personaSherlockHolmesQuote =>
-      '不可能を排除したとき、残ったものがどんなに信じがたくても、それが真実である。';
+      '不可能なものを除外すれば、残ったものがどんなにありそうになくても、それが真実である。';
 
   @override
   String get personaDumbledore => 'アルバス・ダンブルドア';
@@ -345,26 +344,25 @@ class AppLocalizationsJa extends AppLocalizations {
   String get personaDumbledoreTitle => 'ホグワーツ校長';
 
   @override
-  String get personaDumbledoreQuote =>
-      '最も暗い時でも、明かりをつけることを忘れなければ、幸福を見つけることができる。';
+  String get personaDumbledoreQuote => '最も暗い時でも幸せは見つけられる。光を灯すことを忘れさえしなければ。';
 
   @override
   String get personaGandhi => 'マハトマ・ガンジー';
 
   @override
-  String get personaGandhiTitle => 'インド建国の父';
+  String get personaGandhiTitle => 'インドの国父';
 
   @override
-  String get personaGandhiQuote => '世界に見たい変化に、あなた自身がなりなさい。';
+  String get personaGandhiQuote => 'あなたが見たいと思う変化に、あなた自身がなりなさい。';
 
   @override
   String get personaRumi => 'ルーミー';
 
   @override
-  String get personaRumiTitle => 'スーフィー詩人・神秘家';
+  String get personaRumiTitle => 'スーフィーの詩人・神秘主義者';
 
   @override
-  String get personaRumiQuote => '傷こそが光があなたに入る場所である。';
+  String get personaRumiQuote => '傷は光があなたの中に入ってくる場所である。';
 
   @override
   String get personaKrishna => 'クリシュナ';
@@ -382,7 +380,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get personaBrahmaTitle => '創造の神';
 
   @override
-  String get personaBrahmaQuote => '偽りから真実へ、闘から光へ導きたまえ。';
+  String get personaBrahmaQuote => '虚偽から真実へ、闇から光へ導きたまえ。';
 
   @override
   String get personaTolstoy => 'レフ・トルストイ';
@@ -391,259 +389,256 @@ class AppLocalizationsJa extends AppLocalizations {
   String get personaTolstoyTitle => 'ロシア文学の巨匠';
 
   @override
-  String get personaTolstoyQuote => '誰もが世界を変えようと考えるが、自分を変えようとは考えない。';
+  String get personaTolstoyQuote => '誰もが世界を変えようとするが、自分自身を変えようとする者はいない。';
 
   @override
-  String get adviceYourQuestion => 'Your Question';
+  String get adviceYourQuestion => 'あなたの質問';
 
   @override
-  String get adviceCitation => 'Citation';
+  String get adviceCitation => '引用';
 
   @override
-  String get adviceRelevance => 'Why This Matters';
+  String get adviceRelevance => 'なぜ重要なのか';
 
   @override
-  String get adviceSourceType => 'Source Type';
+  String get adviceSourceType => '出典の種類';
 
   @override
-  String get adviceSourceName => 'Source';
+  String get adviceSourceName => '出典';
 
   @override
-  String get adviceSourceLocation => 'Location';
+  String get adviceSourceLocation => '場所';
 
   @override
-  String get adviceSourceYear => 'Year';
+  String get adviceSourceYear => '年代';
 
   @override
-  String get adviceSourceContext => 'Context';
+  String get adviceSourceContext => '背景';
 
   @override
-  String get adviceMainCounsel => 'Counsel';
+  String get adviceMainCounsel => '助言';
 
   @override
-  String get adviceActionSteps => 'Action Steps';
+  String get adviceActionSteps => '実践ステップ';
 
   @override
-  String get adviceClosingWords => 'Closing Words';
+  String get adviceClosingWords => '締めくくりの言葉';
 
   @override
-  String get adviceCopy => 'Copy';
+  String get adviceCopy => 'コピー';
 
   @override
-  String get adviceShare => 'Share';
+  String get adviceShare => '共有';
 
   @override
-  String get adviceAddedToFavorites => 'Added to favorites';
+  String get adviceAddedToFavorites => 'お気に入りに追加されました';
 
   @override
-  String get adviceRemovedFromFavorites => 'Removed from favorites';
+  String get adviceRemovedFromFavorites => 'お気に入りから削除されました';
 
   @override
-  String get adviceCopied => 'Copied to clipboard';
+  String get adviceCopied => 'クリップボードにコピーされました';
 
   @override
-  String get sourceTypeScripture => 'Scripture';
+  String get adviceShareError => '共有できませんでした。もう一度お試しください。';
 
   @override
-  String get sourceTypeBook => 'Book';
+  String get sourceTypeScripture => '聖典';
 
   @override
-  String get sourceTypeSpeech => 'Speech';
+  String get sourceTypeBook => '書籍';
 
   @override
-  String get sourceTypeBattle => 'Battle';
+  String get sourceTypeSpeech => '演説';
 
   @override
-  String get sourceTypeLetter => 'Letter';
+  String get sourceTypeBattle => '戦い';
 
   @override
-  String get sourceTypeDialogue => 'Dialogue';
+  String get sourceTypeLetter => '書簡';
 
   @override
-  String get sourceTypeMoment => 'Moment';
+  String get sourceTypeDialogue => '対話';
 
   @override
-  String get sourceTypeTeaching => 'Teaching';
+  String get sourceTypeMoment => '瞬間';
 
   @override
-  String get sourceTypeNovel => 'Novel';
+  String get sourceTypeTeaching => '教え';
 
   @override
-  String get chatSuggestionsTitle => 'Suggested Topics';
+  String get sourceTypeNovel => '小説';
 
   @override
-  String get chatIntroMessage =>
-      'Share what weighs on your heart, and I shall offer what wisdom I can.';
+  String get chatSuggestionsTitle => 'おすすめのトピック';
 
   @override
-  String get chatSuggestion1 => 'How do I find my purpose?';
+  String get chatIntroMessage => '心に抱えていることを分かち合ってください。私にできる限りの知恵をお伝えします。';
 
   @override
-  String get chatSuggestion2 => 'I\'m struggling with a difficult decision...';
+  String get chatSuggestion1 => 'どうすれば自分の目的を見つけられますか？';
 
   @override
-  String get chatSuggestion3 => 'How do I overcome my fears?';
+  String get chatSuggestion2 => '難しい決断をしなければならない状況です...';
 
   @override
-  String get chatLoading => 'Contemplating...';
+  String get chatSuggestion3 => 'どうすれば恐れを克服できますか？';
 
   @override
-  String get chatViewFullAdvice => 'View Full Advice';
+  String get chatLoading => '深く考えています...';
 
   @override
-  String get chatInputPlaceholder => 'Share your concern...';
+  String get chatViewFullAdvice => '完全なアドバイスを見る';
 
   @override
-  String get chatInputHint => 'Type your message here...';
+  String get chatInputPlaceholder => 'あなたの悩みを共有してください...';
 
   @override
-  String get chatSend => 'Send';
+  String get chatInputHint => 'メッセージを入力してください...';
 
   @override
-  String get favoritesTitle => 'Saved Advice';
+  String get chatSend => '送信';
 
   @override
-  String get favoritesEmpty => 'No saved advice yet';
+  String get favoritesTitle => '保存したアドバイス';
 
   @override
-  String get favoritesEmptySubtitle => 'Tap the bookmark icon to save wisdom';
+  String get favoritesEmpty => '保存したアドバイスがありません';
 
   @override
-  String get favoritesViewFull => 'View Full';
+  String get favoritesEmptySubtitle => 'ブックマークアイコンをタップして知恵を保存してください';
 
   @override
-  String get favoritesRemoveTitle => 'Remove from Saved';
+  String get favoritesViewFull => '全文を見る';
 
   @override
-  String get favoritesRemoveMessage =>
-      'Are you sure you want to remove this advice from your saved items?';
+  String get favoritesRemoveTitle => '保存済みから削除';
 
   @override
-  String get favoritesRemoved => 'Removed from saved';
+  String get favoritesRemoveMessage => 'このアドバイスを保存済みから削除しますか？';
 
   @override
-  String get remove => 'Remove';
+  String get favoritesRemoved => '保存済みから削除されました';
 
   @override
-  String get historyDeleted => 'Deleted from history';
+  String get remove => '削除';
 
   @override
-  String get historyToday => 'Today';
+  String get historyDeleted => '履歴から削除されました';
 
   @override
-  String get historyYesterday => 'Yesterday';
+  String get historyToday => '今日';
 
   @override
-  String get historyDeleteTitle => 'Delete Advice';
+  String get historyYesterday => '昨日';
 
   @override
-  String get historyDeleteMessage =>
-      'Are you sure you want to delete this advice?';
+  String get historyDeleteTitle => 'アドバイスを削除';
 
   @override
-  String get historyClearTitle => 'Clear History';
+  String get historyDeleteMessage => 'このアドバイスを削除しますか？';
 
   @override
-  String get historyClearMessage =>
-      'Are you sure you want to clear all history? This cannot be undone.';
+  String get historyClearTitle => '履歴をクリア';
 
   @override
-  String get historyCleared => 'History cleared';
+  String get historyClearMessage => 'すべての履歴をクリアしますか？この操作は元に戻せません。';
 
   @override
-  String get clear => 'Clear';
+  String get historyCleared => '履歴がクリアされました';
 
   @override
-  String get navHome => 'Home';
+  String get clear => 'クリア';
 
   @override
-  String get navFavorites => 'Saved';
+  String get navHome => 'ホーム';
 
   @override
-  String get appTitle => 'Counsel';
+  String get navFavorites => '保存済み';
 
   @override
-  String get homeWelcome => 'Who do you seek wisdom from today?';
+  String get appTitle => '賢者の声';
 
   @override
-  String get homeSubtitle => 'Choose a mentor to guide you';
+  String get homeWelcome => '今日は誰に知恵を求めますか？';
 
   @override
-  String get languageTitle => 'Select Language';
+  String get homeSubtitle => 'あなたを導くメンターを選んでください';
 
   @override
-  String get languageSelectPrompt => 'Choose your preferred language';
+  String get languageTitle => '言語を選択';
 
   @override
-  String get languageSelectSubtitle =>
-      'You can change this anytime in settings';
+  String get languageSelectPrompt => 'ご希望の言語を選択してください';
 
   @override
-  String get personaFeatured => 'Featured';
+  String get languageSelectSubtitle => '設定でいつでも変更できます';
 
   @override
-  String get personaSignatureQuote => 'Signature Quote';
+  String get personaFeatured => 'おすすめ';
 
   @override
-  String get personaAbout => 'About';
+  String get personaSignatureQuote => '代表的な名言';
 
   @override
-  String get personaStartChat => 'Start Conversation';
+  String get personaAbout => '紹介';
 
   @override
-  String get personaCategory => 'Category';
+  String get personaStartChat => '会話を始める';
 
   @override
-  String get personaEra => 'Era';
+  String get personaCategory => 'カテゴリー';
 
   @override
-  String get personaExpertise => 'Areas of Wisdom';
+  String get personaEra => '時代';
 
   @override
-  String get personaAskQuestion => 'Ask a Question';
+  String get personaExpertise => '知恵の領域';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get personaAskQuestion => '質問する';
 
   @override
-  String get settingsData => 'Data';
+  String get settingsTitle => '設定';
 
   @override
-  String get settingsClearHistory => 'Clear History';
+  String get settingsData => 'データ';
 
   @override
-  String get settingsClearHistorySubtitle => 'Remove all saved conversations';
+  String get settingsClearHistory => '履歴をクリア';
 
   @override
-  String get settingsAboutApp => 'About Counsel';
+  String get settingsClearHistorySubtitle => '保存されたすべての会話を削除';
 
   @override
-  String get settingsAboutAppSubtitle => 'Version and app information';
+  String get settingsAboutApp => '賢者の声について';
 
   @override
-  String get settingsPrivacyPolicy => 'Privacy Policy';
+  String get settingsAboutAppSubtitle => 'バージョンとアプリ情報';
 
   @override
-  String get settingsPrivacyPolicySubtitle => 'How we handle your data';
+  String get settingsPrivacyPolicy => 'プライバシーポリシー';
 
   @override
-  String get settingsTermsSubtitle => 'Read our terms of service';
+  String get settingsPrivacyPolicySubtitle => 'データの取り扱い方法';
 
   @override
-  String get settingsAppDescription =>
-      'Get wisdom from history\'s greatest minds';
+  String get settingsTermsSubtitle => '利用規約を読む';
 
   @override
-  String get settingsClearHistoryDialogTitle => 'Clear All History?';
+  String get settingsAppDescription => '歴史上最も偉大な知性たちの知恵を得ましょう';
+
+  @override
+  String get settingsClearHistoryDialogTitle => 'すべての履歴をクリアしますか？';
 
   @override
   String get settingsClearHistoryDialogMessage =>
-      'This will permanently delete all your conversation history. This action cannot be undone.';
+      'すべての会話履歴が完全に削除されます。この操作は元に戻せません。';
 
   @override
-  String get settingsHistoryCleared => 'History cleared successfully';
+  String get settingsHistoryCleared => '履歴が正常にクリアされました';
 
   @override
   String get settingsAboutContent =>
-      'Counsel connects you with the wisdom of history\'s greatest philosophers, leaders, and thinkers through AI-powered conversations.';
+      '賢者の声は、AI駆動の会話を通じて、歴史上最も偉大な哲学者、指導者、思想家たちの知恵とあなたをつなぎます。';
 }

@@ -5,7 +5,8 @@ import 'package:counsel/l10n/generated/app_localizations.dart';
 import '../config/theme.dart';
 import '../models/persona.dart';
 import '../providers/providers.dart';
-import 'chat_screen.dart';
+import '../widgets/banner_ad_widget.dart';
+import 'consultation_screen.dart';
 import 'history_screen.dart';
 import 'favorites_screen.dart';
 import 'settings_screen.dart';
@@ -27,13 +28,20 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     final l10n = AppLocalizations.of(context)!;
 
     return Scaffold(
-      body: IndexedStack(
-        index: _currentIndex,
+      body: Column(
         children: [
-          _buildHomeContent(l10n),
-          const HistoryScreen(),
-          const FavoritesScreen(),
-          const SettingsScreen(),
+          Expanded(
+            child: IndexedStack(
+              index: _currentIndex,
+              children: [
+                _buildHomeContent(l10n),
+                const HistoryScreen(),
+                const FavoritesScreen(),
+                const SettingsScreen(),
+              ],
+            ),
+          ),
+          const StickyBannerAd(),
         ],
       ),
       bottomNavigationBar: Container(
@@ -94,7 +102,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 children: [
                   Text(
                     l10n.homeWelcome,
-                    style: AppTextStyles.displaySmall,
+                    style: AppTextStyles.titleLarge,
                   ),
                   const SizedBox(height: 8),
                   Text(
@@ -183,19 +191,35 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   }
 
   Widget _buildPersonaGrid(AppLocalizations l10n) {
+    final history = ref.watch(adviceHistoryProvider);
+
+    // Count consultations per persona
+    final consultationCounts = <String, int>{};
+    for (final record in history) {
+      consultationCounts[record.personaId] =
+          (consultationCounts[record.personaId] ?? 0) + 1;
+    }
+
     List<Persona> personas;
     if (_selectedCategory == null) {
-      personas = PersonaData.all;
+      personas = List.from(PersonaData.all);
     } else {
-      personas = PersonaData.byCategory(_selectedCategory!);
+      personas = List.from(PersonaData.byCategory(_selectedCategory!));
     }
+
+    // Sort by consultation count (descending)
+    personas.sort((a, b) {
+      final countA = consultationCounts[a.id] ?? 0;
+      final countB = consultationCounts[b.id] ?? 0;
+      return countB.compareTo(countA);
+    });
 
     return SliverGrid(
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
         crossAxisSpacing: 12,
         mainAxisSpacing: 12,
-        childAspectRatio: 0.75,
+        childAspectRatio: 0.70,
       ),
       delegate: SliverChildBuilderDelegate(
         (context, index) => _buildPersonaCard(personas[index], l10n),
@@ -229,6 +253,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   Image.asset(
                     persona.imagePath,
                     fit: BoxFit.cover,
+                    alignment: Alignment.topCenter,
                     errorBuilder: (context, error, stackTrace) {
                       return Container(
                         color: AppColors.surfaceVariant,
@@ -280,24 +305,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                       ),
                     ),
                   ),
-                  // Featured badge
-                  if (persona.isFeatured)
-                    Positioned(
-                      top: 8,
-                      left: 8,
-                      child: Container(
-                        padding: const EdgeInsets.all(4),
-                        decoration: BoxDecoration(
-                          color: AppColors.warning.withOpacity(0.9),
-                          shape: BoxShape.circle,
-                        ),
-                        child: const Icon(
-                          Icons.star,
-                          size: 12,
-                          color: Colors.white,
-                        ),
-                      ),
-                    ),
                 ],
               ),
             ),
@@ -316,13 +323,14 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                       overflow: TextOverflow.ellipsis,
                     ),
                     const SizedBox(height: 4),
-                    Text(
-                      _getPersonaTitle(persona, l10n),
-                      style: AppTextStyles.bodySmall,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
+                    Expanded(
+                      child: Text(
+                        _getPersonaTitle(persona, l10n),
+                        style: AppTextStyles.bodySmall,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                      ),
                     ),
-                    const Spacer(),
                     if (persona.era != 0)
                       Text(
                         persona.eraDisplay,
@@ -367,22 +375,53 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   }
 
   String _getPersonaName(Persona persona, AppLocalizations l10n) {
-    // In a real app, you'd use l10n with the nameKey
-    // For now, we'll use a map or direct approach
-    return _getLocalizedString(persona.nameKey, l10n);
+    switch (persona.id) {
+      case 'socrates': return l10n.personaSocrates;
+      case 'plato': return l10n.personaPlato;
+      case 'aristotle': return l10n.personaAristotle;
+      case 'seneca': return l10n.personaSeneca;
+      case 'confucius': return l10n.personaConfucius;
+      case 'laozi': return l10n.personaLaozi;
+      case 'jesus': return l10n.personaJesus;
+      case 'buddha': return l10n.personaBuddha;
+      case 'muhammad': return l10n.personaMuhammad;
+      case 'lincoln': return l10n.personaLincoln;
+      case 'napoleon': return l10n.personaNapoleon;
+      case 'steve_jobs': return l10n.personaSteveJobs;
+      case 'sherlock_holmes': return l10n.personaSherlockHolmes;
+      case 'dumbledore': return l10n.personaDumbledore;
+      case 'gandhi': return l10n.personaGandhi;
+      case 'rumi': return l10n.personaRumi;
+      case 'krishna': return l10n.personaKrishna;
+      case 'brahma': return l10n.personaBrahma;
+      case 'tolstoy': return l10n.personaTolstoy;
+      default: return persona.id;
+    }
   }
 
   String _getPersonaTitle(Persona persona, AppLocalizations l10n) {
-    return _getLocalizedString(persona.titleKey, l10n);
-  }
-
-  String _getLocalizedString(String key, AppLocalizations l10n) {
-    // This would ideally use a lookup method on AppLocalizations
-    // For demonstration, returning the key formatted
-    final formattedKey = key.replaceAll('persona_', '').replaceAll('_', ' ');
-    return formattedKey.split(' ').map((word) =>
-      word.isNotEmpty ? '${word[0].toUpperCase()}${word.substring(1)}' : ''
-    ).join(' ');
+    switch (persona.id) {
+      case 'socrates': return l10n.personaSocratesTitle;
+      case 'plato': return l10n.personaPlatoTitle;
+      case 'aristotle': return l10n.personaAristotleTitle;
+      case 'seneca': return l10n.personaSenecaTitle;
+      case 'confucius': return l10n.personaConfuciusTitle;
+      case 'laozi': return l10n.personaLaoziTitle;
+      case 'jesus': return l10n.personaJesusTitle;
+      case 'buddha': return l10n.personaBuddhaTitle;
+      case 'muhammad': return l10n.personaMuhammadTitle;
+      case 'lincoln': return l10n.personaLincolnTitle;
+      case 'napoleon': return l10n.personaNapoleonTitle;
+      case 'steve_jobs': return l10n.personaSteveJobsTitle;
+      case 'sherlock_holmes': return l10n.personaSherlockHolmesTitle;
+      case 'dumbledore': return l10n.personaDumbledoreTitle;
+      case 'gandhi': return l10n.personaGandhiTitle;
+      case 'rumi': return l10n.personaRumiTitle;
+      case 'krishna': return l10n.personaKrishnaTitle;
+      case 'brahma': return l10n.personaBrahmaTitle;
+      case 'tolstoy': return l10n.personaTolstoyTitle;
+      default: return '';
+    }
   }
 
   void _onPersonaTap(Persona persona) {
@@ -390,7 +429,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => ChatScreen(persona: persona),
+        builder: (context) => ConsultationScreen(persona: persona),
       ),
     );
   }

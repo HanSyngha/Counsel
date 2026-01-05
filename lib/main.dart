@@ -57,17 +57,24 @@ class CounselApp extends ConsumerStatefulWidget {
 }
 
 class _CounselAppState extends ConsumerState<CounselApp> {
+  bool _localeLoaded = false;
+
   @override
-  void initState() {
-    super.initState();
-    _loadSavedLocale();
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (!_localeLoaded) {
+      _localeLoaded = true;
+      _loadSavedLocale();
+    }
   }
 
   void _loadSavedLocale() {
     final storage = ref.read(storageServiceProvider);
     final savedLanguageCode = storage.getLanguageCode();
     if (savedLanguageCode != null) {
-      ref.read(localeProvider.notifier).state = Locale(savedLanguageCode);
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        ref.read(localeProvider.notifier).state = Locale(savedLanguageCode);
+      });
     }
   }
 

@@ -12,14 +12,14 @@ class AppLocalizationsVi extends AppLocalizations {
   String get appName => 'Tiếng Nói Hiền Triết';
 
   @override
-  String get onboardingTitle => 'Gặp Gỡ Những Người\nDẫn Đường Từ Lịch Sử';
+  String get onboardingTitle => 'Gặp gỡ người thầy\ntừ lịch sử ngay hôm nay';
 
   @override
   String get onboardingSubtitle =>
-      'Từ Chúa Giêsu đến Socrates, từ Napoleon đến Steve Jobs.\nVay mượn trí tuệ vượt thời gian cho những lo lắng của bạn.';
+      'Từ Chúa Jesus, Socrates, Tướng quân Lý Thường Kiệt đến Steve Jobs.\nChúng tôi mang đến trí tuệ vượt thời gian cho những trăn trở của bạn.';
 
   @override
-  String get getStarted => 'Bắt Đầu';
+  String get getStarted => 'Bắt đầu ngay';
 
   @override
   String get homeTitle => 'Hôm nay bạn muốn xin lời khuyên từ ai?';
@@ -28,16 +28,16 @@ class AppLocalizationsVi extends AppLocalizations {
   String get searchPlaceholder => 'Tìm kiếm Plato, Lincoln, Hamlet...';
 
   @override
-  String get featuredMentors => 'Người Hướng Dẫn Nổi Bật';
+  String get featuredMentors => 'Người thầy nổi bật';
 
   @override
-  String get exploreWisdom => 'Khám Phá Trí Tuệ';
+  String get exploreWisdom => 'Khám phá trí tuệ';
 
   @override
   String get seeAll => 'Xem tất cả';
 
   @override
-  String get trending => 'Xu hướng';
+  String get trending => 'Phổ biến';
 
   @override
   String get new_ => 'Mới';
@@ -61,30 +61,31 @@ class AppLocalizationsVi extends AppLocalizations {
   String get categoryFavorites => 'Yêu thích';
 
   @override
-  String get inputTitle => 'Điều gì đang đè nặng tâm trí bạn?';
+  String get inputTitle => 'Điều gì đang khiến bạn trăn trở?';
 
   @override
   String get inputSubtitle =>
-      'Hãy thành thật. Chi tiết là con đường dẫn đến sự rõ ràng.';
+      'Hãy chia sẻ thật lòng. Càng cụ thể, chúng tôi càng có thể đưa ra câu trả lời rõ ràng hơn.';
 
   @override
   String get inputPlaceholder =>
-      'Tôi đang vật lộn với...\nNó bắt đầu khi...\nTôi sợ rằng...';
+      'Tôi đang gặp khó khăn này...\nNó bắt đầu như thế này...\nTôi lo sợ về...';
 
   @override
-  String get inputHelperDilemma => 'Tình Huống Hiện Tại';
+  String get inputHelperDilemma => 'Vấn đề hiện tại';
 
   @override
-  String get inputHelperEmotion => 'Trạng Thái Cảm Xúc';
+  String get inputHelperEmotion => 'Trạng thái cảm xúc';
 
   @override
-  String get inputHelperOutcome => 'Kết Quả Mong Muốn';
+  String get inputHelperOutcome => 'Kết quả mong muốn';
 
   @override
-  String get seekWisdom => 'Tìm Kiếm Trí Tuệ';
+  String get seekWisdom => 'Tìm kiếm trí tuệ';
 
   @override
-  String get privacyNote => 'Lời tâm sự của bạn là riêng tư và ẩn danh.';
+  String get privacyNote =>
+      'Những trăn trở của bạn được giữ kín và xử lý ẩn danh.';
 
   @override
   String characterCount(int count, int max) {
@@ -92,47 +93,46 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get loadingConnecting => 'Đang kết nối với';
+  String get loadingConnecting => 'Đang kết nối';
 
   @override
-  String get loadingConsulting => 'Đang tham vấn kho tàng trí tuệ cổ đại';
+  String get loadingConsulting => 'Đang tìm kiếm trong kho tàng trí tuệ cổ đại';
 
   @override
-  String get loadingAnalyzing => 'Đang Phân Tích Câu Hỏi';
+  String get loadingAnalyzing => 'Đang phân tích câu hỏi';
 
   @override
-  String get loadingRecalling => 'ĐANG GỢI LẠI BỐI CẢNH LỊCH SỬ...';
+  String get loadingRecalling => 'Đang hồi tưởng bối cảnh lịch sử...';
 
   @override
   String get loadingOnline => 'Trực tuyến';
 
   @override
-  String get cancelRequest => 'Hủy Yêu Cầu';
+  String get cancelRequest => 'Hủy yêu cầu';
 
   @override
-  String get loadingNote =>
-      'Điều này có thể mất một chút thời gian khi chúng tôi kết nối với nhân vật.';
+  String get loadingNote => 'Có thể mất một chút thời gian để tải nhân vật.';
 
   @override
-  String get resultWisdom => 'Trí Tuệ';
+  String get resultWisdom => 'Trí tuệ';
 
   @override
-  String get resultAiPersona => 'Lời Khuyên Từ AI';
+  String get resultAiPersona => 'Lời khuyên từ AI';
 
   @override
-  String get resultGeneratedBy => 'Được Tạo Bởi AI';
+  String get resultGeneratedBy => 'Được tạo bởi AI';
 
   @override
-  String get resultScrollOfWisdom => 'Cuộn Trí Tuệ';
+  String get resultScrollOfWisdom => 'Cuộn trí tuệ';
 
   @override
-  String get resultHistoricalRecords => 'Hồ Sơ Lịch Sử';
+  String get resultHistoricalRecords => 'Ghi chép lịch sử';
 
   @override
-  String get resultInHisOwnWords => 'Bằng Lời Của Họ';
+  String get resultInHisOwnWords => 'Theo lời của ngài';
 
   @override
-  String get resultKeyDecision => 'Quyết Định Then Chốt';
+  String get resultKeyDecision => 'Quyết định then chốt';
 
   @override
   String get resultCopy => 'Sao chép';
@@ -141,23 +141,23 @@ class AppLocalizationsVi extends AppLocalizations {
   String get resultShare => 'Chia sẻ';
 
   @override
-  String get askAnotherSage => 'Hỏi Hiền Triết Khác';
+  String get askAnotherSage => 'Hỏi hiền triết khác';
 
   @override
-  String get resultActionSteps => 'Các Bước Hành Động';
+  String get resultActionSteps => 'Các bước hành động';
 
   @override
-  String get historyTitle => 'Lịch Sử Lời Khuyên';
+  String get historyTitle => 'Lịch sử lời khuyên của tôi';
 
   @override
-  String get historySearch => 'Bạn đang tìm kiếm mối lo ngại nào?';
+  String get historySearch => 'Bạn muốn tìm kiếm vấn đề nào?';
 
   @override
   String get historyEmpty => 'Chưa có lịch sử lời khuyên';
 
   @override
   String get historyEmptySubtitle =>
-      'Bắt đầu cuộc trò chuyện với người hướng dẫn';
+      'Hãy bắt đầu cuộc trò chuyện với một người thầy';
 
   @override
   String get navSelect => 'Chọn';
@@ -181,13 +181,13 @@ class AppLocalizationsVi extends AppLocalizations {
   String get settingsLanguage => 'Ngôn ngữ';
 
   @override
-  String get settingsAbout => 'Giới thiệu';
+  String get settingsAbout => 'Giới thiệu ứng dụng';
 
   @override
-  String get settingsPrivacy => 'Chính Sách Bảo Mật';
+  String get settingsPrivacy => 'Chính sách bảo mật';
 
   @override
-  String get settingsTerms => 'Điều Khoản Dịch Vụ';
+  String get settingsTerms => 'Điều khoản sử dụng';
 
   @override
   String get settingsVersion => 'Phiên bản';
@@ -202,10 +202,10 @@ class AppLocalizationsVi extends AppLocalizations {
   String get errorTimeout => 'Yêu cầu đã hết thời gian. Vui lòng thử lại.';
 
   @override
-  String get retry => 'Thử Lại';
+  String get retry => 'Thử lại';
 
   @override
-  String get ok => 'OK';
+  String get ok => 'Đồng ý';
 
   @override
   String get cancel => 'Hủy';
@@ -226,47 +226,47 @@ class AppLocalizationsVi extends AppLocalizations {
   String get personaSocrates => 'Socrates';
 
   @override
-  String get personaSocratesTitle => 'Cha Đẻ Triết Học Phương Tây';
+  String get personaSocratesTitle => 'Cha đẻ của triết học phương Tây';
 
   @override
   String get personaSocratesQuote =>
-      'Cuộc sống không được xem xét thì không đáng sống.';
+      'Cuộc sống không được suy xét thì không đáng sống.';
 
   @override
   String get personaPlato => 'Plato';
 
   @override
-  String get personaPlatoTitle => 'Triết Gia Của Các Hình Thức';
+  String get personaPlatoTitle => 'Triết gia của thế giới ý niệm';
 
   @override
   String get personaPlatoQuote =>
-      'Hãy tử tế, vì mỗi người bạn gặp đều đang chiến đấu một trận chiến khó khăn.';
+      'Hãy tử tế, vì mỗi người bạn gặp đều đang chiến đấu với trận chiến khó khăn.';
 
   @override
   String get personaAristotle => 'Aristotle';
 
   @override
-  String get personaAristotleTitle => 'Người Thầy Đầu Tiên';
+  String get personaAristotleTitle => 'Người thầy đầu tiên';
 
   @override
   String get personaAristotleQuote =>
-      'Chúng ta là những gì chúng ta làm lặp đi lặp lại. Sự xuất sắc không phải là hành động, mà là thói quen.';
+      'Chúng ta là những gì chúng ta làm đi làm lại. Sự xuất sắc không phải là hành động, mà là thói quen.';
 
   @override
   String get personaSeneca => 'Seneca';
 
   @override
-  String get personaSenecaTitle => 'Triết Gia Khắc Kỷ';
+  String get personaSenecaTitle => 'Triết gia khắc kỷ';
 
   @override
   String get personaSenecaQuote =>
-      'Không phải chúng ta có ít thời gian, mà là chúng ta lãng phí nhiều.';
+      'Không phải chúng ta có ít thời gian, mà là chúng ta lãng phí quá nhiều.';
 
   @override
   String get personaConfucius => 'Khổng Tử';
 
   @override
-  String get personaConfuciusTitle => 'Bậc Thánh Nhân Vĩ Đại';
+  String get personaConfuciusTitle => 'Bậc thánh nhân vĩ đại';
 
   @override
   String get personaConfuciusQuote =>
@@ -276,17 +276,17 @@ class AppLocalizationsVi extends AppLocalizations {
   String get personaLaozi => 'Lão Tử';
 
   @override
-  String get personaLaoziTitle => 'Người Sáng Lập Đạo Giáo';
+  String get personaLaoziTitle => 'Người sáng lập Đạo giáo';
 
   @override
   String get personaLaoziQuote =>
       'Hành trình ngàn dặm bắt đầu từ một bước chân.';
 
   @override
-  String get personaJesus => 'Chúa Giêsu';
+  String get personaJesus => 'Chúa Jesus';
 
   @override
-  String get personaJesusTitle => 'Người Thầy Tâm Linh';
+  String get personaJesusTitle => 'Người thầy tâm linh';
 
   @override
   String get personaJesusQuote => 'Hãy yêu người lân cận như chính mình.';
@@ -295,76 +295,76 @@ class AppLocalizationsVi extends AppLocalizations {
   String get personaBuddha => 'Đức Phật';
 
   @override
-  String get personaBuddhaTitle => 'Đấng Giác Ngộ';
+  String get personaBuddhaTitle => 'Đấng giác ngộ';
 
   @override
   String get personaBuddhaQuote =>
-      'Bình an đến từ bên trong. Đừng tìm kiếm nó bên ngoài.';
+      'Bình an đến từ nội tâm. Đừng tìm kiếm nó ở bên ngoài.';
 
   @override
   String get personaMuhammad => 'Muhammad';
 
   @override
-  String get personaMuhammadTitle => 'Nhà Tiên Tri Của Hồi Giáo';
+  String get personaMuhammadTitle => 'Nhà tiên tri của Hồi giáo';
 
   @override
   String get personaMuhammadQuote =>
-      'Người tốt nhất trong các ngươi là người có phẩm hạnh tốt nhất.';
+      'Người tốt nhất là người có phẩm hạnh tốt nhất.';
 
   @override
   String get personaLincoln => 'Abraham Lincoln';
 
   @override
-  String get personaLincolnTitle => 'Tổng Thống Thứ 16 Của Hoa Kỳ';
+  String get personaLincolnTitle => 'Tổng thống thứ 16 của Hoa Kỳ';
 
   @override
   String get personaLincolnQuote =>
-      'Cuối cùng, không phải số năm trong cuộc đời bạn quan trọng. Mà là cuộc sống trong những năm đó.';
+      'Cuối cùng, điều quan trọng không phải là số năm trong cuộc đời, mà là cuộc sống trong những năm tháng đó.';
 
   @override
   String get personaNapoleon => 'Napoleon';
 
   @override
-  String get personaNapoleonTitle => 'Hoàng Đế Nước Pháp';
+  String get personaNapoleonTitle => 'Hoàng đế nước Pháp';
 
   @override
   String get personaNapoleonQuote =>
-      'Không thể là từ chỉ tìm thấy trong từ điển của kẻ ngốc.';
+      'Không có gì là không thể. Từ đó chỉ có trong từ điển của kẻ ngu ngốc.';
 
   @override
   String get personaSteveJobs => 'Steve Jobs';
 
   @override
-  String get personaSteveJobsTitle => 'Doanh Nhân Có Tầm Nhìn';
+  String get personaSteveJobsTitle => 'Doanh nhân có tầm nhìn';
 
   @override
-  String get personaSteveJobsQuote => 'Hãy luôn khao khát. Hãy luôn dại khờ.';
+  String get personaSteveJobsQuote => 'Hãy khát khao. Hãy dại khờ.';
 
   @override
   String get personaSherlockHolmes => 'Sherlock Holmes';
 
   @override
-  String get personaSherlockHolmesTitle => 'Bậc Thầy Suy Luận';
+  String get personaSherlockHolmesTitle => 'Bậc thầy suy luận';
 
   @override
   String get personaSherlockHolmesQuote =>
-      'Khi bạn đã loại bỏ những điều không thể, những gì còn lại phải là sự thật.';
+      'Khi bạn loại trừ những gì không thể, thì điều còn lại, dù có vẻ bất khả thi đến đâu, cũng phải là sự thật.';
 
   @override
   String get personaDumbledore => 'Albus Dumbledore';
 
   @override
-  String get personaDumbledoreTitle => 'Hiệu Trưởng Hogwarts';
+  String get personaDumbledoreTitle => 'Hiệu trưởng Hogwarts';
 
   @override
   String get personaDumbledoreQuote =>
-      'Hạnh phúc có thể được tìm thấy ngay cả trong những thời khắc tăm tối nhất, nếu ta chỉ nhớ bật đèn lên.';
+      'Hạnh phúc có thể được tìm thấy ngay cả trong những thời khắc đen tối nhất, nếu ta chỉ nhớ bật đèn lên.';
 
   @override
   String get personaGandhi => 'Mahatma Gandhi';
 
   @override
-  String get personaGandhiTitle => 'Cha Đẻ Quốc Gia Ấn Độ';
+  String get personaGandhiTitle => 'Cha đẻ của nước Ấn Độ';
 
   @override
   String get personaGandhiQuote =>
@@ -374,293 +374,299 @@ class AppLocalizationsVi extends AppLocalizations {
   String get personaRumi => 'Rumi';
 
   @override
-  String get personaRumiTitle => 'Nhà Thơ Sufi & Nhà Huyền Bí';
+  String get personaRumiTitle => 'Nhà thơ Sufi & Nhà thần bí';
 
   @override
-  String get personaRumiQuote => 'Vết thương là nơi Ánh sáng đi vào bạn.';
+  String get personaRumiQuote => 'Vết thương là nơi ánh sáng đi vào bạn.';
 
   @override
   String get personaKrishna => 'Krishna';
 
   @override
   String get personaKrishnaTitle =>
-      'Người Dẫn Đường Thần Thánh Của Bhagavad Gita';
+      'Người dẫn đường thiêng liêng trong Bhagavad Gita';
 
   @override
   String get personaKrishnaQuote =>
-      'Bạn có quyền hành động, nhưng không bao giờ có quyền về kết quả.';
+      'Bạn có quyền hành động, nhưng không có quyền với kết quả của hành động.';
 
   @override
   String get personaBrahma => 'Brahma';
 
   @override
-  String get personaBrahmaTitle => 'Thần Sáng Tạo';
+  String get personaBrahmaTitle => 'Thần sáng tạo';
 
   @override
   String get personaBrahmaQuote =>
-      'Từ ảo ảnh dẫn ta đến thực tại, từ bóng tối dẫn ta đến ánh sáng.';
+      'Từ ảo tưởng đến chân lý, từ bóng tối đến ánh sáng, xin hãy dẫn dắt chúng con.';
 
   @override
-  String get personaTolstoy => 'Lev Tolstoy';
+  String get personaTolstoy => 'Leo Tolstoy';
 
   @override
-  String get personaTolstoyTitle => 'Người Khổng Lồ Văn Học Nga';
+  String get personaTolstoyTitle => 'Bậc thầy văn học Nga';
 
   @override
   String get personaTolstoyQuote =>
       'Ai cũng nghĩ đến việc thay đổi thế giới, nhưng không ai nghĩ đến việc thay đổi chính mình.';
 
   @override
-  String get adviceYourQuestion => 'Your Question';
+  String get adviceYourQuestion => 'Câu hỏi của bạn';
 
   @override
-  String get adviceCitation => 'Citation';
+  String get adviceCitation => 'Trích dẫn';
 
   @override
-  String get adviceRelevance => 'Why This Matters';
+  String get adviceRelevance => 'Tại sao điều này quan trọng';
 
   @override
-  String get adviceSourceType => 'Source Type';
+  String get adviceSourceType => 'Loại nguồn';
 
   @override
-  String get adviceSourceName => 'Source';
+  String get adviceSourceName => 'Nguồn';
 
   @override
-  String get adviceSourceLocation => 'Location';
+  String get adviceSourceLocation => 'Vị trí';
 
   @override
-  String get adviceSourceYear => 'Year';
+  String get adviceSourceYear => 'Năm';
 
   @override
-  String get adviceSourceContext => 'Context';
+  String get adviceSourceContext => 'Bối cảnh';
 
   @override
-  String get adviceMainCounsel => 'Counsel';
+  String get adviceMainCounsel => 'Lời khuyên';
 
   @override
-  String get adviceActionSteps => 'Action Steps';
+  String get adviceActionSteps => 'Các bước hành động';
 
   @override
-  String get adviceClosingWords => 'Closing Words';
+  String get adviceClosingWords => 'Lời kết';
 
   @override
-  String get adviceCopy => 'Copy';
+  String get adviceCopy => 'Sao chép';
 
   @override
-  String get adviceShare => 'Share';
+  String get adviceShare => 'Chia sẻ';
 
   @override
-  String get adviceAddedToFavorites => 'Added to favorites';
+  String get adviceAddedToFavorites => 'Đã thêm vào yêu thích';
 
   @override
-  String get adviceRemovedFromFavorites => 'Removed from favorites';
+  String get adviceRemovedFromFavorites => 'Đã xóa khỏi yêu thích';
 
   @override
-  String get adviceCopied => 'Copied to clipboard';
+  String get adviceCopied => 'Đã sao chép vào clipboard';
 
   @override
-  String get sourceTypeScripture => 'Scripture';
+  String get adviceShareError => 'Không thể chia sẻ. Vui lòng thử lại.';
 
   @override
-  String get sourceTypeBook => 'Book';
+  String get sourceTypeScripture => 'Kinh điển';
 
   @override
-  String get sourceTypeSpeech => 'Speech';
+  String get sourceTypeBook => 'Sách';
 
   @override
-  String get sourceTypeBattle => 'Battle';
+  String get sourceTypeSpeech => 'Bài phát biểu';
 
   @override
-  String get sourceTypeLetter => 'Letter';
+  String get sourceTypeBattle => 'Trận chiến';
 
   @override
-  String get sourceTypeDialogue => 'Dialogue';
+  String get sourceTypeLetter => 'Thư từ';
 
   @override
-  String get sourceTypeMoment => 'Moment';
+  String get sourceTypeDialogue => 'Đối thoại';
 
   @override
-  String get sourceTypeTeaching => 'Teaching';
+  String get sourceTypeMoment => 'Khoảnh khắc';
 
   @override
-  String get sourceTypeNovel => 'Novel';
+  String get sourceTypeTeaching => 'Giáo huấn';
 
   @override
-  String get chatSuggestionsTitle => 'Suggested Topics';
+  String get sourceTypeNovel => 'Tiểu thuyết';
+
+  @override
+  String get chatSuggestionsTitle => 'Chủ đề gợi ý';
 
   @override
   String get chatIntroMessage =>
-      'Share what weighs on your heart, and I shall offer what wisdom I can.';
+      'Hãy chia sẻ điều trong lòng bạn, tôi sẽ trao cho bạn những gì trí tuệ của tôi có thể.';
 
   @override
-  String get chatSuggestion1 => 'How do I find my purpose?';
+  String get chatSuggestion1 =>
+      'Làm thế nào để tôi tìm thấy mục đích của mình?';
 
   @override
-  String get chatSuggestion2 => 'I\'m struggling with a difficult decision...';
+  String get chatSuggestion2 =>
+      'Tôi đang phải đối mặt với một quyết định khó khăn...';
 
   @override
-  String get chatSuggestion3 => 'How do I overcome my fears?';
+  String get chatSuggestion3 => 'Làm thế nào để tôi vượt qua nỗi sợ?';
 
   @override
-  String get chatLoading => 'Contemplating...';
+  String get chatLoading => 'Đang suy ngẫm sâu sắc...';
 
   @override
-  String get chatViewFullAdvice => 'View Full Advice';
+  String get chatViewFullAdvice => 'Xem lời khuyên đầy đủ';
 
   @override
-  String get chatInputPlaceholder => 'Share your concern...';
+  String get chatInputPlaceholder => 'Chia sẻ những trăn trở của bạn...';
 
   @override
-  String get chatInputHint => 'Type your message here...';
+  String get chatInputHint => 'Nhập tin nhắn...';
 
   @override
-  String get chatSend => 'Send';
+  String get chatSend => 'Gửi';
 
   @override
-  String get favoritesTitle => 'Saved Advice';
+  String get favoritesTitle => 'Lời khuyên đã lưu';
 
   @override
-  String get favoritesEmpty => 'No saved advice yet';
+  String get favoritesEmpty => 'Chưa có lời khuyên nào được lưu';
 
   @override
-  String get favoritesEmptySubtitle => 'Tap the bookmark icon to save wisdom';
+  String get favoritesEmptySubtitle =>
+      'Nhấn biểu tượng đánh dấu để lưu trí tuệ';
 
   @override
-  String get favoritesViewFull => 'View Full';
+  String get favoritesViewFull => 'Xem đầy đủ';
 
   @override
-  String get favoritesRemoveTitle => 'Remove from Saved';
+  String get favoritesRemoveTitle => 'Xóa khỏi mục đã lưu';
 
   @override
   String get favoritesRemoveMessage =>
-      'Are you sure you want to remove this advice from your saved items?';
+      'Bạn có muốn xóa lời khuyên này khỏi mục đã lưu không?';
 
   @override
-  String get favoritesRemoved => 'Removed from saved';
+  String get favoritesRemoved => 'Đã xóa khỏi mục đã lưu';
 
   @override
-  String get remove => 'Remove';
+  String get remove => 'Xóa';
 
   @override
-  String get historyDeleted => 'Deleted from history';
+  String get historyDeleted => 'Đã xóa khỏi lịch sử';
 
   @override
-  String get historyToday => 'Today';
+  String get historyToday => 'Hôm nay';
 
   @override
-  String get historyYesterday => 'Yesterday';
+  String get historyYesterday => 'Hôm qua';
 
   @override
-  String get historyDeleteTitle => 'Delete Advice';
+  String get historyDeleteTitle => 'Xóa lời khuyên';
 
   @override
-  String get historyDeleteMessage =>
-      'Are you sure you want to delete this advice?';
+  String get historyDeleteMessage => 'Bạn có muốn xóa lời khuyên này không?';
 
   @override
-  String get historyClearTitle => 'Clear History';
+  String get historyClearTitle => 'Xóa lịch sử';
 
   @override
   String get historyClearMessage =>
-      'Are you sure you want to clear all history? This cannot be undone.';
+      'Bạn có muốn xóa tất cả lịch sử không? Hành động này không thể hoàn tác.';
 
   @override
-  String get historyCleared => 'History cleared';
+  String get historyCleared => 'Lịch sử đã được xóa';
 
   @override
-  String get clear => 'Clear';
+  String get clear => 'Xóa';
 
   @override
-  String get navHome => 'Home';
+  String get navHome => 'Trang chủ';
 
   @override
-  String get navFavorites => 'Saved';
+  String get navFavorites => 'Đã lưu';
 
   @override
-  String get appTitle => 'Counsel';
+  String get appTitle => 'Tiếng Nói Hiền Triết';
 
   @override
-  String get homeWelcome => 'Who do you seek wisdom from today?';
+  String get homeWelcome => 'Hôm nay bạn muốn tìm kiếm trí tuệ từ ai?';
 
   @override
-  String get homeSubtitle => 'Choose a mentor to guide you';
+  String get homeSubtitle => 'Chọn một người thầy để dẫn dắt bạn';
 
   @override
-  String get languageTitle => 'Select Language';
+  String get languageTitle => 'Chọn ngôn ngữ';
 
   @override
-  String get languageSelectPrompt => 'Choose your preferred language';
+  String get languageSelectPrompt => 'Chọn ngôn ngữ bạn muốn';
 
   @override
   String get languageSelectSubtitle =>
-      'You can change this anytime in settings';
+      'Bạn có thể thay đổi bất cứ lúc nào trong cài đặt';
 
   @override
-  String get personaFeatured => 'Featured';
+  String get personaFeatured => 'Nổi bật';
 
   @override
-  String get personaSignatureQuote => 'Signature Quote';
+  String get personaSignatureQuote => 'Câu nói nổi tiếng';
 
   @override
-  String get personaAbout => 'About';
+  String get personaAbout => 'Giới thiệu';
 
   @override
-  String get personaStartChat => 'Start Conversation';
+  String get personaStartChat => 'Bắt đầu trò chuyện';
 
   @override
-  String get personaCategory => 'Category';
+  String get personaCategory => 'Danh mục';
 
   @override
-  String get personaEra => 'Era';
+  String get personaEra => 'Thời đại';
 
   @override
-  String get personaExpertise => 'Areas of Wisdom';
+  String get personaExpertise => 'Lĩnh vực trí tuệ';
 
   @override
-  String get personaAskQuestion => 'Ask a Question';
+  String get personaAskQuestion => 'Đặt câu hỏi';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get settingsTitle => 'Cài đặt';
 
   @override
-  String get settingsData => 'Data';
+  String get settingsData => 'Dữ liệu';
 
   @override
-  String get settingsClearHistory => 'Clear History';
+  String get settingsClearHistory => 'Xóa lịch sử';
 
   @override
-  String get settingsClearHistorySubtitle => 'Remove all saved conversations';
+  String get settingsClearHistorySubtitle =>
+      'Xóa tất cả cuộc trò chuyện đã lưu';
 
   @override
-  String get settingsAboutApp => 'About Counsel';
+  String get settingsAboutApp => 'Giới thiệu Tiếng Nói Hiền Triết';
 
   @override
-  String get settingsAboutAppSubtitle => 'Version and app information';
+  String get settingsAboutAppSubtitle => 'Phiên bản và thông tin ứng dụng';
 
   @override
-  String get settingsPrivacyPolicy => 'Privacy Policy';
+  String get settingsPrivacyPolicy => 'Chính sách bảo mật';
 
   @override
-  String get settingsPrivacyPolicySubtitle => 'How we handle your data';
+  String get settingsPrivacyPolicySubtitle => 'Cách chúng tôi xử lý dữ liệu';
 
   @override
-  String get settingsTermsSubtitle => 'Read our terms of service';
+  String get settingsTermsSubtitle => 'Đọc điều khoản sử dụng';
 
   @override
   String get settingsAppDescription =>
-      'Get wisdom from history\'s greatest minds';
+      'Nhận trí tuệ từ những bộ óc vĩ đại nhất trong lịch sử';
 
   @override
-  String get settingsClearHistoryDialogTitle => 'Clear All History?';
+  String get settingsClearHistoryDialogTitle => 'Xóa tất cả lịch sử?';
 
   @override
   String get settingsClearHistoryDialogMessage =>
-      'This will permanently delete all your conversation history. This action cannot be undone.';
+      'Tất cả lịch sử cuộc trò chuyện sẽ bị xóa vĩnh viễn. Hành động này không thể hoàn tác.';
 
   @override
-  String get settingsHistoryCleared => 'History cleared successfully';
+  String get settingsHistoryCleared => 'Lịch sử đã được xóa thành công';
 
   @override
   String get settingsAboutContent =>
-      'Counsel connects you with the wisdom of history\'s greatest philosophers, leaders, and thinkers through AI-powered conversations.';
+      'Tiếng Nói Hiền Triết kết nối bạn với trí tuệ của những triết gia, nhà lãnh đạo và nhà tư tưởng vĩ đại nhất trong lịch sử thông qua các cuộc trò chuyện được hỗ trợ bởi AI.';
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:counsel/l10n/generated/app_localizations.dart';
+import 'package:share_plus/share_plus.dart';
 
 import '../config/theme.dart';
 import '../models/persona.dart';
@@ -263,7 +264,10 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
             ),
             child: Text(
               '"${citation.text}"',
-              style: AppTextStyles.quote,
+              style: AppTextStyles.quote.copyWith(
+                height: 1.8,
+              ),
+              softWrap: true,
             ),
           ),
           const SizedBox(height: 20),
@@ -297,7 +301,10 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
                 const SizedBox(height: 8),
                 Text(
                   citation.relevance,
-                  style: AppTextStyles.bodyMedium,
+                  style: AppTextStyles.bodyMedium.copyWith(
+                    height: 1.6,
+                  ),
+                  softWrap: true,
                 ),
               ],
             ),
@@ -399,7 +406,9 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
                 value,
                 style: AppTextStyles.bodyMedium.copyWith(
                   color: AppColors.textPrimary,
+                  height: 1.5,
                 ),
+                softWrap: true,
               ),
             ],
           ),
@@ -517,7 +526,9 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
                         step,
                         style: AppTextStyles.bodyMedium.copyWith(
                           color: AppColors.textPrimary,
+                          height: 1.6,
                         ),
+                        softWrap: true,
                       ),
                     ),
                   ),
@@ -573,7 +584,9 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
             style: AppTextStyles.quote.copyWith(
               fontSize: 18,
               color: AppColors.textPrimary,
+              height: 1.7,
             ),
+            softWrap: true,
           ),
           if (_persona != null) ...[
             const SizedBox(height: 12),
@@ -654,9 +667,22 @@ ${l10n.adviceClosingWords}:
     );
   }
 
-  void _shareAdvice(AppLocalizations l10n) {
-    // In a real app, use share_plus package
-    _copyToClipboard(l10n);
+  Future<void> _shareAdvice(AppLocalizations l10n) async {
+    final response = widget.record.response;
+    final personaName = _persona != null ? _getPersonaName(_persona!, l10n) : '';
+
+    final shareText = '''
+${l10n.appTitle} - $personaName
+
+"${response.citation.text}"
+
+${response.advice}
+
+${l10n.adviceClosingWords}:
+"${response.closingWords}"
+''';
+
+    await Share.share(shareText, subject: '${l10n.appTitle} - $personaName');
   }
 
   String _getSourceTypeName(SourceType type, AppLocalizations l10n) {
@@ -683,16 +709,52 @@ ${l10n.adviceClosingWords}:
   }
 
   String _getPersonaName(Persona persona, AppLocalizations l10n) {
-    final formattedKey = persona.nameKey.replaceAll('persona_', '').replaceAll('_', ' ');
-    return formattedKey.split(' ').map((word) =>
-      word.isNotEmpty ? '${word[0].toUpperCase()}${word.substring(1)}' : ''
-    ).join(' ');
+    switch (persona.id) {
+      case 'socrates': return l10n.personaSocrates;
+      case 'plato': return l10n.personaPlato;
+      case 'aristotle': return l10n.personaAristotle;
+      case 'seneca': return l10n.personaSeneca;
+      case 'confucius': return l10n.personaConfucius;
+      case 'laozi': return l10n.personaLaozi;
+      case 'jesus': return l10n.personaJesus;
+      case 'buddha': return l10n.personaBuddha;
+      case 'muhammad': return l10n.personaMuhammad;
+      case 'lincoln': return l10n.personaLincoln;
+      case 'napoleon': return l10n.personaNapoleon;
+      case 'steve_jobs': return l10n.personaSteveJobs;
+      case 'sherlock_holmes': return l10n.personaSherlockHolmes;
+      case 'dumbledore': return l10n.personaDumbledore;
+      case 'gandhi': return l10n.personaGandhi;
+      case 'rumi': return l10n.personaRumi;
+      case 'krishna': return l10n.personaKrishna;
+      case 'brahma': return l10n.personaBrahma;
+      case 'tolstoy': return l10n.personaTolstoy;
+      default: return persona.id;
+    }
   }
 
   String _getPersonaTitle(Persona persona, AppLocalizations l10n) {
-    final formattedKey = persona.titleKey.replaceAll('persona_', '').replaceAll('_title', '');
-    return formattedKey.split('_').map((word) =>
-      word.isNotEmpty ? '${word[0].toUpperCase()}${word.substring(1)}' : ''
-    ).join(' ');
+    switch (persona.id) {
+      case 'socrates': return l10n.personaSocratesTitle;
+      case 'plato': return l10n.personaPlatoTitle;
+      case 'aristotle': return l10n.personaAristotleTitle;
+      case 'seneca': return l10n.personaSenecaTitle;
+      case 'confucius': return l10n.personaConfuciusTitle;
+      case 'laozi': return l10n.personaLaoziTitle;
+      case 'jesus': return l10n.personaJesusTitle;
+      case 'buddha': return l10n.personaBuddhaTitle;
+      case 'muhammad': return l10n.personaMuhammadTitle;
+      case 'lincoln': return l10n.personaLincolnTitle;
+      case 'napoleon': return l10n.personaNapoleonTitle;
+      case 'steve_jobs': return l10n.personaSteveJobsTitle;
+      case 'sherlock_holmes': return l10n.personaSherlockHolmesTitle;
+      case 'dumbledore': return l10n.personaDumbledoreTitle;
+      case 'gandhi': return l10n.personaGandhiTitle;
+      case 'rumi': return l10n.personaRumiTitle;
+      case 'krishna': return l10n.personaKrishnaTitle;
+      case 'brahma': return l10n.personaBrahmaTitle;
+      case 'tolstoy': return l10n.personaTolstoyTitle;
+      default: return '';
+    }
   }
 }

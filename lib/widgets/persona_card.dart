@@ -62,6 +62,7 @@ class PersonaCard extends ConsumerWidget {
                     Image.asset(
                       persona.imagePath,
                       fit: BoxFit.cover,
+                      alignment: Alignment.topCenter,
                       errorBuilder: (context, error, stackTrace) {
                         return Container(
                           color: AppColors.surfaceVariant,

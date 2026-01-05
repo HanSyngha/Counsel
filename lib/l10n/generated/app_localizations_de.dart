@@ -12,32 +12,32 @@ class AppLocalizationsDe extends AppLocalizations {
   String get appName => 'Stimme der Weisen';
 
   @override
-  String get onboardingTitle => 'Triff Deine Mentoren\nAus der Geschichte';
+  String get onboardingTitle => 'Begegnen Sie Mentoren\naus der Geschichte';
 
   @override
   String get onboardingSubtitle =>
-      'Von Jesus bis Sokrates, von Napoleon bis Steve Jobs.\nLeihe dir zeitlose Weisheit für deine Sorgen.';
+      'Von Jesus, Sokrates und Admiral Yi Sun-sin bis Steve Jobs.\nZeitlose Weisheit fuer Ihre Herausforderungen.';
 
   @override
-  String get getStarted => 'Loslegen';
+  String get getStarted => 'Jetzt starten';
 
   @override
-  String get homeTitle => 'Von wem suchst du heute Rat?';
+  String get homeTitle => 'Wen moechten Sie heute um Rat fragen?';
 
   @override
-  String get searchPlaceholder => 'Suche nach Platon, Lincoln, Hamlet...';
+  String get searchPlaceholder => 'Platon, Lincoln, Hamlet suchen...';
 
   @override
   String get featuredMentors => 'Empfohlene Mentoren';
 
   @override
-  String get exploreWisdom => 'Weisheit Erkunden';
+  String get exploreWisdom => 'Weisheit entdecken';
 
   @override
   String get seeAll => 'Alle anzeigen';
 
   @override
-  String get trending => 'Im Trend';
+  String get trending => 'Beliebt';
 
   @override
   String get new_ => 'Neu';
@@ -61,14 +61,15 @@ class AppLocalizationsDe extends AppLocalizations {
   String get categoryFavorites => 'Favoriten';
 
   @override
-  String get inputTitle => 'Was belastet deinen Geist?';
+  String get inputTitle => 'Was beschaeftigt Sie?';
 
   @override
-  String get inputSubtitle => 'Sei ehrlich. Detail ist der Weg zur Klarheit.';
+  String get inputSubtitle =>
+      'Sprechen Sie offen. Je genauer Sie sind, desto klarer kann ich antworten.';
 
   @override
   String get inputPlaceholder =>
-      'Ich kämpfe mit...\nEs begann als...\nIch fürchte, dass...';
+      'Ich kaempfe mit...\nEs begann so...\nIch habe Angst vor...';
 
   @override
   String get inputHelperDilemma => 'Aktuelles Dilemma';
@@ -77,13 +78,13 @@ class AppLocalizationsDe extends AppLocalizations {
   String get inputHelperEmotion => 'Emotionaler Zustand';
 
   @override
-  String get inputHelperOutcome => 'Gewünschtes Ergebnis';
+  String get inputHelperOutcome => 'Gewuenschtes Ergebnis';
 
   @override
-  String get seekWisdom => 'Weisheit Suchen';
+  String get seekWisdom => 'Weisheit suchen';
 
   @override
-  String get privacyNote => 'Dein Geständnis ist privat und anonym.';
+  String get privacyNote => 'Ihre Anliegen bleiben privat und anonym.';
 
   @override
   String characterCount(int count, int max) {
@@ -91,35 +92,34 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String get loadingConnecting => 'Verbinde mit';
+  String get loadingConnecting => 'Verbinde';
 
   @override
-  String get loadingConsulting => 'Konsultiere die alten Archive der Weisheit';
+  String get loadingConsulting => 'Durchsuche die Bibliothek antiker Weisheit';
 
   @override
-  String get loadingAnalyzing => 'Analysiere Anfrage';
+  String get loadingAnalyzing => 'Analysiere Ihre Frage';
 
   @override
-  String get loadingRecalling => 'RUFE HISTORISCHEN KONTEXT AB...';
+  String get loadingRecalling => 'Erinnere historischen Kontext...';
 
   @override
   String get loadingOnline => 'Online';
 
   @override
-  String get cancelRequest => 'Anfrage Abbrechen';
+  String get cancelRequest => 'Anfrage abbrechen';
 
   @override
-  String get loadingNote =>
-      'Dies kann einen Moment dauern, während wir die Persona kanalisieren.';
+  String get loadingNote => 'Das Laden der Persona kann einen Moment dauern.';
 
   @override
   String get resultWisdom => 'Weisheit';
 
   @override
-  String get resultAiPersona => 'KI-Persona Ratschlag';
+  String get resultAiPersona => 'KI-Persona-Beratung';
 
   @override
-  String get resultGeneratedBy => 'Generiert von KI-Persona';
+  String get resultGeneratedBy => 'Erstellt von KI-Persona';
 
   @override
   String get resultScrollOfWisdom => 'Schriftrolle der Weisheit';
@@ -128,10 +128,10 @@ class AppLocalizationsDe extends AppLocalizations {
   String get resultHistoricalRecords => 'Historische Aufzeichnungen';
 
   @override
-  String get resultInHisOwnWords => 'In Seinen Eigenen Worten';
+  String get resultInHisOwnWords => 'In seinen eigenen Worten';
 
   @override
-  String get resultKeyDecision => 'Schlüsselentscheidung';
+  String get resultKeyDecision => 'Wichtige Entscheidung';
 
   @override
   String get resultCopy => 'Kopieren';
@@ -140,25 +140,26 @@ class AppLocalizationsDe extends AppLocalizations {
   String get resultShare => 'Teilen';
 
   @override
-  String get askAnotherSage => 'Anderen Weisen Fragen';
+  String get askAnotherSage => 'Einen anderen Weisen fragen';
 
   @override
   String get resultActionSteps => 'Handlungsschritte';
 
   @override
-  String get historyTitle => 'Meine Ratschlag-Historie';
+  String get historyTitle => 'Meine Beratungshistorie';
 
   @override
-  String get historySearch => 'Welche Sorge suchst du?';
+  String get historySearch => 'Wonach suchen Sie?';
 
   @override
-  String get historyEmpty => 'Noch keine Ratschlag-Historie';
+  String get historyEmpty => 'Noch keine Beratungshistorie';
 
   @override
-  String get historyEmptySubtitle => 'Starte ein Gespräch mit einem Mentor';
+  String get historyEmptySubtitle =>
+      'Beginnen Sie ein Gespraech mit einem Mentor';
 
   @override
-  String get navSelect => 'Auswählen';
+  String get navSelect => 'Auswaehlen';
 
   @override
   String get navChat => 'Chat';
@@ -179,7 +180,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsLanguage => 'Sprache';
 
   @override
-  String get settingsAbout => 'Über';
+  String get settingsAbout => 'Ueber die App';
 
   @override
   String get settingsPrivacy => 'Datenschutzrichtlinie';
@@ -192,16 +193,17 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get errorGeneric =>
-      'Etwas ist schiefgelaufen. Bitte versuche es erneut.';
+      'Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.';
 
   @override
-  String get errorNetwork => 'Bitte überprüfe deine Internetverbindung.';
+  String get errorNetwork => 'Bitte ueberpruefen Sie Ihre Internetverbindung.';
 
   @override
-  String get errorTimeout => 'Zeitüberschreitung. Bitte versuche es erneut.';
+  String get errorTimeout =>
+      'Zeitlimit ueberschritten. Bitte versuchen Sie es erneut.';
 
   @override
-  String get retry => 'Erneut Versuchen';
+  String get retry => 'Erneut versuchen';
 
   @override
   String get ok => 'OK';
@@ -210,16 +212,16 @@ class AppLocalizationsDe extends AppLocalizations {
   String get cancel => 'Abbrechen';
 
   @override
-  String get close => 'Schließen';
+  String get close => 'Schliessen';
 
   @override
   String get save => 'Speichern';
 
   @override
-  String get delete => 'Löschen';
+  String get delete => 'Loeschen';
 
   @override
-  String get confirm => 'Bestätigen';
+  String get confirm => 'Bestaetigen';
 
   @override
   String get personaSocrates => 'Sokrates';
@@ -229,27 +231,27 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get personaSocratesQuote =>
-      'Ein ungeprüftes Leben ist nicht lebenswert.';
+      'Das ungepruefte Leben ist nicht lebenswert.';
 
   @override
   String get personaPlato => 'Platon';
 
   @override
-  String get personaPlatoTitle => 'Philosoph der Formen';
+  String get personaPlatoTitle => 'Philosoph der Ideen';
 
   @override
   String get personaPlatoQuote =>
-      'Sei freundlich, denn jeder, dem du begegnest, kämpft einen harten Kampf.';
+      'Sei guetig, denn jeder, dem du begegnest, kaempft einen schweren Kampf.';
 
   @override
   String get personaAristotle => 'Aristoteles';
 
   @override
-  String get personaAristotleTitle => 'Der Erste Lehrer';
+  String get personaAristotleTitle => 'Der erste Lehrer';
 
   @override
   String get personaAristotleQuote =>
-      'Wir sind, was wir wiederholt tun. Exzellenz ist keine Handlung, sondern eine Gewohnheit.';
+      'Wir sind, was wir wiederholt tun. Vortrefflichkeit ist daher keine Handlung, sondern eine Gewohnheit.';
 
   @override
   String get personaSeneca => 'Seneca';
@@ -259,27 +261,27 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get personaSenecaQuote =>
-      'Es ist nicht so, dass wir wenig Zeit haben, sondern dass wir viel davon verschwenden.';
+      'Es ist nicht, dass wir wenig Zeit haben, sondern dass wir viel davon verschwenden.';
 
   @override
   String get personaConfucius => 'Konfuzius';
 
   @override
-  String get personaConfuciusTitle => 'Der Große Weise';
+  String get personaConfuciusTitle => 'Der grosse Weise';
 
   @override
   String get personaConfuciusQuote =>
-      'Es ist egal, wie langsam du gehst, solange du nicht stehen bleibst.';
+      'Es spielt keine Rolle, wie langsam du gehst, solange du nicht stehen bleibst.';
 
   @override
   String get personaLaozi => 'Laozi';
 
   @override
-  String get personaLaoziTitle => 'Gründer des Taoismus';
+  String get personaLaoziTitle => 'Gruender des Taoismus';
 
   @override
   String get personaLaoziQuote =>
-      'Eine Reise von tausend Meilen beginnt mit einem einzigen Schritt.';
+      'Auch die laengste Reise beginnt mit dem ersten Schritt.';
 
   @override
   String get personaJesus => 'Jesus';
@@ -288,17 +290,17 @@ class AppLocalizationsDe extends AppLocalizations {
   String get personaJesusTitle => 'Spiritueller Lehrer';
 
   @override
-  String get personaJesusQuote => 'Liebe deinen Nächsten wie dich selbst.';
+  String get personaJesusQuote => 'Liebe deinen Naechsten wie dich selbst.';
 
   @override
   String get personaBuddha => 'Buddha';
 
   @override
-  String get personaBuddhaTitle => 'Der Erwachte';
+  String get personaBuddhaTitle => 'Der Erleuchtete';
 
   @override
   String get personaBuddhaQuote =>
-      'Frieden kommt von innen. Suche ihn nicht außerhalb.';
+      'Frieden kommt von innen. Suche ihn nicht ausserhalb.';
 
   @override
   String get personaMuhammad => 'Mohammed';
@@ -308,17 +310,17 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get personaMuhammadQuote =>
-      'Die Besten unter euch sind diejenigen mit dem besten Charakter.';
+      'Der beste unter euch ist derjenige mit dem besten Charakter.';
 
   @override
   String get personaLincoln => 'Abraham Lincoln';
 
   @override
-  String get personaLincolnTitle => '16. US-Präsident';
+  String get personaLincolnTitle => '16. Praesident der USA';
 
   @override
   String get personaLincolnQuote =>
-      'Am Ende zählen nicht die Jahre in deinem Leben. Es ist das Leben in deinen Jahren.';
+      'Am Ende zaehlt nicht die Anzahl der Jahre im Leben, sondern das Leben in den Jahren.';
 
   @override
   String get personaNapoleon => 'Napoleon';
@@ -328,16 +330,16 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get personaNapoleonQuote =>
-      'Unmöglich ist ein Wort, das nur im Wörterbuch der Narren zu finden ist.';
+      'Unmoeglich ist ein Wort, das nur im Woerterbuch der Narren steht.';
 
   @override
   String get personaSteveJobs => 'Steve Jobs';
 
   @override
-  String get personaSteveJobsTitle => 'Visionärer Unternehmer';
+  String get personaSteveJobsTitle => 'Visionaerer Unternehmer';
 
   @override
-  String get personaSteveJobsQuote => 'Bleib hungrig. Bleib verrückt.';
+  String get personaSteveJobsQuote => 'Bleibt hungrig. Bleibt toericht.';
 
   @override
   String get personaSherlockHolmes => 'Sherlock Holmes';
@@ -347,7 +349,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get personaSherlockHolmesQuote =>
-      'Wenn du das Unmögliche ausgeschlossen hast, muss das, was übrig bleibt, die Wahrheit sein.';
+      'Wenn du das Unmoegliche ausgeschlossen hast, muss das, was uebrig bleibt, die Wahrheit sein, wie unwahrscheinlich sie auch erscheinen mag.';
 
   @override
   String get personaDumbledore => 'Albus Dumbledore';
@@ -357,7 +359,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get personaDumbledoreQuote =>
-      'Glück kann selbst in den dunkelsten Zeiten gefunden werden, wenn man nur daran denkt, das Licht anzuschalten.';
+      'Glueck kann selbst in den dunkelsten Zeiten gefunden werden, wenn man nur daran denkt, das Licht anzuzuenden.';
 
   @override
   String get personaGandhi => 'Mahatma Gandhi';
@@ -367,7 +369,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get personaGandhiQuote =>
-      'Sei die Veränderung, die du in der Welt sehen möchtest.';
+      'Sei du selbst die Veraenderung, die du dir wuenschst fuer diese Welt.';
 
   @override
   String get personaRumi => 'Rumi';
@@ -377,289 +379,296 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get personaRumiQuote =>
-      'Die Wunde ist der Ort, an dem das Licht in dich eindringt.';
+      'Die Wunde ist der Ort, wo das Licht in dich eindringt.';
 
   @override
   String get personaKrishna => 'Krishna';
 
   @override
-  String get personaKrishnaTitle => 'Göttlicher Führer der Bhagavad Gita';
+  String get personaKrishnaTitle => 'Goettlicher Fuehrer der Bhagavad Gita';
 
   @override
   String get personaKrishnaQuote =>
-      'Du hast das Recht zu handeln, aber niemals auf die Früchte des Handelns.';
+      'Du hast das Recht zu handeln, aber niemals auf die Fruechte deiner Taten.';
 
   @override
   String get personaBrahma => 'Brahma';
 
   @override
-  String get personaBrahmaTitle => 'Der Schöpfergott';
+  String get personaBrahmaTitle => 'Gott der Schoepfung';
 
   @override
   String get personaBrahmaQuote =>
-      'Vom Unwirklichen führe mich zum Wirklichen, von der Dunkelheit führe mich zum Licht.';
+      'Fuehre mich vom Unwirklichen zum Wirklichen, von der Dunkelheit zum Licht.';
 
   @override
   String get personaTolstoy => 'Leo Tolstoi';
 
   @override
-  String get personaTolstoyTitle => 'Riese der russischen Literatur';
+  String get personaTolstoyTitle => 'Meister der russischen Literatur';
 
   @override
   String get personaTolstoyQuote =>
-      'Jeder denkt daran, die Welt zu verändern, aber niemand denkt daran, sich selbst zu verändern.';
+      'Jeder denkt daran, die Welt zu veraendern, aber niemand denkt daran, sich selbst zu veraendern.';
 
   @override
-  String get adviceYourQuestion => 'Your Question';
+  String get adviceYourQuestion => 'Ihre Frage';
 
   @override
-  String get adviceCitation => 'Citation';
+  String get adviceCitation => 'Zitat';
 
   @override
-  String get adviceRelevance => 'Why This Matters';
+  String get adviceRelevance => 'Warum es wichtig ist';
 
   @override
-  String get adviceSourceType => 'Source Type';
+  String get adviceSourceType => 'Quellentyp';
 
   @override
-  String get adviceSourceName => 'Source';
+  String get adviceSourceName => 'Quelle';
 
   @override
-  String get adviceSourceLocation => 'Location';
+  String get adviceSourceLocation => 'Ort';
 
   @override
-  String get adviceSourceYear => 'Year';
+  String get adviceSourceYear => 'Jahr';
 
   @override
-  String get adviceSourceContext => 'Context';
+  String get adviceSourceContext => 'Kontext';
 
   @override
-  String get adviceMainCounsel => 'Counsel';
+  String get adviceMainCounsel => 'Rat';
 
   @override
-  String get adviceActionSteps => 'Action Steps';
+  String get adviceActionSteps => 'Handlungsschritte';
 
   @override
-  String get adviceClosingWords => 'Closing Words';
+  String get adviceClosingWords => 'Abschlussworte';
 
   @override
-  String get adviceCopy => 'Copy';
+  String get adviceCopy => 'Kopieren';
 
   @override
-  String get adviceShare => 'Share';
+  String get adviceShare => 'Teilen';
 
   @override
-  String get adviceAddedToFavorites => 'Added to favorites';
+  String get adviceAddedToFavorites => 'Zu Favoriten hinzugefuegt';
 
   @override
-  String get adviceRemovedFromFavorites => 'Removed from favorites';
+  String get adviceRemovedFromFavorites => 'Aus Favoriten entfernt';
 
   @override
-  String get adviceCopied => 'Copied to clipboard';
+  String get adviceCopied => 'In die Zwischenablage kopiert';
 
   @override
-  String get sourceTypeScripture => 'Scripture';
+  String get adviceShareError =>
+      'Teilen fehlgeschlagen. Bitte versuchen Sie es erneut.';
 
   @override
-  String get sourceTypeBook => 'Book';
+  String get sourceTypeScripture => 'Heilige Schrift';
 
   @override
-  String get sourceTypeSpeech => 'Speech';
+  String get sourceTypeBook => 'Buch';
 
   @override
-  String get sourceTypeBattle => 'Battle';
+  String get sourceTypeSpeech => 'Rede';
 
   @override
-  String get sourceTypeLetter => 'Letter';
+  String get sourceTypeBattle => 'Schlacht';
 
   @override
-  String get sourceTypeDialogue => 'Dialogue';
+  String get sourceTypeLetter => 'Brief';
+
+  @override
+  String get sourceTypeDialogue => 'Dialog';
 
   @override
   String get sourceTypeMoment => 'Moment';
 
   @override
-  String get sourceTypeTeaching => 'Teaching';
+  String get sourceTypeTeaching => 'Lehre';
 
   @override
-  String get sourceTypeNovel => 'Novel';
+  String get sourceTypeNovel => 'Roman';
 
   @override
-  String get chatSuggestionsTitle => 'Suggested Topics';
+  String get chatSuggestionsTitle => 'Vorgeschlagene Themen';
 
   @override
   String get chatIntroMessage =>
-      'Share what weighs on your heart, and I shall offer what wisdom I can.';
+      'Teilen Sie mir mit, was Sie beschaeftigt, und ich werde meine Weisheit mit Ihnen teilen.';
 
   @override
-  String get chatSuggestion1 => 'How do I find my purpose?';
+  String get chatSuggestion1 => 'Wie kann ich meinen Lebenszweck finden?';
 
   @override
-  String get chatSuggestion2 => 'I\'m struggling with a difficult decision...';
+  String get chatSuggestion2 =>
+      'Ich stehe vor einer schwierigen Entscheidung...';
 
   @override
-  String get chatSuggestion3 => 'How do I overcome my fears?';
+  String get chatSuggestion3 => 'Wie kann ich meine Aengste ueberwinden?';
 
   @override
-  String get chatLoading => 'Contemplating...';
+  String get chatLoading => 'Denke tief nach...';
 
   @override
-  String get chatViewFullAdvice => 'View Full Advice';
+  String get chatViewFullAdvice => 'Vollstaendigen Rat anzeigen';
 
   @override
-  String get chatInputPlaceholder => 'Share your concern...';
+  String get chatInputPlaceholder => 'Teilen Sie Ihre Gedanken...';
 
   @override
-  String get chatInputHint => 'Type your message here...';
+  String get chatInputHint => 'Nachricht eingeben...';
 
   @override
-  String get chatSend => 'Send';
+  String get chatSend => 'Senden';
 
   @override
-  String get favoritesTitle => 'Saved Advice';
+  String get favoritesTitle => 'Gespeicherte Ratschlaege';
 
   @override
-  String get favoritesEmpty => 'No saved advice yet';
+  String get favoritesEmpty => 'Keine gespeicherten Ratschlaege';
 
   @override
-  String get favoritesEmptySubtitle => 'Tap the bookmark icon to save wisdom';
+  String get favoritesEmptySubtitle =>
+      'Tippen Sie auf das Lesezeichen-Symbol, um Weisheit zu speichern';
 
   @override
-  String get favoritesViewFull => 'View Full';
+  String get favoritesViewFull => 'Vollstaendig anzeigen';
 
   @override
-  String get favoritesRemoveTitle => 'Remove from Saved';
+  String get favoritesRemoveTitle => 'Aus Gespeicherten entfernen';
 
   @override
   String get favoritesRemoveMessage =>
-      'Are you sure you want to remove this advice from your saved items?';
+      'Moechten Sie diesen Rat aus den gespeicherten Eintraegen entfernen?';
 
   @override
-  String get favoritesRemoved => 'Removed from saved';
+  String get favoritesRemoved => 'Aus Gespeicherten entfernt';
 
   @override
-  String get remove => 'Remove';
+  String get remove => 'Entfernen';
 
   @override
-  String get historyDeleted => 'Deleted from history';
+  String get historyDeleted => 'Aus Historie geloescht';
 
   @override
-  String get historyToday => 'Today';
+  String get historyToday => 'Heute';
 
   @override
-  String get historyYesterday => 'Yesterday';
+  String get historyYesterday => 'Gestern';
 
   @override
-  String get historyDeleteTitle => 'Delete Advice';
+  String get historyDeleteTitle => 'Beratung loeschen';
 
   @override
-  String get historyDeleteMessage =>
-      'Are you sure you want to delete this advice?';
+  String get historyDeleteMessage => 'Moechten Sie diese Beratung loeschen?';
 
   @override
-  String get historyClearTitle => 'Clear History';
+  String get historyClearTitle => 'Historie loeschen';
 
   @override
   String get historyClearMessage =>
-      'Are you sure you want to clear all history? This cannot be undone.';
+      'Moechten Sie die gesamte Historie loeschen? Dies kann nicht rueckgaengig gemacht werden.';
 
   @override
-  String get historyCleared => 'History cleared';
+  String get historyCleared => 'Historie geloescht';
 
   @override
-  String get clear => 'Clear';
+  String get clear => 'Loeschen';
 
   @override
-  String get navHome => 'Home';
+  String get navHome => 'Startseite';
 
   @override
-  String get navFavorites => 'Saved';
+  String get navFavorites => 'Gespeichert';
 
   @override
-  String get appTitle => 'Counsel';
+  String get appTitle => 'Stimme der Weisen';
 
   @override
-  String get homeWelcome => 'Who do you seek wisdom from today?';
+  String get homeWelcome => 'Bei wem suchen Sie heute Weisheit?';
 
   @override
-  String get homeSubtitle => 'Choose a mentor to guide you';
+  String get homeSubtitle => 'Waehlen Sie einen Mentor, der Sie fuehrt';
 
   @override
-  String get languageTitle => 'Select Language';
+  String get languageTitle => 'Sprache waehlen';
 
   @override
-  String get languageSelectPrompt => 'Choose your preferred language';
+  String get languageSelectPrompt => 'Waehlen Sie Ihre bevorzugte Sprache';
 
   @override
   String get languageSelectSubtitle =>
-      'You can change this anytime in settings';
+      'Sie koennen dies jederzeit in den Einstellungen aendern';
 
   @override
-  String get personaFeatured => 'Featured';
+  String get personaFeatured => 'Empfohlen';
 
   @override
-  String get personaSignatureQuote => 'Signature Quote';
+  String get personaSignatureQuote => 'Beruemtes Zitat';
 
   @override
-  String get personaAbout => 'About';
+  String get personaAbout => 'Ueber';
 
   @override
-  String get personaStartChat => 'Start Conversation';
+  String get personaStartChat => 'Gespraech beginnen';
 
   @override
-  String get personaCategory => 'Category';
+  String get personaCategory => 'Kategorie';
 
   @override
-  String get personaEra => 'Era';
+  String get personaEra => 'Epoche';
 
   @override
-  String get personaExpertise => 'Areas of Wisdom';
+  String get personaExpertise => 'Weisheitsbereich';
 
   @override
-  String get personaAskQuestion => 'Ask a Question';
+  String get personaAskQuestion => 'Frage stellen';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get settingsTitle => 'Einstellungen';
 
   @override
-  String get settingsData => 'Data';
+  String get settingsData => 'Daten';
 
   @override
-  String get settingsClearHistory => 'Clear History';
+  String get settingsClearHistory => 'Historie loeschen';
 
   @override
-  String get settingsClearHistorySubtitle => 'Remove all saved conversations';
+  String get settingsClearHistorySubtitle =>
+      'Alle gespeicherten Gespraeche loeschen';
 
   @override
-  String get settingsAboutApp => 'About Counsel';
+  String get settingsAboutApp => 'Ueber Stimme der Weisen';
 
   @override
-  String get settingsAboutAppSubtitle => 'Version and app information';
+  String get settingsAboutAppSubtitle => 'Version und App-Informationen';
 
   @override
-  String get settingsPrivacyPolicy => 'Privacy Policy';
+  String get settingsPrivacyPolicy => 'Datenschutzrichtlinie';
 
   @override
-  String get settingsPrivacyPolicySubtitle => 'How we handle your data';
+  String get settingsPrivacyPolicySubtitle =>
+      'Wie Ihre Daten verarbeitet werden';
 
   @override
-  String get settingsTermsSubtitle => 'Read our terms of service';
+  String get settingsTermsSubtitle => 'Nutzungsbedingungen lesen';
 
   @override
   String get settingsAppDescription =>
-      'Get wisdom from history\'s greatest minds';
+      'Erhalten Sie Weisheit von den groessten Koepfen der Geschichte';
 
   @override
-  String get settingsClearHistoryDialogTitle => 'Clear All History?';
+  String get settingsClearHistoryDialogTitle => 'Gesamte Historie loeschen?';
 
   @override
   String get settingsClearHistoryDialogMessage =>
-      'This will permanently delete all your conversation history. This action cannot be undone.';
+      'Der gesamte Gespraechsverlauf wird dauerhaft geloescht. Dies kann nicht rueckgaengig gemacht werden.';
 
   @override
-  String get settingsHistoryCleared => 'History cleared successfully';
+  String get settingsHistoryCleared => 'Historie erfolgreich geloescht';
 
   @override
   String get settingsAboutContent =>
-      'Counsel connects you with the wisdom of history\'s greatest philosophers, leaders, and thinkers through AI-powered conversations.';
+      'Stimme der Weisen verbindet Sie durch KI-gestuetzte Gespraeche mit der Weisheit der groessten Philosophen, Fuehrer und Denker der Geschichte.';
 }

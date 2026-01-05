@@ -8,6 +8,7 @@ import '../models/persona.dart';
 import '../models/advice.dart';
 import '../models/waiting_messages.dart';
 import '../providers/providers.dart';
+import '../widgets/banner_ad_widget.dart';
 import 'advice_detail_screen.dart';
 
 class ChatScreen extends ConsumerStatefulWidget {
@@ -69,6 +70,7 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
             Expanded(
               child: _buildChatContent(l10n),
             ),
+            const StickyBannerAd(),
             _buildInputArea(l10n),
           ],
         ),
@@ -469,6 +471,10 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
         _isLoading = false;
       });
 
+      // Show interstitial ad every 5 requests
+      final adService = ref.read(adServiceProvider);
+      await adService.onAdviceReceived();
+
       // Scroll to bottom to show response
       _scrollToBottom();
     } catch (e) {
@@ -549,21 +555,77 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
   }
 
   String _getPersonaName(Persona persona, AppLocalizations l10n) {
-    final formattedKey = persona.nameKey.replaceAll('persona_', '').replaceAll('_', ' ');
-    return formattedKey.split(' ').map((word) =>
-      word.isNotEmpty ? '${word[0].toUpperCase()}${word.substring(1)}' : ''
-    ).join(' ');
+    switch (persona.id) {
+      case 'socrates': return l10n.personaSocrates;
+      case 'plato': return l10n.personaPlato;
+      case 'aristotle': return l10n.personaAristotle;
+      case 'seneca': return l10n.personaSeneca;
+      case 'confucius': return l10n.personaConfucius;
+      case 'laozi': return l10n.personaLaozi;
+      case 'jesus': return l10n.personaJesus;
+      case 'buddha': return l10n.personaBuddha;
+      case 'muhammad': return l10n.personaMuhammad;
+      case 'lincoln': return l10n.personaLincoln;
+      case 'napoleon': return l10n.personaNapoleon;
+      case 'steve_jobs': return l10n.personaSteveJobs;
+      case 'sherlock_holmes': return l10n.personaSherlockHolmes;
+      case 'dumbledore': return l10n.personaDumbledore;
+      case 'gandhi': return l10n.personaGandhi;
+      case 'rumi': return l10n.personaRumi;
+      case 'krishna': return l10n.personaKrishna;
+      case 'brahma': return l10n.personaBrahma;
+      case 'tolstoy': return l10n.personaTolstoy;
+      default: return persona.id;
+    }
   }
 
   String _getPersonaTitle(Persona persona, AppLocalizations l10n) {
-    final formattedKey = persona.titleKey.replaceAll('persona_', '').replaceAll('_title', '');
-    return formattedKey.split('_').map((word) =>
-      word.isNotEmpty ? '${word[0].toUpperCase()}${word.substring(1)}' : ''
-    ).join(' ');
+    switch (persona.id) {
+      case 'socrates': return l10n.personaSocratesTitle;
+      case 'plato': return l10n.personaPlatoTitle;
+      case 'aristotle': return l10n.personaAristotleTitle;
+      case 'seneca': return l10n.personaSenecaTitle;
+      case 'confucius': return l10n.personaConfuciusTitle;
+      case 'laozi': return l10n.personaLaoziTitle;
+      case 'jesus': return l10n.personaJesusTitle;
+      case 'buddha': return l10n.personaBuddhaTitle;
+      case 'muhammad': return l10n.personaMuhammadTitle;
+      case 'lincoln': return l10n.personaLincolnTitle;
+      case 'napoleon': return l10n.personaNapoleonTitle;
+      case 'steve_jobs': return l10n.personaSteveJobsTitle;
+      case 'sherlock_holmes': return l10n.personaSherlockHolmesTitle;
+      case 'dumbledore': return l10n.personaDumbledoreTitle;
+      case 'gandhi': return l10n.personaGandhiTitle;
+      case 'rumi': return l10n.personaRumiTitle;
+      case 'krishna': return l10n.personaKrishnaTitle;
+      case 'brahma': return l10n.personaBrahmaTitle;
+      case 'tolstoy': return l10n.personaTolstoyTitle;
+      default: return '';
+    }
   }
 
   String _getPersonaQuote(Persona persona, AppLocalizations l10n) {
-    // In a real app, this would use localization
-    return "I am here to share my wisdom with you.";
+    switch (persona.id) {
+      case 'socrates': return l10n.personaSocratesQuote;
+      case 'plato': return l10n.personaPlatoQuote;
+      case 'aristotle': return l10n.personaAristotleQuote;
+      case 'seneca': return l10n.personaSenecaQuote;
+      case 'confucius': return l10n.personaConfuciusQuote;
+      case 'laozi': return l10n.personaLaoziQuote;
+      case 'jesus': return l10n.personaJesusQuote;
+      case 'buddha': return l10n.personaBuddhaQuote;
+      case 'muhammad': return l10n.personaMuhammadQuote;
+      case 'lincoln': return l10n.personaLincolnQuote;
+      case 'napoleon': return l10n.personaNapoleonQuote;
+      case 'steve_jobs': return l10n.personaSteveJobsQuote;
+      case 'sherlock_holmes': return l10n.personaSherlockHolmesQuote;
+      case 'dumbledore': return l10n.personaDumbledoreQuote;
+      case 'gandhi': return l10n.personaGandhiQuote;
+      case 'rumi': return l10n.personaRumiQuote;
+      case 'krishna': return l10n.personaKrishnaQuote;
+      case 'brahma': return l10n.personaBrahmaQuote;
+      case 'tolstoy': return l10n.personaTolstoyQuote;
+      default: return '';
+    }
   }
 }

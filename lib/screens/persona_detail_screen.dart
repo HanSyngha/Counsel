@@ -46,6 +46,7 @@ class PersonaDetailScreen extends ConsumerWidget {
                   Image.asset(
                     persona.imagePath,
                     fit: BoxFit.cover,
+                    alignment: Alignment.topCenter,
                     errorBuilder: (context, error, stackTrace) {
                       return Container(
                         color: AppColors.surfaceVariant,
@@ -94,39 +95,6 @@ class PersonaDetailScreen extends ConsumerWidget {
                       ),
                     ),
                   ),
-                  // Featured badge
-                  if (persona.isFeatured)
-                    Positioned(
-                      top: 100,
-                      left: 16,
-                      child: Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 10,
-                          vertical: 6,
-                        ),
-                        decoration: BoxDecoration(
-                          color: AppColors.warning,
-                          borderRadius: BorderRadius.circular(20),
-                        ),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            const Icon(
-                              Icons.star,
-                              size: 14,
-                              color: Colors.white,
-                            ),
-                            const SizedBox(width: 4),
-                            Text(
-                              l10n.personaFeatured,
-                              style: AppTextStyles.labelSmall.copyWith(
-                                color: Colors.white,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
                 ],
               ),
             ),
@@ -403,19 +371,8 @@ class PersonaDetailScreen extends ConsumerWidget {
   }
 
   String _getPersonaDescription(Persona persona, AppLocalizations l10n) {
-    // Extract key information from the system prompt
-    final description = persona.systemPrompt
-        .split('\n')
-        .take(3)
-        .where((line) => line.trim().isNotEmpty && !line.startsWith('You are'))
-        .join(' ')
-        .replaceAll(RegExp(r'You lived.*?\.'), '')
-        .trim();
-
-    if (description.isEmpty) {
-      return 'A renowned figure whose wisdom has influenced countless generations.';
-    }
-    return description;
+    // Return a generic description since systemPrompt was removed
+    return l10n.settingsAboutContent;
   }
 
   List<String> _getPersonaExpertise(Persona persona) {

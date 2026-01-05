@@ -9,20 +9,20 @@ class AppLocalizationsMs extends AppLocalizations {
   AppLocalizationsMs([String locale = 'ms']) : super(locale);
 
   @override
-  String get appName => 'Suara Bijak';
+  String get appName => 'Suara Orang Bijak';
 
   @override
-  String get onboardingTitle => 'Temui Mentor Anda\nDari Sejarah';
+  String get onboardingTitle => 'Temui mentor dari sejarah\nhari ini';
 
   @override
   String get onboardingSubtitle =>
-      'Dari Isa hingga Socrates, Napoleon hingga Steve Jobs.\nPinjam kebijaksanaan abadi untuk kebimbangan anda.';
+      'Dari Nabi Isa, Socrates, Laksamana Yi Sun-sin hingga Steve Jobs.\nKami meminjamkan kebijaksanaan merentas zaman untuk keresahan anda.';
 
   @override
-  String get getStarted => 'Mulakan';
+  String get getStarted => 'Mulakan Sekarang';
 
   @override
-  String get homeTitle => 'Siapa yang anda ingin minta nasihat hari ini?';
+  String get homeTitle => 'Siapa yang ingin anda dapatkan nasihat hari ini?';
 
   @override
   String get searchPlaceholder => 'Cari Plato, Lincoln, Hamlet...';
@@ -34,10 +34,10 @@ class AppLocalizationsMs extends AppLocalizations {
   String get exploreWisdom => 'Terokai Kebijaksanaan';
 
   @override
-  String get seeAll => 'Lihat semua';
+  String get seeAll => 'Lihat Semua';
 
   @override
-  String get trending => 'Trending';
+  String get trending => 'Popular';
 
   @override
   String get new_ => 'Baharu';
@@ -61,30 +61,31 @@ class AppLocalizationsMs extends AppLocalizations {
   String get categoryFavorites => 'Kegemaran';
 
   @override
-  String get inputTitle => 'Apa yang membebankan fikiran anda?';
+  String get inputTitle => 'Apa yang mengganggu fikiran anda?';
 
   @override
   String get inputSubtitle =>
-      'Jujurlah. Perincian adalah jalan menuju kejelasan.';
+      'Sila berkongsi dengan jujur. Semakin terperinci, semakin jelas jawapan yang boleh kami berikan.';
 
   @override
   String get inputPlaceholder =>
-      'Saya mendapati diri saya bergelut dengan...\nIa bermula apabila...\nSaya takut bahawa...';
+      'Saya menghadapi kesukaran ini...\nIa bermula seperti ini...\nSaya takut akan...';
 
   @override
-  String get inputHelperDilemma => 'Dilema Semasa';
+  String get inputHelperDilemma => 'Keresahan semasa';
 
   @override
-  String get inputHelperEmotion => 'Keadaan Emosi';
+  String get inputHelperEmotion => 'Keadaan emosi';
 
   @override
-  String get inputHelperOutcome => 'Hasil Yang Diingini';
+  String get inputHelperOutcome => 'Hasil yang diingini';
 
   @override
-  String get seekWisdom => 'Cari Kebijaksanaan';
+  String get seekWisdom => 'Dapatkan Kebijaksanaan';
 
   @override
-  String get privacyNote => 'Pengakuan anda adalah peribadi dan tanpa nama.';
+  String get privacyNote =>
+      'Keresahan anda adalah sulit dan diproses secara tanpa nama.';
 
   @override
   String characterCount(int count, int max) {
@@ -92,26 +93,25 @@ class AppLocalizationsMs extends AppLocalizations {
   }
 
   @override
-  String get loadingConnecting => 'Menyambung dengan';
+  String get loadingConnecting => 'Menyambung';
 
   @override
-  String get loadingConsulting => 'Merujuk arkib kebijaksanaan kuno';
+  String get loadingConsulting => 'Meneroka perpustakaan kebijaksanaan purba';
 
   @override
-  String get loadingAnalyzing => 'Menganalisis Pertanyaan';
+  String get loadingAnalyzing => 'Menganalisis soalan anda';
 
   @override
-  String get loadingRecalling => 'MENGINGAT KONTEKS SEJARAH...';
+  String get loadingRecalling => 'Mengingat konteks sejarah...';
 
   @override
-  String get loadingOnline => 'Dalam Talian';
+  String get loadingOnline => 'Dalam talian';
 
   @override
   String get cancelRequest => 'Batalkan Permintaan';
 
   @override
-  String get loadingNote =>
-      'Ini mungkin mengambil sedikit masa semasa kami menyalurkan persona.';
+  String get loadingNote => 'Memuatkan persona mungkin mengambil sedikit masa.';
 
   @override
   String get resultWisdom => 'Kebijaksanaan';
@@ -129,7 +129,7 @@ class AppLocalizationsMs extends AppLocalizations {
   String get resultHistoricalRecords => 'Rekod Sejarah';
 
   @override
-  String get resultInHisOwnWords => 'Dalam Kata-kata Beliau Sendiri';
+  String get resultInHisOwnWords => 'Dalam Kata-katanya Sendiri';
 
   @override
   String get resultKeyDecision => 'Keputusan Utama';
@@ -141,7 +141,7 @@ class AppLocalizationsMs extends AppLocalizations {
   String get resultShare => 'Kongsi';
 
   @override
-  String get askAnotherSage => 'Tanya Bijak Lain';
+  String get askAnotherSage => 'Tanya Orang Bijak Lain';
 
   @override
   String get resultActionSteps => 'Langkah Tindakan';
@@ -150,7 +150,7 @@ class AppLocalizationsMs extends AppLocalizations {
   String get historyTitle => 'Sejarah Nasihat Saya';
 
   @override
-  String get historySearch => 'Kebimbangan apa yang anda cari?';
+  String get historySearch => 'Cari keresahan apa?';
 
   @override
   String get historyEmpty => 'Belum ada sejarah nasihat';
@@ -180,7 +180,7 @@ class AppLocalizationsMs extends AppLocalizations {
   String get settingsLanguage => 'Bahasa';
 
   @override
-  String get settingsAbout => 'Tentang';
+  String get settingsAbout => 'Tentang Aplikasi';
 
   @override
   String get settingsPrivacy => 'Dasar Privasi';
@@ -239,7 +239,7 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get personaPlatoQuote =>
-      'Bersikap baiklah, kerana setiap orang yang anda temui sedang berperang keras.';
+      'Berbaik hatilah, kerana setiap orang yang kamu temui sedang berjuang dalam pertempuran yang sukar.';
 
   @override
   String get personaAristotle => 'Aristotle';
@@ -249,7 +249,7 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get personaAristotleQuote =>
-      'Kita adalah apa yang kita lakukan berulang kali. Kecemerlangan bukan perbuatan, tetapi tabiat.';
+      'Kita adalah apa yang kita lakukan berulang kali. Kecemerlangan bukanlah tindakan, tetapi tabiat.';
 
   @override
   String get personaSeneca => 'Seneca';
@@ -259,17 +259,17 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get personaSenecaQuote =>
-      'Bukan masa kita pendek, tetapi kita membazirkan banyak daripadanya.';
+      'Bukan kita kekurangan masa, tetapi kita membazirkan banyak masa.';
 
   @override
   String get personaConfucius => 'Confucius';
 
   @override
-  String get personaConfuciusTitle => 'Bijak Agung';
+  String get personaConfuciusTitle => 'Orang Bijak Agung';
 
   @override
   String get personaConfuciusQuote =>
-      'Tidak mengapa seberapa perlahan anda pergi asalkan anda tidak berhenti.';
+      'Tidak kira betapa perlahan kamu bergerak, selagi kamu tidak berhenti.';
 
   @override
   String get personaLaozi => 'Laozi';
@@ -282,13 +282,13 @@ class AppLocalizationsMs extends AppLocalizations {
       'Perjalanan seribu batu bermula dengan satu langkah.';
 
   @override
-  String get personaJesus => 'Isa';
+  String get personaJesus => 'Nabi Isa';
 
   @override
-  String get personaJesusTitle => 'Guru Kerohanian';
+  String get personaJesusTitle => 'Guru Rohani';
 
   @override
-  String get personaJesusQuote => 'Kasihilah jiranmu seperti dirimu sendiri.';
+  String get personaJesusQuote => 'Kasihilah sesamamu seperti dirimu sendiri.';
 
   @override
   String get personaBuddha => 'Buddha';
@@ -301,24 +301,24 @@ class AppLocalizationsMs extends AppLocalizations {
       'Kedamaian datang dari dalam. Jangan mencarinya di luar.';
 
   @override
-  String get personaMuhammad => 'Muhammad';
+  String get personaMuhammad => 'Nabi Muhammad';
 
   @override
   String get personaMuhammadTitle => 'Nabi Islam';
 
   @override
   String get personaMuhammadQuote =>
-      'Yang terbaik di antara kamu adalah mereka yang mempunyai akhlak terbaik.';
+      'Orang yang terbaik adalah mereka yang mempunyai akhlak yang terbaik.';
 
   @override
   String get personaLincoln => 'Abraham Lincoln';
 
   @override
-  String get personaLincolnTitle => 'Presiden A.S. ke-16';
+  String get personaLincolnTitle => 'Presiden Amerika Syarikat ke-16';
 
   @override
   String get personaLincolnQuote =>
-      'Akhirnya, bukan tahun dalam hidup anda yang penting. Ia adalah kehidupan dalam tahun-tahun anda.';
+      'Akhirnya, yang penting bukanlah tahun-tahun dalam hidup kamu, tetapi kehidupan dalam tahun-tahun kamu.';
 
   @override
   String get personaNapoleon => 'Napoleon';
@@ -337,7 +337,7 @@ class AppLocalizationsMs extends AppLocalizations {
   String get personaSteveJobsTitle => 'Usahawan Berwawasan';
 
   @override
-  String get personaSteveJobsQuote => 'Kekal lapar. Kekal bodoh.';
+  String get personaSteveJobsQuote => 'Tetap lapar. Tetap bodoh.';
 
   @override
   String get personaSherlockHolmes => 'Sherlock Holmes';
@@ -347,7 +347,7 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get personaSherlockHolmesQuote =>
-      'Apabila anda telah menghapuskan yang mustahil, apa yang tinggal mestilah kebenaran.';
+      'Apabila kamu telah menghapuskan yang mustahil, apa yang tinggal, walau betapa mustahil kelihatannya, mestilah kebenaran.';
 
   @override
   String get personaDumbledore => 'Albus Dumbledore';
@@ -357,7 +357,7 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get personaDumbledoreQuote =>
-      'Kebahagiaan boleh ditemui walaupun dalam masa yang paling gelap, jika seseorang hanya ingat untuk menghidupkan lampu.';
+      'Kebahagiaan boleh ditemui walaupun dalam masa yang paling gelap. Jika seseorang ingat untuk menyalakan lampu.';
 
   @override
   String get personaGandhi => 'Mahatma Gandhi';
@@ -367,17 +367,17 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get personaGandhiQuote =>
-      'Jadilah perubahan yang ingin anda lihat di dunia.';
+      'Jadilah perubahan yang kamu ingin lihat di dunia.';
 
   @override
   String get personaRumi => 'Rumi';
 
   @override
-  String get personaRumiTitle => 'Penyair Sufi & Ahli Mistik';
+  String get personaRumiTitle => 'Penyair & Ahli Sufi';
 
   @override
   String get personaRumiQuote =>
-      'Luka adalah tempat cahaya masuk ke dalam diri anda.';
+      'Luka adalah tempat cahaya masuk ke dalam dirimu.';
 
   @override
   String get personaKrishna => 'Krishna';
@@ -387,279 +387,287 @@ class AppLocalizationsMs extends AppLocalizations {
 
   @override
   String get personaKrishnaQuote =>
-      'Anda berhak bekerja, tetapi bukan hasil kerja.';
+      'Kamu berhak untuk bertindak, tetapi tidak berhak atas hasilnya.';
 
   @override
   String get personaBrahma => 'Brahma';
 
   @override
-  String get personaBrahmaTitle => 'Dewa Pencipta';
+  String get personaBrahmaTitle => 'Dewa Penciptaan';
 
   @override
   String get personaBrahmaQuote =>
-      'Dari khayalan bawa aku ke realiti, dari kegelapan bawa aku ke cahaya.';
+      'Pimpinlah kami dari khayalan kepada kebenaran, dari kegelapan kepada cahaya.';
 
   @override
   String get personaTolstoy => 'Leo Tolstoy';
 
   @override
-  String get personaTolstoyTitle => 'Gergasi Sastera Rusia';
+  String get personaTolstoyTitle => 'Tokoh Sastera Rusia';
 
   @override
   String get personaTolstoyQuote =>
-      'Semua orang berfikir untuk mengubah dunia, tetapi tiada siapa yang berfikir untuk mengubah dirinya.';
+      'Semua orang mahu mengubah dunia, tetapi tiada siapa yang mahu mengubah dirinya sendiri.';
 
   @override
-  String get adviceYourQuestion => 'Your Question';
+  String get adviceYourQuestion => 'Soalan Anda';
 
   @override
-  String get adviceCitation => 'Citation';
+  String get adviceCitation => 'Petikan';
 
   @override
-  String get adviceRelevance => 'Why This Matters';
+  String get adviceRelevance => 'Mengapa Ia Penting';
 
   @override
-  String get adviceSourceType => 'Source Type';
+  String get adviceSourceType => 'Jenis Sumber';
 
   @override
-  String get adviceSourceName => 'Source';
+  String get adviceSourceName => 'Sumber';
 
   @override
-  String get adviceSourceLocation => 'Location';
+  String get adviceSourceLocation => 'Lokasi';
 
   @override
-  String get adviceSourceYear => 'Year';
+  String get adviceSourceYear => 'Tahun';
 
   @override
-  String get adviceSourceContext => 'Context';
+  String get adviceSourceContext => 'Konteks';
 
   @override
-  String get adviceMainCounsel => 'Counsel';
+  String get adviceMainCounsel => 'Nasihat';
 
   @override
-  String get adviceActionSteps => 'Action Steps';
+  String get adviceActionSteps => 'Langkah Tindakan';
 
   @override
-  String get adviceClosingWords => 'Closing Words';
+  String get adviceClosingWords => 'Kata Penutup';
 
   @override
-  String get adviceCopy => 'Copy';
+  String get adviceCopy => 'Salin';
 
   @override
-  String get adviceShare => 'Share';
+  String get adviceShare => 'Kongsi';
 
   @override
-  String get adviceAddedToFavorites => 'Added to favorites';
+  String get adviceAddedToFavorites => 'Ditambah ke kegemaran';
 
   @override
-  String get adviceRemovedFromFavorites => 'Removed from favorites';
+  String get adviceRemovedFromFavorites => 'Dibuang dari kegemaran';
 
   @override
-  String get adviceCopied => 'Copied to clipboard';
+  String get adviceCopied => 'Disalin ke papan keratan';
 
   @override
-  String get sourceTypeScripture => 'Scripture';
+  String get adviceShareError => 'Tidak dapat berkongsi. Sila cuba lagi.';
 
   @override
-  String get sourceTypeBook => 'Book';
+  String get sourceTypeScripture => 'Kitab Suci';
 
   @override
-  String get sourceTypeSpeech => 'Speech';
+  String get sourceTypeBook => 'Buku';
 
   @override
-  String get sourceTypeBattle => 'Battle';
+  String get sourceTypeSpeech => 'Ucapan';
 
   @override
-  String get sourceTypeLetter => 'Letter';
+  String get sourceTypeBattle => 'Pertempuran';
 
   @override
-  String get sourceTypeDialogue => 'Dialogue';
+  String get sourceTypeLetter => 'Surat';
 
   @override
-  String get sourceTypeMoment => 'Moment';
+  String get sourceTypeDialogue => 'Dialog';
 
   @override
-  String get sourceTypeTeaching => 'Teaching';
+  String get sourceTypeMoment => 'Detik';
+
+  @override
+  String get sourceTypeTeaching => 'Pengajaran';
 
   @override
   String get sourceTypeNovel => 'Novel';
 
   @override
-  String get chatSuggestionsTitle => 'Suggested Topics';
+  String get chatSuggestionsTitle => 'Topik Cadangan';
 
   @override
   String get chatIntroMessage =>
-      'Share what weighs on your heart, and I shall offer what wisdom I can.';
+      'Kongsikan apa yang ada dalam hati anda, dan saya akan menawarkan apa jua kebijaksanaan yang mampu saya berikan.';
 
   @override
-  String get chatSuggestion1 => 'How do I find my purpose?';
+  String get chatSuggestion1 =>
+      'Bagaimana saya boleh mencari tujuan hidup saya?';
 
   @override
-  String get chatSuggestion2 => 'I\'m struggling with a difficult decision...';
+  String get chatSuggestion2 => 'Saya menghadapi keputusan yang sukar...';
 
   @override
-  String get chatSuggestion3 => 'How do I overcome my fears?';
+  String get chatSuggestion3 =>
+      'Bagaimana saya boleh mengatasi ketakutan saya?';
 
   @override
-  String get chatLoading => 'Contemplating...';
+  String get chatLoading => 'Merenung dengan mendalam...';
 
   @override
-  String get chatViewFullAdvice => 'View Full Advice';
+  String get chatViewFullAdvice => 'Lihat Nasihat Penuh';
 
   @override
-  String get chatInputPlaceholder => 'Share your concern...';
+  String get chatInputPlaceholder => 'Kongsikan keresahan anda...';
 
   @override
-  String get chatInputHint => 'Type your message here...';
+  String get chatInputHint => 'Taipkan mesej anda...';
 
   @override
-  String get chatSend => 'Send';
+  String get chatSend => 'Hantar';
 
   @override
-  String get favoritesTitle => 'Saved Advice';
+  String get favoritesTitle => 'Nasihat Disimpan';
 
   @override
-  String get favoritesEmpty => 'No saved advice yet';
+  String get favoritesEmpty => 'Tiada nasihat disimpan';
 
   @override
-  String get favoritesEmptySubtitle => 'Tap the bookmark icon to save wisdom';
+  String get favoritesEmptySubtitle =>
+      'Ketik ikon penanda buku untuk menyimpan kebijaksanaan';
 
   @override
-  String get favoritesViewFull => 'View Full';
+  String get favoritesViewFull => 'Lihat Penuh';
 
   @override
-  String get favoritesRemoveTitle => 'Remove from Saved';
+  String get favoritesRemoveTitle => 'Buang dari Disimpan';
 
   @override
   String get favoritesRemoveMessage =>
-      'Are you sure you want to remove this advice from your saved items?';
+      'Adakah anda ingin membuang nasihat ini dari item yang disimpan?';
 
   @override
-  String get favoritesRemoved => 'Removed from saved';
+  String get favoritesRemoved => 'Dibuang dari disimpan';
 
   @override
-  String get remove => 'Remove';
+  String get remove => 'Buang';
 
   @override
-  String get historyDeleted => 'Deleted from history';
+  String get historyDeleted => 'Dipadam dari sejarah';
 
   @override
-  String get historyToday => 'Today';
+  String get historyToday => 'Hari Ini';
 
   @override
-  String get historyYesterday => 'Yesterday';
+  String get historyYesterday => 'Semalam';
 
   @override
-  String get historyDeleteTitle => 'Delete Advice';
+  String get historyDeleteTitle => 'Padam Nasihat';
 
   @override
-  String get historyDeleteMessage =>
-      'Are you sure you want to delete this advice?';
+  String get historyDeleteMessage => 'Adakah anda ingin memadam nasihat ini?';
 
   @override
-  String get historyClearTitle => 'Clear History';
+  String get historyClearTitle => 'Kosongkan Sejarah';
 
   @override
   String get historyClearMessage =>
-      'Are you sure you want to clear all history? This cannot be undone.';
+      'Adakah anda ingin mengosongkan semua sejarah? Tindakan ini tidak boleh dibatalkan.';
 
   @override
-  String get historyCleared => 'History cleared';
+  String get historyCleared => 'Sejarah telah dikosongkan';
 
   @override
-  String get clear => 'Clear';
+  String get clear => 'Kosongkan';
 
   @override
-  String get navHome => 'Home';
+  String get navHome => 'Utama';
 
   @override
-  String get navFavorites => 'Saved';
+  String get navFavorites => 'Disimpan';
 
   @override
-  String get appTitle => 'Counsel';
+  String get appTitle => 'Suara Orang Bijak';
 
   @override
-  String get homeWelcome => 'Who do you seek wisdom from today?';
+  String get homeWelcome =>
+      'Siapa yang ingin anda dapatkan kebijaksanaan hari ini?';
 
   @override
-  String get homeSubtitle => 'Choose a mentor to guide you';
+  String get homeSubtitle => 'Pilih mentor untuk membimbing anda';
 
   @override
-  String get languageTitle => 'Select Language';
+  String get languageTitle => 'Pilih Bahasa';
 
   @override
-  String get languageSelectPrompt => 'Choose your preferred language';
+  String get languageSelectPrompt => 'Pilih bahasa pilihan anda';
 
   @override
   String get languageSelectSubtitle =>
-      'You can change this anytime in settings';
+      'Anda boleh menukarnya bila-bila masa dalam tetapan';
 
   @override
-  String get personaFeatured => 'Featured';
+  String get personaFeatured => 'Pilihan';
 
   @override
-  String get personaSignatureQuote => 'Signature Quote';
+  String get personaSignatureQuote => 'Kata-kata Terkenal';
 
   @override
-  String get personaAbout => 'About';
+  String get personaAbout => 'Tentang';
 
   @override
-  String get personaStartChat => 'Start Conversation';
+  String get personaStartChat => 'Mulakan Sembang';
 
   @override
-  String get personaCategory => 'Category';
+  String get personaCategory => 'Kategori';
 
   @override
   String get personaEra => 'Era';
 
   @override
-  String get personaExpertise => 'Areas of Wisdom';
+  String get personaExpertise => 'Bidang Kebijaksanaan';
 
   @override
-  String get personaAskQuestion => 'Ask a Question';
+  String get personaAskQuestion => 'Tanya Soalan';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get settingsTitle => 'Tetapan';
 
   @override
   String get settingsData => 'Data';
 
   @override
-  String get settingsClearHistory => 'Clear History';
+  String get settingsClearHistory => 'Kosongkan Sejarah';
 
   @override
-  String get settingsClearHistorySubtitle => 'Remove all saved conversations';
+  String get settingsClearHistorySubtitle =>
+      'Padam semua perbualan yang disimpan';
 
   @override
-  String get settingsAboutApp => 'About Counsel';
+  String get settingsAboutApp => 'Tentang Suara Orang Bijak';
 
   @override
-  String get settingsAboutAppSubtitle => 'Version and app information';
+  String get settingsAboutAppSubtitle => 'Maklumat versi dan aplikasi';
 
   @override
-  String get settingsPrivacyPolicy => 'Privacy Policy';
+  String get settingsPrivacyPolicy => 'Dasar Privasi';
 
   @override
-  String get settingsPrivacyPolicySubtitle => 'How we handle your data';
+  String get settingsPrivacyPolicySubtitle =>
+      'Cara kami mengendalikan data anda';
 
   @override
-  String get settingsTermsSubtitle => 'Read our terms of service';
+  String get settingsTermsSubtitle => 'Baca terma perkhidmatan';
 
   @override
   String get settingsAppDescription =>
-      'Get wisdom from history\'s greatest minds';
+      'Dapatkan kebijaksanaan dari minda terhebat dalam sejarah';
 
   @override
-  String get settingsClearHistoryDialogTitle => 'Clear All History?';
+  String get settingsClearHistoryDialogTitle => 'Kosongkan semua sejarah?';
 
   @override
   String get settingsClearHistoryDialogMessage =>
-      'This will permanently delete all your conversation history. This action cannot be undone.';
+      'Semua sejarah perbualan akan dipadam secara kekal. Tindakan ini tidak boleh dibatalkan.';
 
   @override
-  String get settingsHistoryCleared => 'History cleared successfully';
+  String get settingsHistoryCleared => 'Sejarah berjaya dikosongkan';
 
   @override
   String get settingsAboutContent =>
-      'Counsel connects you with the wisdom of history\'s greatest philosophers, leaders, and thinkers through AI-powered conversations.';
+      'Suara Orang Bijak menghubungkan anda dengan kebijaksanaan ahli falsafah, pemimpin, dan pemikir terhebat dalam sejarah melalui perbualan berkuasa AI.';
 }

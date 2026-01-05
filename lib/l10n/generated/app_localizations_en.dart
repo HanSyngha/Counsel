@@ -455,6 +455,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get adviceCopied => 'Copied to clipboard';
 
   @override
+  String get adviceShareError => 'Could not share. Please try again.';
+
+  @override
   String get sourceTypeScripture => 'Scripture';
 
   @override

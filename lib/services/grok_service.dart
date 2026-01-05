@@ -10,7 +10,7 @@ import '../l10n/prompts/prompt_loader.dart';
 /// Grok API service for getting advice from personas
 class GrokService {
   static const String _baseUrl = 'https://api.x.ai/v1/chat/completions';
-  static const String _model = 'grok-4-1-non-reasoning';
+  static const String _model = 'grok-4-1-fast-non-reasoning';
 
   final http.Client _client;
 

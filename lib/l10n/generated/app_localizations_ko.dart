@@ -394,256 +394,253 @@ class AppLocalizationsKo extends AppLocalizations {
   String get personaTolstoyQuote => '누구나 세상을 바꾸려 하지만, 자신을 바꾸려는 사람은 없다.';
 
   @override
-  String get adviceYourQuestion => 'Your Question';
+  String get adviceYourQuestion => '당신의 질문';
 
   @override
-  String get adviceCitation => 'Citation';
+  String get adviceCitation => '인용';
 
   @override
-  String get adviceRelevance => 'Why This Matters';
+  String get adviceRelevance => '왜 중요한가';
 
   @override
-  String get adviceSourceType => 'Source Type';
+  String get adviceSourceType => '출처 유형';
 
   @override
-  String get adviceSourceName => 'Source';
+  String get adviceSourceName => '출처';
 
   @override
-  String get adviceSourceLocation => 'Location';
+  String get adviceSourceLocation => '위치';
 
   @override
-  String get adviceSourceYear => 'Year';
+  String get adviceSourceYear => '연도';
 
   @override
-  String get adviceSourceContext => 'Context';
+  String get adviceSourceContext => '맥락';
 
   @override
-  String get adviceMainCounsel => 'Counsel';
+  String get adviceMainCounsel => '조언';
 
   @override
-  String get adviceActionSteps => 'Action Steps';
+  String get adviceActionSteps => '실천 단계';
 
   @override
-  String get adviceClosingWords => 'Closing Words';
+  String get adviceClosingWords => '마무리 말씀';
 
   @override
-  String get adviceCopy => 'Copy';
+  String get adviceCopy => '복사';
 
   @override
-  String get adviceShare => 'Share';
+  String get adviceShare => '공유';
 
   @override
-  String get adviceAddedToFavorites => 'Added to favorites';
+  String get adviceAddedToFavorites => '즐겨찾기에 추가됨';
 
   @override
-  String get adviceRemovedFromFavorites => 'Removed from favorites';
+  String get adviceRemovedFromFavorites => '즐겨찾기에서 삭제됨';
 
   @override
-  String get adviceCopied => 'Copied to clipboard';
+  String get adviceCopied => '클립보드에 복사됨';
 
   @override
-  String get sourceTypeScripture => 'Scripture';
+  String get adviceShareError => '공유할 수 없습니다. 다시 시도해주세요.';
 
   @override
-  String get sourceTypeBook => 'Book';
+  String get sourceTypeScripture => '경전';
 
   @override
-  String get sourceTypeSpeech => 'Speech';
+  String get sourceTypeBook => '책';
 
   @override
-  String get sourceTypeBattle => 'Battle';
+  String get sourceTypeSpeech => '연설';
 
   @override
-  String get sourceTypeLetter => 'Letter';
+  String get sourceTypeBattle => '전투';
 
   @override
-  String get sourceTypeDialogue => 'Dialogue';
+  String get sourceTypeLetter => '서신';
 
   @override
-  String get sourceTypeMoment => 'Moment';
+  String get sourceTypeDialogue => '대화';
 
   @override
-  String get sourceTypeTeaching => 'Teaching';
+  String get sourceTypeMoment => '순간';
 
   @override
-  String get sourceTypeNovel => 'Novel';
+  String get sourceTypeTeaching => '가르침';
 
   @override
-  String get chatSuggestionsTitle => 'Suggested Topics';
+  String get sourceTypeNovel => '소설';
 
   @override
-  String get chatIntroMessage =>
-      'Share what weighs on your heart, and I shall offer what wisdom I can.';
+  String get chatSuggestionsTitle => '추천 주제';
 
   @override
-  String get chatSuggestion1 => 'How do I find my purpose?';
+  String get chatIntroMessage => '마음에 담긴 것을 나누어 주시면, 제가 할 수 있는 지혜를 드리겠습니다.';
 
   @override
-  String get chatSuggestion2 => 'I\'m struggling with a difficult decision...';
+  String get chatSuggestion1 => '어떻게 하면 제 목적을 찾을 수 있을까요?';
 
   @override
-  String get chatSuggestion3 => 'How do I overcome my fears?';
+  String get chatSuggestion2 => '어려운 결정을 해야 하는 상황입니다...';
 
   @override
-  String get chatLoading => 'Contemplating...';
+  String get chatSuggestion3 => '어떻게 하면 두려움을 극복할 수 있을까요?';
 
   @override
-  String get chatViewFullAdvice => 'View Full Advice';
+  String get chatLoading => '깊이 생각하는 중...';
 
   @override
-  String get chatInputPlaceholder => 'Share your concern...';
+  String get chatViewFullAdvice => '전체 조언 보기';
 
   @override
-  String get chatInputHint => 'Type your message here...';
+  String get chatInputPlaceholder => '당신의 고민을 나누세요...';
 
   @override
-  String get chatSend => 'Send';
+  String get chatInputHint => '메시지를 입력하세요...';
 
   @override
-  String get favoritesTitle => 'Saved Advice';
+  String get chatSend => '보내기';
 
   @override
-  String get favoritesEmpty => 'No saved advice yet';
+  String get favoritesTitle => '저장된 조언';
 
   @override
-  String get favoritesEmptySubtitle => 'Tap the bookmark icon to save wisdom';
+  String get favoritesEmpty => '저장된 조언이 없습니다';
 
   @override
-  String get favoritesViewFull => 'View Full';
+  String get favoritesEmptySubtitle => '북마크 아이콘을 눌러 지혜를 저장하세요';
 
   @override
-  String get favoritesRemoveTitle => 'Remove from Saved';
+  String get favoritesViewFull => '전체 보기';
 
   @override
-  String get favoritesRemoveMessage =>
-      'Are you sure you want to remove this advice from your saved items?';
+  String get favoritesRemoveTitle => '저장됨에서 삭제';
 
   @override
-  String get favoritesRemoved => 'Removed from saved';
+  String get favoritesRemoveMessage => '이 조언을 저장된 항목에서 삭제하시겠습니까?';
 
   @override
-  String get remove => 'Remove';
+  String get favoritesRemoved => '저장됨에서 삭제됨';
 
   @override
-  String get historyDeleted => 'Deleted from history';
+  String get remove => '삭제';
 
   @override
-  String get historyToday => 'Today';
+  String get historyDeleted => '기록에서 삭제됨';
 
   @override
-  String get historyYesterday => 'Yesterday';
+  String get historyToday => '오늘';
 
   @override
-  String get historyDeleteTitle => 'Delete Advice';
+  String get historyYesterday => '어제';
 
   @override
-  String get historyDeleteMessage =>
-      'Are you sure you want to delete this advice?';
+  String get historyDeleteTitle => '조언 삭제';
 
   @override
-  String get historyClearTitle => 'Clear History';
+  String get historyDeleteMessage => '이 조언을 삭제하시겠습니까?';
 
   @override
-  String get historyClearMessage =>
-      'Are you sure you want to clear all history? This cannot be undone.';
+  String get historyClearTitle => '기록 지우기';
 
   @override
-  String get historyCleared => 'History cleared';
+  String get historyClearMessage => '모든 기록을 지우시겠습니까? 이 작업은 되돌릴 수 없습니다.';
 
   @override
-  String get clear => 'Clear';
+  String get historyCleared => '기록이 지워졌습니다';
 
   @override
-  String get navHome => 'Home';
+  String get clear => '지우기';
 
   @override
-  String get navFavorites => 'Saved';
+  String get navHome => '홈';
 
   @override
-  String get appTitle => 'Counsel';
+  String get navFavorites => '저장됨';
 
   @override
-  String get homeWelcome => 'Who do you seek wisdom from today?';
+  String get appTitle => '위인의 목소리';
 
   @override
-  String get homeSubtitle => 'Choose a mentor to guide you';
+  String get homeWelcome => '오늘은 누구에게 지혜를 구하시겠어요?';
 
   @override
-  String get languageTitle => 'Select Language';
+  String get homeSubtitle => '당신을 인도할 멘토를 선택하세요';
 
   @override
-  String get languageSelectPrompt => 'Choose your preferred language';
+  String get languageTitle => '언어 선택';
 
   @override
-  String get languageSelectSubtitle =>
-      'You can change this anytime in settings';
+  String get languageSelectPrompt => '원하는 언어를 선택하세요';
 
   @override
-  String get personaFeatured => 'Featured';
+  String get languageSelectSubtitle => '설정에서 언제든지 변경할 수 있습니다';
 
   @override
-  String get personaSignatureQuote => 'Signature Quote';
+  String get personaFeatured => '추천';
 
   @override
-  String get personaAbout => 'About';
+  String get personaSignatureQuote => '대표 명언';
 
   @override
-  String get personaStartChat => 'Start Conversation';
+  String get personaAbout => '소개';
 
   @override
-  String get personaCategory => 'Category';
+  String get personaStartChat => '대화 시작';
 
   @override
-  String get personaEra => 'Era';
+  String get personaCategory => '카테고리';
 
   @override
-  String get personaExpertise => 'Areas of Wisdom';
+  String get personaEra => '시대';
 
   @override
-  String get personaAskQuestion => 'Ask a Question';
+  String get personaExpertise => '지혜의 영역';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get personaAskQuestion => '질문하기';
 
   @override
-  String get settingsData => 'Data';
+  String get settingsTitle => '설정';
 
   @override
-  String get settingsClearHistory => 'Clear History';
+  String get settingsData => '데이터';
 
   @override
-  String get settingsClearHistorySubtitle => 'Remove all saved conversations';
+  String get settingsClearHistory => '기록 지우기';
 
   @override
-  String get settingsAboutApp => 'About Counsel';
+  String get settingsClearHistorySubtitle => '저장된 모든 대화 삭제';
 
   @override
-  String get settingsAboutAppSubtitle => 'Version and app information';
+  String get settingsAboutApp => '위인의 목소리 소개';
 
   @override
-  String get settingsPrivacyPolicy => 'Privacy Policy';
+  String get settingsAboutAppSubtitle => '버전 및 앱 정보';
 
   @override
-  String get settingsPrivacyPolicySubtitle => 'How we handle your data';
+  String get settingsPrivacyPolicy => '개인정보 처리방침';
 
   @override
-  String get settingsTermsSubtitle => 'Read our terms of service';
+  String get settingsPrivacyPolicySubtitle => '데이터 처리 방법';
 
   @override
-  String get settingsAppDescription =>
-      'Get wisdom from history\'s greatest minds';
+  String get settingsTermsSubtitle => '이용약관 읽기';
 
   @override
-  String get settingsClearHistoryDialogTitle => 'Clear All History?';
+  String get settingsAppDescription => '역사상 가장 위대한 지성들의 지혜를 얻으세요';
+
+  @override
+  String get settingsClearHistoryDialogTitle => '모든 기록을 지울까요?';
 
   @override
   String get settingsClearHistoryDialogMessage =>
-      'This will permanently delete all your conversation history. This action cannot be undone.';
+      '모든 대화 기록이 영구적으로 삭제됩니다. 이 작업은 되돌릴 수 없습니다.';
 
   @override
-  String get settingsHistoryCleared => 'History cleared successfully';
+  String get settingsHistoryCleared => '기록이 성공적으로 지워졌습니다';
 
   @override
   String get settingsAboutContent =>
-      'Counsel connects you with the wisdom of history\'s greatest philosophers, leaders, and thinkers through AI-powered conversations.';
+      '위인의 목소리는 AI 기반 대화를 통해 역사상 가장 위대한 철학자, 지도자, 사상가들의 지혜와 연결해 드립니다.';
 }

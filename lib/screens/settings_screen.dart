@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:counsel/l10n/generated/app_localizations.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../config/theme.dart';
 import '../config/constants.dart';
@@ -157,18 +158,14 @@ class SettingsScreen extends ConsumerWidget {
       ),
       child: Column(
         children: [
-          // App Logo/Icon placeholder
-          Container(
-            width: 64,
-            height: 64,
-            decoration: BoxDecoration(
-              gradient: AppColors.primaryGradient,
-              borderRadius: BorderRadius.circular(16),
-            ),
-            child: const Icon(
-              Icons.psychology,
-              color: Colors.white,
-              size: 32,
+          // App Logo
+          ClipRRect(
+            borderRadius: BorderRadius.circular(16),
+            child: Image.asset(
+              'assets/images/personas/counsel_logo.png',
+              width: 64,
+              height: 64,
+              fit: BoxFit.cover,
             ),
           ),
           const SizedBox(height: 12),
@@ -240,17 +237,13 @@ class SettingsScreen extends ConsumerWidget {
         backgroundColor: AppColors.surface,
         title: Row(
           children: [
-            Container(
-              width: 40,
-              height: 40,
-              decoration: BoxDecoration(
-                gradient: AppColors.primaryGradient,
-                borderRadius: BorderRadius.circular(8),
-              ),
-              child: const Icon(
-                Icons.psychology,
-                color: Colors.white,
-                size: 24,
+            ClipRRect(
+              borderRadius: BorderRadius.circular(8),
+              child: Image.asset(
+                'assets/images/personas/counsel_logo.png',
+                width: 40,
+                height: 40,
+                fit: BoxFit.cover,
               ),
             ),
             const SizedBox(width: 12),
@@ -282,17 +275,45 @@ class SettingsScreen extends ConsumerWidget {
     );
   }
 
-  void _openPrivacyPolicy(BuildContext context) {
-    // In a real app, open a URL or show a page
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('Opening Privacy Policy...')),
-    );
+  Future<void> _openPrivacyPolicy(BuildContext context) async {
+    final uri = Uri.parse('https://github.com/HanSyngha/Counsel/blob/main/PRIVACY_POLICY.md');
+    try {
+      if (await canLaunchUrl(uri)) {
+        await launchUrl(uri, mode: LaunchMode.externalApplication);
+      } else {
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Could not open Privacy Policy')),
+          );
+        }
+      }
+    } catch (e) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Could not open Privacy Policy')),
+        );
+      }
+    }
   }
 
-  void _openTermsOfService(BuildContext context) {
-    // In a real app, open a URL or show a page
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('Opening Terms of Service...')),
-    );
+  Future<void> _openTermsOfService(BuildContext context) async {
+    final uri = Uri.parse('https://github.com/HanSyngha/Counsel/blob/main/TERMS_OF_SERVICE.md');
+    try {
+      if (await canLaunchUrl(uri)) {
+        await launchUrl(uri, mode: LaunchMode.externalApplication);
+      } else {
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Could not open Terms of Service')),
+          );
+        }
+      }
+    } catch (e) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Could not open Terms of Service')),
+        );
+      }
+    }
   }
 }

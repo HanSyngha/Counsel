@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:hive/hive.dart';
 
 /// AdMob service for banner and interstitial ads
 class AdService {
@@ -23,16 +24,21 @@ class AdService {
     throw UnsupportedError('Unsupported platform');
   }
 
+  static const String _adviceCountKey = 'advice_count';
+
   InterstitialAd? _interstitialAd;
   bool _isInterstitialAdReady = false;
   int _adviceCount = 0;
-  static const int _showAdEveryNAdvice = 3; // Show ad every 3 advice requests
+  static const int _showAdEveryNAdvice = 5; // Show ad every 5 advice requests
+  late Box _settingsBox;
 
   bool _isAdFree = false;
 
   /// Initialize AdMob
   Future<void> init() async {
     await MobileAds.instance.initialize();
+    _settingsBox = await Hive.openBox('settings');
+    _adviceCount = _settingsBox.get(_adviceCountKey, defaultValue: 0);
     await _loadInterstitialAd();
   }
 
@@ -96,9 +102,11 @@ class AdService {
     if (_isAdFree) return false;
 
     _adviceCount++;
+    await _settingsBox.put(_adviceCountKey, _adviceCount);
 
     if (_adviceCount >= _showAdEveryNAdvice && _isInterstitialAdReady) {
       _adviceCount = 0;
+      await _settingsBox.put(_adviceCountKey, 0);
       await _interstitialAd?.show();
       return true;
     }

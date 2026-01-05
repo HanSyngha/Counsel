@@ -978,6 +978,12 @@ abstract class AppLocalizations {
   /// **'Copied to clipboard'**
   String get adviceCopied;
 
+  /// No description provided for @adviceShareError.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not share. Please try again.'**
+  String get adviceShareError;
+
   /// No description provided for @sourceTypeScripture.
   ///
   /// In en, this message translates to:

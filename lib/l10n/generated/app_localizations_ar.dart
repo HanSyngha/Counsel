@@ -12,23 +12,23 @@ class AppLocalizationsAr extends AppLocalizations {
   String get appName => 'صوت الحكماء';
 
   @override
-  String get onboardingTitle => 'التقِ بمرشديك\nمن التاريخ';
+  String get onboardingTitle => 'التقِ بمرشدك\nمن عمق التاريخ';
 
   @override
   String get onboardingSubtitle =>
-      'من المسيح إلى سقراط، ومن نابليون إلى ستيف جوبز.\nاستعر حكمة الأجيال لمخاوفك.';
+      'من عيسى وسقراط والأدميرال يي سون شين إلى ستيف جوبز.\nنقدم لك حكمة خالدة تتجاوز حدود الزمان لمساعدتك في مواجهة تحدياتك.';
 
   @override
   String get getStarted => 'ابدأ الآن';
 
   @override
-  String get homeTitle => 'ممن تطلب المشورة اليوم؟';
+  String get homeTitle => 'من تريد أن تستشير اليوم؟';
 
   @override
   String get searchPlaceholder => 'ابحث عن أفلاطون، لينكولن، هاملت...';
 
   @override
-  String get featuredMentors => 'المرشدون المميزون';
+  String get featuredMentors => 'مرشدون مميزون';
 
   @override
   String get exploreWisdom => 'استكشف الحكمة';
@@ -61,14 +61,15 @@ class AppLocalizationsAr extends AppLocalizations {
   String get categoryFavorites => 'المفضلة';
 
   @override
-  String get inputTitle => 'ما الذي يثقل قلبك؟';
+  String get inputTitle => 'ما الذي يشغل بالك؟';
 
   @override
-  String get inputSubtitle => 'كن صادقاً. التفاصيل هي طريق الوضوح.';
+  String get inputSubtitle =>
+      'شاركنا بصراحة. كلما كنت أكثر تحديداً، كانت الإجابة أوضح.';
 
   @override
   String get inputPlaceholder =>
-      'أجد نفسي أعاني من...\nبدأ الأمر عندما...\nأخشى أن...';
+      'أواجه هذه الصعوبة...\nبدأ الأمر هكذا...\nأخشى من...';
 
   @override
   String get inputHelperDilemma => 'المعضلة الحالية';
@@ -83,7 +84,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get seekWisdom => 'اطلب الحكمة';
 
   @override
-  String get privacyNote => 'اعترافك خاص ومجهول الهوية.';
+  String get privacyNote => 'مخاوفك خاصة ومجهولة الهوية.';
 
   @override
   String characterCount(int count, int max) {
@@ -91,16 +92,16 @@ class AppLocalizationsAr extends AppLocalizations {
   }
 
   @override
-  String get loadingConnecting => 'جارٍ الاتصال بـ';
+  String get loadingConnecting => 'جارٍ الاتصال';
 
   @override
-  String get loadingConsulting => 'استشارة أرشيفات الحكمة القديمة';
+  String get loadingConsulting => 'يتصفح مكتبة الحكمة القديمة';
 
   @override
-  String get loadingAnalyzing => 'جارٍ تحليل السؤال';
+  String get loadingAnalyzing => 'جارٍ تحليل سؤالك';
 
   @override
-  String get loadingRecalling => 'استدعاء السياق التاريخي...';
+  String get loadingRecalling => 'يستذكر السياق التاريخي...';
 
   @override
   String get loadingOnline => 'متصل';
@@ -109,16 +110,16 @@ class AppLocalizationsAr extends AppLocalizations {
   String get cancelRequest => 'إلغاء الطلب';
 
   @override
-  String get loadingNote => 'قد يستغرق استدعاء الشخصية بعض الوقت.';
+  String get loadingNote => 'قد يستغرق استحضار الشخصية بعض الوقت.';
 
   @override
   String get resultWisdom => 'الحكمة';
 
   @override
-  String get resultAiPersona => 'نصيحة شخصية الذكاء الاصطناعي';
+  String get resultAiPersona => 'نصيحة شخصية ذكاء اصطناعي';
 
   @override
-  String get resultGeneratedBy => 'تم إنشاؤها بواسطة شخصية AI';
+  String get resultGeneratedBy => 'أنشأتها شخصية ذكاء اصطناعي';
 
   @override
   String get resultScrollOfWisdom => 'لفافة الحكمة';
@@ -127,10 +128,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get resultHistoricalRecords => 'السجلات التاريخية';
 
   @override
-  String get resultInHisOwnWords => 'بكلماته الخاصة';
+  String get resultInHisOwnWords => 'بكلماته';
 
   @override
-  String get resultKeyDecision => 'القرار الرئيسي';
+  String get resultKeyDecision => 'القرار الحاسم';
 
   @override
   String get resultCopy => 'نسخ';
@@ -148,22 +149,22 @@ class AppLocalizationsAr extends AppLocalizations {
   String get historyTitle => 'سجل نصائحي';
 
   @override
-  String get historySearch => 'ما المخاوف التي تبحث عنها؟';
+  String get historySearch => 'ما الموضوع الذي تبحث عنه؟';
 
   @override
-  String get historyEmpty => 'لا يوجد سجل نصائح بعد';
+  String get historyEmpty => 'لا توجد نصائح محفوظة بعد';
 
   @override
-  String get historyEmptySubtitle => 'ابدأ محادثة مع مرشد';
+  String get historyEmptySubtitle => 'ابدأ محادثة مع أحد المرشدين';
 
   @override
-  String get navSelect => 'اختر';
+  String get navSelect => 'اختيار';
 
   @override
-  String get navChat => 'دردشة';
+  String get navChat => 'محادثة';
 
   @override
-  String get navSaved => 'المحفوظة';
+  String get navSaved => 'المحفوظات';
 
   @override
   String get navHistory => 'السجل';
@@ -184,7 +185,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get settingsPrivacy => 'سياسة الخصوصية';
 
   @override
-  String get settingsTerms => 'شروط الخدمة';
+  String get settingsTerms => 'شروط الاستخدام';
 
   @override
   String get settingsVersion => 'الإصدار';
@@ -226,7 +227,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get personaSocratesTitle => 'أبو الفلسفة الغربية';
 
   @override
-  String get personaSocratesQuote => 'الحياة غير المختبرة لا تستحق العيش.';
+  String get personaSocratesQuote => 'الحياة غير المختبرة لا تستحق أن تُعاش.';
 
   @override
   String get personaPlato => 'أفلاطون';
@@ -235,7 +236,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get personaPlatoTitle => 'فيلسوف المُثُل';
 
   @override
-  String get personaPlatoQuote => 'كن لطيفاً، فكل شخص تقابله يخوض معركة صعبة.';
+  String get personaPlatoQuote => 'كن رحيماً، فكل من تلقاه يخوض معركة شاقة.';
 
   @override
   String get personaAristotle => 'أرسطو';
@@ -245,7 +246,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get personaAristotleQuote =>
-      'نحن ما نفعله بشكل متكرر. التميز ليس فعلاً، بل عادة.';
+      'نحن ما نفعله بشكل متكرر. التميز إذن ليس فعلاً، بل عادة.';
 
   @override
   String get personaSeneca => 'سينيكا';
@@ -254,7 +255,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get personaSenecaTitle => 'الفيلسوف الرواقي';
 
   @override
-  String get personaSenecaQuote => 'ليس الوقت قصيراً، بل نحن نضيع الكثير منه.';
+  String get personaSenecaQuote =>
+      'ليس أن لدينا وقتاً قليلاً، بل نضيع الكثير منه.';
 
   @override
   String get personaConfucius => 'كونفوشيوس';
@@ -263,10 +265,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get personaConfuciusTitle => 'الحكيم العظيم';
 
   @override
-  String get personaConfuciusQuote => 'لا يهم كم تسير ببطء طالما أنك لا تتوقف.';
+  String get personaConfuciusQuote => 'لا يهم مدى بطئك، طالما أنك لا تتوقف.';
 
   @override
-  String get personaLaozi => 'لاوتزي';
+  String get personaLaozi => 'لاو تزو';
 
   @override
   String get personaLaoziTitle => 'مؤسس الطاوية';
@@ -275,13 +277,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get personaLaoziQuote => 'رحلة الألف ميل تبدأ بخطوة واحدة.';
 
   @override
-  String get personaJesus => 'يسوع';
+  String get personaJesus => 'عيسى';
 
   @override
   String get personaJesusTitle => 'المعلم الروحي';
 
   @override
-  String get personaJesusQuote => 'أحب قريبك كنفسك.';
+  String get personaJesusQuote => 'أحبب قريبك كنفسك.';
 
   @override
   String get personaBuddha => 'بوذا';
@@ -306,11 +308,11 @@ class AppLocalizationsAr extends AppLocalizations {
   String get personaLincoln => 'أبراهام لينكولن';
 
   @override
-  String get personaLincolnTitle => 'الرئيس الأمريكي السادس عشر';
+  String get personaLincolnTitle => 'الرئيس السادس عشر للولايات المتحدة';
 
   @override
   String get personaLincolnQuote =>
-      'في النهاية، ليست سنوات الحياة هي المهمة، بل الحياة في تلك السنوات.';
+      'في النهاية، ليست سنوات حياتك هي المهمة، بل الحياة في سنواتك.';
 
   @override
   String get personaNapoleon => 'نابليون';
@@ -319,8 +321,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get personaNapoleonTitle => 'إمبراطور فرنسا';
 
   @override
-  String get personaNapoleonQuote =>
-      'المستحيل كلمة موجودة فقط في قاموس الحمقى.';
+  String get personaNapoleonQuote => 'المستحيل كلمة في قاموس الحمقى فقط.';
 
   @override
   String get personaSteveJobs => 'ستيف جوبز';
@@ -339,7 +340,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get personaSherlockHolmesQuote =>
-      'عندما تستبعد المستحيل، فإن ما يتبقى مهما كان غير محتمل يجب أن يكون الحقيقة.';
+      'عندما تستبعد المستحيل، فما يتبقى مهما كان غير محتمل، لا بد أن يكون الحقيقة.';
 
   @override
   String get personaDumbledore => 'ألباس دمبلدور';
@@ -349,7 +350,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get personaDumbledoreQuote =>
-      'يمكن العثور على السعادة حتى في أحلك الأوقات، إذا تذكر المرء فقط أن يضيء النور.';
+      'يمكن العثور على السعادة حتى في أحلك الأوقات، إن تذكر المرء فقط أن يضيء النور.';
 
   @override
   String get personaGandhi => 'المهاتما غاندي';
@@ -358,11 +359,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get personaGandhiTitle => 'أبو الأمة الهندية';
 
   @override
-  String get personaGandhiQuote =>
-      'كن أنت التغيير الذي تريد أن تراه في العالم.';
+  String get personaGandhiQuote => 'كن التغيير الذي تريد أن تراه في العالم.';
 
   @override
-  String get personaRumi => 'جلال الدين الرومي';
+  String get personaRumi => 'الرومي';
 
   @override
   String get personaRumiTitle => 'الشاعر الصوفي والعارف';
@@ -377,7 +377,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get personaKrishnaTitle => 'المرشد الإلهي في البهاغافاد غيتا';
 
   @override
-  String get personaKrishnaQuote => 'لك الحق في العمل، ولكن ليس في ثماره.';
+  String get personaKrishnaQuote =>
+      'لك الحق في العمل، لكن ليس لك الحق في ثماره.';
 
   @override
   String get personaBrahma => 'براهما';
@@ -387,7 +388,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get personaBrahmaQuote =>
-      'من الوهم قدني إلى الحقيقة، ومن الظلام قدني إلى النور.';
+      'من الوهم إلى الحقيقة، ومن الظلام إلى النور، اهدني.';
 
   @override
   String get personaTolstoy => 'ليو تولستوي';
@@ -400,256 +401,256 @@ class AppLocalizationsAr extends AppLocalizations {
       'الجميع يفكر في تغيير العالم، لكن لا أحد يفكر في تغيير نفسه.';
 
   @override
-  String get adviceYourQuestion => 'Your Question';
+  String get adviceYourQuestion => 'سؤالك';
 
   @override
-  String get adviceCitation => 'Citation';
+  String get adviceCitation => 'الاقتباس';
 
   @override
-  String get adviceRelevance => 'Why This Matters';
+  String get adviceRelevance => 'لماذا هذا مهم';
 
   @override
-  String get adviceSourceType => 'Source Type';
+  String get adviceSourceType => 'نوع المصدر';
 
   @override
-  String get adviceSourceName => 'Source';
+  String get adviceSourceName => 'المصدر';
 
   @override
-  String get adviceSourceLocation => 'Location';
+  String get adviceSourceLocation => 'الموقع';
 
   @override
-  String get adviceSourceYear => 'Year';
+  String get adviceSourceYear => 'السنة';
 
   @override
-  String get adviceSourceContext => 'Context';
+  String get adviceSourceContext => 'السياق';
 
   @override
-  String get adviceMainCounsel => 'Counsel';
+  String get adviceMainCounsel => 'النصيحة';
 
   @override
-  String get adviceActionSteps => 'Action Steps';
+  String get adviceActionSteps => 'خطوات العمل';
 
   @override
-  String get adviceClosingWords => 'Closing Words';
+  String get adviceClosingWords => 'كلمات ختامية';
 
   @override
-  String get adviceCopy => 'Copy';
+  String get adviceCopy => 'نسخ';
 
   @override
-  String get adviceShare => 'Share';
+  String get adviceShare => 'مشاركة';
 
   @override
-  String get adviceAddedToFavorites => 'Added to favorites';
+  String get adviceAddedToFavorites => 'تمت الإضافة إلى المفضلة';
 
   @override
-  String get adviceRemovedFromFavorites => 'Removed from favorites';
+  String get adviceRemovedFromFavorites => 'تمت الإزالة من المفضلة';
 
   @override
-  String get adviceCopied => 'Copied to clipboard';
+  String get adviceCopied => 'تم النسخ إلى الحافظة';
 
   @override
-  String get sourceTypeScripture => 'Scripture';
+  String get adviceShareError => 'تعذرت المشاركة. يرجى المحاولة مرة أخرى.';
 
   @override
-  String get sourceTypeBook => 'Book';
+  String get sourceTypeScripture => 'كتاب مقدس';
 
   @override
-  String get sourceTypeSpeech => 'Speech';
+  String get sourceTypeBook => 'كتاب';
 
   @override
-  String get sourceTypeBattle => 'Battle';
+  String get sourceTypeSpeech => 'خطاب';
 
   @override
-  String get sourceTypeLetter => 'Letter';
+  String get sourceTypeBattle => 'معركة';
 
   @override
-  String get sourceTypeDialogue => 'Dialogue';
+  String get sourceTypeLetter => 'رسالة';
 
   @override
-  String get sourceTypeMoment => 'Moment';
+  String get sourceTypeDialogue => 'حوار';
 
   @override
-  String get sourceTypeTeaching => 'Teaching';
+  String get sourceTypeMoment => 'لحظة';
 
   @override
-  String get sourceTypeNovel => 'Novel';
+  String get sourceTypeTeaching => 'تعليم';
 
   @override
-  String get chatSuggestionsTitle => 'Suggested Topics';
+  String get sourceTypeNovel => 'رواية';
 
   @override
-  String get chatIntroMessage =>
-      'Share what weighs on your heart, and I shall offer what wisdom I can.';
+  String get chatSuggestionsTitle => 'مواضيع مقترحة';
 
   @override
-  String get chatSuggestion1 => 'How do I find my purpose?';
+  String get chatIntroMessage => 'شاركني ما في قلبك، وسأقدم لك ما لدي من حكمة.';
 
   @override
-  String get chatSuggestion2 => 'I\'m struggling with a difficult decision...';
+  String get chatSuggestion1 => 'كيف أجد هدفي في الحياة؟';
 
   @override
-  String get chatSuggestion3 => 'How do I overcome my fears?';
+  String get chatSuggestion2 => 'أواجه قراراً صعباً...';
 
   @override
-  String get chatLoading => 'Contemplating...';
+  String get chatSuggestion3 => 'كيف أتغلب على مخاوفي؟';
 
   @override
-  String get chatViewFullAdvice => 'View Full Advice';
+  String get chatLoading => 'يتأمل بعمق...';
 
   @override
-  String get chatInputPlaceholder => 'Share your concern...';
+  String get chatViewFullAdvice => 'عرض النصيحة الكاملة';
 
   @override
-  String get chatInputHint => 'Type your message here...';
+  String get chatInputPlaceholder => 'شارك همومك...';
 
   @override
-  String get chatSend => 'Send';
+  String get chatInputHint => 'اكتب رسالتك...';
 
   @override
-  String get favoritesTitle => 'Saved Advice';
+  String get chatSend => 'إرسال';
 
   @override
-  String get favoritesEmpty => 'No saved advice yet';
+  String get favoritesTitle => 'النصائح المحفوظة';
 
   @override
-  String get favoritesEmptySubtitle => 'Tap the bookmark icon to save wisdom';
+  String get favoritesEmpty => 'لا توجد نصائح محفوظة';
 
   @override
-  String get favoritesViewFull => 'View Full';
+  String get favoritesEmptySubtitle =>
+      'اضغط على أيقونة الإشارة المرجعية لحفظ الحكمة';
 
   @override
-  String get favoritesRemoveTitle => 'Remove from Saved';
+  String get favoritesViewFull => 'عرض الكل';
+
+  @override
+  String get favoritesRemoveTitle => 'إزالة من المحفوظات';
 
   @override
   String get favoritesRemoveMessage =>
-      'Are you sure you want to remove this advice from your saved items?';
+      'هل تريد إزالة هذه النصيحة من المحفوظات؟';
 
   @override
-  String get favoritesRemoved => 'Removed from saved';
+  String get favoritesRemoved => 'تمت الإزالة من المحفوظات';
 
   @override
-  String get remove => 'Remove';
+  String get remove => 'إزالة';
 
   @override
-  String get historyDeleted => 'Deleted from history';
+  String get historyDeleted => 'تم الحذف من السجل';
 
   @override
-  String get historyToday => 'Today';
+  String get historyToday => 'اليوم';
 
   @override
-  String get historyYesterday => 'Yesterday';
+  String get historyYesterday => 'أمس';
 
   @override
-  String get historyDeleteTitle => 'Delete Advice';
+  String get historyDeleteTitle => 'حذف النصيحة';
 
   @override
-  String get historyDeleteMessage =>
-      'Are you sure you want to delete this advice?';
+  String get historyDeleteMessage => 'هل تريد حذف هذه النصيحة؟';
 
   @override
-  String get historyClearTitle => 'Clear History';
+  String get historyClearTitle => 'مسح السجل';
 
   @override
   String get historyClearMessage =>
-      'Are you sure you want to clear all history? This cannot be undone.';
+      'هل تريد مسح كل السجل؟ لا يمكن التراجع عن هذا الإجراء.';
 
   @override
-  String get historyCleared => 'History cleared';
+  String get historyCleared => 'تم مسح السجل';
 
   @override
-  String get clear => 'Clear';
+  String get clear => 'مسح';
 
   @override
-  String get navHome => 'Home';
+  String get navHome => 'الرئيسية';
 
   @override
-  String get navFavorites => 'Saved';
+  String get navFavorites => 'المحفوظات';
 
   @override
-  String get appTitle => 'Counsel';
+  String get appTitle => 'صوت الحكماء';
 
   @override
-  String get homeWelcome => 'Who do you seek wisdom from today?';
+  String get homeWelcome => 'ممن تطلب الحكمة اليوم؟';
 
   @override
-  String get homeSubtitle => 'Choose a mentor to guide you';
+  String get homeSubtitle => 'اختر مرشدك ليهديك الطريق';
 
   @override
-  String get languageTitle => 'Select Language';
+  String get languageTitle => 'اختر اللغة';
 
   @override
-  String get languageSelectPrompt => 'Choose your preferred language';
+  String get languageSelectPrompt => 'اختر لغتك المفضلة';
 
   @override
-  String get languageSelectSubtitle =>
-      'You can change this anytime in settings';
+  String get languageSelectSubtitle => 'يمكنك تغييرها في أي وقت من الإعدادات';
 
   @override
-  String get personaFeatured => 'Featured';
+  String get personaFeatured => 'مميز';
 
   @override
-  String get personaSignatureQuote => 'Signature Quote';
+  String get personaSignatureQuote => 'مقولة شهيرة';
 
   @override
-  String get personaAbout => 'About';
+  String get personaAbout => 'نبذة';
 
   @override
-  String get personaStartChat => 'Start Conversation';
+  String get personaStartChat => 'ابدأ المحادثة';
 
   @override
-  String get personaCategory => 'Category';
+  String get personaCategory => 'الفئة';
 
   @override
-  String get personaEra => 'Era';
+  String get personaEra => 'الحقبة';
 
   @override
-  String get personaExpertise => 'Areas of Wisdom';
+  String get personaExpertise => 'مجال الحكمة';
 
   @override
-  String get personaAskQuestion => 'Ask a Question';
+  String get personaAskQuestion => 'اطرح سؤالاً';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get settingsTitle => 'الإعدادات';
 
   @override
-  String get settingsData => 'Data';
+  String get settingsData => 'البيانات';
 
   @override
-  String get settingsClearHistory => 'Clear History';
+  String get settingsClearHistory => 'مسح السجل';
 
   @override
-  String get settingsClearHistorySubtitle => 'Remove all saved conversations';
+  String get settingsClearHistorySubtitle => 'حذف جميع المحادثات المحفوظة';
 
   @override
-  String get settingsAboutApp => 'About Counsel';
+  String get settingsAboutApp => 'حول صوت الحكماء';
 
   @override
-  String get settingsAboutAppSubtitle => 'Version and app information';
+  String get settingsAboutAppSubtitle => 'معلومات الإصدار والتطبيق';
 
   @override
-  String get settingsPrivacyPolicy => 'Privacy Policy';
+  String get settingsPrivacyPolicy => 'سياسة الخصوصية';
 
   @override
-  String get settingsPrivacyPolicySubtitle => 'How we handle your data';
+  String get settingsPrivacyPolicySubtitle => 'كيف نتعامل مع بياناتك';
 
   @override
-  String get settingsTermsSubtitle => 'Read our terms of service';
+  String get settingsTermsSubtitle => 'اقرأ شروط الاستخدام';
 
   @override
-  String get settingsAppDescription =>
-      'Get wisdom from history\'s greatest minds';
+  String get settingsAppDescription => 'احصل على حكمة أعظم العقول في التاريخ';
 
   @override
-  String get settingsClearHistoryDialogTitle => 'Clear All History?';
+  String get settingsClearHistoryDialogTitle => 'مسح كل السجل؟';
 
   @override
   String get settingsClearHistoryDialogMessage =>
-      'This will permanently delete all your conversation history. This action cannot be undone.';
+      'سيتم حذف جميع سجلات المحادثات نهائياً. لا يمكن التراجع عن هذا الإجراء.';
 
   @override
-  String get settingsHistoryCleared => 'History cleared successfully';
+  String get settingsHistoryCleared => 'تم مسح السجل بنجاح';
 
   @override
   String get settingsAboutContent =>
-      'Counsel connects you with the wisdom of history\'s greatest philosophers, leaders, and thinkers through AI-powered conversations.';
+      'صوت الحكماء يصلك بحكمة أعظم الفلاسفة والقادة والمفكرين في التاريخ من خلال محادثات مدعومة بالذكاء الاصطناعي.';
 }

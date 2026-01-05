@@ -12,32 +12,32 @@ class AppLocalizationsTr extends AppLocalizations {
   String get appName => 'Bilgelerin Sesi';
 
   @override
-  String get onboardingTitle => 'Tarihten Gelen\nMentörlerinizle Tanışın';
+  String get onboardingTitle => 'Tarihin Mentorlarıyla\nŞimdi Tanışın';
 
   @override
   String get onboardingSubtitle =>
-      'İsa\'dan Sokrates\'e, Napolyon\'dan Steve Jobs\'a.\nEndişeleriniz için zamansız bilgelik ödünç alın.';
+      'İsa\'dan Sokrates\'e, Amiral Yi\'den Steve Jobs\'a.\nDertlerinize çağlar ötesi bilgelik sunuyoruz.';
 
   @override
-  String get getStarted => 'Başla';
+  String get getStarted => 'Hemen Başla';
 
   @override
-  String get homeTitle => 'Bugün kimden tavsiye almak istiyorsunuz?';
+  String get homeTitle => 'Bugün kimden tavsiye almak istersiniz?';
 
   @override
   String get searchPlaceholder => 'Platon, Lincoln, Hamlet ara...';
 
   @override
-  String get featuredMentors => 'Öne Çıkan Mentörler';
+  String get featuredMentors => 'Öne Çıkan Mentorlar';
 
   @override
   String get exploreWisdom => 'Bilgeliği Keşfet';
 
   @override
-  String get seeAll => 'Tümünü gör';
+  String get seeAll => 'Tümünü Gör';
 
   @override
-  String get trending => 'Trend';
+  String get trending => 'Popüler';
 
   @override
   String get new_ => 'Yeni';
@@ -61,29 +61,31 @@ class AppLocalizationsTr extends AppLocalizations {
   String get categoryFavorites => 'Favoriler';
 
   @override
-  String get inputTitle => 'Aklınızı ne meşgul ediyor?';
+  String get inputTitle => 'Aklınızdaki nedir?';
 
   @override
-  String get inputSubtitle => 'Dürüst olun. Detay, netliğe giden yoldur.';
+  String get inputSubtitle =>
+      'İçtenlikle paylaşabilirsiniz. Ne kadar ayrıntılı olursanız, o kadar net cevap verebiliriz.';
 
   @override
   String get inputPlaceholder =>
-      'Kendimi şununla mücadele ederken buluyorum...\nBu şöyle başladı...\nKorkuyorum ki...';
+      'Şu zorluğu yaşıyorum...\nBöyle başladı...\nŞundan korkuyorum...';
 
   @override
-  String get inputHelperDilemma => 'Mevcut İkilem';
+  String get inputHelperDilemma => 'Mevcut ikilem';
 
   @override
-  String get inputHelperEmotion => 'Duygusal Durum';
+  String get inputHelperEmotion => 'Duygusal durum';
 
   @override
-  String get inputHelperOutcome => 'İstenen Sonuç';
+  String get inputHelperOutcome => 'Arzulanan sonuç';
 
   @override
   String get seekWisdom => 'Bilgelik Ara';
 
   @override
-  String get privacyNote => 'İtirafınız özel ve anonimdir.';
+  String get privacyNote =>
+      'Dertleriniz gizli tutulur ve anonim olarak işlenir.';
 
   @override
   String characterCount(int count, int max) {
@@ -94,13 +96,13 @@ class AppLocalizationsTr extends AppLocalizations {
   String get loadingConnecting => 'Bağlanıyor';
 
   @override
-  String get loadingConsulting => 'Kadim bilgelik arşivlerine danışılıyor';
+  String get loadingConsulting => 'Kadim bilgelik arşivleri araştırılıyor';
 
   @override
-  String get loadingAnalyzing => 'Sorgu Analiz Ediliyor';
+  String get loadingAnalyzing => 'Soru analiz ediliyor';
 
   @override
-  String get loadingRecalling => 'TARİHİ BAĞLAM HATIRLANIYOR...';
+  String get loadingRecalling => 'Tarihi bağlamlar hatırlanıyor...';
 
   @override
   String get loadingOnline => 'Çevrimiçi';
@@ -109,19 +111,19 @@ class AppLocalizationsTr extends AppLocalizations {
   String get cancelRequest => 'İsteği İptal Et';
 
   @override
-  String get loadingNote => 'Kişiliği kanallarken bu biraz zaman alabilir.';
+  String get loadingNote => 'Karakterin yüklenmesi biraz zaman alabilir.';
 
   @override
   String get resultWisdom => 'Bilgelik';
 
   @override
-  String get resultAiPersona => 'AI Kişilik Tavsiyesi';
+  String get resultAiPersona => 'Yapay Zeka Karakter Tavsiyesi';
 
   @override
-  String get resultGeneratedBy => 'AI Kişiliği Tarafından Oluşturuldu';
+  String get resultGeneratedBy => 'Yapay Zeka Karakteri tarafından oluşturuldu';
 
   @override
-  String get resultScrollOfWisdom => 'Bilgelik Tomarı';
+  String get resultScrollOfWisdom => 'Bilgelik Parşömeni';
 
   @override
   String get resultHistoricalRecords => 'Tarihi Kayıtlar';
@@ -130,7 +132,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get resultInHisOwnWords => 'Kendi Sözleriyle';
 
   @override
-  String get resultKeyDecision => 'Anahtar Karar';
+  String get resultKeyDecision => 'Önemli Karar';
 
   @override
   String get resultCopy => 'Kopyala';
@@ -148,13 +150,13 @@ class AppLocalizationsTr extends AppLocalizations {
   String get historyTitle => 'Tavsiye Geçmişim';
 
   @override
-  String get historySearch => 'Hangi endişeyi arıyorsunuz?';
+  String get historySearch => 'Hangi derdi aramak istersiniz?';
 
   @override
-  String get historyEmpty => 'Henüz tavsiye geçmişi yok';
+  String get historyEmpty => 'Henüz tavsiye geçmişiniz yok';
 
   @override
-  String get historyEmptySubtitle => 'Bir mentörle sohbet başlatın';
+  String get historyEmptySubtitle => 'Bir mentorla sohbet başlatarak başlayın';
 
   @override
   String get navSelect => 'Seç';
@@ -178,13 +180,13 @@ class AppLocalizationsTr extends AppLocalizations {
   String get settingsLanguage => 'Dil';
 
   @override
-  String get settingsAbout => 'Hakkında';
+  String get settingsAbout => 'Uygulama Hakkında';
 
   @override
   String get settingsPrivacy => 'Gizlilik Politikası';
 
   @override
-  String get settingsTerms => 'Hizmet Şartları';
+  String get settingsTerms => 'Kullanım Şartları';
 
   @override
   String get settingsVersion => 'Sürüm';
@@ -233,11 +235,11 @@ class AppLocalizationsTr extends AppLocalizations {
   String get personaPlato => 'Platon';
 
   @override
-  String get personaPlatoTitle => 'Formların Filozofu';
+  String get personaPlatoTitle => 'İdealar Filozofu';
 
   @override
   String get personaPlatoQuote =>
-      'Nazik ol, çünkü karşılaştığın herkes zorlu bir savaş veriyor.';
+      'Nazik ol, çünkü karşılaştığın herkes zor bir savaş veriyor.';
 
   @override
   String get personaAristotle => 'Aristoteles';
@@ -247,32 +249,32 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get personaAristotleQuote =>
-      'Biz tekrar tekrar yaptığımız şeyiz. Mükemmellik bir eylem değil, alışkanlıktır.';
+      'Biz tekrar tekrar yaptığımız şeyiz. Mükemmellik bir eylem değil, bir alışkanlık meselesidir.';
 
   @override
-  String get personaSeneca => 'Seneca';
+  String get personaSeneca => 'Seneka';
 
   @override
   String get personaSenecaTitle => 'Stoacı Filozof';
 
   @override
-  String get personaSenecaQuote => 'Zamanımız az değil, çoğunu israf ediyoruz.';
+  String get personaSenecaQuote => 'Az zamanımız yok, çok zaman harcıyoruz.';
 
   @override
   String get personaConfucius => 'Konfüçyüs';
 
   @override
-  String get personaConfuciusTitle => 'Büyük Bilge';
+  String get personaConfuciusTitle => 'Ulu Bilge';
 
   @override
   String get personaConfuciusQuote =>
-      'Durmadığın sürece ne kadar yavaş gittiğin önemli değil.';
+      'Durmadığınız sürece ne kadar yavaş gittiğinizin önemi yoktur.';
 
   @override
-  String get personaLaozi => 'Laozi';
+  String get personaLaozi => 'Lao Tzu';
 
   @override
-  String get personaLaoziTitle => 'Taoizmin Kurucusu';
+  String get personaLaoziTitle => 'Taoculuğun Kurucusu';
 
   @override
   String get personaLaoziQuote => 'Bin millik yolculuk tek bir adımla başlar.';
@@ -281,7 +283,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get personaJesus => 'İsa';
 
   @override
-  String get personaJesusTitle => 'Manevi Öğretmen';
+  String get personaJesusTitle => 'Ruhani Öğretmen';
 
   @override
   String get personaJesusQuote => 'Komşunu kendin gibi sev.';
@@ -290,7 +292,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get personaBuddha => 'Buda';
 
   @override
-  String get personaBuddhaTitle => 'Aydınlanmış';
+  String get personaBuddhaTitle => 'Aydınlanmış Olan';
 
   @override
   String get personaBuddhaQuote => 'Huzur içten gelir. Dışarıda arama.';
@@ -299,11 +301,11 @@ class AppLocalizationsTr extends AppLocalizations {
   String get personaMuhammad => 'Hz. Muhammed';
 
   @override
-  String get personaMuhammadTitle => 'İslam Peygamberi';
+  String get personaMuhammadTitle => 'İslam\'ın Peygamberi';
 
   @override
   String get personaMuhammadQuote =>
-      'Sizin en hayırlınız ahlakı en güzel olanınızdır.';
+      'En iyi insan, en iyi ahlaka sahip olandır.';
 
   @override
   String get personaLincoln => 'Abraham Lincoln';
@@ -313,7 +315,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get personaLincolnQuote =>
-      'Sonunda, hayatınızdaki yıllar değil, yıllarınızdaki hayat önemlidir.';
+      'Sonunda önemli olan hayatınızdaki yıllar değil, yıllarınızdaki hayattır.';
 
   @override
   String get personaNapoleon => 'Napolyon';
@@ -323,7 +325,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get personaNapoleonQuote =>
-      'İmkansız sadece aptalların sözlüğünde bulunan bir kelimedir.';
+      'İmkansız kelimesi aptalların sözlüğünde bulunur.';
 
   @override
   String get personaSteveJobs => 'Steve Jobs';
@@ -338,11 +340,11 @@ class AppLocalizationsTr extends AppLocalizations {
   String get personaSherlockHolmes => 'Sherlock Holmes';
 
   @override
-  String get personaSherlockHolmesTitle => 'Çıkarım Ustası';
+  String get personaSherlockHolmesTitle => 'Mantık Ustası';
 
   @override
   String get personaSherlockHolmesQuote =>
-      'İmkansızı elediğinizde, geriye kalan ne kadar inanılmaz olursa olsun gerçek olmalıdır.';
+      'İmkansızı eleyince, kalan ne kadar ihtimal dışı görünürse görünsün, gerçek olmalı.';
 
   @override
   String get personaDumbledore => 'Albus Dumbledore';
@@ -352,7 +354,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get personaDumbledoreQuote =>
-      'En karanlık zamanlarda bile mutluluk bulunabilir, yeter ki ışığı açmayı unutmayın.';
+      'En karanlık zamanlarda bile mutluluk bulunabilir, yeter ki ışığı açmayı unutmayalım.';
 
   @override
   String get personaGandhi => 'Mahatma Gandhi';
@@ -362,13 +364,13 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get personaGandhiQuote =>
-      'Dünyada görmek istediğin değişiklik sen ol.';
+      'Dünyada görmek istediğiniz değişim siz olun.';
 
   @override
   String get personaRumi => 'Mevlana';
 
   @override
-  String get personaRumiTitle => 'Sufi Şair & Mutasavvıf';
+  String get personaRumiTitle => 'Sufi Şair ve Mutasavvıf';
 
   @override
   String get personaRumiQuote => 'Yara, ışığın sana girdiği yerdir.';
@@ -381,7 +383,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get personaKrishnaQuote =>
-      'Eyleme hakkın var, ama asla eylemin meyvesine değil.';
+      'Eyleme hakkınız var, ama sonuçlarına asla.';
 
   @override
   String get personaBrahma => 'Brahma';
@@ -391,269 +393,273 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get personaBrahmaQuote =>
-      'Gerçek olmayandan gerçeğe, karanlıktan aydınlığa götür beni.';
+      'Bizi gerçek olmayandan gerçeğe, karanlıktan ışığa götür.';
 
   @override
   String get personaTolstoy => 'Lev Tolstoy';
 
   @override
-  String get personaTolstoyTitle => 'Rus Edebiyatının Devi';
+  String get personaTolstoyTitle => 'Rus Edebiyatının Ustası';
 
   @override
   String get personaTolstoyQuote =>
       'Herkes dünyayı değiştirmeyi düşünür, ama kimse kendini değiştirmeyi düşünmez.';
 
   @override
-  String get adviceYourQuestion => 'Your Question';
+  String get adviceYourQuestion => 'Sorunuz';
 
   @override
-  String get adviceCitation => 'Citation';
+  String get adviceCitation => 'Alıntı';
 
   @override
-  String get adviceRelevance => 'Why This Matters';
+  String get adviceRelevance => 'Neden Önemli';
 
   @override
-  String get adviceSourceType => 'Source Type';
+  String get adviceSourceType => 'Kaynak Türü';
 
   @override
-  String get adviceSourceName => 'Source';
+  String get adviceSourceName => 'Kaynak';
 
   @override
-  String get adviceSourceLocation => 'Location';
+  String get adviceSourceLocation => 'Konum';
 
   @override
-  String get adviceSourceYear => 'Year';
+  String get adviceSourceYear => 'Yıl';
 
   @override
-  String get adviceSourceContext => 'Context';
+  String get adviceSourceContext => 'Bağlam';
 
   @override
-  String get adviceMainCounsel => 'Counsel';
+  String get adviceMainCounsel => 'Tavsiye';
 
   @override
-  String get adviceActionSteps => 'Action Steps';
+  String get adviceActionSteps => 'Eylem Adımları';
 
   @override
-  String get adviceClosingWords => 'Closing Words';
+  String get adviceClosingWords => 'Kapanış Sözleri';
 
   @override
-  String get adviceCopy => 'Copy';
+  String get adviceCopy => 'Kopyala';
 
   @override
-  String get adviceShare => 'Share';
+  String get adviceShare => 'Paylaş';
 
   @override
-  String get adviceAddedToFavorites => 'Added to favorites';
+  String get adviceAddedToFavorites => 'Favorilere eklendi';
 
   @override
-  String get adviceRemovedFromFavorites => 'Removed from favorites';
+  String get adviceRemovedFromFavorites => 'Favorilerden çıkarıldı';
 
   @override
-  String get adviceCopied => 'Copied to clipboard';
+  String get adviceCopied => 'Panoya kopyalandı';
 
   @override
-  String get sourceTypeScripture => 'Scripture';
+  String get adviceShareError => 'Paylaşılamadı. Lütfen tekrar deneyin.';
 
   @override
-  String get sourceTypeBook => 'Book';
+  String get sourceTypeScripture => 'Kutsal Yazı';
 
   @override
-  String get sourceTypeSpeech => 'Speech';
+  String get sourceTypeBook => 'Kitap';
 
   @override
-  String get sourceTypeBattle => 'Battle';
+  String get sourceTypeSpeech => 'Konuşma';
 
   @override
-  String get sourceTypeLetter => 'Letter';
+  String get sourceTypeBattle => 'Savaş';
 
   @override
-  String get sourceTypeDialogue => 'Dialogue';
+  String get sourceTypeLetter => 'Mektup';
 
   @override
-  String get sourceTypeMoment => 'Moment';
+  String get sourceTypeDialogue => 'Diyalog';
 
   @override
-  String get sourceTypeTeaching => 'Teaching';
+  String get sourceTypeMoment => 'An';
 
   @override
-  String get sourceTypeNovel => 'Novel';
+  String get sourceTypeTeaching => 'Öğreti';
 
   @override
-  String get chatSuggestionsTitle => 'Suggested Topics';
+  String get sourceTypeNovel => 'Roman';
+
+  @override
+  String get chatSuggestionsTitle => 'Önerilen Konular';
 
   @override
   String get chatIntroMessage =>
-      'Share what weighs on your heart, and I shall offer what wisdom I can.';
+      'İçinizdekini paylaşın, size elimden gelen bilgeliği sunayım.';
 
   @override
-  String get chatSuggestion1 => 'How do I find my purpose?';
+  String get chatSuggestion1 => 'Hayattaki amacımı nasıl bulabilirim?';
 
   @override
-  String get chatSuggestion2 => 'I\'m struggling with a difficult decision...';
+  String get chatSuggestion2 => 'Zor bir karar vermem gerekiyor...';
 
   @override
-  String get chatSuggestion3 => 'How do I overcome my fears?';
+  String get chatSuggestion3 => 'Korkularımın üstesinden nasıl gelebilirim?';
 
   @override
-  String get chatLoading => 'Contemplating...';
+  String get chatLoading => 'Derinden düşünüyorum...';
 
   @override
-  String get chatViewFullAdvice => 'View Full Advice';
+  String get chatViewFullAdvice => 'Tam Tavsiyeyi Gör';
 
   @override
-  String get chatInputPlaceholder => 'Share your concern...';
+  String get chatInputPlaceholder => 'Derdinizi paylaşın...';
 
   @override
-  String get chatInputHint => 'Type your message here...';
+  String get chatInputHint => 'Mesajınızı yazın...';
 
   @override
-  String get chatSend => 'Send';
+  String get chatSend => 'Gönder';
 
   @override
-  String get favoritesTitle => 'Saved Advice';
+  String get favoritesTitle => 'Kaydedilen Tavsiyeler';
 
   @override
-  String get favoritesEmpty => 'No saved advice yet';
+  String get favoritesEmpty => 'Kaydedilmiş tavsiye yok';
 
   @override
-  String get favoritesEmptySubtitle => 'Tap the bookmark icon to save wisdom';
+  String get favoritesEmptySubtitle =>
+      'Bilgeliği kaydetmek için yer imi simgesine dokunun';
 
   @override
-  String get favoritesViewFull => 'View Full';
+  String get favoritesViewFull => 'Tümünü Gör';
 
   @override
-  String get favoritesRemoveTitle => 'Remove from Saved';
+  String get favoritesRemoveTitle => 'Kaydedilenlerden Kaldır';
 
   @override
   String get favoritesRemoveMessage =>
-      'Are you sure you want to remove this advice from your saved items?';
+      'Bu tavsiyeyi kaydedilenlerden kaldırmak istiyor musunuz?';
 
   @override
-  String get favoritesRemoved => 'Removed from saved';
+  String get favoritesRemoved => 'Kaydedilenlerden kaldırıldı';
 
   @override
-  String get remove => 'Remove';
+  String get remove => 'Kaldır';
 
   @override
-  String get historyDeleted => 'Deleted from history';
+  String get historyDeleted => 'Geçmişten silindi';
 
   @override
-  String get historyToday => 'Today';
+  String get historyToday => 'Bugün';
 
   @override
-  String get historyYesterday => 'Yesterday';
+  String get historyYesterday => 'Dün';
 
   @override
-  String get historyDeleteTitle => 'Delete Advice';
+  String get historyDeleteTitle => 'Tavsiyeyi Sil';
 
   @override
   String get historyDeleteMessage =>
-      'Are you sure you want to delete this advice?';
+      'Bu tavsiyeyi silmek istediğinizden emin misiniz?';
 
   @override
-  String get historyClearTitle => 'Clear History';
+  String get historyClearTitle => 'Geçmişi Temizle';
 
   @override
   String get historyClearMessage =>
-      'Are you sure you want to clear all history? This cannot be undone.';
+      'Tüm geçmişi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.';
 
   @override
-  String get historyCleared => 'History cleared';
+  String get historyCleared => 'Geçmiş temizlendi';
 
   @override
-  String get clear => 'Clear';
+  String get clear => 'Temizle';
 
   @override
-  String get navHome => 'Home';
+  String get navHome => 'Ana Sayfa';
 
   @override
-  String get navFavorites => 'Saved';
+  String get navFavorites => 'Kaydedilenler';
 
   @override
-  String get appTitle => 'Counsel';
+  String get appTitle => 'Bilgelerin Sesi';
 
   @override
-  String get homeWelcome => 'Who do you seek wisdom from today?';
+  String get homeWelcome => 'Bugün kimin bilgeliğine başvurmak istersiniz?';
 
   @override
-  String get homeSubtitle => 'Choose a mentor to guide you';
+  String get homeSubtitle => 'Size rehberlik edecek bir mentor seçin';
 
   @override
-  String get languageTitle => 'Select Language';
+  String get languageTitle => 'Dil Seçin';
 
   @override
-  String get languageSelectPrompt => 'Choose your preferred language';
+  String get languageSelectPrompt => 'Tercih ettiğiniz dili seçin';
 
   @override
   String get languageSelectSubtitle =>
-      'You can change this anytime in settings';
+      'Bunu daha sonra ayarlardan değiştirebilirsiniz';
 
   @override
-  String get personaFeatured => 'Featured';
+  String get personaFeatured => 'Öne Çıkan';
 
   @override
-  String get personaSignatureQuote => 'Signature Quote';
+  String get personaSignatureQuote => 'İmza Sözü';
 
   @override
-  String get personaAbout => 'About';
+  String get personaAbout => 'Hakkında';
 
   @override
-  String get personaStartChat => 'Start Conversation';
+  String get personaStartChat => 'Sohbete Başla';
 
   @override
-  String get personaCategory => 'Category';
+  String get personaCategory => 'Kategori';
 
   @override
-  String get personaEra => 'Era';
+  String get personaEra => 'Dönem';
 
   @override
-  String get personaExpertise => 'Areas of Wisdom';
+  String get personaExpertise => 'Bilgelik Alanı';
 
   @override
-  String get personaAskQuestion => 'Ask a Question';
+  String get personaAskQuestion => 'Soru Sor';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get settingsTitle => 'Ayarlar';
 
   @override
-  String get settingsData => 'Data';
+  String get settingsData => 'Veri';
 
   @override
-  String get settingsClearHistory => 'Clear History';
+  String get settingsClearHistory => 'Geçmişi Temizle';
 
   @override
-  String get settingsClearHistorySubtitle => 'Remove all saved conversations';
+  String get settingsClearHistorySubtitle => 'Kaydedilmiş tüm konuşmaları sil';
 
   @override
-  String get settingsAboutApp => 'About Counsel';
+  String get settingsAboutApp => 'Bilgelerin Sesi Hakkında';
 
   @override
-  String get settingsAboutAppSubtitle => 'Version and app information';
+  String get settingsAboutAppSubtitle => 'Sürüm ve uygulama bilgileri';
 
   @override
-  String get settingsPrivacyPolicy => 'Privacy Policy';
+  String get settingsPrivacyPolicy => 'Gizlilik Politikası';
 
   @override
-  String get settingsPrivacyPolicySubtitle => 'How we handle your data';
+  String get settingsPrivacyPolicySubtitle => 'Verilerinizi nasıl işlediğimiz';
 
   @override
-  String get settingsTermsSubtitle => 'Read our terms of service';
+  String get settingsTermsSubtitle => 'Kullanım şartlarını okuyun';
 
   @override
   String get settingsAppDescription =>
-      'Get wisdom from history\'s greatest minds';
+      'Tarihin en büyük zihinlerinden bilgelik edinin';
 
   @override
-  String get settingsClearHistoryDialogTitle => 'Clear All History?';
+  String get settingsClearHistoryDialogTitle => 'Tüm geçmiş silinsin mi?';
 
   @override
   String get settingsClearHistoryDialogMessage =>
-      'This will permanently delete all your conversation history. This action cannot be undone.';
+      'Tüm konuşma geçmişiniz kalıcı olarak silinecektir. Bu işlem geri alınamaz.';
 
   @override
-  String get settingsHistoryCleared => 'History cleared successfully';
+  String get settingsHistoryCleared => 'Geçmiş başarıyla temizlendi';
 
   @override
   String get settingsAboutContent =>
-      'Counsel connects you with the wisdom of history\'s greatest philosophers, leaders, and thinkers through AI-powered conversations.';
+      'Bilgelerin Sesi, yapay zeka destekli konuşmalar aracılığıyla tarihin en büyük filozofları, liderleri ve düşünürleriyle bağlantı kurmanızı sağlar.';
 }

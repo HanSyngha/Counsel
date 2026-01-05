@@ -9,13 +9,13 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get appName => '先贤之声';
+  String get appName => '智者之声';
 
   @override
-  String get onboardingTitle => '与历史上的\n导师相遇';
+  String get onboardingTitle => '与历史上的导师\n即刻相遇';
 
   @override
-  String get onboardingSubtitle => '从耶稣到苏格拉底，从拿破仑到乔布斯。\n为您的困惑借取跨越时代的智慧。';
+  String get onboardingSubtitle => '从耶稣、苏格拉底、李舜臣将军到史蒂夫·乔布斯。\n为您的困惑借来跨越时代的智慧。';
 
   @override
   String get getStarted => '立即开始';
@@ -39,7 +39,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get trending => '热门';
 
   @override
-  String get new_ => '新';
+  String get new_ => '最新';
 
   @override
   String get categoryAll => '全部';
@@ -57,16 +57,16 @@ class AppLocalizationsZh extends AppLocalizations {
   String get categoryLiterature => '文学';
 
   @override
-  String get categoryFavorites => '收藏';
+  String get categoryFavorites => '收藏夹';
 
   @override
-  String get inputTitle => '什么事情让您心烦意乱？';
+  String get inputTitle => '什么让您心烦意乱？';
 
   @override
-  String get inputSubtitle => '请坦诚相告。细节越多，答案越清晰。';
+  String get inputSubtitle => '请坦诚地说出来。越具体，我们能给您的答案就越清晰。';
 
   @override
-  String get inputPlaceholder => '我正在面对这样的困难...\n事情是这样开始的...\n我害怕的是...';
+  String get inputPlaceholder => '我正面临这样的困难...\n事情是这样开始的...\n我害怕的是...';
 
   @override
   String get inputHelperDilemma => '当前困境';
@@ -81,7 +81,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get seekWisdom => '寻求智慧';
 
   @override
-  String get privacyNote => '您的倾诉是私密且匿名的。';
+  String get privacyNote => '您的困惑是私密的，并会匿名处理。';
 
   @override
   String characterCount(int count, int max) {
@@ -89,16 +89,16 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get loadingConnecting => '正在连接';
+  String get loadingConnecting => '连接中';
 
   @override
-  String get loadingConsulting => '正在查阅古老的智慧档案';
+  String get loadingConsulting => '正在探索古老的智慧宝库';
 
   @override
-  String get loadingAnalyzing => '正在分析问题';
+  String get loadingAnalyzing => '分析问题中';
 
   @override
-  String get loadingRecalling => '正在回忆历史背景...';
+  String get loadingRecalling => '回忆历史背景中...';
 
   @override
   String get loadingOnline => '在线';
@@ -107,16 +107,16 @@ class AppLocalizationsZh extends AppLocalizations {
   String get cancelRequest => '取消请求';
 
   @override
-  String get loadingNote => '召唤人格可能需要一些时间。';
+  String get loadingNote => '加载角色可能需要一点时间。';
 
   @override
   String get resultWisdom => '智慧';
 
   @override
-  String get resultAiPersona => 'AI人格建议';
+  String get resultAiPersona => 'AI角色建议';
 
   @override
-  String get resultGeneratedBy => '由AI人格生成';
+  String get resultGeneratedBy => '由AI角色生成';
 
   @override
   String get resultScrollOfWisdom => '智慧卷轴';
@@ -125,10 +125,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get resultHistoricalRecords => '历史记录';
 
   @override
-  String get resultInHisOwnWords => '用他自己的话';
+  String get resultInHisOwnWords => '以他的话语';
 
   @override
-  String get resultKeyDecision => '关键决定';
+  String get resultKeyDecision => '关键决策';
 
   @override
   String get resultCopy => '复制';
@@ -137,19 +137,19 @@ class AppLocalizationsZh extends AppLocalizations {
   String get resultShare => '分享';
 
   @override
-  String get askAnotherSage => '询问另一位智者';
+  String get askAnotherSage => '请教另一位智者';
 
   @override
   String get resultActionSteps => '行动步骤';
 
   @override
-  String get historyTitle => '我的建议历史';
+  String get historyTitle => '我的建议记录';
 
   @override
-  String get historySearch => '您想搜索什么困扰？';
+  String get historySearch => '搜索什么困惑？';
 
   @override
-  String get historyEmpty => '还没有建议历史';
+  String get historyEmpty => '还没有建议记录';
 
   @override
   String get historyEmptySubtitle => '开始与导师对话吧';
@@ -158,13 +158,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get navSelect => '选择';
 
   @override
-  String get navChat => '聊天';
+  String get navChat => '对话';
 
   @override
   String get navSaved => '已保存';
 
   @override
-  String get navHistory => '历史';
+  String get navHistory => '记录';
 
   @override
   String get navProfile => '个人资料';
@@ -176,25 +176,25 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsLanguage => '语言';
 
   @override
-  String get settingsAbout => '关于';
+  String get settingsAbout => '关于应用';
 
   @override
   String get settingsPrivacy => '隐私政策';
 
   @override
-  String get settingsTerms => '服务条款';
+  String get settingsTerms => '使用条款';
 
   @override
   String get settingsVersion => '版本';
 
   @override
-  String get errorGeneric => '出了点问题，请重试。';
+  String get errorGeneric => '出了点问题。请重试。';
 
   @override
   String get errorNetwork => '请检查您的网络连接。';
 
   @override
-  String get errorTimeout => '请求超时，请重试。';
+  String get errorTimeout => '请求超时。请重试。';
 
   @override
   String get retry => '重试';
@@ -233,25 +233,25 @@ class AppLocalizationsZh extends AppLocalizations {
   String get personaPlatoTitle => '理念论哲学家';
 
   @override
-  String get personaPlatoQuote => '善待他人，因为你遇到的每个人都在进行艰难的战斗。';
+  String get personaPlatoQuote => '善待他人，因为你遇到的每个人都在进行一场艰难的战斗。';
 
   @override
   String get personaAristotle => '亚里士多德';
 
   @override
-  String get personaAristotleTitle => '第一位老师';
+  String get personaAristotleTitle => '万学之师';
 
   @override
-  String get personaAristotleQuote => '我们重复做的事情造就了我们。卓越不是行为，而是习惯。';
+  String get personaAristotleQuote => '我们反复做的事情造就了我们。因此，卓越不是一种行为，而是一种习惯。';
 
   @override
-  String get personaSeneca => '塞内卡';
+  String get personaSeneca => '塞涅卡';
 
   @override
   String get personaSenecaTitle => '斯多葛派哲学家';
 
   @override
-  String get personaSenecaQuote => '不是我们的时间太短，而是我们浪费了太多。';
+  String get personaSenecaQuote => '不是我们拥有的时间太少，而是我们浪费的时间太多。';
 
   @override
   String get personaConfucius => '孔子';
@@ -266,7 +266,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get personaLaozi => '老子';
 
   @override
-  String get personaLaoziTitle => '道教创始人';
+  String get personaLaoziTitle => '道家创始人';
 
   @override
   String get personaLaoziQuote => '千里之行，始于足下。';
@@ -275,7 +275,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get personaJesus => '耶稣';
 
   @override
-  String get personaJesusTitle => '精神导师';
+  String get personaJesusTitle => '灵性导师';
 
   @override
   String get personaJesusQuote => '爱人如己。';
@@ -284,10 +284,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get personaBuddha => '释迦牟尼';
 
   @override
-  String get personaBuddhaTitle => '觉悟者';
+  String get personaBuddhaTitle => '觉者';
 
   @override
-  String get personaBuddhaQuote => '平静来自内心，不要向外寻求。';
+  String get personaBuddhaQuote => '平和来自内心。不要向外寻求。';
 
   @override
   String get personaMuhammad => '穆罕默德';
@@ -305,22 +305,22 @@ class AppLocalizationsZh extends AppLocalizations {
   String get personaLincolnTitle => '美国第16任总统';
 
   @override
-  String get personaLincolnQuote => '最终重要的不是生命的年数，而是年数中的生命。';
+  String get personaLincolnQuote => '最终重要的不是你活了多少年，而是这些年里你怎样活。';
 
   @override
   String get personaNapoleon => '拿破仑';
 
   @override
-  String get personaNapoleonTitle => '法国皇帝';
+  String get personaNapoleonTitle => '法兰西皇帝';
 
   @override
-  String get personaNapoleonQuote => '不可能这个词只存在于愚者的词典中。';
+  String get personaNapoleonQuote => '不可能这个词只存在于愚人的字典里。';
 
   @override
   String get personaSteveJobs => '史蒂夫·乔布斯';
 
   @override
-  String get personaSteveJobsTitle => '有远见的企业家';
+  String get personaSteveJobsTitle => '远见卓识的企业家';
 
   @override
   String get personaSteveJobsQuote => '求知若饥，虚心若愚。';
@@ -332,7 +332,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get personaSherlockHolmesTitle => '推理大师';
 
   @override
-  String get personaSherlockHolmesQuote => '排除不可能之后，剩下的无论多么不可思议，都是真相。';
+  String get personaSherlockHolmesQuote => '排除一切不可能，剩下的即使再不可思议，也必定是真相。';
 
   @override
   String get personaDumbledore => '阿不思·邓布利多';
@@ -341,7 +341,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get personaDumbledoreTitle => '霍格沃茨校长';
 
   @override
-  String get personaDumbledoreQuote => '即使在最黑暗的时刻，只要记得点亮灯火，也能找到幸福。';
+  String get personaDumbledoreQuote => '即使在最黑暗的时刻也能找到幸福。只要记得点亮明灯。';
 
   @override
   String get personaGandhi => '圣雄甘地';
@@ -359,25 +359,25 @@ class AppLocalizationsZh extends AppLocalizations {
   String get personaRumiTitle => '苏菲派诗人与神秘主义者';
 
   @override
-  String get personaRumiQuote => '伤口是光进入你的地方。';
+  String get personaRumiQuote => '伤口是光进入你内心的地方。';
 
   @override
   String get personaKrishna => '克里希纳';
 
   @override
-  String get personaKrishnaTitle => '薄伽梵歌的神圣引导者';
+  String get personaKrishnaTitle => '薄伽梵歌的神圣向导';
 
   @override
-  String get personaKrishnaQuote => '你有行动的权利，但没有享受成果的权利。';
+  String get personaKrishnaQuote => '你有权行动，但无权享受行动的果实。';
 
   @override
   String get personaBrahma => '梵天';
 
   @override
-  String get personaBrahmaTitle => '创世之神';
+  String get personaBrahmaTitle => '创造之神';
 
   @override
-  String get personaBrahmaQuote => '从虚幻引我向真实，从黑暗引我向光明。';
+  String get personaBrahmaQuote => '引领我从虚幻走向真实，从黑暗走向光明。';
 
   @override
   String get personaTolstoy => '列夫·托尔斯泰';
@@ -386,259 +386,255 @@ class AppLocalizationsZh extends AppLocalizations {
   String get personaTolstoyTitle => '俄罗斯文学巨匠';
 
   @override
-  String get personaTolstoyQuote => '每个人都想改变世界，却没有人想改变自己。';
+  String get personaTolstoyQuote => '每个人都想改变世界，却没人想改变自己。';
 
   @override
-  String get adviceYourQuestion => 'Your Question';
+  String get adviceYourQuestion => '您的问题';
 
   @override
-  String get adviceCitation => 'Citation';
+  String get adviceCitation => '引用';
 
   @override
-  String get adviceRelevance => 'Why This Matters';
+  String get adviceRelevance => '为何重要';
 
   @override
-  String get adviceSourceType => 'Source Type';
+  String get adviceSourceType => '来源类型';
 
   @override
-  String get adviceSourceName => 'Source';
+  String get adviceSourceName => '来源';
 
   @override
-  String get adviceSourceLocation => 'Location';
+  String get adviceSourceLocation => '位置';
 
   @override
-  String get adviceSourceYear => 'Year';
+  String get adviceSourceYear => '年份';
 
   @override
-  String get adviceSourceContext => 'Context';
+  String get adviceSourceContext => '背景';
 
   @override
-  String get adviceMainCounsel => 'Counsel';
+  String get adviceMainCounsel => '建议';
 
   @override
-  String get adviceActionSteps => 'Action Steps';
+  String get adviceActionSteps => '行动步骤';
 
   @override
-  String get adviceClosingWords => 'Closing Words';
+  String get adviceClosingWords => '结语';
 
   @override
-  String get adviceCopy => 'Copy';
+  String get adviceCopy => '复制';
 
   @override
-  String get adviceShare => 'Share';
+  String get adviceShare => '分享';
 
   @override
-  String get adviceAddedToFavorites => 'Added to favorites';
+  String get adviceAddedToFavorites => '已添加到收藏夹';
 
   @override
-  String get adviceRemovedFromFavorites => 'Removed from favorites';
+  String get adviceRemovedFromFavorites => '已从收藏夹移除';
 
   @override
-  String get adviceCopied => 'Copied to clipboard';
+  String get adviceCopied => '已复制到剪贴板';
 
   @override
-  String get sourceTypeScripture => 'Scripture';
+  String get adviceShareError => '无法分享，请重试。';
 
   @override
-  String get sourceTypeBook => 'Book';
+  String get sourceTypeScripture => '经典';
 
   @override
-  String get sourceTypeSpeech => 'Speech';
+  String get sourceTypeBook => '书籍';
 
   @override
-  String get sourceTypeBattle => 'Battle';
+  String get sourceTypeSpeech => '演讲';
 
   @override
-  String get sourceTypeLetter => 'Letter';
+  String get sourceTypeBattle => '战役';
 
   @override
-  String get sourceTypeDialogue => 'Dialogue';
+  String get sourceTypeLetter => '书信';
 
   @override
-  String get sourceTypeMoment => 'Moment';
+  String get sourceTypeDialogue => '对话';
 
   @override
-  String get sourceTypeTeaching => 'Teaching';
+  String get sourceTypeMoment => '时刻';
 
   @override
-  String get sourceTypeNovel => 'Novel';
+  String get sourceTypeTeaching => '教导';
 
   @override
-  String get chatSuggestionsTitle => 'Suggested Topics';
+  String get sourceTypeNovel => '小说';
 
   @override
-  String get chatIntroMessage =>
-      'Share what weighs on your heart, and I shall offer what wisdom I can.';
+  String get chatSuggestionsTitle => '推荐话题';
 
   @override
-  String get chatSuggestion1 => 'How do I find my purpose?';
+  String get chatIntroMessage => '请分享您心中所想，我将尽我所能给予智慧。';
 
   @override
-  String get chatSuggestion2 => 'I\'m struggling with a difficult decision...';
+  String get chatSuggestion1 => '我如何能找到我的人生目标？';
 
   @override
-  String get chatSuggestion3 => 'How do I overcome my fears?';
+  String get chatSuggestion2 => '我正面临一个艰难的抉择...';
 
   @override
-  String get chatLoading => 'Contemplating...';
+  String get chatSuggestion3 => '我如何能克服恐惧？';
 
   @override
-  String get chatViewFullAdvice => 'View Full Advice';
+  String get chatLoading => '深思中...';
 
   @override
-  String get chatInputPlaceholder => 'Share your concern...';
+  String get chatViewFullAdvice => '查看完整建议';
 
   @override
-  String get chatInputHint => 'Type your message here...';
+  String get chatInputPlaceholder => '分享您的困惑...';
 
   @override
-  String get chatSend => 'Send';
+  String get chatInputHint => '输入消息...';
 
   @override
-  String get favoritesTitle => 'Saved Advice';
+  String get chatSend => '发送';
 
   @override
-  String get favoritesEmpty => 'No saved advice yet';
+  String get favoritesTitle => '保存的建议';
 
   @override
-  String get favoritesEmptySubtitle => 'Tap the bookmark icon to save wisdom';
+  String get favoritesEmpty => '没有保存的建议';
 
   @override
-  String get favoritesViewFull => 'View Full';
+  String get favoritesEmptySubtitle => '点击书签图标保存智慧';
 
   @override
-  String get favoritesRemoveTitle => 'Remove from Saved';
+  String get favoritesViewFull => '查看全部';
 
   @override
-  String get favoritesRemoveMessage =>
-      'Are you sure you want to remove this advice from your saved items?';
+  String get favoritesRemoveTitle => '从保存中移除';
 
   @override
-  String get favoritesRemoved => 'Removed from saved';
+  String get favoritesRemoveMessage => '确定要从保存的项目中移除这条建议吗？';
 
   @override
-  String get remove => 'Remove';
+  String get favoritesRemoved => '已从保存中移除';
 
   @override
-  String get historyDeleted => 'Deleted from history';
+  String get remove => '移除';
 
   @override
-  String get historyToday => 'Today';
+  String get historyDeleted => '已从记录中删除';
 
   @override
-  String get historyYesterday => 'Yesterday';
+  String get historyToday => '今天';
 
   @override
-  String get historyDeleteTitle => 'Delete Advice';
+  String get historyYesterday => '昨天';
 
   @override
-  String get historyDeleteMessage =>
-      'Are you sure you want to delete this advice?';
+  String get historyDeleteTitle => '删除建议';
 
   @override
-  String get historyClearTitle => 'Clear History';
+  String get historyDeleteMessage => '确定要删除这条建议吗？';
 
   @override
-  String get historyClearMessage =>
-      'Are you sure you want to clear all history? This cannot be undone.';
+  String get historyClearTitle => '清除记录';
 
   @override
-  String get historyCleared => 'History cleared';
+  String get historyClearMessage => '确定要清除所有记录吗？此操作无法撤销。';
 
   @override
-  String get clear => 'Clear';
+  String get historyCleared => '记录已清除';
 
   @override
-  String get navHome => 'Home';
+  String get clear => '清除';
 
   @override
-  String get navFavorites => 'Saved';
+  String get navHome => '首页';
 
   @override
-  String get appTitle => 'Counsel';
+  String get navFavorites => '已保存';
 
   @override
-  String get homeWelcome => 'Who do you seek wisdom from today?';
+  String get appTitle => '智者之声';
 
   @override
-  String get homeSubtitle => 'Choose a mentor to guide you';
+  String get homeWelcome => '今天您想向谁寻求智慧？';
 
   @override
-  String get languageTitle => 'Select Language';
+  String get homeSubtitle => '选择一位引导您的导师';
 
   @override
-  String get languageSelectPrompt => 'Choose your preferred language';
+  String get languageTitle => '选择语言';
 
   @override
-  String get languageSelectSubtitle =>
-      'You can change this anytime in settings';
+  String get languageSelectPrompt => '请选择您的首选语言';
 
   @override
-  String get personaFeatured => 'Featured';
+  String get languageSelectSubtitle => '您可以随时在设置中更改';
 
   @override
-  String get personaSignatureQuote => 'Signature Quote';
+  String get personaFeatured => '推荐';
 
   @override
-  String get personaAbout => 'About';
+  String get personaSignatureQuote => '代表名言';
 
   @override
-  String get personaStartChat => 'Start Conversation';
+  String get personaAbout => '简介';
 
   @override
-  String get personaCategory => 'Category';
+  String get personaStartChat => '开始对话';
 
   @override
-  String get personaEra => 'Era';
+  String get personaCategory => '类别';
 
   @override
-  String get personaExpertise => 'Areas of Wisdom';
+  String get personaEra => '时代';
 
   @override
-  String get personaAskQuestion => 'Ask a Question';
+  String get personaExpertise => '智慧领域';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get personaAskQuestion => '提问';
 
   @override
-  String get settingsData => 'Data';
+  String get settingsTitle => '设置';
 
   @override
-  String get settingsClearHistory => 'Clear History';
+  String get settingsData => '数据';
 
   @override
-  String get settingsClearHistorySubtitle => 'Remove all saved conversations';
+  String get settingsClearHistory => '清除记录';
 
   @override
-  String get settingsAboutApp => 'About Counsel';
+  String get settingsClearHistorySubtitle => '删除所有保存的对话';
 
   @override
-  String get settingsAboutAppSubtitle => 'Version and app information';
+  String get settingsAboutApp => '关于智者之声';
 
   @override
-  String get settingsPrivacyPolicy => 'Privacy Policy';
+  String get settingsAboutAppSubtitle => '版本和应用信息';
 
   @override
-  String get settingsPrivacyPolicySubtitle => 'How we handle your data';
+  String get settingsPrivacyPolicy => '隐私政策';
 
   @override
-  String get settingsTermsSubtitle => 'Read our terms of service';
+  String get settingsPrivacyPolicySubtitle => '我们如何处理您的数据';
 
   @override
-  String get settingsAppDescription =>
-      'Get wisdom from history\'s greatest minds';
+  String get settingsTermsSubtitle => '阅读使用条款';
 
   @override
-  String get settingsClearHistoryDialogTitle => 'Clear All History?';
+  String get settingsAppDescription => '获取历史上最伟大智者的智慧';
 
   @override
-  String get settingsClearHistoryDialogMessage =>
-      'This will permanently delete all your conversation history. This action cannot be undone.';
+  String get settingsClearHistoryDialogTitle => '清除所有记录？';
 
   @override
-  String get settingsHistoryCleared => 'History cleared successfully';
+  String get settingsClearHistoryDialogMessage => '所有对话记录将被永久删除。此操作无法撤销。';
+
+  @override
+  String get settingsHistoryCleared => '记录已成功清除';
 
   @override
   String get settingsAboutContent =>
-      'Counsel connects you with the wisdom of history\'s greatest philosophers, leaders, and thinkers through AI-powered conversations.';
+      '智者之声通过AI驱动的对话，将您与历史上最伟大的哲学家、领袖和思想家的智慧连接起来。';
 }

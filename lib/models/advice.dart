@@ -1,3 +1,13 @@
+/// Helper function to deeply convert maps from Hive
+Map<String, dynamic> _deepConvertMap(dynamic value) {
+  if (value is Map) {
+    return Map<String, dynamic>.from(
+      value.map((k, v) => MapEntry(k.toString(), v is Map ? _deepConvertMap(v) : v)),
+    );
+  }
+  return <String, dynamic>{};
+}
+
 /// 인용 출처 타입
 enum SourceType {
   scripture, // 경전 (성경, 코란, 베다, 불경 등)
@@ -82,10 +92,11 @@ class Citation {
   });
 
   factory Citation.fromJson(Map<String, dynamic> json) {
+    final sourceData = json['source'];
     return Citation(
       text: json['text'] as String? ?? '',
       source: CitationSource.fromJson(
-        json['source'] as Map<String, dynamic>? ?? {},
+        sourceData is Map ? _deepConvertMap(sourceData) : <String, dynamic>{},
       ),
       relevance: json['relevance'] as String? ?? '',
     );
@@ -122,13 +133,14 @@ class AdviceResponse {
   });
 
   factory AdviceResponse.fromJson(Map<String, dynamic> json) {
+    final citationData = json['citation'];
     return AdviceResponse(
       citation: Citation.fromJson(
-        json['citation'] as Map<String, dynamic>? ?? {},
+        citationData is Map ? _deepConvertMap(citationData) : <String, dynamic>{},
       ),
       advice: json['advice'] as String? ?? '',
       actionSteps: (json['action_steps'] as List<dynamic>?)
-              ?.map((e) => e as String)
+              ?.map((e) => e.toString())
               .toList() ??
           [],
       closingWords: json['closing_words'] as String? ?? '',
@@ -193,14 +205,15 @@ class AdviceRecord {
   }
 
   factory AdviceRecord.fromJson(Map<String, dynamic> json) {
+    final responseData = json['response'];
     return AdviceRecord(
-      id: json['id'] as String,
-      personaId: json['persona_id'] as String,
-      userQuery: json['user_query'] as String,
+      id: json['id'] as String? ?? '',
+      personaId: json['persona_id'] as String? ?? '',
+      userQuery: json['user_query'] as String? ?? '',
       response: AdviceResponse.fromJson(
-        json['response'] as Map<String, dynamic>,
+        responseData is Map ? _deepConvertMap(responseData) : <String, dynamic>{},
       ),
-      createdAt: DateTime.parse(json['created_at'] as String),
+      createdAt: DateTime.tryParse(json['created_at'] as String? ?? '') ?? DateTime.now(),
       isFavorite: json['is_favorite'] as bool? ?? false,
     );
   }

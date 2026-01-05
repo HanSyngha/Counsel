@@ -178,6 +178,7 @@
   "adviceAddedToFavorites": "Added to favorites",
   "adviceRemovedFromFavorites": "Removed from favorites",
   "adviceCopied": "Copied to clipboard",
+  "adviceShareError": "Could not share. Please try again.",
 
   "sourceTypeScripture": "Scripture",
   "sourceTypeBook": "Book",
