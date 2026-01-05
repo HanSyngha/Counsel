@@ -9,10 +9,28 @@ import '../providers/providers.dart';
 class LanguageSelectorScreen extends ConsumerWidget {
   const LanguageSelectorScreen({super.key});
 
+  /// Get ordered locale list with device language first
+  List<String> _getOrderedLocales() {
+    final deviceLocale = WidgetsBinding.instance.platformDispatcher.locale;
+    final deviceLanguageCode = deviceLocale.languageCode;
+
+    // Start with population-ordered list from constants
+    final locales = List<String>.from(AppLocales.supportedLocales);
+
+    // If device language is supported, move it to front
+    if (locales.contains(deviceLanguageCode)) {
+      locales.remove(deviceLanguageCode);
+      locales.insert(0, deviceLanguageCode);
+    }
+
+    return locales;
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context)!;
     final currentLocale = ref.watch(localeProvider);
+    final orderedLocales = _getOrderedLocales();
 
     return Scaffold(
       appBar: AppBar(
@@ -56,9 +74,9 @@ class LanguageSelectorScreen extends ConsumerWidget {
                 mainAxisSpacing: 12,
                 childAspectRatio: 2.0,
               ),
-              itemCount: AppLocales.supportedLocales.length,
+              itemCount: orderedLocales.length,
               itemBuilder: (context, index) {
-                final localeCode = AppLocales.supportedLocales[index];
+                final localeCode = orderedLocales[index];
                 final isSelected = currentLocale.languageCode == localeCode;
 
                 return _buildLanguageCard(

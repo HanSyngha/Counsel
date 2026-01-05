@@ -71,11 +71,22 @@ class _CounselAppState extends ConsumerState<CounselApp> {
   void _loadSavedLocale() {
     final storage = ref.read(storageServiceProvider);
     final savedLanguageCode = storage.getLanguageCode();
-    if (savedLanguageCode != null) {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (savedLanguageCode != null) {
+        // Use saved locale
         ref.read(localeProvider.notifier).state = Locale(savedLanguageCode);
-      });
-    }
+      } else {
+        // Use device locale as default (if supported)
+        final deviceLocale = WidgetsBinding.instance.platformDispatcher.locale;
+        final supportedCodes = ['en', 'ko', 'ja', 'zh', 'ar', 'th', 'ms', 'es', 'de', 'fr', 'hi', 'id', 'pt', 'tr', 'vi', 'ru'];
+
+        if (supportedCodes.contains(deviceLocale.languageCode)) {
+          ref.read(localeProvider.notifier).state = Locale(deviceLocale.languageCode);
+        }
+        // If device locale not supported, stay with default 'en'
+      }
+    });
   }
 
   @override

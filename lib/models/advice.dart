@@ -76,8 +76,11 @@ class CitationSource {
 
 /// 인용문 정보
 class Citation {
-  /// 원문 인용 또는 당시 발언
-  final String text;
+  /// 원어 인용문 (그리스어, 라틴어, 산스크리트어, 한문 등)
+  final String originalText;
+
+  /// 번역된 인용문 (사용자 언어로)
+  final String translatedText;
 
   /// 출처 정보
   final CitationSource source;
@@ -86,15 +89,33 @@ class Citation {
   final String relevance;
 
   const Citation({
-    required this.text,
+    required this.originalText,
+    required this.translatedText,
     required this.source,
     required this.relevance,
   });
 
+  /// 하위 호환성: 기존 코드에서 text를 사용하는 경우 translatedText 반환
+  String get text => translatedText;
+
+  /// 하위 호환성: 기존 'text' 필드만 있는 경우 처리
   factory Citation.fromJson(Map<String, dynamic> json) {
     final sourceData = json['source'];
+
+    // 새 형식: original_text + translated_text
+    String originalText = json['original_text'] as String? ?? '';
+    String translatedText = json['translated_text'] as String? ?? '';
+
+    // 하위 호환성: 기존 'text' 필드만 있는 경우
+    if (originalText.isEmpty && translatedText.isEmpty) {
+      final legacyText = json['text'] as String? ?? '';
+      originalText = legacyText;
+      translatedText = legacyText;
+    }
+
     return Citation(
-      text: json['text'] as String? ?? '',
+      originalText: originalText,
+      translatedText: translatedText,
       source: CitationSource.fromJson(
         sourceData is Map ? _deepConvertMap(sourceData) : <String, dynamic>{},
       ),
@@ -104,7 +125,8 @@ class Citation {
 
   Map<String, dynamic> toJson() {
     return {
-      'text': text,
+      'original_text': originalText,
+      'translated_text': translatedText,
       'source': source.toJson(),
       'relevance': relevance,
     };

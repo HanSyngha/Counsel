@@ -1,13 +1,19 @@
+import 'dart:io';
+import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:counsel/l10n/generated/app_localizations.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:widgets_to_image/widgets_to_image.dart';
+import 'package:path_provider/path_provider.dart';
 
 import '../config/theme.dart';
 import '../models/persona.dart';
 import '../models/advice.dart';
 import '../providers/providers.dart';
+import '../widgets/banner_ad_widget.dart';
 
 class AdviceDetailScreen extends ConsumerStatefulWidget {
   final AdviceRecord record;
@@ -26,6 +32,8 @@ class AdviceDetailScreen extends ConsumerStatefulWidget {
 class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
   late bool _isFavorite;
   late Persona? _persona;
+  final WidgetsToImageController _imageController = WidgetsToImageController();
+  bool _isSharing = false;
 
   @override
   void initState() {
@@ -40,43 +48,76 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
     final response = widget.record.response;
 
     return Scaffold(
-      body: CustomScrollView(
-        slivers: [
-          // App Bar with persona image
-          _buildSliverAppBar(l10n),
+      body: Stack(
+        children: [
+          // Hidden widget for image capture
+          Positioned(
+            left: -1000,
+            top: -1000,
+            child: WidgetsToImage(
+              controller: _imageController,
+              child: _buildShareableCard(l10n),
+            ),
+          ),
 
-          // Content
-          SliverToBoxAdapter(
-            child: Padding(
-              padding: const EdgeInsets.all(20),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  // User's Question
-                  _buildUserQuestion(l10n),
-                  const SizedBox(height: 24),
+          // Main content
+          SafeArea(
+            top: false,
+            child: Column(
+              children: [
+                // Banner ad at top
+                const SafeArea(
+                  bottom: false,
+                  child: StickyBannerAd(),
+                ),
 
-                  // Citation Section
-                  _buildCitationSection(response.citation, l10n),
-                  const SizedBox(height: 24),
+                // Scrollable content
+                Expanded(
+                  child: CustomScrollView(
+                    slivers: [
+                      // App Bar with persona image
+                      _buildSliverAppBar(l10n),
 
-                  // Main Advice Section
-                  _buildAdviceSection(response.advice, l10n),
-                  const SizedBox(height: 24),
+                      // Content
+                      SliverToBoxAdapter(
+                        child: Padding(
+                          padding: const EdgeInsets.all(20),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              // User's Question
+                              _buildUserQuestion(l10n),
+                              const SizedBox(height: 24),
 
-                  // Action Steps Section
-                  _buildActionStepsSection(response.actionSteps, l10n),
-                  const SizedBox(height: 24),
+                              // Citation Section
+                              _buildCitationSection(response.citation, l10n),
+                              const SizedBox(height: 24),
 
-                  // Closing Words Section
-                  _buildClosingWordsSection(response.closingWords, l10n),
-                  const SizedBox(height: 40),
+                              // Main Advice Section
+                              _buildAdviceSection(response.advice, l10n),
+                              const SizedBox(height: 24),
 
-                  // Action Buttons
-                  _buildActionButtons(l10n),
-                  const SizedBox(height: 20),
-                ],
-              ),
+                              // Action Steps Section
+                              _buildActionStepsSection(response.actionSteps, l10n),
+                              const SizedBox(height: 24),
+
+                              // Closing Words Section
+                              _buildClosingWordsSection(response.closingWords, l10n),
+                              const SizedBox(height: 40),
+
+                              // Action Buttons
+                              _buildActionButtons(l10n),
+
+                              // Extra bottom margin for easier button access
+                              const SizedBox(height: 60),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
             ),
           ),
         ],
@@ -252,7 +293,7 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
           ),
           const SizedBox(height: 16),
 
-          // Citation Text (The Quote)
+          // Original Citation (원어)
           Container(
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
@@ -262,12 +303,34 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
                 left: BorderSide(color: AppColors.primary, width: 4),
               ),
             ),
-            child: Text(
-              '"${citation.text}"',
-              style: AppTextStyles.quote.copyWith(
-                height: 1.8,
-              ),
-              softWrap: true,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                // Original text (원어)
+                Text(
+                  '"${citation.originalText}"',
+                  style: AppTextStyles.quote.copyWith(
+                    height: 1.8,
+                    fontStyle: FontStyle.italic,
+                  ),
+                  softWrap: true,
+                ),
+                // Show translation if different from original
+                if (citation.translatedText != citation.originalText) ...[
+                  const SizedBox(height: 12),
+                  const Divider(height: 1),
+                  const SizedBox(height: 12),
+                  // Translated text
+                  Text(
+                    '"${citation.translatedText}"',
+                    style: AppTextStyles.bodyLarge.copyWith(
+                      height: 1.7,
+                      color: AppColors.textPrimary,
+                    ),
+                    softWrap: true,
+                  ),
+                ],
+              ],
             ),
           ),
           const SizedBox(height: 20),
@@ -646,10 +709,15 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
 
   void _copyToClipboard(AppLocalizations l10n) {
     final response = widget.record.response;
+    final citation = response.citation;
+    final citationText = citation.originalText != citation.translatedText
+        ? '"${citation.originalText}"\n\n"${citation.translatedText}"'
+        : '"${citation.translatedText}"';
+
     final text = '''
 ${l10n.adviceCitation}:
-"${response.citation.text}"
-- ${response.citation.source.name}, ${response.citation.source.location}
+$citationText
+- ${citation.source.name}, ${citation.source.location}
 
 ${l10n.adviceMainCounsel}:
 ${response.advice}
@@ -668,21 +736,191 @@ ${l10n.adviceClosingWords}:
   }
 
   Future<void> _shareAdvice(AppLocalizations l10n) async {
+    if (_isSharing) return;
+
+    setState(() => _isSharing = true);
+
+    try {
+      // Capture the shareable card as image
+      final Uint8List? bytes = await _imageController.capture();
+
+      if (bytes == null) {
+        throw Exception('Failed to capture image');
+      }
+
+      // Save to temp file
+      final tempDir = await getTemporaryDirectory();
+      final file = File('${tempDir.path}/counsel_wisdom_${DateTime.now().millisecondsSinceEpoch}.png');
+      await file.writeAsBytes(bytes);
+
+      final personaName = _persona != null ? _getPersonaName(_persona!, l10n) : '';
+
+      // Share the image
+      await Share.shareXFiles(
+        [XFile(file.path)],
+        text: '${l10n.appTitle} - $personaName',
+        subject: '${l10n.appTitle} - $personaName',
+      );
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text(l10n.adviceShareError)),
+        );
+      }
+    } finally {
+      if (mounted) {
+        setState(() => _isSharing = false);
+      }
+    }
+  }
+
+  Widget _buildShareableCard(AppLocalizations l10n) {
     final response = widget.record.response;
     final personaName = _persona != null ? _getPersonaName(_persona!, l10n) : '';
+    final categoryColor = _persona != null ? _getCategoryColor(_persona!.category) : AppColors.primary;
 
-    final shareText = '''
-${l10n.appTitle} - $personaName
+    return Container(
+      width: 400,
+      padding: const EdgeInsets.all(24),
+      decoration: BoxDecoration(
+        color: AppColors.background,
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: categoryColor.withOpacity(0.3), width: 2),
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          // Header with persona
+          Row(
+            children: [
+              if (_persona != null)
+                CircleAvatar(
+                  radius: 30,
+                  backgroundImage: AssetImage(_persona!.imagePath),
+                  onBackgroundImageError: (_, __) {},
+                ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      personaName,
+                      style: AppTextStyles.titleLarge.copyWith(
+                        color: AppColors.textPrimary,
+                      ),
+                    ),
+                    if (_persona != null)
+                      Text(
+                        _getPersonaTitle(_persona!, l10n),
+                        style: AppTextStyles.bodySmall.copyWith(
+                          color: categoryColor,
+                        ),
+                      ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 20),
 
-"${response.citation.text}"
+          // Citation quote
+          Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: categoryColor.withOpacity(0.1),
+              borderRadius: BorderRadius.circular(12),
+              border: Border(
+                left: BorderSide(color: categoryColor, width: 4),
+              ),
+            ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  '"${response.citation.originalText}"',
+                  style: AppTextStyles.quote.copyWith(
+                    fontSize: 12,
+                    height: 1.5,
+                    color: AppColors.textSecondary,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+                if (response.citation.translatedText != response.citation.originalText) ...[
+                  const SizedBox(height: 8),
+                  Text(
+                    '"${response.citation.translatedText}"',
+                    style: AppTextStyles.bodySmall.copyWith(
+                      height: 1.5,
+                      color: AppColors.textPrimary,
+                    ),
+                  ),
+                ],
+              ],
+            ),
+          ),
+          const SizedBox(height: 16),
 
-${response.advice}
+          // Main advice (truncated)
+          Text(
+            response.advice.length > 200
+                ? '${response.advice.substring(0, 200)}...'
+                : response.advice,
+            style: AppTextStyles.bodyMedium.copyWith(
+              height: 1.6,
+              color: AppColors.textPrimary,
+            ),
+          ),
+          const SizedBox(height: 16),
 
-${l10n.adviceClosingWords}:
-"${response.closingWords}"
-''';
+          // Closing words
+          Container(
+            padding: const EdgeInsets.all(12),
+            decoration: BoxDecoration(
+              color: AppColors.surface,
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: Text(
+              '"${response.closingWords}"',
+              style: AppTextStyles.bodySmall.copyWith(
+                fontStyle: FontStyle.italic,
+                color: AppColors.textSecondary,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+          const SizedBox(height: 16),
 
-    await Share.share(shareText, subject: '${l10n.appTitle} - $personaName');
+          // App branding
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(Icons.auto_awesome, size: 16, color: categoryColor),
+              const SizedBox(width: 6),
+              Text(
+                l10n.appTitle,
+                style: AppTextStyles.labelMedium.copyWith(
+                  color: categoryColor,
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
+  Color _getCategoryColor(PersonaCategory category) {
+    switch (category) {
+      case PersonaCategory.philosophy:
+        return AppColors.categoryPhilosophy;
+      case PersonaCategory.religion:
+        return AppColors.categoryReligion;
+      case PersonaCategory.history:
+        return AppColors.categoryHistory;
+      case PersonaCategory.literature:
+        return AppColors.categoryLiterature;
+    }
   }
 
   String _getSourceTypeName(SourceType type, AppLocalizations l10n) {

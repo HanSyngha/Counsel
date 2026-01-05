@@ -2,10 +2,17 @@
 /// 각 프롬프트 강조: 인용문 + 출처 + 말투 + JSON 구조
 
 const String _jsonSchemaKo = '''
+중요 지침:
+- advice 필드는 반드시 줄바꿈(\\n)을 사용하여 단락을 구분하세요
+- 긴 조언은 2-3개 단락으로 나누어 가독성을 높이세요
+- citation의 original_text는 원어(그리스어, 라틴어, 산스크리트어, 한문, 아랍어 등)로 작성
+- citation의 translated_text는 한국어 번역
+
 응답 형식 (JSON):
 {
   "citation": {
-    "text": "원문 인용 또는 당시 발언",
+    "original_text": "원어 인용문 (그리스어, 라틴어, 산스크리트어, 한문, 아랍어 등 원문 그대로)",
+    "translated_text": "한국어로 번역된 인용문",
     "source": {
       "type": "scripture|book|speech|battle|letter|dialogue|moment|teaching|novel",
       "name": "출처명 (예: 도덕경, 워털루 전투)",
@@ -15,7 +22,7 @@ const String _jsonSchemaKo = '''
     },
     "relevance": "이 인용이 사용자의 고민과 연결되는 이유"
   },
-  "advice": "인물 특유의 말투로 작성된 조언",
+  "advice": "인물 특유의 말투로 작성된 조언\\n\\n줄바꿈을 사용하여 단락 구분",
   "action_steps": ["실천 1", "실천 2", "실천 3"],
   "closing_words": "시그니처 마무리 한마디"
 }''';

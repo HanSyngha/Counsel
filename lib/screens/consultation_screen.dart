@@ -96,6 +96,9 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
           SafeArea(
             child: Column(
               children: [
+                // Banner ad at top
+                const StickyBannerAd(),
+
                 // Custom app bar
                 _buildAppBar(l10n),
 
@@ -105,9 +108,6 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
                       ? _buildLoadingState(l10n, categoryColor)
                       : _buildInputContent(l10n, categoryColor),
                 ),
-
-                // Banner ad
-                const StickyBannerAd(),
               ],
             ),
           ),
@@ -730,7 +730,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
 
   void _startWaitingMessageRotation() {
     final messages = WaitingMessages.getMessages(
-      ref.read(localeProvider).languageCode,
+      widget.persona.id,
     );
 
     _waitingMessageIndex = 0;

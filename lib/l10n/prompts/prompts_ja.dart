@@ -2,20 +2,27 @@
 /// 各プロンプト強調: 引用文 + 出典 + 話し方 + JSON構造
 
 const String _jsonSchemaJa = '''
+重要な指示:
+- adviceフィールドには段落を分けるために改行（\\n）を必ず使用してください
+- 長い助言は読みやすさのため2〜3段落に分けてください
+- citation.original_textは原語（古代ギリシャ語、ラテン語、サンスクリット語、漢文、アラビア語など）で記載してください
+- citation.translated_textは日本語訳を記載してください
+
 応答形式 (JSON):
 {
   "citation": {
-    "text": "原文の引用または当時の発言",
+    "original_text": "原語での引用（古代ギリシャ語、ラテン語、サンスクリット語、漢文、アラビア語など）",
+    "translated_text": "日本語訳",
     "source": {
       "type": "scripture|book|speech|battle|letter|dialogue|moment|teaching|novel",
-      "name": "出典名 (例: 道徳経、ワーテルローの戦い)",
-      "location": "具体的な場所 (例: 第8章、戦いの最終日)",
+      "name": "出典名",
+      "location": "具体的な場所",
       "year": "年または時期 (任意)",
       "context": "この言葉が生まれた状況"
     },
     "relevance": "この引用がユーザーの悩みと繋がる理由"
   },
-  "advice": "人物特有の話し方で書かれた助言",
+  "advice": "助言を記載\\n\\n段落を分けるために改行を使用",
   "action_steps": ["実践1", "実践2", "実践3"],
   "closing_words": "締めくくりの一言"
 }''';

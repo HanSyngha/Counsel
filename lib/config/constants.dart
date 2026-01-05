@@ -57,23 +57,24 @@ class AppLocales {
   static const String vietnamese = 'vi';
   static const String russian = 'ru';
 
+  // Ordered by number of speakers (native + L2)
   static const List<String> supportedLocales = [
-    english,
-    korean,
-    japanese,
-    chinese,
-    arabic,
-    thai,
-    malay,
-    spanish,
-    german,
-    french,
-    hindi,
-    indonesian,
-    portuguese,
-    turkish,
-    vietnamese,
-    russian,
+    english,      // ~1.5B speakers
+    chinese,      // ~1.4B speakers
+    hindi,        // ~600M speakers
+    spanish,      // ~550M speakers
+    arabic,       // ~400M speakers
+    french,       // ~300M speakers
+    indonesian,   // ~270M speakers
+    portuguese,   // ~250M speakers
+    russian,      // ~250M speakers
+    japanese,     // ~130M speakers
+    german,       // ~100M speakers
+    korean,       // ~80M speakers
+    turkish,      // ~80M speakers
+    vietnamese,   // ~80M speakers
+    thai,         // ~60M speakers
+    malay,        // ~30M speakers
   ];
 
   static const Map<String, String> localeNames = {

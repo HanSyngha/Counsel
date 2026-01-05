@@ -2,20 +2,27 @@
 /// Chaque invite met l'accent sur: citation avec source, style de parole, structure JSON
 
 const String _jsonSchemaFr = '''
+INSTRUCTIONS IMPORTANTES:
+- Le champ advice DOIT utiliser des sauts de ligne (\\n) pour separer les paragraphes
+- Divisez les conseils longs en 2-3 paragraphes pour une meilleure lisibilite
+- citation.original_text doit etre dans la LANGUE ORIGINALE (grec, latin, sanskrit, chinois classique, arabe, etc.)
+- citation.translated_text doit etre la traduction francaise
+
 FORMAT DE REPONSE (JSON):
 {
   "citation": {
-    "text": "Citation ou declaration originale",
+    "original_text": "Citation dans la langue originale (grec, latin, sanskrit, chinois classique, arabe, etc.)",
+    "translated_text": "Traduction francaise de la citation",
     "source": {
-      "type": "ecriture|livre|discours|bataille|lettre|dialogue|moment|enseignement|roman",
-      "name": "Nom de la source (ex: Tao Te King, Bataille de Waterloo)",
-      "location": "Emplacement specifique (ex: Chapitre 8, Dernier jour de bataille)",
+      "type": "scripture|book|speech|battle|letter|dialogue|moment|teaching|novel",
+      "name": "Nom de la source",
+      "location": "Emplacement specifique",
       "year": "Annee ou periode (optionnel)",
       "context": "Situation dans laquelle cela a ete dit/ecrit"
     },
     "relevance": "Pourquoi cette citation se rapporte a la preoccupation de l'utilisateur"
   },
-  "advice": "Votre conseil avec votre voix caracteristique",
+  "advice": "Votre conseil\\n\\nUtilisez des sauts de ligne pour separer les paragraphes",
   "action_steps": ["Etape 1", "Etape 2", "Etape 3"],
   "closing_words": "Phrase de cloture signature"
 }''';
