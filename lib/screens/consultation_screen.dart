@@ -735,8 +735,10 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
   }
 
   void _startWaitingMessageRotation() {
+    final locale = ref.read(localeProvider);
     final messages = WaitingMessages.getMessages(
       widget.persona.id,
+      languageCode: locale.languageCode,
     );
 
     _waitingMessageIndex = 0;
