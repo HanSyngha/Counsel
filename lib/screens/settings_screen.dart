@@ -53,7 +53,7 @@ class SettingsScreen extends ConsumerWidget {
             icon: Icons.article_outlined,
             title: l10n.settingsAboutApp,
             subtitle: l10n.settingsAboutAppSubtitle,
-            onTap: () => _showAboutDialog(context, l10n),
+            onTap: () => _showAboutDialog(context, ref, l10n),
           ),
           _buildSettingsTile(
             context: context,
@@ -174,9 +174,14 @@ class SettingsScreen extends ConsumerWidget {
             style: AppTextStyles.headlineMedium,
           ),
           const SizedBox(height: 4),
-          Text(
-            'Version ${AppConstants.appVersion}',
-            style: AppTextStyles.bodySmall,
+          Consumer(
+            builder: (context, ref, _) {
+              final version = ref.watch(appVersionProvider);
+              return Text(
+                'Version $version',
+                style: AppTextStyles.bodySmall,
+              );
+            },
           ),
           const SizedBox(height: 12),
           Text(
@@ -230,7 +235,8 @@ class SettingsScreen extends ConsumerWidget {
     );
   }
 
-  void _showAboutDialog(BuildContext context, AppLocalizations l10n) {
+  void _showAboutDialog(BuildContext context, WidgetRef ref, AppLocalizations l10n) {
+    final version = ref.read(appVersionProvider);
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
@@ -260,7 +266,7 @@ class SettingsScreen extends ConsumerWidget {
             ),
             const SizedBox(height: 16),
             Text(
-              'Version ${AppConstants.appVersion}',
+              'Version $version',
               style: AppTextStyles.labelSmall,
             ),
           ],

@@ -1,12 +1,32 @@
 import 'dart:ui';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
 import '../models/advice.dart';
 import '../models/persona.dart';
 import '../services/grok_service.dart';
 import '../services/storage_service.dart';
 import '../services/ad_service.dart';
+
+// ============================================================================
+// App Info Providers
+// ============================================================================
+
+/// Package info provider - loads version info from pubspec.yaml
+final packageInfoProvider = FutureProvider<PackageInfo>((ref) async {
+  return await PackageInfo.fromPlatform();
+});
+
+/// App version string provider
+final appVersionProvider = Provider<String>((ref) {
+  final packageInfo = ref.watch(packageInfoProvider);
+  return packageInfo.when(
+    data: (info) => info.version,
+    loading: () => '...',
+    error: (_, __) => '1.0.0',
+  );
+});
 
 // ============================================================================
 // Service Providers

@@ -8,6 +8,7 @@ import '../config/constants.dart';
 import '../models/persona.dart';
 import '../models/advice.dart';
 import '../models/waiting_messages.dart';
+import '../models/failure_messages.dart';
 import '../providers/providers.dart';
 import '../widgets/banner_ad_widget.dart';
 import 'advice_detail_screen.dart';
@@ -681,57 +682,128 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
     _focusNode.unfocus();
     _startWaitingMessageRotation();
 
-    try {
-      final locale = ref.read(localeProvider);
-      final request = AdviceRequest(
-        personaId: widget.persona.id,
-        userQuery: query,
-        locale: locale,
-      );
+    final locale = ref.read(localeProvider);
+    final request = AdviceRequest(
+      personaId: widget.persona.id,
+      userQuery: query,
+      locale: locale,
+    );
 
-      // Ensure minimum 2 second loading time for ad display
-      final results = await Future.wait([
-        ref.read(adviceRequestProvider(request).future),
-        Future.delayed(const Duration(seconds: 2)),
-      ]);
+    // Retry logic - try up to 3 times
+    const maxRetries = 3;
+    AdviceResponse? adviceResponse;
 
-      final adviceResponse = results[0] as AdviceResponse;
+    for (int attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        // Ensure minimum 2 second loading time for ad display
+        final results = await Future.wait([
+          ref.read(adviceRequestProvider(request).future),
+          Future.delayed(const Duration(seconds: 2)),
+        ]);
 
-      // Show interstitial ad every 5 requests
-      final adService = ref.read(adServiceProvider);
-      await adService.onAdviceReceived();
+        adviceResponse = results[0] as AdviceResponse;
+        break; // Success, exit retry loop
+      } catch (e) {
+        if (attempt < maxRetries) {
+          // Wait before retry
+          await Future.delayed(Duration(seconds: attempt));
+        }
+      }
+    }
 
-      if (!mounted) return;
+    if (!mounted) return;
 
-      // Create advice record and navigate to detail
-      final record = AdviceRecord(
-        id: DateTime.now().millisecondsSinceEpoch.toString(),
-        personaId: widget.persona.id,
-        userQuery: query,
-        response: adviceResponse,
-        createdAt: DateTime.now(),
-      );
-
-      // Save to history
-      ref.read(adviceHistoryProvider.notifier).addAdvice(record);
-
-      // Navigate to advice detail screen
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-          builder: (context) => AdviceDetailScreen(
-            record: record,
-            persona: widget.persona,
-          ),
-        ),
-      );
-    } catch (e) {
-      if (!mounted) return;
+    // If all retries failed, show persona-specific error popup
+    if (adviceResponse == null) {
       setState(() {
-        _errorMessage = e.toString();
         _isLoading = false;
       });
+      _showFailureDialog(locale.languageCode);
+      return;
     }
+
+    // Show interstitial ad every 5 requests
+    final adService = ref.read(adServiceProvider);
+    await adService.onAdviceReceived();
+
+    if (!mounted) return;
+
+    // Create advice record and navigate to detail
+    final record = AdviceRecord(
+      id: DateTime.now().millisecondsSinceEpoch.toString(),
+      personaId: widget.persona.id,
+      userQuery: query,
+      response: adviceResponse,
+      createdAt: DateTime.now(),
+    );
+
+    // Save to history
+    ref.read(adviceHistoryProvider.notifier).addAdvice(record);
+
+    // Navigate to advice detail screen
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(
+        builder: (context) => AdviceDetailScreen(
+          record: record,
+          persona: widget.persona,
+        ),
+      ),
+    );
+  }
+
+  void _showFailureDialog(String languageCode) {
+    final l10n = AppLocalizations.of(context)!;
+    final personaMessage = FailureMessages.getMessage(
+      widget.persona.id,
+      languageCode: languageCode,
+    );
+    final personaName = _getPersonaName(widget.persona, l10n);
+
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: AppColors.surface,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(16),
+        ),
+        title: Row(
+          children: [
+            CircleAvatar(
+              radius: 24,
+              backgroundImage: AssetImage(widget.persona.imagePath),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Text(
+                personaName,
+                style: AppTextStyles.titleLarge,
+              ),
+            ),
+          ],
+        ),
+        content: Text(
+          personaMessage,
+          style: AppTextStyles.bodyLarge.copyWith(
+            fontStyle: FontStyle.italic,
+            height: 1.6,
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text(l10n.ok),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context);
+              _submitRequest(); // Retry
+            },
+            child: Text(l10n.retry),
+          ),
+        ],
+      ),
+    );
   }
 
   void _startWaitingMessageRotation() {
