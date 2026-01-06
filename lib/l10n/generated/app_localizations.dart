@@ -864,6 +864,24 @@ abstract class AppLocalizations {
   /// **'From the unreal lead me to the real, from darkness lead me to light.'**
   String get personaBrahmaQuote;
 
+  /// No description provided for @personaVishnu.
+  ///
+  /// In en, this message translates to:
+  /// **'Vishnu'**
+  String get personaVishnu;
+
+  /// No description provided for @personaVishnuTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'The Preserver God'**
+  String get personaVishnuTitle;
+
+  /// No description provided for @personaVishnuQuote.
+  ///
+  /// In en, this message translates to:
+  /// **'Whenever dharma declines, I manifest myself to protect the righteous.'**
+  String get personaVishnuQuote;
+
   /// No description provided for @personaTolstoy.
   ///
   /// In en, this message translates to:

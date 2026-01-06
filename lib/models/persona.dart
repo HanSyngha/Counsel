@@ -83,6 +83,7 @@ class PersonaData {
     muhammad,
     krishna,
     brahma,
+    vishnu,
     // History
     lincoln,
     napoleon,
@@ -216,6 +217,16 @@ class PersonaData {
     quoteKey: 'persona_brahma_quote',
     category: PersonaCategory.religion,
     imagePath: AppAssets.brahma,
+    era: 0,
+  );
+
+  static const Persona vishnu = Persona(
+    id: 'vishnu',
+    nameKey: 'persona_vishnu',
+    titleKey: 'persona_vishnu_title',
+    quoteKey: 'persona_vishnu_quote',
+    category: PersonaCategory.religion,
+    imagePath: AppAssets.vishnu,
     era: 0,
   );
 

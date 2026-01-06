@@ -391,6 +391,16 @@ class AppLocalizationsAr extends AppLocalizations {
       'من الوهم إلى الحقيقة، ومن الظلام إلى النور، اهدني.';
 
   @override
+  String get personaVishnu => 'فيشنو';
+
+  @override
+  String get personaVishnuTitle => 'إله الحفظ';
+
+  @override
+  String get personaVishnuQuote =>
+      'كلما تراجعت الدارما، أتجلى لحماية الصالحين.';
+
+  @override
   String get personaTolstoy => 'ليو تولستوي';
 
   @override

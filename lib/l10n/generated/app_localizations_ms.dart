@@ -400,6 +400,16 @@ class AppLocalizationsMs extends AppLocalizations {
       'Pimpinlah kami dari khayalan kepada kebenaran, dari kegelapan kepada cahaya.';
 
   @override
+  String get personaVishnu => 'Vishnu';
+
+  @override
+  String get personaVishnuTitle => 'Dewa Pemelihara';
+
+  @override
+  String get personaVishnuQuote =>
+      'Setiap kali dharma merosot, aku menzahirkan diri untuk melindungi yang benar.';
+
+  @override
   String get personaTolstoy => 'Leo Tolstoy';
 
   @override

@@ -383,6 +383,15 @@ class AppLocalizationsJa extends AppLocalizations {
   String get personaBrahmaQuote => '虚偽から真実へ、闇から光へ導きたまえ。';
 
   @override
+  String get personaVishnu => 'ヴィシュヌ';
+
+  @override
+  String get personaVishnuTitle => '維持の神';
+
+  @override
+  String get personaVishnuQuote => 'ダルマが衰退するたびに、私は正しき者を守るために現れる。';
+
+  @override
   String get personaTolstoy => 'レフ・トルストイ';
 
   @override

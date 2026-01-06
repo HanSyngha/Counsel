@@ -399,6 +399,16 @@ class AppLocalizationsPt extends AppLocalizations {
       'Conduza-me da ilusao a verdade, das trevas a luz.';
 
   @override
+  String get personaVishnu => 'Vishnu';
+
+  @override
+  String get personaVishnuTitle => 'O Deus Preservador';
+
+  @override
+  String get personaVishnuQuote =>
+      'Sempre que o dharma declina, eu me manifesto para proteger os justos.';
+
+  @override
   String get personaTolstoy => 'Lev Tolstoi';
 
   @override

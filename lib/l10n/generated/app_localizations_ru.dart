@@ -400,6 +400,16 @@ class AppLocalizationsRu extends AppLocalizations {
       'Веди нас от иллюзии к истине, от тьмы к свету.';
 
   @override
+  String get personaVishnu => 'Вишну';
+
+  @override
+  String get personaVishnuTitle => 'Бог-Хранитель';
+
+  @override
+  String get personaVishnuQuote =>
+      'Когда дхарма приходит в упадок, я являюсь, чтобы защитить праведных.';
+
+  @override
   String get personaTolstoy => 'Лев Толстой';
 
   @override

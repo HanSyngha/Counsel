@@ -397,6 +397,16 @@ class AppLocalizationsEn extends AppLocalizations {
       'From the unreal lead me to the real, from darkness lead me to light.';
 
   @override
+  String get personaVishnu => 'Vishnu';
+
+  @override
+  String get personaVishnuTitle => 'The Preserver God';
+
+  @override
+  String get personaVishnuQuote =>
+      'Whenever dharma declines, I manifest myself to protect the righteous.';
+
+  @override
   String get personaTolstoy => 'Leo Tolstoy';
 
   @override

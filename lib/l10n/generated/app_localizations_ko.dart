@@ -385,6 +385,15 @@ class AppLocalizationsKo extends AppLocalizations {
   String get personaBrahmaQuote => '허상에서 진실로, 어둠에서 빛으로 인도하소서.';
 
   @override
+  String get personaVishnu => '비슈누';
+
+  @override
+  String get personaVishnuTitle => '유지의 신';
+
+  @override
+  String get personaVishnuQuote => '다르마가 쇠퇴할 때마다, 나는 의로운 자를 보호하기 위해 현현한다.';
+
+  @override
   String get personaTolstoy => '레프 톨스토이';
 
   @override

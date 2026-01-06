@@ -220,6 +220,18 @@ class WaitingMessages {
       '"The cosmic egg of insight cracks open..."',
       '"Divine knowledge descends..."',
     ],
+    'vishnu': [
+      '"I am preserving the balance of cosmic wisdom..."',
+      '"The preserver contemplates your path..."',
+      '"Through my avatars, I have seen all troubles..."',
+      '"Dharma guides my thoughts to you..."',
+      '"I am descending to protect and guide..."',
+      '"The cosmic order reveals its wisdom..."',
+      '"Lakshmi blesses this contemplation..."',
+      '"From the ocean of milk, clarity emerges..."',
+      '"The conch shell sounds with coming wisdom..."',
+      '"I preserve all that is good for you..."',
+    ],
     'tolstoy': [
       '"I am writing the first draft of your answer..."',
       '"All great truths are simple, but take time to find..."',

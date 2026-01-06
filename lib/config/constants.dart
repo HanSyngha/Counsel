@@ -144,4 +144,5 @@ class AppAssets {
   static const String brahma = '${personaImagesPath}brahma.jpeg';
   static const String krishna = '${personaImagesPath}krishna.jpeg';
   static const String tolstoy = '${personaImagesPath}tolstoy.jpeg';
+  static const String vishnu = '${personaImagesPath}vishnu.jpeg';
 }

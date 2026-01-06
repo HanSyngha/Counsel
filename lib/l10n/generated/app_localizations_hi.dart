@@ -398,6 +398,16 @@ class AppLocalizationsHi extends AppLocalizations {
       'असत्य से सत्य की ओर, अंधकार से प्रकाश की ओर ले चलो।';
 
   @override
+  String get personaVishnu => 'विष्णु';
+
+  @override
+  String get personaVishnuTitle => 'पालनकर्ता देव';
+
+  @override
+  String get personaVishnuQuote =>
+      'जब भी धर्म का पतन होता है, मैं धर्मियों की रक्षा के लिए प्रकट होता हूं।';
+
+  @override
   String get personaTolstoy => 'लियो टॉल्स्टॉय';
 
   @override

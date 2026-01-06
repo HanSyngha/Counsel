@@ -401,6 +401,16 @@ class AppLocalizationsEs extends AppLocalizations {
       'De la ilusion a la verdad, de la oscuridad a la luz, guianos.';
 
   @override
+  String get personaVishnu => 'Vishnu';
+
+  @override
+  String get personaVishnuTitle => 'El Dios Preservador';
+
+  @override
+  String get personaVishnuQuote =>
+      'Siempre que el dharma decae, me manifiesto para proteger a los justos.';
+
+  @override
   String get personaTolstoy => 'Leon Tolstoi';
 
   @override

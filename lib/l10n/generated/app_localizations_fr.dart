@@ -403,6 +403,16 @@ class AppLocalizationsFr extends AppLocalizations {
       'Guidez-nous de l\'illusion vers la verite, des tenebres vers la lumiere.';
 
   @override
+  String get personaVishnu => 'Vishnu';
+
+  @override
+  String get personaVishnuTitle => 'Le Dieu Preservateur';
+
+  @override
+  String get personaVishnuQuote =>
+      'Chaque fois que le dharma decline, je me manifeste pour proteger les justes.';
+
+  @override
   String get personaTolstoy => 'Leon Tolstoi';
 
   @override

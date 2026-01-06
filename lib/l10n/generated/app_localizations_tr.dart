@@ -396,6 +396,16 @@ class AppLocalizationsTr extends AppLocalizations {
       'Bizi gerçek olmayandan gerçeğe, karanlıktan ışığa götür.';
 
   @override
+  String get personaVishnu => 'Vişnu';
+
+  @override
+  String get personaVishnuTitle => 'Koruyucu Tanrı';
+
+  @override
+  String get personaVishnuQuote =>
+      'Dharma her zayıfladığında, doğru olanları korumak için kendimi gösteririm.';
+
+  @override
   String get personaTolstoy => 'Lev Tolstoy';
 
   @override

@@ -787,6 +787,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
       case 'rumi': return l10n.personaRumi;
       case 'krishna': return l10n.personaKrishna;
       case 'brahma': return l10n.personaBrahma;
+      case 'vishnu': return l10n.personaVishnu;
       case 'tolstoy': return l10n.personaTolstoy;
       default: return persona.id;
     }
@@ -812,6 +813,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
       case 'rumi': return l10n.personaRumiTitle;
       case 'krishna': return l10n.personaKrishnaTitle;
       case 'brahma': return l10n.personaBrahmaTitle;
+      case 'vishnu': return l10n.personaVishnuTitle;
       case 'tolstoy': return l10n.personaTolstoyTitle;
       default: return '';
     }
@@ -837,6 +839,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
       case 'rumi': return l10n.personaRumiQuote;
       case 'krishna': return l10n.personaKrishnaQuote;
       case 'brahma': return l10n.personaBrahmaQuote;
+      case 'vishnu': return l10n.personaVishnuQuote;
       case 'tolstoy': return l10n.personaTolstoyQuote;
       default: return '';
     }

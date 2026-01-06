@@ -395,6 +395,16 @@ class AppLocalizationsTh extends AppLocalizations {
       'นำข้าพเจ้าจากมายาสู่ความจริง จากความมืดสู่แสงสว่าง';
 
   @override
+  String get personaVishnu => 'พระวิษณุ';
+
+  @override
+  String get personaVishnuTitle => 'เทพผู้พิทักษ์';
+
+  @override
+  String get personaVishnuQuote =>
+      'เมื่อใดที่ธรรมะเสื่อมถอย ข้าจะปรากฏกายเพื่อปกป้องผู้ชอบธรรม';
+
+  @override
   String get personaTolstoy => 'เลโอ ตอลสตอย';
 
   @override

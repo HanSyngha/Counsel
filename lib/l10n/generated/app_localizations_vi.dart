@@ -401,6 +401,16 @@ class AppLocalizationsVi extends AppLocalizations {
       'Từ ảo tưởng đến chân lý, từ bóng tối đến ánh sáng, xin hãy dẫn dắt chúng con.';
 
   @override
+  String get personaVishnu => 'Vishnu';
+
+  @override
+  String get personaVishnuTitle => 'Thần Bảo Tồn';
+
+  @override
+  String get personaVishnuQuote =>
+      'Mỗi khi dharma suy tàn, ta hiện thân để bảo vệ người chính nghĩa.';
+
+  @override
   String get personaTolstoy => 'Leo Tolstoy';
 
   @override

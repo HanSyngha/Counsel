@@ -402,6 +402,16 @@ class AppLocalizationsDe extends AppLocalizations {
       'Fuehre mich vom Unwirklichen zum Wirklichen, von der Dunkelheit zum Licht.';
 
   @override
+  String get personaVishnu => 'Vishnu';
+
+  @override
+  String get personaVishnuTitle => 'Der Bewahrer-Gott';
+
+  @override
+  String get personaVishnuQuote =>
+      'Wann immer das Dharma verfaellt, manifestiere ich mich, um die Gerechten zu schuetzen.';
+
+  @override
   String get personaTolstoy => 'Leo Tolstoi';
 
   @override

@@ -401,6 +401,16 @@ class AppLocalizationsId extends AppLocalizations {
       'Dari yang tidak nyata menuju yang nyata, dari kegelapan menuju cahaya.';
 
   @override
+  String get personaVishnu => 'Wisnu';
+
+  @override
+  String get personaVishnuTitle => 'Dewa Pemelihara';
+
+  @override
+  String get personaVishnuQuote =>
+      'Setiap kali dharma menurun, aku mewujudkan diri untuk melindungi yang benar.';
+
+  @override
   String get personaTolstoy => 'Leo Tolstoy';
 
   @override

@@ -380,6 +380,16 @@ class AppLocalizationsZh extends AppLocalizations {
   String get personaBrahmaQuote => '引领我从虚幻走向真实，从黑暗走向光明。';
 
   @override
+  String get personaVishnu => 'Vishnu';
+
+  @override
+  String get personaVishnuTitle => 'The Preserver God';
+
+  @override
+  String get personaVishnuQuote =>
+      'Whenever dharma declines, I manifest myself to protect the righteous.';
+
+  @override
   String get personaTolstoy => '列夫·托尔斯泰';
 
   @override
