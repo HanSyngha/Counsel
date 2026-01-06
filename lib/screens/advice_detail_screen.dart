@@ -779,16 +779,20 @@ ${l10n.adviceClosingWords}:
     final personaName = _persona != null ? _getPersonaName(_persona!, l10n) : '';
     final categoryColor = _persona != null ? _getCategoryColor(_persona!.category) : AppColors.primary;
 
-    return Container(
-      width: 400,
-      padding: const EdgeInsets.all(24),
-      decoration: BoxDecoration(
-        color: AppColors.background,
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: categoryColor.withOpacity(0.3), width: 2),
+    return ConstrainedBox(
+      constraints: const BoxConstraints(
+        minWidth: 400,
+        maxWidth: 500,
       ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
+      child: Container(
+        padding: const EdgeInsets.all(24),
+        decoration: BoxDecoration(
+          color: AppColors.background,
+          borderRadius: BorderRadius.circular(20),
+          border: Border.all(color: categoryColor.withOpacity(0.3), width: 2),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
         children: [
           // Header with persona
           Row(
@@ -887,11 +891,9 @@ ${l10n.adviceClosingWords}:
           ),
           const SizedBox(height: 16),
 
-          // Main advice (truncated)
+          // Main advice (full)
           Text(
-            response.advice.length > 200
-                ? '${response.advice.substring(0, 200)}...'
-                : response.advice,
+            response.advice,
             style: AppTextStyles.bodyMedium.copyWith(
               height: 1.6,
               color: AppColors.textPrimary,
@@ -932,6 +934,7 @@ ${l10n.adviceClosingWords}:
             ],
           ),
         ],
+        ),
       ),
     );
   }
