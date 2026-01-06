@@ -395,6 +395,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       case 'krishna': return l10n.personaKrishna;
       case 'brahma': return l10n.personaBrahma;
       case 'tolstoy': return l10n.personaTolstoy;
+      case 'vishnu': return l10n.personaVishnu;
       default: return persona.id;
     }
   }
@@ -420,6 +421,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       case 'krishna': return l10n.personaKrishnaTitle;
       case 'brahma': return l10n.personaBrahmaTitle;
       case 'tolstoy': return l10n.personaTolstoyTitle;
+      case 'vishnu': return l10n.personaVishnuTitle;
       default: return '';
     }
   }

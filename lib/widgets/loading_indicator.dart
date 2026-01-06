@@ -356,6 +356,8 @@ class _LoadingIndicatorState extends ConsumerState<LoadingIndicator>
         return l10n.personaBrahma;
       case 'tolstoy':
         return l10n.personaTolstoy;
+      case 'vishnu':
+        return l10n.personaVishnu;
       default:
         return widget.persona!.nameKey;
     }

@@ -575,6 +575,7 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
       case 'krishna': return l10n.personaKrishna;
       case 'brahma': return l10n.personaBrahma;
       case 'tolstoy': return l10n.personaTolstoy;
+      case 'vishnu': return l10n.personaVishnu;
       default: return persona.id;
     }
   }
@@ -600,6 +601,7 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
       case 'krishna': return l10n.personaKrishnaTitle;
       case 'brahma': return l10n.personaBrahmaTitle;
       case 'tolstoy': return l10n.personaTolstoyTitle;
+      case 'vishnu': return l10n.personaVishnuTitle;
       default: return '';
     }
   }
@@ -625,6 +627,7 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
       case 'krishna': return l10n.personaKrishnaQuote;
       case 'brahma': return l10n.personaBrahmaQuote;
       case 'tolstoy': return l10n.personaTolstoyQuote;
+      case 'vishnu': return l10n.personaVishnuQuote;
       default: return '';
     }
   }

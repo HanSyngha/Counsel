@@ -255,6 +255,8 @@ class PersonaCard extends ConsumerWidget {
         return l10n.personaBrahma;
       case 'tolstoy':
         return l10n.personaTolstoy;
+      case 'vishnu':
+        return l10n.personaVishnu;
       default:
         return persona.nameKey;
     }
@@ -300,6 +302,8 @@ class PersonaCard extends ConsumerWidget {
         return l10n.personaBrahmaTitle;
       case 'tolstoy':
         return l10n.personaTolstoyTitle;
+      case 'vishnu':
+        return l10n.personaVishnuTitle;
       default:
         return persona.titleKey;
     }

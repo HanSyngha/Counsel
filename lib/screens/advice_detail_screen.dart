@@ -856,6 +856,32 @@ ${l10n.adviceClosingWords}:
                     ),
                   ),
                 ],
+                const SizedBox(height: 12),
+                // Source info
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+                  decoration: BoxDecoration(
+                    color: AppColors.background.withOpacity(0.5),
+                    borderRadius: BorderRadius.circular(6),
+                  ),
+                  child: Row(
+                    children: [
+                      Icon(Icons.menu_book, size: 12, color: categoryColor),
+                      const SizedBox(width: 6),
+                      Expanded(
+                        child: Text(
+                          '${response.citation.source.name} · ${response.citation.source.location}${response.citation.source.year != null && response.citation.source.year!.isNotEmpty ? ' · ${response.citation.source.year}' : ''}',
+                          style: AppTextStyles.labelSmall.copyWith(
+                            color: AppColors.textSecondary,
+                            fontSize: 10,
+                          ),
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
@@ -967,6 +993,7 @@ ${l10n.adviceClosingWords}:
       case 'krishna': return l10n.personaKrishna;
       case 'brahma': return l10n.personaBrahma;
       case 'tolstoy': return l10n.personaTolstoy;
+      case 'vishnu': return l10n.personaVishnu;
       default: return persona.id;
     }
   }
@@ -992,6 +1019,7 @@ ${l10n.adviceClosingWords}:
       case 'krishna': return l10n.personaKrishnaTitle;
       case 'brahma': return l10n.personaBrahmaTitle;
       case 'tolstoy': return l10n.personaTolstoyTitle;
+      case 'vishnu': return l10n.personaVishnuTitle;
       default: return '';
     }
   }

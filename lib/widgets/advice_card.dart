@@ -346,6 +346,8 @@ class AdviceCard extends ConsumerWidget {
         return l10n.personaBrahma;
       case 'tolstoy':
         return l10n.personaTolstoy;
+      case 'vishnu':
+        return l10n.personaVishnu;
       default:
         return persona.nameKey;
     }
