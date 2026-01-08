@@ -648,3 +648,647 @@ class AppLocalizationsZh extends AppLocalizations {
   String get settingsAboutContent =>
       '智者之声通过AI驱动的对话，将您与历史上最伟大的哲学家、领袖和思想家的智慧连接起来。';
 }
+
+/// The translations for Chinese, as used in Taiwan (`zh_TW`).
+class AppLocalizationsZhTw extends AppLocalizationsZh {
+  AppLocalizationsZhTw() : super('zh_TW');
+
+  @override
+  String get appName => 'Counsel';
+
+  @override
+  String get onboardingTitle => '遇見你的歷史導師';
+
+  @override
+  String get onboardingSubtitle => '從耶穌到蘇格拉底，從拿破崙到史蒂夫·賈伯斯。\n為你的煩惱借取永恆的智慧。';
+
+  @override
+  String get getStarted => '開始使用';
+
+  @override
+  String get homeTitle => '今天你想向誰請教？';
+
+  @override
+  String get searchPlaceholder => '搜尋柏拉圖、林肯、哈姆雷特...';
+
+  @override
+  String get featuredMentors => '精選導師';
+
+  @override
+  String get exploreWisdom => '探索智慧';
+
+  @override
+  String get seeAll => '查看全部';
+
+  @override
+  String get trending => '熱門';
+
+  @override
+  String get new_ => '最新';
+
+  @override
+  String get categoryAll => '全部';
+
+  @override
+  String get categoryHistory => '歷史';
+
+  @override
+  String get categoryPhilosophy => '哲學';
+
+  @override
+  String get categoryReligion => '宗教';
+
+  @override
+  String get categoryLiterature => '文學';
+
+  @override
+  String get categoryFavorites => '收藏';
+
+  @override
+  String get inputTitle => '什麼讓你心煩意亂？';
+
+  @override
+  String get inputSubtitle => '請誠實以對。細節是通往清晰的道路。';
+
+  @override
+  String get inputPlaceholder => '我正在掙扎於...\n這一切開始於...\n我害怕...';
+
+  @override
+  String get inputHelperDilemma => '目前的困境';
+
+  @override
+  String get inputHelperEmotion => '情緒狀態';
+
+  @override
+  String get inputHelperOutcome => '期望的結果';
+
+  @override
+  String get seekWisdom => '尋求智慧';
+
+  @override
+  String get privacyNote => '你的傾訴是私密且匿名的。';
+
+  @override
+  String characterCount(int count, int max) {
+    return '$count / $max';
+  }
+
+  @override
+  String get loadingConnecting => '正在連接';
+
+  @override
+  String get loadingConsulting => '正在查閱古老的智慧檔案';
+
+  @override
+  String get loadingAnalyzing => '正在分析問題';
+
+  @override
+  String get loadingRecalling => '正在回憶歷史背景...';
+
+  @override
+  String get loadingOnline => '線上';
+
+  @override
+  String get cancelRequest => '取消請求';
+
+  @override
+  String get loadingNote => '我們正在召喚人物，這可能需要一點時間。';
+
+  @override
+  String get resultWisdom => '智慧';
+
+  @override
+  String get resultAiPersona => 'AI 人物建議';
+
+  @override
+  String get resultGeneratedBy => '由 AI 人物生成';
+
+  @override
+  String get resultScrollOfWisdom => '智慧卷軸';
+
+  @override
+  String get resultHistoricalRecords => '歷史記錄';
+
+  @override
+  String get resultInHisOwnWords => '他的原話';
+
+  @override
+  String get resultKeyDecision => '關鍵決定';
+
+  @override
+  String get resultCopy => '複製';
+
+  @override
+  String get resultShare => '分享';
+
+  @override
+  String get askAnotherSage => '詢問另一位智者';
+
+  @override
+  String get resultActionSteps => '行動步驟';
+
+  @override
+  String get historyTitle => '我的建議歷史';
+
+  @override
+  String get historySearch => '你在尋找什麼煩惱？';
+
+  @override
+  String get historyEmpty => '還沒有建議歷史';
+
+  @override
+  String get historyEmptySubtitle => '開始與導師對話';
+
+  @override
+  String get navSelect => '選擇';
+
+  @override
+  String get navChat => '聊天';
+
+  @override
+  String get navSaved => '已儲存';
+
+  @override
+  String get navHistory => '歷史';
+
+  @override
+  String get navProfile => '個人資料';
+
+  @override
+  String get navSettings => '設定';
+
+  @override
+  String get settingsLanguage => '語言';
+
+  @override
+  String get settingsAbout => '關於';
+
+  @override
+  String get settingsPrivacy => '隱私政策';
+
+  @override
+  String get settingsTerms => '服務條款';
+
+  @override
+  String get settingsVersion => '版本';
+
+  @override
+  String get errorGeneric => '發生錯誤。請重試。';
+
+  @override
+  String get errorNetwork => '請檢查你的網路連線。';
+
+  @override
+  String get errorTimeout => '請求逾時。請重試。';
+
+  @override
+  String get retry => '重試';
+
+  @override
+  String get ok => '確定';
+
+  @override
+  String get cancel => '取消';
+
+  @override
+  String get close => '關閉';
+
+  @override
+  String get save => '儲存';
+
+  @override
+  String get delete => '刪除';
+
+  @override
+  String get confirm => '確認';
+
+  @override
+  String get personaSocrates => '蘇格拉底';
+
+  @override
+  String get personaSocratesTitle => '西方哲學之父';
+
+  @override
+  String get personaSocratesQuote => '未經審視的人生不值得活。';
+
+  @override
+  String get personaPlato => '柏拉圖';
+
+  @override
+  String get personaPlatoTitle => '理型論哲學家';
+
+  @override
+  String get personaPlatoQuote => '要善良，因為你遇到的每個人都在進行一場艱難的戰鬥。';
+
+  @override
+  String get personaAristotle => '亞里士多德';
+
+  @override
+  String get personaAristotleTitle => '第一位老師';
+
+  @override
+  String get personaAristotleQuote => '我們重複做的事情造就了我們。卓越不是一種行為，而是一種習慣。';
+
+  @override
+  String get personaSeneca => '塞內卡';
+
+  @override
+  String get personaSenecaTitle => '斯多葛派哲學家';
+
+  @override
+  String get personaSenecaQuote => '不是我們擁有的時間太少，而是我們浪費的太多。';
+
+  @override
+  String get personaConfucius => '孔子';
+
+  @override
+  String get personaConfuciusTitle => '至聖先師';
+
+  @override
+  String get personaConfuciusQuote => '不論你走得多慢，只要你不停下來就好。';
+
+  @override
+  String get personaLaozi => '老子';
+
+  @override
+  String get personaLaoziTitle => '道家創始人';
+
+  @override
+  String get personaLaoziQuote => '千里之行，始於足下。';
+
+  @override
+  String get personaJesus => '耶穌';
+
+  @override
+  String get personaJesusTitle => '靈性導師';
+
+  @override
+  String get personaJesusQuote => '愛你的鄰人如同愛自己。';
+
+  @override
+  String get personaBuddha => '佛陀';
+
+  @override
+  String get personaBuddhaTitle => '覺者';
+
+  @override
+  String get personaBuddhaQuote => '平靜來自內心。不要向外尋求。';
+
+  @override
+  String get personaMuhammad => '穆罕默德';
+
+  @override
+  String get personaMuhammadTitle => '伊斯蘭先知';
+
+  @override
+  String get personaMuhammadQuote => '你們中最優秀的人是品德最好的人。';
+
+  @override
+  String get personaLincoln => '亞伯拉罕·林肯';
+
+  @override
+  String get personaLincolnTitle => '美國第16任總統';
+
+  @override
+  String get personaLincolnQuote => '最終，重要的不是你生命中的歲月，而是歲月中的生命。';
+
+  @override
+  String get personaNapoleon => '拿破崙';
+
+  @override
+  String get personaNapoleonTitle => '法蘭西皇帝';
+
+  @override
+  String get personaNapoleonQuote => '不可能這個詞只存在於愚者的字典裡。';
+
+  @override
+  String get personaSteveJobs => '史蒂夫·賈伯斯';
+
+  @override
+  String get personaSteveJobsTitle => '遠見卓識的企業家';
+
+  @override
+  String get personaSteveJobsQuote => '求知若飢，虛心若愚。';
+
+  @override
+  String get personaSherlockHolmes => '夏洛克·福爾摩斯';
+
+  @override
+  String get personaSherlockHolmesTitle => '推理大師';
+
+  @override
+  String get personaSherlockHolmesQuote => '當你排除了不可能的事，剩下的無論多麼不可思議，都必定是真相。';
+
+  @override
+  String get personaDumbledore => '阿不思·鄧不利多';
+
+  @override
+  String get personaDumbledoreTitle => '霍格華茲校長';
+
+  @override
+  String get personaDumbledoreQuote => '即使在最黑暗的時刻也能找到幸福，只要記得把燈打開。';
+
+  @override
+  String get personaGandhi => '聖雄甘地';
+
+  @override
+  String get personaGandhiTitle => '國父';
+
+  @override
+  String get personaGandhiQuote => '成為你希望在世界上看到的改變。';
+
+  @override
+  String get personaRumi => '魯米';
+
+  @override
+  String get personaRumiTitle => '蘇菲派詩人與神秘主義者';
+
+  @override
+  String get personaRumiQuote => '傷口是光進入你內心的地方。';
+
+  @override
+  String get personaKrishna => '克里希納';
+
+  @override
+  String get personaKrishnaTitle => '薄伽梵歌的神聖指引者';
+
+  @override
+  String get personaKrishnaQuote => '你有權利工作，但永遠無權享受工作的果實。';
+
+  @override
+  String get personaBrahma => '梵天';
+
+  @override
+  String get personaBrahmaTitle => '創造之神';
+
+  @override
+  String get personaBrahmaQuote => '從虛幻引領我至真實，從黑暗引領我至光明。';
+
+  @override
+  String get personaVishnu => '毗濕奴';
+
+  @override
+  String get personaVishnuTitle => '守護之神';
+
+  @override
+  String get personaVishnuQuote => '每當正法衰落，我就會顯現來保護正義之人。';
+
+  @override
+  String get personaTolstoy => '列夫·托爾斯泰';
+
+  @override
+  String get personaTolstoyTitle => '俄國文學巨匠';
+
+  @override
+  String get personaTolstoyQuote => '每個人都想改變世界，卻沒有人想改變自己。';
+
+  @override
+  String get adviceYourQuestion => '你的問題';
+
+  @override
+  String get adviceCitation => '引文';
+
+  @override
+  String get adviceRelevance => '為何重要';
+
+  @override
+  String get adviceSourceType => '來源類型';
+
+  @override
+  String get adviceSourceName => '來源';
+
+  @override
+  String get adviceSourceLocation => '位置';
+
+  @override
+  String get adviceSourceYear => '年份';
+
+  @override
+  String get adviceSourceContext => '背景';
+
+  @override
+  String get adviceMainCounsel => '建議';
+
+  @override
+  String get adviceActionSteps => '行動步驟';
+
+  @override
+  String get adviceClosingWords => '結語';
+
+  @override
+  String get adviceCopy => '複製';
+
+  @override
+  String get adviceShare => '分享';
+
+  @override
+  String get adviceAddedToFavorites => '已加入收藏';
+
+  @override
+  String get adviceRemovedFromFavorites => '已從收藏移除';
+
+  @override
+  String get adviceCopied => '已複製到剪貼簿';
+
+  @override
+  String get adviceShareError => '無法分享。請重試。';
+
+  @override
+  String get sourceTypeScripture => '經典';
+
+  @override
+  String get sourceTypeBook => '書籍';
+
+  @override
+  String get sourceTypeSpeech => '演說';
+
+  @override
+  String get sourceTypeBattle => '戰役';
+
+  @override
+  String get sourceTypeLetter => '書信';
+
+  @override
+  String get sourceTypeDialogue => '對話';
+
+  @override
+  String get sourceTypeMoment => '時刻';
+
+  @override
+  String get sourceTypeTeaching => '教導';
+
+  @override
+  String get sourceTypeNovel => '小說';
+
+  @override
+  String get chatSuggestionsTitle => '建議主題';
+
+  @override
+  String get chatIntroMessage => '分享你心中的重擔，我將提供我所能給予的智慧。';
+
+  @override
+  String get chatSuggestion1 => '我該如何找到人生目標？';
+
+  @override
+  String get chatSuggestion2 => '我正在為一個困難的決定而掙扎...';
+
+  @override
+  String get chatSuggestion3 => '我該如何克服我的恐懼？';
+
+  @override
+  String get chatLoading => '沉思中...';
+
+  @override
+  String get chatViewFullAdvice => '查看完整建議';
+
+  @override
+  String get chatInputPlaceholder => '分享你的煩惱...';
+
+  @override
+  String get chatInputHint => '在此輸入你的訊息...';
+
+  @override
+  String get chatSend => '發送';
+
+  @override
+  String get favoritesTitle => '已儲存的建議';
+
+  @override
+  String get favoritesEmpty => '還沒有儲存的建議';
+
+  @override
+  String get favoritesEmptySubtitle => '點擊書籤圖示來儲存智慧';
+
+  @override
+  String get favoritesViewFull => '查看完整';
+
+  @override
+  String get favoritesRemoveTitle => '從已儲存中移除';
+
+  @override
+  String get favoritesRemoveMessage => '你確定要從已儲存的項目中移除這條建議嗎？';
+
+  @override
+  String get favoritesRemoved => '已從儲存中移除';
+
+  @override
+  String get remove => '移除';
+
+  @override
+  String get historyDeleted => '已從歷史中刪除';
+
+  @override
+  String get historyToday => '今天';
+
+  @override
+  String get historyYesterday => '昨天';
+
+  @override
+  String get historyDeleteTitle => '刪除建議';
+
+  @override
+  String get historyDeleteMessage => '你確定要刪除這條建議嗎？';
+
+  @override
+  String get historyClearTitle => '清除歷史';
+
+  @override
+  String get historyClearMessage => '你確定要清除所有歷史嗎？此操作無法撤銷。';
+
+  @override
+  String get historyCleared => '歷史已清除';
+
+  @override
+  String get clear => '清除';
+
+  @override
+  String get navHome => '首頁';
+
+  @override
+  String get navFavorites => '已儲存';
+
+  @override
+  String get appTitle => 'Counsel';
+
+  @override
+  String get homeWelcome => '今天你想向誰尋求智慧？';
+
+  @override
+  String get homeSubtitle => '選擇一位導師來指引你';
+
+  @override
+  String get languageTitle => '選擇語言';
+
+  @override
+  String get languageSelectPrompt => '選擇你偏好的語言';
+
+  @override
+  String get languageSelectSubtitle => '你可以隨時在設定中更改';
+
+  @override
+  String get personaFeatured => '精選';
+
+  @override
+  String get personaSignatureQuote => '標誌性名言';
+
+  @override
+  String get personaAbout => '關於';
+
+  @override
+  String get personaStartChat => '開始對話';
+
+  @override
+  String get personaCategory => '類別';
+
+  @override
+  String get personaEra => '時代';
+
+  @override
+  String get personaExpertise => '智慧領域';
+
+  @override
+  String get personaAskQuestion => '提問';
+
+  @override
+  String get settingsTitle => '設定';
+
+  @override
+  String get settingsData => '資料';
+
+  @override
+  String get settingsClearHistory => '清除歷史';
+
+  @override
+  String get settingsClearHistorySubtitle => '移除所有已儲存的對話';
+
+  @override
+  String get settingsAboutApp => '關於 Counsel';
+
+  @override
+  String get settingsAboutAppSubtitle => '版本和應用程式資訊';
+
+  @override
+  String get settingsPrivacyPolicy => '隱私政策';
+
+  @override
+  String get settingsPrivacyPolicySubtitle => '我們如何處理你的資料';
+
+  @override
+  String get settingsTermsSubtitle => '閱讀我們的服務條款';
+
+  @override
+  String get settingsAppDescription => '從歷史上最偉大的智者那裡獲得智慧';
+
+  @override
+  String get settingsClearHistoryDialogTitle => '清除所有歷史？';
+
+  @override
+  String get settingsClearHistoryDialogMessage => '這將永久刪除你所有的對話歷史。此操作無法撤銷。';
+
+  @override
+  String get settingsHistoryCleared => '歷史已成功清除';
+
+  @override
+  String get settingsAboutContent =>
+      'Counsel 透過 AI 驅動的對話，將你與歷史上最偉大的哲學家、領袖和思想家的智慧連結起來。';
+}

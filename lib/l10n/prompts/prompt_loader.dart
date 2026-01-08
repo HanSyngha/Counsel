@@ -16,6 +16,11 @@ import 'prompts_pt.dart';
 import 'prompts_tr.dart';
 import 'prompts_vi.dart';
 import 'prompts_ru.dart';
+import 'prompts_it.dart';
+import 'prompts_pl.dart';
+import 'prompts_nl.dart';
+import 'prompts_uk.dart';
+import 'prompts_zh_tw.dart';
 
 /// Loads persona prompts based on locale
 class PromptLoader {
@@ -24,6 +29,7 @@ class PromptLoader {
     'ko': promptsKo,
     'ja': promptsJa,
     'zh': promptsZh,
+    'zh_TW': promptsZhTw,
     'ar': promptsAr,
     'th': promptsTh,
     'ms': promptsMs,
@@ -36,12 +42,27 @@ class PromptLoader {
     'tr': promptsTr,
     'vi': promptsVi,
     'ru': promptsRu,
+    'it': promptsIt,
+    'pl': promptsPl,
+    'nl': promptsNl,
+    'uk': promptsUk,
   };
 
   /// Get prompt for a specific persona in the given locale
   /// Falls back to English if locale not found
   static String getPrompt(String personaId, Locale locale) {
     final languageCode = locale.languageCode;
+    final countryCode = locale.countryCode;
+    final scriptCode = locale.scriptCode;
+
+    // Handle Traditional Chinese (Taiwan, Hong Kong, Hant script)
+    if (languageCode == 'zh' &&
+        (countryCode == 'TW' ||
+            countryCode == 'HK' ||
+            scriptCode == 'Hant')) {
+      final prompt = _prompts['zh_TW']![personaId];
+      if (prompt != null) return prompt;
+    }
 
     // Try exact locale match
     if (_prompts.containsKey(languageCode)) {
@@ -56,6 +77,17 @@ class PromptLoader {
   /// Get all prompts for a locale
   static Map<String, String> getPromptsForLocale(Locale locale) {
     final languageCode = locale.languageCode;
+    final countryCode = locale.countryCode;
+    final scriptCode = locale.scriptCode;
+
+    // Handle Traditional Chinese (Taiwan, Hong Kong, Hant script)
+    if (languageCode == 'zh' &&
+        (countryCode == 'TW' ||
+            countryCode == 'HK' ||
+            scriptCode == 'Hant')) {
+      return _prompts['zh_TW'] ?? _prompts['en']!;
+    }
+
     return _prompts[languageCode] ?? _prompts['en']!;
   }
 

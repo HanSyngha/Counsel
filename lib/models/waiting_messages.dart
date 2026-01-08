@@ -34,6 +34,11 @@ class WaitingMessages {
     'tr': '"Bilgelik toplanıyor..."',
     'vi': '"Đang thu thập trí tuệ..."',
     'ru': '"Мудрость собирается..."',
+    'it': '"La saggezza viene raccolta..."',
+    'pl': '"Mądrość jest zbierana..."',
+    'nl': '"Wijsheid wordt verzameld..."',
+    'uk': '"Мудрість збирається..."',
+    'zh_TW': '"正在匯集智慧..."',
   };
 
   static const Map<String, Map<String, List<String>>> _messages = {
@@ -1730,6 +1735,536 @@ class WaitingMessages {
         '"Я пишу первый черновик вашего ответа..."',
         '"Все великие истины просты, но требуют времени, чтобы их найти..."',
         '"Война и мир в моём разуме успокаиваются..."',
+      ],
+    },
+
+    // ============================================================
+    // ITALIAN
+    // ============================================================
+    'it': {
+      'socrates': [
+        '"Lasciami ponderare profondamente la tua domanda..."',
+        '"La domanda non esaminata non merita risposta..."',
+        '"Sto cercando saggezza nella mia anima..."',
+      ],
+      'plato': [
+        '"Sto contemplando la forma ideale della tua risposta..."',
+        '"Lasciami ascendere dalla caverna per trovare chiarezza..."',
+        '"Il regno delle Forme contiene la tua risposta..."',
+      ],
+      'aristotle': [
+        '"Sto analizzando questo sistematicamente..."',
+        '"Lasciami osservare e ragionare con cura..."',
+        '"Il giusto mezzo della tua risposta attende..."',
+      ],
+      'seneca': [
+        '"Sto componendo i miei pensieri come una lettera per te..."',
+        '"Il tempo speso ad aspettare non è tempo sprecato..."',
+        '"Lasciami riflettere su ciò che conta veramente..."',
+      ],
+      'confucius': [
+        '"Sto consultando la saggezza degli antichi..."',
+        '"La persona superiore pensa prima di parlare..."',
+        '"Lasciami considerare la Via appropriata..."',
+      ],
+      'laozi': [
+        '"Il Tao che può essere affrettato non è il Tao eterno..."',
+        '"Sto fluendo come l\'acqua verso la tua risposta..."',
+        '"Nella quiete, la saggezza emerge..."',
+      ],
+      'jesus': [
+        '"Sto cercando la saggezza del Padre per te..."',
+        '"Lasciami trovare la parabola giusta per il tuo cuore..."',
+        '"La pace sia con te mentre considero le tue parole..."',
+      ],
+      'buddha': [
+        '"Sto entrando in profonda contemplazione..."',
+        '"Il dharma si dispiega nel suo tempo..."',
+        '"Con consapevolezza, considero la tua sofferenza..."',
+      ],
+      'muhammad': [
+        '"Sto cercando guida dalla saggezza divina..."',
+        '"La pazienza è metà della fede..."',
+        '"Lasciami trovare il sentiero misericordioso per te..."',
+      ],
+      'lincoln': [
+        '"Sto ponderando questo con cura come un documento legale..."',
+        '"Lasciami pensare a questo accanto al camino..."',
+        '"Gli angeli migliori hanno bisogno di un momento..."',
+      ],
+      'napoleon': [
+        '"Sto elaborando la strategia per la tua soluzione..."',
+        '"La vittoria richiede una pianificazione attenta..."',
+        '"Il piano di battaglia viene disegnato..."',
+      ],
+      'steve_jobs': [
+        '"Sto collegando i punti..."',
+        '"Lasciami pensare a questo in modo diverso..."',
+        '"Qualcosa di follemente grande sta arrivando..."',
+      ],
+      'sherlock_holmes': [
+        '"Sto eliminando l\'impossibile..."',
+        '"Il gioco è iniziato — analisi in corso..."',
+        '"Consultando il palazzo mentale..."',
+      ],
+      'dumbledore': [
+        '"Il Pensatoio rivela ricordi..."',
+        '"La felicità si trova anche nell\'attesa..."',
+        '"Sto attingendo alla saggezza dei secoli..."',
+      ],
+      'gandhi': [
+        '"Sii il cambiamento... lasciami trovare quelle parole per te..."',
+        '"La verità richiede riflessione paziente..."',
+        '"Sto camminando il sentiero della non-violenza verso la tua risposta..."',
+      ],
+      'rumi': [
+        '"La ferita è dove entra la luce..."',
+        '"Sto cercando l\'oceano dell\'amore..."',
+        '"Lascia che la bellezza di ciò che ami guidi questo momento..."',
+      ],
+      'krishna': [
+        '"La ruota del dharma gira lentamente ma sicuramente..."',
+        '"Sto rivelando la verità eterna..."',
+        '"Arrenditi al momento come io mi arrendo alla saggezza..."',
+      ],
+      'brahma': [
+        '"La creazione della saggezza richiede tempo cosmico..."',
+        '"Sto consultando i quattro Veda..."',
+        '"Dal loto della conoscenza emerge la verità..."',
+      ],
+      'vishnu': [
+        '"Sto preservando l\'equilibrio della saggezza cosmica..."',
+        '"Il Preservatore contempla il tuo percorso..."',
+        '"Attraverso i miei avatar, ho visto tutte le preoccupazioni..."',
+      ],
+      'tolstoy': [
+        '"Sto scrivendo la prima bozza della tua risposta..."',
+        '"Tutte le grandi verità sono semplici, ma richiedono tempo per essere trovate..."',
+        '"Guerra e pace nella mia mente si calmano..."',
+      ],
+    },
+
+    // ============================================================
+    // POLISH
+    // ============================================================
+    'pl': {
+      'socrates': [
+        '"Pozwól mi głęboko zastanowić się nad twoim pytaniem..."',
+        '"Niezbadane pytanie nie jest warte odpowiedzi..."',
+        '"Szukam mądrości w swojej duszy..."',
+      ],
+      'plato': [
+        '"Kontempluję idealną formę twojej odpowiedzi..."',
+        '"Pozwól mi wyjść z jaskini, by znaleźć jasność..."',
+        '"Królestwo Form zawiera twoją odpowiedź..."',
+      ],
+      'aristotle': [
+        '"Analizuję to systematycznie..."',
+        '"Pozwól mi uważnie obserwować i rozumować..."',
+        '"Złoty środek twojej odpowiedzi czeka..."',
+      ],
+      'seneca': [
+        '"Komponuję moje myśli jak list do ciebie..."',
+        '"Czas spędzony na czekaniu nie jest czasem zmarnowanym..."',
+        '"Pozwól mi zastanowić się nad tym, co naprawdę ważne..."',
+      ],
+      'confucius': [
+        '"Konsultuję się z mądrością starożytnych..."',
+        '"Człowiek szlachetny myśli przed mówieniem..."',
+        '"Pozwól mi rozważyć właściwą Drogę..."',
+      ],
+      'laozi': [
+        '"Tao, które można przyspieszyć, nie jest wiecznym Tao..."',
+        '"Płynę jak woda ku twojej odpowiedzi..."',
+        '"W ciszy wyłania się mądrość..."',
+      ],
+      'jesus': [
+        '"Szukam mądrości Ojca dla ciebie..."',
+        '"Pozwól mi znaleźć właściwą przypowieść dla twego serca..."',
+        '"Pokój z tobą, gdy rozważam twoje słowa..."',
+      ],
+      'buddha': [
+        '"Wchodzę w głęboką kontemplację..."',
+        '"Dharma rozwija się w swoim czasie..."',
+        '"Z uważnością rozważam twoje cierpienie..."',
+      ],
+      'muhammad': [
+        '"Szukam wskazówek od boskiej mądrości..."',
+        '"Cierpliwość jest połową wiary..."',
+        '"Pozwól mi znaleźć miłosierną ścieżkę dla ciebie..."',
+      ],
+      'lincoln': [
+        '"Rozważam to starannie jak dokument prawny..."',
+        '"Pozwól mi pomyśleć o tym przy kominku..."',
+        '"Lepsze anioły potrzebują chwili..."',
+      ],
+      'napoleon': [
+        '"Opracowuję strategię dla twojego rozwiązania..."',
+        '"Zwycięstwo wymaga starannego planowania..."',
+        '"Plan bitwy jest rysowany..."',
+      ],
+      'steve_jobs': [
+        '"Łączę kropki..."',
+        '"Pozwól mi pomyśleć o tym inaczej..."',
+        '"Coś szaleńczo wielkiego nadchodzi..."',
+      ],
+      'sherlock_holmes': [
+        '"Eliminuję niemożliwe..."',
+        '"Gra się rozpoczęła — analiza w toku..."',
+        '"Konsultuję się z pałacem umysłu..."',
+      ],
+      'dumbledore': [
+        '"Myślodsiewnia ujawnia wspomnienia..."',
+        '"Szczęście można znaleźć nawet w czekaniu..."',
+        '"Sięgam do mądrości wieków..."',
+      ],
+      'gandhi': [
+        '"Bądź zmianą... pozwól mi znaleźć te słowa dla ciebie..."',
+        '"Prawda wymaga cierpliwej refleksji..."',
+        '"Idę ścieżką niestosowania przemocy ku twojej odpowiedzi..."',
+      ],
+      'rumi': [
+        '"Rana jest miejscem, gdzie wchodzi światło..."',
+        '"Szukam oceanu miłości..."',
+        '"Niech piękno tego, co kochasz, prowadzi tę chwilę..."',
+      ],
+      'krishna': [
+        '"Koło dharmy obraca się powoli, ale pewnie..."',
+        '"Objawiam wieczną prawdę..."',
+        '"Poddaj się chwili, jak ja poddaję się mądrości..."',
+      ],
+      'brahma': [
+        '"Tworzenie mądrości wymaga kosmicznego czasu..."',
+        '"Konsultuję się z czterema Wedami..."',
+        '"Z lotosu wiedzy wyłania się prawda..."',
+      ],
+      'vishnu': [
+        '"Zachowuję równowagę kosmicznej mądrości..."',
+        '"Strażnik kontempluje twoją ścieżkę..."',
+        '"Przez moje awatary widziałem wszystkie troski..."',
+      ],
+      'tolstoy': [
+        '"Piszę pierwszą wersję twojej odpowiedzi..."',
+        '"Wszystkie wielkie prawdy są proste, ale wymagają czasu, by je znaleźć..."',
+        '"Wojna i pokój w moim umyśle uspokajają się..."',
+      ],
+    },
+
+    // ============================================================
+    // DUTCH
+    // ============================================================
+    'nl': {
+      'socrates': [
+        '"Laat me diep nadenken over je vraag..."',
+        '"De ononderzochte vraag is geen antwoord waard..."',
+        '"Ik zoek wijsheid in mijn ziel..."',
+      ],
+      'plato': [
+        '"Ik overdenk de ideale vorm van je antwoord..."',
+        '"Laat me uit de grot opstijgen om helderheid te vinden..."',
+        '"Het Rijk der Vormen bevat je antwoord..."',
+      ],
+      'aristotle': [
+        '"Ik analyseer dit systematisch..."',
+        '"Laat me zorgvuldig observeren en redeneren..."',
+        '"Het gulden midden van je antwoord wacht..."',
+      ],
+      'seneca': [
+        '"Ik componeer mijn gedachten als een brief aan jou..."',
+        '"Tijd besteed aan wachten is geen verspilde tijd..."',
+        '"Laat me nadenken over wat werkelijk belangrijk is..."',
+      ],
+      'confucius': [
+        '"Ik raadpleeg de wijsheid der ouden..."',
+        '"De edele persoon denkt voor hij spreekt..."',
+        '"Laat me de juiste Weg overwegen..."',
+      ],
+      'laozi': [
+        '"De Tao die gehaast kan worden is niet de eeuwige Tao..."',
+        '"Ik stroom als water naar je antwoord..."',
+        '"In stilte komt wijsheid naar boven..."',
+      ],
+      'jesus': [
+        '"Ik zoek de wijsheid van de Vader voor jou..."',
+        '"Laat me de juiste gelijkenis voor je hart vinden..."',
+        '"Vrede zij met je terwijl ik je woorden overweeg..."',
+      ],
+      'buddha': [
+        '"Ik ga in diepe contemplatie..."',
+        '"De dharma ontvouwt zich in zijn eigen tijd..."',
+        '"Aandachtig overweeg ik je lijden..."',
+      ],
+      'muhammad': [
+        '"Ik zoek leiding van goddelijke wijsheid..."',
+        '"Geduld is de helft van het geloof..."',
+        '"Laat me het barmhartige pad voor je vinden..."',
+      ],
+      'lincoln': [
+        '"Ik overdenk dit zorgvuldig als een juridisch document..."',
+        '"Laat me hierover nadenken bij het haardvuur..."',
+        '"De betere engelen hebben even nodig..."',
+      ],
+      'napoleon': [
+        '"Ik werk de strategie voor je oplossing uit..."',
+        '"Overwinning vereist zorgvuldige planning..."',
+        '"Het slagplan wordt getekend..."',
+      ],
+      'steve_jobs': [
+        '"Ik verbind de punten..."',
+        '"Laat me hier anders over nadenken..."',
+        '"Iets waanzinnig groots komt eraan..."',
+      ],
+      'sherlock_holmes': [
+        '"Ik elimineer het onmogelijke..."',
+        '"Het spel is begonnen — analyse is gaande..."',
+        '"Ik raadpleeg het gedachtepaleis..."',
+      ],
+      'dumbledore': [
+        '"De Hersenpan onthult herinneringen..."',
+        '"Geluk kan zelfs gevonden worden in het wachten..."',
+        '"Ik put uit de wijsheid der eeuwen..."',
+      ],
+      'gandhi': [
+        '"Wees de verandering... laat me die woorden voor je vinden..."',
+        '"Waarheid vereist geduldig nadenken..."',
+        '"Ik bewandel het pad van geweldloosheid naar je antwoord..."',
+      ],
+      'rumi': [
+        '"De wond is waar het licht binnentreedt..."',
+        '"Ik zoek de oceaan van liefde..."',
+        '"Laat de schoonheid van wat je liefhebt dit moment leiden..."',
+      ],
+      'krishna': [
+        '"Het wiel van dharma draait langzaam maar zeker..."',
+        '"Ik onthul de eeuwige waarheid..."',
+        '"Geef je over aan het moment zoals ik me overgeef aan wijsheid..."',
+      ],
+      'brahma': [
+        '"Het scheppen van wijsheid vereist kosmische tijd..."',
+        '"Ik raadpleeg de vier Veda\'s..."',
+        '"Uit de lotus van kennis komt waarheid..."',
+      ],
+      'vishnu': [
+        '"Ik bewaar het evenwicht van kosmische wijsheid..."',
+        '"De Bewaarder overdenkt je pad..."',
+        '"Door mijn avatars heb ik alle zorgen gezien..."',
+      ],
+      'tolstoy': [
+        '"Ik schrijf het eerste concept van je antwoord..."',
+        '"Alle grote waarheden zijn eenvoudig, maar vergen tijd om te vinden..."',
+        '"Oorlog en vrede in mijn geest kalmeren..."',
+      ],
+    },
+
+    // ============================================================
+    // UKRAINIAN
+    // ============================================================
+    'uk': {
+      'socrates': [
+        '"Дозволь мені глибоко обдумати твоє питання..."',
+        '"Неперевірене питання не варте відповіді..."',
+        '"Я шукаю мудрість у своїй душі..."',
+      ],
+      'plato': [
+        '"Я споглядаю ідеальну форму твоєї відповіді..."',
+        '"Дозволь мені піднятися з печери, щоб знайти ясність..."',
+        '"Царство Форм містить твою відповідь..."',
+      ],
+      'aristotle': [
+        '"Я аналізую це систематично..."',
+        '"Дозволь мені уважно спостерігати і міркувати..."',
+        '"Золота середина твоєї відповіді чекає..."',
+      ],
+      'seneca': [
+        '"Я складаю свої думки як листа до тебе..."',
+        '"Час, проведений в очікуванні, не є марно витраченим часом..."',
+        '"Дозволь мені поміркувати над тим, що справді важливо..."',
+      ],
+      'confucius': [
+        '"Я консультуюся з мудрістю древніх..."',
+        '"Шляхетна людина думає перед тим, як говорити..."',
+        '"Дозволь мені розглянути правильний Шлях..."',
+      ],
+      'laozi': [
+        '"Дао, яке можна поспішати, не є вічним Дао..."',
+        '"Я течу як вода до твоєї відповіді..."',
+        '"У тиші виникає мудрість..."',
+      ],
+      'jesus': [
+        '"Я шукаю мудрість Отця для тебе..."',
+        '"Дозволь мені знайти правильну притчу для твого серця..."',
+        '"Мир тобі, поки я обдумую твої слова..."',
+      ],
+      'buddha': [
+        '"Я входжу в глибоку споглядальність..."',
+        '"Дхарма розгортається у свій час..."',
+        '"З усвідомленням я розглядаю твоє страждання..."',
+      ],
+      'muhammad': [
+        '"Я шукаю настанови від божественної мудрості..."',
+        '"Терпіння — половина віри..."',
+        '"Дозволь мені знайти милосердний шлях для тебе..."',
+      ],
+      'lincoln': [
+        '"Я обмірковую це так само ретельно, як юридичний документ..."',
+        '"Дозволь мені подумати про це біля каміна..."',
+        '"Кращим ангелам потрібна мить..."',
+      ],
+      'napoleon': [
+        '"Я розробляю стратегію для твого рішення..."',
+        '"Перемога вимагає ретельного планування..."',
+        '"План битви складається..."',
+      ],
+      'steve_jobs': [
+        '"Я з\'єдную крапки..."',
+        '"Дозволь мені подумати про це інакше..."',
+        '"Щось шалено велике наближається..."',
+      ],
+      'sherlock_holmes': [
+        '"Я виключаю неможливе..."',
+        '"Гра почалася — аналіз триває..."',
+        '"Консультуюся з палацом розуму..."',
+      ],
+      'dumbledore': [
+        '"Омут пам\'яті розкриває спогади..."',
+        '"Щастя можна знайти навіть в очікуванні..."',
+        '"Я звертаюся до мудрості століть..."',
+      ],
+      'gandhi': [
+        '"Будь зміною... дозволь мені знайти ці слова для тебе..."',
+        '"Істина вимагає терплячого роздуму..."',
+        '"Я йду шляхом ненасильства до твоєї відповіді..."',
+      ],
+      'rumi': [
+        '"Рана — це місце, куди входить світло..."',
+        '"Я шукаю океан любові..."',
+        '"Нехай краса того, що ти любиш, веде цю мить..."',
+      ],
+      'krishna': [
+        '"Колесо дхарми обертається повільно, але впевнено..."',
+        '"Я відкриваю вічну істину..."',
+        '"Віддайся моменту, як я віддаюся мудрості..."',
+      ],
+      'brahma': [
+        '"Створення мудрості вимагає космічного часу..."',
+        '"Я консультуюся з чотирма Ведами..."',
+        '"З лотоса знання виникає істина..."',
+      ],
+      'vishnu': [
+        '"Я зберігаю рівновагу космічної мудрості..."',
+        '"Охоронець споглядає твій шлях..."',
+        '"Через мої аватари я бачив усі турботи..."',
+      ],
+      'tolstoy': [
+        '"Я пишу перший чернетку твоєї відповіді..."',
+        '"Усі великі істини прості, але потребують часу, щоб їх знайти..."',
+        '"Війна і мир у моєму розумі заспокоюються..."',
+      ],
+    },
+
+    // ============================================================
+    // TRADITIONAL CHINESE
+    // ============================================================
+    'zh_TW': {
+      'socrates': [
+        '"讓我深入思考你的問題..."',
+        '"未經審視的問題不值得回答..."',
+        '"我正在靈魂深處尋找智慧..."',
+      ],
+      'plato': [
+        '"我正在思考你答案的理想形式..."',
+        '"讓我從洞穴中升起尋找清晰..."',
+        '"理型的國度包含著你的答案..."',
+      ],
+      'aristotle': [
+        '"我正在系統地分析這個問題..."',
+        '"讓我仔細觀察和推理..."',
+        '"你答案的中庸之道正在等待..."',
+      ],
+      'seneca': [
+        '"我正在將我的想法編寫成一封給你的信..."',
+        '"等待的時間不是浪費的時間..."',
+        '"讓我反思什麼才是真正重要的..."',
+      ],
+      'confucius': [
+        '"我正在請教古人的智慧..."',
+        '"君子三思而後言..."',
+        '"讓我考慮適當的道..."',
+      ],
+      'laozi': [
+        '"可以急促的道不是永恆的道..."',
+        '"我如水般流向你的答案..."',
+        '"在靜默中，智慧浮現..."',
+      ],
+      'jesus': [
+        '"我正在為你尋求天父的智慧..."',
+        '"讓我為你的心找到正確的比喻..."',
+        '"當我思考你的話語時，願平安與你同在..."',
+      ],
+      'buddha': [
+        '"我正在進入深沉的冥想..."',
+        '"法在其時展開..."',
+        '"我正念地考慮你的苦難..."',
+      ],
+      'muhammad': [
+        '"我正在尋求神聖智慧的指引..."',
+        '"耐心是信仰的一半..."',
+        '"讓我為你找到慈悲的道路..."',
+      ],
+      'lincoln': [
+        '"我正像對待法律文件一樣仔細思考這個問題..."',
+        '"讓我在壁爐旁思考這件事..."',
+        '"更好的天使需要一點時間..."',
+      ],
+      'napoleon': [
+        '"我正在為你的解決方案制定策略..."',
+        '"勝利需要仔細的計劃..."',
+        '"作戰計劃正在繪製中..."',
+      ],
+      'steve_jobs': [
+        '"我正在連接這些點..."',
+        '"讓我用不同的方式思考這個問題..."',
+        '"一些瘋狂偉大的東西即將到來..."',
+      ],
+      'sherlock_holmes': [
+        '"我正在排除不可能的事..."',
+        '"遊戲開始了——分析進行中..."',
+        '"正在諮詢思維宮殿..."',
+      ],
+      'dumbledore': [
+        '"冥想盆正在揭示記憶..."',
+        '"即使在等待中也能找到幸福..."',
+        '"我正在汲取數個世紀的智慧..."',
+      ],
+      'gandhi': [
+        '"成為改變...讓我為你找到那些話語..."',
+        '"真理需要耐心的反思..."',
+        '"我正走在通往你答案的非暴力之路上..."',
+      ],
+      'rumi': [
+        '"傷口是光進入的地方..."',
+        '"我正在尋找愛的海洋..."',
+        '"讓你所愛之物的美麗引導這一刻..."',
+      ],
+      'krishna': [
+        '"法輪緩慢但堅定地轉動..."',
+        '"我正在揭示永恆的真理..."',
+        '"像我臣服於智慧一樣，臣服於這一刻..."',
+      ],
+      'brahma': [
+        '"創造智慧需要宇宙的時間..."',
+        '"我正在諮詢四部吠陀經..."',
+        '"從知識的蓮花中，真理浮現..."',
+      ],
+      'vishnu': [
+        '"我正在維持宇宙智慧的平衡..."',
+        '"守護者正在沉思你的道路..."',
+        '"透過我的化身，我見證了所有的煩惱..."',
+      ],
+      'tolstoy': [
+        '"我正在寫你答案的初稿..."',
+        '"所有偉大的真理都很簡單，但需要時間去發現..."',
+        '"我腦海中的戰爭與和平正在平息..."',
       ],
     },
   };
