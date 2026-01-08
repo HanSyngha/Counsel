@@ -7,6 +7,17 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import '../models/advice.dart';
 import '../l10n/prompts/prompt_loader.dart';
 
+/// Exception for JSON parsing failures (retriable)
+class JsonParseException implements Exception {
+  final String message;
+  final dynamic originalError;
+
+  JsonParseException(this.message, [this.originalError]);
+
+  @override
+  String toString() => 'JsonParseException: $message';
+}
+
 /// Grok API service for getting advice from personas
 class GrokService {
   static const String _baseUrl = 'https://api.x.ai/v1/chat/completions';
@@ -53,7 +64,7 @@ class GrokService {
         'response_format': {
           'type': 'json_object',
         },
-        'temperature': 0.7,
+        'temperature': 0.9,
         'max_tokens': 2048,
       }),
     );
@@ -69,7 +80,8 @@ class GrokService {
       final jsonResponse = jsonDecode(content) as Map<String, dynamic>;
       return AdviceResponse.fromJson(jsonResponse);
     } catch (e) {
-      throw Exception('Failed to parse Grok response: $e');
+      // Throw specific exception for JSON parsing failures (retriable)
+      throw JsonParseException('Failed to parse Grok response', e);
     }
   }
 

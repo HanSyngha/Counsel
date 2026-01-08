@@ -29,7 +29,7 @@ class AdService {
   InterstitialAd? _interstitialAd;
   bool _isInterstitialAdReady = false;
   int _adviceCount = 0;
-  static const int _showAdEveryNAdvice = 3; // Show ad every 3 advice requests
+  static const int _showAdEveryNAdvice = 5; // Show ad every 5 advice requests
   late Box _settingsBox;
 
   bool _isAdFree = false;
