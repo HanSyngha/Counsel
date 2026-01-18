@@ -1406,6 +1406,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Counsel connects you with the wisdom of history\'s greatest philosophers, leaders, and thinkers through AI-powered conversations.'**
   String get settingsAboutContent;
+
+  /// No description provided for @category_anime.
+  ///
+  /// In en, this message translates to:
+  /// **'Anime'**
+  String get category_anime;
+
+  /// No description provided for @persona_luffy.
+  ///
+  /// In en, this message translates to:
+  /// **'Monkey D. Luffy'**
+  String get persona_luffy;
+
+  /// No description provided for @persona_luffy_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Future Pirate King'**
+  String get persona_luffy_title;
+
+  /// No description provided for @persona_luffy_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I\'m gonna be the Pirate King!'**
+  String get persona_luffy_quote;
 }
 
 class _AppLocalizationsDelegate

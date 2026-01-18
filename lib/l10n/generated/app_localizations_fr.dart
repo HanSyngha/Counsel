@@ -682,4 +682,16 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'Voix des Sages vous connecte a la sagesse des plus grands philosophes, dirigeants et penseurs de l\'histoire grace a des conversations alimentees par l\'IA.';
+
+  @override
+  String get category_anime => 'Anime';
+
+  @override
+  String get persona_luffy => 'Monkey D. Luffy';
+
+  @override
+  String get persona_luffy_title => 'Futur Roi des Pirates';
+
+  @override
+  String get persona_luffy_quote => 'Je serai le Roi des Pirates!';
 }

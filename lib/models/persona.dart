@@ -6,6 +6,7 @@ enum PersonaCategory {
   philosophy,
   religion,
   literature,
+  anime,
 }
 
 extension PersonaCategoryExtension on PersonaCategory {
@@ -19,6 +20,8 @@ extension PersonaCategoryExtension on PersonaCategory {
         return AppConstants.categoryReligion;
       case PersonaCategory.literature:
         return AppConstants.categoryLiterature;
+      case PersonaCategory.anime:
+        return AppConstants.categoryAnime;
     }
   }
 
@@ -32,6 +35,8 @@ extension PersonaCategoryExtension on PersonaCategory {
         return 'category_religion';
       case PersonaCategory.literature:
         return 'category_literature';
+      case PersonaCategory.anime:
+        return 'category_anime';
     }
   }
 }
@@ -93,6 +98,8 @@ class PersonaData {
     sherlockHolmes,
     dumbledore,
     tolstoy,
+    // Anime
+    luffy,
   ];
 
   static List<Persona> byCategory(PersonaCategory category) =>
@@ -300,6 +307,17 @@ class PersonaData {
     category: PersonaCategory.literature,
     imagePath: AppAssets.tolstoy,
     era: 1910,
+  );
+
+  // Anime
+  static const Persona luffy = Persona(
+    id: 'luffy',
+    nameKey: 'persona_luffy',
+    titleKey: 'persona_luffy_title',
+    quoteKey: 'persona_luffy_quote',
+    category: PersonaCategory.anime,
+    imagePath: AppAssets.luffy,
+    era: 1997, // One Piece manga started
   );
 
   /// Get persona by ID

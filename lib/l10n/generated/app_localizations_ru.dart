@@ -677,4 +677,16 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'Голос Мудрецов соединяет вас с мудростью величайших философов, лидеров и мыслителей в истории через диалоги на основе искусственного интеллекта.';
+
+  @override
+  String get category_anime => 'Аниме';
+
+  @override
+  String get persona_luffy => 'Монки Д. Луффи';
+
+  @override
+  String get persona_luffy_title => 'Будущий Король Пиратов';
+
+  @override
+  String get persona_luffy_quote => 'Я стану Королём Пиратов!';
 }

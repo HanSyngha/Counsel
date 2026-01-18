@@ -2,11 +2,9 @@
   "@@locale": "ja",
   "appName": "賢者の声",
   "appTitle": "賢者の声",
-
   "onboardingTitle": "歴史の中のメンターに\n今すぐ会いましょう",
   "onboardingSubtitle": "イエス、ソクラテス、李舜臣将軍からスティーブ・ジョブズまで。\nあなたの悩みに時代を超えた知恵をお届けします。",
   "getStarted": "今すぐ始める",
-
   "homeTitle": "今日は誰にアドバイスを求めますか？",
   "homeWelcome": "今日は誰に知恵を求めますか？",
   "homeSubtitle": "あなたを導くメンターを選んでください",
@@ -16,14 +14,12 @@
   "seeAll": "すべて見る",
   "trending": "人気",
   "new_": "新着",
-
   "categoryAll": "すべて",
   "categoryHistory": "歴史",
   "categoryPhilosophy": "哲学",
   "categoryReligion": "宗教",
   "categoryLiterature": "文学",
   "categoryFavorites": "お気に入り",
-
   "inputTitle": "何が心に引っかかっていますか？",
   "inputSubtitle": "正直にお話しください。具体的であるほど、明確な答えをお伝えできます。",
   "inputPlaceholder": "私はこのような困難を抱えています...\nこれはこのように始まりました...\n私はこれが怖いです...",
@@ -35,11 +31,14 @@
   "characterCount": "{count} / {max}",
   "@characterCount": {
     "placeholders": {
-      "count": {"type": "int"},
-      "max": {"type": "int"}
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
     }
   },
-
   "loadingConnecting": "接続中",
   "loadingConsulting": "古代の知恵の書庫を探索しています",
   "loadingAnalyzing": "質問を分析中",
@@ -47,7 +46,6 @@
   "loadingOnline": "オンライン",
   "cancelRequest": "リクエストをキャンセル",
   "loadingNote": "ペルソナの読み込みに少し時間がかかる場合があります。",
-
   "resultWisdom": "知恵",
   "resultAiPersona": "AIペルソナのアドバイス",
   "resultGeneratedBy": "AIペルソナが生成",
@@ -59,7 +57,6 @@
   "resultShare": "共有",
   "askAnotherSage": "別の賢者に尋ねる",
   "resultActionSteps": "実践ステップ",
-
   "historyTitle": "私のアドバイス履歴",
   "historySearch": "どんな悩みを検索しますか？",
   "historyEmpty": "まだアドバイス履歴がありません",
@@ -73,7 +70,6 @@
   "historyClearMessage": "すべての履歴をクリアしますか？この操作は元に戻せません。",
   "historyCleared": "履歴がクリアされました",
   "clear": "クリア",
-
   "navSelect": "選択",
   "navChat": "チャット",
   "navSaved": "保存済み",
@@ -82,7 +78,6 @@
   "navSettings": "設定",
   "navHome": "ホーム",
   "navFavorites": "保存済み",
-
   "settingsLanguage": "言語",
   "settingsAbout": "アプリについて",
   "settingsPrivacy": "プライバシーポリシー",
@@ -102,7 +97,6 @@
   "settingsClearHistoryDialogMessage": "すべての会話履歴が完全に削除されます。この操作は元に戻せません。",
   "settingsHistoryCleared": "履歴が正常にクリアされました",
   "settingsAboutContent": "賢者の声は、AI駆動の会話を通じて、歴史上最も偉大な哲学者、指導者、思想家たちの知恵とあなたをつなぎます。",
-
   "errorGeneric": "問題が発生しました。もう一度お試しください。",
   "errorNetwork": "インターネット接続を確認してください。",
   "errorTimeout": "リクエストがタイムアウトしました。もう一度お試しください。",
@@ -114,7 +108,6 @@
   "delete": "削除",
   "confirm": "確認",
   "remove": "削除",
-
   "adviceYourQuestion": "あなたの質問",
   "adviceCitation": "引用",
   "adviceRelevance": "なぜ重要なのか",
@@ -132,7 +125,6 @@
   "adviceRemovedFromFavorites": "お気に入りから削除されました",
   "adviceCopied": "クリップボードにコピーされました",
   "adviceShareError": "共有できませんでした。もう一度お試しください。",
-
   "sourceTypeScripture": "聖典",
   "sourceTypeBook": "書籍",
   "sourceTypeSpeech": "演説",
@@ -142,7 +134,6 @@
   "sourceTypeMoment": "瞬間",
   "sourceTypeTeaching": "教え",
   "sourceTypeNovel": "小説",
-
   "chatSuggestionsTitle": "おすすめのトピック",
   "chatIntroMessage": "心に抱えていることを分かち合ってください。私にできる限りの知恵をお伝えします。",
   "chatSuggestion1": "どうすれば自分の目的を見つけられますか？",
@@ -153,7 +144,6 @@
   "chatInputPlaceholder": "あなたの悩みを共有してください...",
   "chatInputHint": "メッセージを入力してください...",
   "chatSend": "送信",
-
   "favoritesTitle": "保存したアドバイス",
   "favoritesEmpty": "保存したアドバイスがありません",
   "favoritesEmptySubtitle": "ブックマークアイコンをタップして知恵を保存してください",
@@ -161,11 +151,9 @@
   "favoritesRemoveTitle": "保存済みから削除",
   "favoritesRemoveMessage": "このアドバイスを保存済みから削除しますか？",
   "favoritesRemoved": "保存済みから削除されました",
-
   "languageTitle": "言語を選択",
   "languageSelectPrompt": "ご希望の言語を選択してください",
   "languageSelectSubtitle": "設定でいつでも変更できます",
-
   "personaFeatured": "おすすめ",
   "personaSignatureQuote": "代表的な名言",
   "personaAbout": "紹介",
@@ -174,84 +162,68 @@
   "personaEra": "時代",
   "personaExpertise": "知恵の領域",
   "personaAskQuestion": "質問する",
-
   "personaSocrates": "ソクラテス",
   "personaSocratesTitle": "西洋哲学の父",
   "personaSocratesQuote": "吟味されない人生は生きるに値しない。",
-
   "personaPlato": "プラトン",
   "personaPlatoTitle": "イデアの哲学者",
   "personaPlatoQuote": "親切であれ、あなたが出会うすべての人は厳しい戦いを戦っているのだから。",
-
   "personaAristotle": "アリストテレス",
   "personaAristotleTitle": "万学の祖",
   "personaAristotleQuote": "私たちは繰り返し行うことの結果である。卓越は行為ではなく習慣である。",
-
   "personaSeneca": "セネカ",
   "personaSenecaTitle": "ストア派の哲学者",
   "personaSenecaQuote": "私たちには時間が足りないのではない。多くの時間を無駄にしているのだ。",
-
   "personaConfucius": "孔子",
   "personaConfuciusTitle": "偉大な聖人",
   "personaConfuciusQuote": "止まらない限り、どんなにゆっくり進んでも構わない。",
-
   "personaLaozi": "老子",
   "personaLaoziTitle": "道教の創始者",
   "personaLaoziQuote": "千里の道も一歩から始まる。",
-
   "personaJesus": "イエス",
   "personaJesusTitle": "精神的な師",
   "personaJesusQuote": "汝の隣人を汝自身のように愛せよ。",
-
   "personaBuddha": "釈迦",
   "personaBuddhaTitle": "悟りを開いた者",
   "personaBuddhaQuote": "平和は内面から来る。外に求めてはならない。",
-
   "personaMuhammad": "ムハンマド",
   "personaMuhammadTitle": "イスラムの預言者",
   "personaMuhammadQuote": "最も優れた人とは、最も良い品性を持つ人である。",
-
   "personaLincoln": "エイブラハム・リンカーン",
   "personaLincolnTitle": "アメリカ合衆国第16代大統領",
   "personaLincolnQuote": "結局大切なのは、人生の年数ではなく、その年数の中の人生である。",
-
   "personaNapoleon": "ナポレオン",
   "personaNapoleonTitle": "フランス皇帝",
   "personaNapoleonQuote": "不可能という言葉は愚か者の辞書にしかない。",
-
   "personaSteveJobs": "スティーブ・ジョブズ",
   "personaSteveJobsTitle": "ビジョナリー起業家",
   "personaSteveJobsQuote": "ハングリーであれ。愚かであれ。",
-
   "personaSherlockHolmes": "シャーロック・ホームズ",
   "personaSherlockHolmesTitle": "推理の達人",
   "personaSherlockHolmesQuote": "不可能なものを除外すれば、残ったものがどんなにありそうになくても、それが真実である。",
-
   "personaDumbledore": "アルバス・ダンブルドア",
   "personaDumbledoreTitle": "ホグワーツ校長",
   "personaDumbledoreQuote": "最も暗い時でも幸せは見つけられる。光を灯すことを忘れさえしなければ。",
-
   "personaGandhi": "マハトマ・ガンジー",
   "personaGandhiTitle": "インドの国父",
   "personaGandhiQuote": "あなたが見たいと思う変化に、あなた自身がなりなさい。",
-
   "personaRumi": "ルーミー",
   "personaRumiTitle": "スーフィーの詩人・神秘主義者",
   "personaRumiQuote": "傷は光があなたの中に入ってくる場所である。",
-
   "personaKrishna": "クリシュナ",
   "personaKrishnaTitle": "バガヴァッド・ギーターの神聖な導き手",
   "personaKrishnaQuote": "行動する権利はあるが、その結果に対する権利はない。",
-
   "personaBrahma": "ブラフマー",
   "personaBrahmaTitle": "創造の神",
   "personaBrahmaQuote": "虚偽から真実へ、闇から光へ導きたまえ。",
-
   "personaVishnu": "ヴィシュヌ",
   "personaVishnuTitle": "維持の神",
   "personaVishnuQuote": "ダルマが衰退するたびに、私は正しき者を守るために現れる。",
-
   "personaTolstoy": "レフ・トルストイ",
   "personaTolstoyTitle": "ロシア文学の巨匠",
-  "personaTolstoyQuote": "誰もが世界を変えようとするが、自分自身を変えようとする者はいない。"
+  "personaTolstoyQuote": "誰もが世界を変えようとするが、自分自身を変えようとする者はいない。",
+  "category_anime": "アニメ",
+  "persona_luffy": "モンキー・D・ルフィ",
+  "persona_luffy_title": "未来の海賊王",
+  "persona_luffy_quote": "おれは海賊王になる!"
 }

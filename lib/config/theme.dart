@@ -1,53 +1,125 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-/// App color palette - Dark Modern Theme
+/// App color palette - Glassmorphism Dark Theme
 class AppColors {
   AppColors._();
 
-  // Primary
-  static const Color primary = Color(0xFF6366F1);
-  static const Color primaryDark = Color(0xFF4F46E5);
-  static const Color primaryLight = Color(0xFF818CF8);
+  // Primary - Soft purple/blue gradient feel
+  static const Color primary = Color(0xFF7C3AED);
+  static const Color primaryDark = Color(0xFF6D28D9);
+  static const Color primaryLight = Color(0xFFA78BFA);
 
-  // Background
-  static const Color background = Color(0xFF0A0A14);
-  static const Color surface = Color(0xFF12121E);
-  static const Color surfaceVariant = Color(0xFF1A1A2E);
-  static const Color surfaceElevated = Color(0xFF252540);
+  // Background - Deep dark with subtle purple tint
+  static const Color background = Color(0xFF0F0F1A);
+  static const Color surface = Color(0xFF1A1A2E);
+  static const Color surfaceVariant = Color(0xFF16162A);
+  static const Color surfaceElevated = Color(0xFF252542);
+
+  // Glass effect colors
+  static const Color glassWhite = Color(0x1AFFFFFF);
+  static const Color glassBorder = Color(0x33FFFFFF);
+  static const Color glassHighlight = Color(0x0DFFFFFF);
 
   // Text
-  static const Color textPrimary = Color(0xFFFFFFFF);
-  static const Color textSecondary = Color(0xFF94A3B8);
-  static const Color textTertiary = Color(0xFF64748B);
+  static const Color textPrimary = Color(0xFFF8FAFC);
+  static const Color textSecondary = Color(0xFFCBD5E1);
+  static const Color textTertiary = Color(0xFF94A3B8);
 
-  // Category Colors
-  static const Color categoryHistory = Color(0xFF3B82F6);
-  static const Color categoryPhilosophy = Color(0xFF8B5CF6);
-  static const Color categoryReligion = Color(0xFFF59E0B);
-  static const Color categoryLiterature = Color(0xFF10B981);
+  // Category Colors - More vibrant for glass effect
+  static const Color categoryHistory = Color(0xFF60A5FA);
+  static const Color categoryPhilosophy = Color(0xFFA78BFA);
+  static const Color categoryReligion = Color(0xFFFBBF24);
+  static const Color categoryLiterature = Color(0xFF34D399);
+  static const Color categoryAnime = Color(0xFFF472B6);
 
   // Status
-  static const Color success = Color(0xFF22C55E);
-  static const Color error = Color(0xFFEF4444);
-  static const Color warning = Color(0xFFF59E0B);
+  static const Color success = Color(0xFF4ADE80);
+  static const Color error = Color(0xFFF87171);
+  static const Color warning = Color(0xFFFBBF24);
 
   // Border
-  static const Color border = Color(0xFF2D2D44);
-  static const Color borderLight = Color(0xFF3D3D5C);
+  static const Color border = Color(0x1AFFFFFF);
+  static const Color borderLight = Color(0x33FFFFFF);
 
-  // Gradient
+  // Gradients
   static const LinearGradient primaryGradient = LinearGradient(
-    colors: [primary, Color(0xFF8B5CF6)],
+    colors: [Color(0xFF7C3AED), Color(0xFFEC4899)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
 
   static const LinearGradient backgroundGradient = LinearGradient(
-    colors: [background, Color(0xFF101022)],
+    colors: [Color(0xFF0F0F1A), Color(0xFF1A1A2E), Color(0xFF0F0F1A)],
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
+    stops: [0.0, 0.5, 1.0],
   );
+
+  // Accent gradients for cards
+  static const LinearGradient glassGradient = LinearGradient(
+    colors: [Color(0x1AFFFFFF), Color(0x05FFFFFF)],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+  );
+
+  static const LinearGradient shimmerGradient = LinearGradient(
+    colors: [Color(0x00FFFFFF), Color(0x1AFFFFFF), Color(0x00FFFFFF)],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+  );
+}
+
+/// Glass morphism decoration helper
+class GlassDecoration {
+  GlassDecoration._();
+
+  static BoxDecoration card({
+    double borderRadius = 20,
+    Color? borderColor,
+    double borderWidth = 1,
+  }) {
+    return BoxDecoration(
+      color: AppColors.glassWhite,
+      borderRadius: BorderRadius.circular(borderRadius),
+      border: Border.all(
+        color: borderColor ?? AppColors.glassBorder,
+        width: borderWidth,
+      ),
+      boxShadow: [
+        BoxShadow(
+          color: Colors.black.withValues(alpha: 0.2),
+          blurRadius: 20,
+          offset: const Offset(0, 8),
+        ),
+        BoxShadow(
+          color: AppColors.primary.withValues(alpha: 0.05),
+          blurRadius: 40,
+          offset: const Offset(0, 4),
+        ),
+      ],
+    );
+  }
+
+  static BoxDecoration elevated({
+    double borderRadius = 24,
+  }) {
+    return BoxDecoration(
+      gradient: AppColors.glassGradient,
+      borderRadius: BorderRadius.circular(borderRadius),
+      border: Border.all(
+        color: AppColors.glassBorder,
+        width: 1.5,
+      ),
+      boxShadow: [
+        BoxShadow(
+          color: Colors.black.withValues(alpha: 0.3),
+          blurRadius: 30,
+          offset: const Offset(0, 10),
+        ),
+      ],
+    );
+  }
 }
 
 /// App text styles

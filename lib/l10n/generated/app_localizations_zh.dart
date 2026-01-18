@@ -647,6 +647,18 @@ class AppLocalizationsZh extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       '智者之声通过AI驱动的对话，将您与历史上最伟大的哲学家、领袖和思想家的智慧连接起来。';
+
+  @override
+  String get category_anime => '动漫';
+
+  @override
+  String get persona_luffy => '蒙奇·D·路飞';
+
+  @override
+  String get persona_luffy_title => '未来的海贼王';
+
+  @override
+  String get persona_luffy_quote => '我要成为海贼王!';
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
@@ -1291,4 +1303,16 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   @override
   String get settingsAboutContent =>
       'Counsel 透過 AI 驅動的對話，將你與歷史上最偉大的哲學家、領袖和思想家的智慧連結起來。';
+
+  @override
+  String get category_anime => '動漫';
+
+  @override
+  String get persona_luffy => '蒙乙·D·魯夫';
+
+  @override
+  String get persona_luffy_title => '未來的海賊王';
+
+  @override
+  String get persona_luffy_quote => '我要成為海賊王!';
 }

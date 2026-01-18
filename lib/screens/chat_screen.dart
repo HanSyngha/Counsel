@@ -471,10 +471,7 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
         _isLoading = false;
       });
 
-      // Show interstitial ad every 5 requests
-      final adService = ref.read(adServiceProvider);
-      await adService.onAdviceReceived();
-
+      // Note: Ad is shown via adviceProvider.onAdviceReceived()
       // Scroll to bottom to show response
       _scrollToBottom();
     } catch (e) {
@@ -551,6 +548,8 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
         return AppColors.categoryHistory;
       case PersonaCategory.literature:
         return AppColors.categoryLiterature;
+      case PersonaCategory.anime:
+        return AppColors.categoryAnime;
     }
   }
 
@@ -576,6 +575,7 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
       case 'brahma': return l10n.personaBrahma;
       case 'tolstoy': return l10n.personaTolstoy;
       case 'vishnu': return l10n.personaVishnu;
+      case 'luffy': return l10n.persona_luffy;
       default: return persona.id;
     }
   }
@@ -602,6 +602,7 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
       case 'brahma': return l10n.personaBrahmaTitle;
       case 'tolstoy': return l10n.personaTolstoyTitle;
       case 'vishnu': return l10n.personaVishnuTitle;
+      case 'luffy': return l10n.persona_luffy_title;
       default: return '';
     }
   }
@@ -628,6 +629,7 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
       case 'brahma': return l10n.personaBrahmaQuote;
       case 'tolstoy': return l10n.personaTolstoyQuote;
       case 'vishnu': return l10n.personaVishnuQuote;
+      case 'luffy': return l10n.persona_luffy_quote;
       default: return '';
     }
   }

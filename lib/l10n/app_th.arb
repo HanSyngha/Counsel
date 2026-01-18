@@ -2,11 +2,9 @@
   "@@locale": "th",
   "appName": "เสียงแห่งปราชญ์",
   "appTitle": "เสียงแห่งปราชญ์",
-
   "onboardingTitle": "พบกับที่ปรึกษา\nจากประวัติศาสตร์",
   "onboardingSubtitle": "จากพระเยซู โสกราตีส นายพลอี ซุนชิน ไปจนถึงสตีฟ จ็อบส์\nเรามอบปัญญาที่ข้ามกาลเวลาสำหรับปัญหาของคุณ",
   "getStarted": "เริ่มต้นเลย",
-
   "homeTitle": "วันนี้คุณต้องการคำปรึกษาจากใคร?",
   "homeWelcome": "วันนี้คุณต้องการปัญญาจากใคร?",
   "homeSubtitle": "เลือกที่ปรึกษาที่จะนำทางคุณ",
@@ -16,14 +14,12 @@
   "seeAll": "ดูทั้งหมด",
   "trending": "ยอดนิยม",
   "new_": "ใหม่",
-
   "categoryAll": "ทั้งหมด",
   "categoryHistory": "ประวัติศาสตร์",
   "categoryPhilosophy": "ปรัชญา",
   "categoryReligion": "ศาสนา",
   "categoryLiterature": "วรรณกรรม",
   "categoryFavorites": "รายการโปรด",
-
   "inputTitle": "อะไรอยู่ในใจของคุณ?",
   "inputSubtitle": "โปรดพูดตรงๆ ยิ่งเจาะจงมากเท่าไหร่ คำตอบก็จะชัดเจนมากเท่านั้น",
   "inputPlaceholder": "ฉันกำลังเผชิญกับความยากลำบากนี้...\nมันเริ่มต้นแบบนี้...\nฉันกลัวว่า...",
@@ -35,11 +31,14 @@
   "characterCount": "{count} / {max}",
   "@characterCount": {
     "placeholders": {
-      "count": {"type": "int"},
-      "max": {"type": "int"}
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
     }
   },
-
   "loadingConnecting": "กำลังเชื่อมต่อ",
   "loadingConsulting": "กำลังค้นหาคลังปัญญาโบราณ",
   "loadingAnalyzing": "กำลังวิเคราะห์คำถาม",
@@ -47,7 +46,6 @@
   "loadingOnline": "ออนไลน์",
   "cancelRequest": "ยกเลิกคำขอ",
   "loadingNote": "อาจใช้เวลาสักครู่ในการเรียกตัวตน",
-
   "resultWisdom": "ปัญญา",
   "resultAiPersona": "คำแนะนำจากตัวตน AI",
   "resultGeneratedBy": "สร้างโดยตัวตน AI",
@@ -59,7 +57,6 @@
   "resultShare": "แชร์",
   "askAnotherSage": "ถามปราชญ์ท่านอื่น",
   "resultActionSteps": "ขั้นตอนปฏิบัติ",
-
   "historyTitle": "ประวัติคำปรึกษาของฉัน",
   "historySearch": "ค้นหาปัญหาอะไร?",
   "historyEmpty": "ยังไม่มีประวัติคำปรึกษา",
@@ -73,7 +70,6 @@
   "historyClearMessage": "คุณต้องการล้างประวัติทั้งหมดหรือไม่? การกระทำนี้ไม่สามารถยกเลิกได้",
   "historyCleared": "ล้างประวัติแล้ว",
   "clear": "ล้าง",
-
   "navSelect": "เลือก",
   "navChat": "แชท",
   "navSaved": "บันทึกแล้ว",
@@ -82,7 +78,6 @@
   "navSettings": "ตั้งค่า",
   "navHome": "หน้าแรก",
   "navFavorites": "บันทึกแล้ว",
-
   "settingsLanguage": "ภาษา",
   "settingsAbout": "เกี่ยวกับแอป",
   "settingsPrivacy": "นโยบายความเป็นส่วนตัว",
@@ -102,7 +97,6 @@
   "settingsClearHistoryDialogMessage": "การสนทนาทั้งหมดจะถูกลบอย่างถาวร การกระทำนี้ไม่สามารถยกเลิกได้",
   "settingsHistoryCleared": "ล้างประวัติสำเร็จแล้ว",
   "settingsAboutContent": "เสียงแห่งปราชญ์เชื่อมต่อคุณกับปัญญาของนักปรัชญา ผู้นำ และนักคิดที่ยิ่งใหญ่ที่สุดในประวัติศาสตร์ผ่านการสนทนาที่ขับเคลื่อนด้วย AI",
-
   "errorGeneric": "เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง",
   "errorNetwork": "กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ",
   "errorTimeout": "คำขอหมดเวลา กรุณาลองใหม่อีกครั้ง",
@@ -114,7 +108,6 @@
   "delete": "ลบ",
   "confirm": "ยืนยัน",
   "remove": "ลบ",
-
   "adviceYourQuestion": "คำถามของคุณ",
   "adviceCitation": "อ้างอิง",
   "adviceRelevance": "ทำไมจึงสำคัญ",
@@ -132,7 +125,6 @@
   "adviceRemovedFromFavorites": "ลบออกจากรายการโปรดแล้ว",
   "adviceCopied": "คัดลอกไปยังคลิปบอร์ดแล้ว",
   "adviceShareError": "ไม่สามารถแชร์ได้ กรุณาลองใหม่",
-
   "sourceTypeScripture": "พระคัมภีร์",
   "sourceTypeBook": "หนังสือ",
   "sourceTypeSpeech": "สุนทรพจน์",
@@ -142,7 +134,6 @@
   "sourceTypeMoment": "ช่วงเวลา",
   "sourceTypeTeaching": "คำสอน",
   "sourceTypeNovel": "นิยาย",
-
   "chatSuggestionsTitle": "หัวข้อแนะนำ",
   "chatIntroMessage": "แบ่งปันสิ่งที่อยู่ในใจของคุณ แล้วฉันจะมอบปัญญาเท่าที่ทำได้",
   "chatSuggestion1": "ฉันจะค้นพบจุดมุ่งหมายของตัวเองได้อย่างไร?",
@@ -153,7 +144,6 @@
   "chatInputPlaceholder": "แบ่งปันปัญหาของคุณ...",
   "chatInputHint": "พิมพ์ข้อความ...",
   "chatSend": "ส่ง",
-
   "favoritesTitle": "คำปรึกษาที่บันทึกไว้",
   "favoritesEmpty": "ยังไม่มีคำปรึกษาที่บันทึกไว้",
   "favoritesEmptySubtitle": "แตะไอคอนบุ๊กมาร์กเพื่อบันทึกปัญญา",
@@ -161,11 +151,9 @@
   "favoritesRemoveTitle": "ลบออกจากที่บันทึกไว้",
   "favoritesRemoveMessage": "คุณต้องการลบคำปรึกษานี้ออกจากที่บันทึกไว้หรือไม่?",
   "favoritesRemoved": "ลบออกจากที่บันทึกไว้แล้ว",
-
   "languageTitle": "เลือกภาษา",
   "languageSelectPrompt": "เลือกภาษาที่ต้องการ",
   "languageSelectSubtitle": "คุณสามารถเปลี่ยนได้ทุกเมื่อในการตั้งค่า",
-
   "personaFeatured": "แนะนำ",
   "personaSignatureQuote": "คำคมเด่น",
   "personaAbout": "เกี่ยวกับ",
@@ -174,84 +162,68 @@
   "personaEra": "ยุคสมัย",
   "personaExpertise": "ขอบเขตแห่งปัญญา",
   "personaAskQuestion": "ถามคำถาม",
-
   "personaSocrates": "โสกราตีส",
   "personaSocratesTitle": "บิดาแห่งปรัชญาตะวันตก",
   "personaSocratesQuote": "ชีวิตที่ไม่ได้รับการตรวจสอบไม่คุ้มค่าแก่การมีชีวิตอยู่",
-
   "personaPlato": "เพลโต",
   "personaPlatoTitle": "นักปรัชญาแห่งอุดมคติ",
   "personaPlatoQuote": "จงมีเมตตา เพราะทุกคนที่คุณพบกำลังต่อสู้ในศึกที่ยากลำบาก",
-
   "personaAristotle": "อริสโตเติล",
   "personaAristotleTitle": "ปรมาจารย์คนแรก",
   "personaAristotleQuote": "เราคือสิ่งที่เราทำซ้ำๆ ความเป็นเลิศจึงไม่ใช่การกระทำ แต่เป็นนิสัย",
-
   "personaSeneca": "เซเนกา",
   "personaSenecaTitle": "นักปรัชญาสโตอิก",
   "personaSenecaQuote": "ไม่ใช่ว่าเรามีเวลาน้อยเกินไป แต่เราสูญเสียเวลาไปมากเกินไป",
-
   "personaConfucius": "ขงจื๊อ",
   "personaConfuciusTitle": "นักปราชญ์ผู้ยิ่งใหญ่",
   "personaConfuciusQuote": "ไม่สำคัญว่าคุณจะเดินช้าแค่ไหน ตราบใดที่คุณไม่หยุดเดิน",
-
   "personaLaozi": "เล่าจื๊อ",
   "personaLaoziTitle": "ผู้ก่อตั้งลัทธิเต๋า",
   "personaLaoziQuote": "การเดินทางพันลี้เริ่มต้นด้วยก้าวเดียว",
-
   "personaJesus": "พระเยซู",
   "personaJesusTitle": "ครูทางจิตวิญญาณ",
   "personaJesusQuote": "จงรักเพื่อนบ้านเหมือนรักตนเอง",
-
   "personaBuddha": "พระพุทธเจ้า",
   "personaBuddhaTitle": "ผู้ตรัสรู้",
   "personaBuddhaQuote": "สันติสุขมาจากภายใน อย่าแสวงหาจากภายนอก",
-
   "personaMuhammad": "มุฮัมมัด",
   "personaMuhammadTitle": "ศาสดาแห่งอิสลาม",
   "personaMuhammadQuote": "ผู้ที่ดีที่สุดในหมู่พวกท่านคือผู้ที่มีอุปนิสัยดีที่สุด",
-
   "personaLincoln": "อับราฮัม ลินคอล์น",
   "personaLincolnTitle": "ประธานาธิบดีคนที่ 16 ของสหรัฐอเมริกา",
   "personaLincolnQuote": "สุดท้ายแล้ว สิ่งสำคัญไม่ใช่จำนวนปีในชีวิต แต่คือชีวิตในปีเหล่านั้น",
-
   "personaNapoleon": "นโปเลียน",
   "personaNapoleonTitle": "จักรพรรดิแห่งฝรั่งเศส",
   "personaNapoleonQuote": "คำว่าเป็นไปไม่ได้มีอยู่ในพจนานุกรมของคนโง่เท่านั้น",
-
   "personaSteveJobs": "สตีฟ จ็อบส์",
   "personaSteveJobsTitle": "ผู้ประกอบการผู้มีวิสัยทัศน์",
   "personaSteveJobsQuote": "จงหิวโหย จงโง่เขลา",
-
   "personaSherlockHolmes": "เชอร์ล็อก โฮล์มส์",
   "personaSherlockHolmesTitle": "ปรมาจารย์แห่งการอนุมาน",
   "personaSherlockHolmesQuote": "เมื่อคุณตัดสิ่งที่เป็นไปไม่ได้ออกไป สิ่งที่เหลืออยู่แม้จะดูไม่น่าเชื่อแค่ไหนก็ต้องเป็นความจริง",
-
   "personaDumbledore": "อัลบัส ดัมเบิลดอร์",
   "personaDumbledoreTitle": "ครูใหญ่ฮอกวอตส์",
   "personaDumbledoreQuote": "ความสุขสามารถพบได้แม้ในเวลาที่มืดมนที่สุด ถ้าเพียงแต่จำได้ที่จะจุดไฟ",
-
   "personaGandhi": "มหาตมะ คานธี",
   "personaGandhiTitle": "บิดาแห่งอินเดีย",
   "personaGandhiQuote": "จงเป็นการเปลี่ยนแปลงที่คุณต้องการเห็นในโลก",
-
   "personaRumi": "รูมี",
   "personaRumiTitle": "กวีซูฟีและนักลึกลับ",
   "personaRumiQuote": "บาดแผลคือที่ที่แสงเข้ามาหาคุณ",
-
   "personaKrishna": "พระกฤษณะ",
   "personaKrishnaTitle": "ผู้นำทางศักดิ์สิทธิ์แห่งภควัทคีตา",
   "personaKrishnaQuote": "คุณมีสิทธิ์ในการกระทำเท่านั้น ไม่มีสิทธิ์ในผลของมัน",
-
   "personaBrahma": "พระพรหม",
   "personaBrahmaTitle": "เทพแห่งการสร้างสรรค์",
   "personaBrahmaQuote": "นำข้าพเจ้าจากมายาสู่ความจริง จากความมืดสู่แสงสว่าง",
-
   "personaVishnu": "พระวิษณุ",
   "personaVishnuTitle": "เทพผู้พิทักษ์",
   "personaVishnuQuote": "เมื่อใดที่ธรรมะเสื่อมถอย ข้าจะปรากฏกายเพื่อปกป้องผู้ชอบธรรม",
-
   "personaTolstoy": "เลโอ ตอลสตอย",
   "personaTolstoyTitle": "ยักษ์ใหญ่แห่งวรรณกรรมรัสเซีย",
-  "personaTolstoyQuote": "ทุกคนคิดที่จะเปลี่ยนโลก แต่ไม่มีใครคิดที่จะเปลี่ยนตัวเอง"
+  "personaTolstoyQuote": "ทุกคนคิดที่จะเปลี่ยนโลก แต่ไม่มีใครคิดที่จะเปลี่ยนตัวเอง",
+  "category_anime": "อนิเมะ",
+  "persona_luffy": "มังกี้ ดี. ลูฟี่",
+  "persona_luffy_title": "ราชาโจรสลัดในอนาคต",
+  "persona_luffy_quote": "ฉันจะเป็นราชาโจรสลัด!"
 }

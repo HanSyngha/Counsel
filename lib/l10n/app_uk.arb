@@ -2,11 +2,9 @@
   "@@locale": "uk",
   "appName": "Counsel",
   "appTitle": "Counsel",
-
   "onboardingTitle": "Зустрінь Своїх Наставників\nз Історії",
   "onboardingSubtitle": "Від Ісуса до Сократа, від Наполеона до Стіва Джобса.\nПозич позачасову мудрість для своїх турбот.",
   "getStarted": "Почати",
-
   "homeTitle": "У кого ти шукаєш поради сьогодні?",
   "homeWelcome": "У кого ти шукаєш мудрості сьогодні?",
   "homeSubtitle": "Обери наставника, який тебе направить",
@@ -16,14 +14,12 @@
   "seeAll": "Переглянути все",
   "trending": "Популярне",
   "new_": "Нове",
-
   "categoryAll": "Усе",
   "categoryHistory": "Історія",
   "categoryPhilosophy": "Філософія",
   "categoryReligion": "Релігія",
   "categoryLiterature": "Література",
   "categoryFavorites": "Обране",
-
   "inputTitle": "Що тебе турбує?",
   "inputSubtitle": "Будь чесним. Деталі — шлях до ясності.",
   "inputPlaceholder": "Я борюся з...\nЦе почалося, коли...\nЯ боюся, що...",
@@ -35,11 +31,14 @@
   "characterCount": "{count} / {max}",
   "@characterCount": {
     "placeholders": {
-      "count": {"type": "int"},
-      "max": {"type": "int"}
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
     }
   },
-
   "loadingConnecting": "З'єднання з",
   "loadingConsulting": "Консультування давніх архівів мудрості",
   "loadingAnalyzing": "Аналіз Запитання",
@@ -47,7 +46,6 @@
   "loadingOnline": "Онлайн",
   "cancelRequest": "Скасувати Запит",
   "loadingNote": "Це може зайняти мить, поки ми каналізуємо персону.",
-
   "resultWisdom": "Мудрість",
   "resultAiPersona": "Порада AI Персони",
   "resultGeneratedBy": "Згенеровано AI Персоною",
@@ -59,7 +57,6 @@
   "resultShare": "Поділитися",
   "askAnotherSage": "Запитати Іншого Мудреця",
   "resultActionSteps": "Кроки Дії",
-
   "historyTitle": "Моя Історія Порад",
   "historySearch": "Яку турботу ти шукаєш?",
   "historyEmpty": "Ще немає історії порад",
@@ -73,7 +70,6 @@
   "historyClearMessage": "Ти впевнений, що хочеш очистити всю історію? Це неможливо скасувати.",
   "historyCleared": "Історію очищено",
   "clear": "Очистити",
-
   "navSelect": "Вибрати",
   "navChat": "Чат",
   "navSaved": "Збережене",
@@ -82,7 +78,6 @@
   "navSettings": "Налаштування",
   "navHome": "Головна",
   "navFavorites": "Збережене",
-
   "settingsLanguage": "Мова",
   "settingsAbout": "Про додаток",
   "settingsPrivacy": "Політика Конфіденційності",
@@ -102,7 +97,6 @@
   "settingsClearHistoryDialogMessage": "Це назавжди видалить всю історію розмов. Цю дію неможливо скасувати.",
   "settingsHistoryCleared": "Історію успішно очищено",
   "settingsAboutContent": "Counsel з'єднує тебе з мудрістю найвеличніших філософів, лідерів та мислителів історії через розмови на базі ШІ.",
-
   "errorGeneric": "Щось пішло не так. Будь ласка, спробуй знову.",
   "errorNetwork": "Будь ласка, перевір своє інтернет-з'єднання.",
   "errorTimeout": "Час запиту вичерпано. Будь ласка, спробуй знову.",
@@ -114,7 +108,6 @@
   "delete": "Видалити",
   "confirm": "Підтвердити",
   "remove": "Видалити",
-
   "adviceYourQuestion": "Твоє Запитання",
   "adviceCitation": "Цитата",
   "adviceRelevance": "Чому Це Важливо",
@@ -132,7 +125,6 @@
   "adviceRemovedFromFavorites": "Видалено з обраного",
   "adviceCopied": "Скопійовано в буфер обміну",
   "adviceShareError": "Не вдалося поділитися. Будь ласка, спробуй знову.",
-
   "sourceTypeScripture": "Писання",
   "sourceTypeBook": "Книга",
   "sourceTypeSpeech": "Промова",
@@ -142,7 +134,6 @@
   "sourceTypeMoment": "Момент",
   "sourceTypeTeaching": "Вчення",
   "sourceTypeNovel": "Роман",
-
   "chatSuggestionsTitle": "Пропоновані Теми",
   "chatIntroMessage": "Поділися тим, що тяжить твоє серце, і я запропоную мудрість, яку зможу.",
   "chatSuggestion1": "Як мені знайти своє призначення?",
@@ -153,7 +144,6 @@
   "chatInputPlaceholder": "Поділися своєю турботою...",
   "chatInputHint": "Введи своє повідомлення тут...",
   "chatSend": "Надіслати",
-
   "favoritesTitle": "Збережені Поради",
   "favoritesEmpty": "Ще немає збережених порад",
   "favoritesEmptySubtitle": "Натисни іконку закладки, щоб зберегти мудрість",
@@ -161,11 +151,9 @@
   "favoritesRemoveTitle": "Видалити зі Збереженого",
   "favoritesRemoveMessage": "Ти впевнений, що хочеш видалити цю пораду зі збережених?",
   "favoritesRemoved": "Видалено зі збереженого",
-
   "languageTitle": "Вибери Мову",
   "languageSelectPrompt": "Обери бажану мову",
   "languageSelectSubtitle": "Ти можеш змінити це в будь-який час у налаштуваннях",
-
   "personaFeatured": "Рекомендовані",
   "personaSignatureQuote": "Характерна Цитата",
   "personaAbout": "Про",
@@ -174,84 +162,68 @@
   "personaEra": "Епоха",
   "personaExpertise": "Сфери Мудрості",
   "personaAskQuestion": "Задати Питання",
-
   "personaSocrates": "Сократ",
   "personaSocratesTitle": "Батько Західної Філософії",
   "personaSocratesQuote": "Нерозглянуте життя не варте того, щоб його жити.",
-
   "personaPlato": "Платон",
   "personaPlatoTitle": "Філософ Форм",
   "personaPlatoQuote": "Будь добрим, бо кожен, кого ти зустрічаєш, веде важку боротьбу.",
-
   "personaAristotle": "Арістотель",
   "personaAristotleTitle": "Перший Вчитель",
   "personaAristotleQuote": "Ми є тим, що ми робимо постійно. Досконалість — не дія, а звичка.",
-
   "personaSeneca": "Сенека",
   "personaSenecaTitle": "Філософ-Стоїк",
   "personaSenecaQuote": "Справа не в тому, що ми маємо мало часу, а в тому, що ми багато його витрачаємо.",
-
   "personaConfucius": "Конфуцій",
   "personaConfuciusTitle": "Великий Мудрець",
   "personaConfuciusQuote": "Не важливо, як повільно ти йдеш, головне — не зупинятися.",
-
   "personaLaozi": "Лао-цзи",
   "personaLaoziTitle": "Засновник Даосизму",
   "personaLaoziQuote": "Шлях у тисячу миль починається з одного кроку.",
-
   "personaJesus": "Ісус",
   "personaJesusTitle": "Духовний Вчитель",
   "personaJesusQuote": "Люби ближнього свого як самого себе.",
-
   "personaBuddha": "Будда",
   "personaBuddhaTitle": "Просвітлений",
   "personaBuddhaQuote": "Мир приходить зсередини. Не шукай його ззовні.",
-
   "personaMuhammad": "Мухаммед",
   "personaMuhammadTitle": "Пророк Ісламу",
   "personaMuhammadQuote": "Найкращі серед вас — ті, хто має найкращий характер.",
-
   "personaLincoln": "Авраам Лінкольн",
   "personaLincolnTitle": "16-й Президент США",
   "personaLincolnQuote": "Врешті-решт, важливі не роки твого життя, а життя в твоїх роках.",
-
   "personaNapoleon": "Наполеон",
   "personaNapoleonTitle": "Імператор Франції",
   "personaNapoleonQuote": "Неможливо — слово, яке можна знайти лише в словнику дурнів.",
-
   "personaSteveJobs": "Стів Джобс",
   "personaSteveJobsTitle": "Візіонерський Підприємець",
   "personaSteveJobsQuote": "Залишайся голодним. Залишайся безрозсудним.",
-
   "personaSherlockHolmes": "Шерлок Холмс",
   "personaSherlockHolmesTitle": "Майстер Дедукції",
   "personaSherlockHolmesQuote": "Коли ти виключив неможливе, те, що залишилося, яким би неймовірним воно не було, є правдою.",
-
   "personaDumbledore": "Албус Дамблдор",
   "personaDumbledoreTitle": "Директор Гоґвортсу",
   "personaDumbledoreQuote": "Щастя можна знайти навіть у найтемніші часи, якщо не забувати увімкнути світло.",
-
   "personaGandhi": "Махатма Ганді",
   "personaGandhiTitle": "Батько Нації",
   "personaGandhiQuote": "Будь тією зміною, яку хочеш бачити у світі.",
-
   "personaRumi": "Румі",
   "personaRumiTitle": "Суфійський Поет і Містик",
   "personaRumiQuote": "Рана — це місце, де Світло входить у тебе.",
-
   "personaKrishna": "Крішна",
   "personaKrishnaTitle": "Божественний Провідник Бгаґавад-ґіти",
   "personaKrishnaQuote": "Ти маєш право на працю, але ніколи на її плоди.",
-
   "personaBrahma": "Брахма",
   "personaBrahmaTitle": "Бог-Творець",
   "personaBrahmaQuote": "Від неправди веди мене до правди, від темряви веди мене до світла.",
-
   "personaVishnu": "Вішну",
   "personaVishnuTitle": "Бог-Охоронець",
   "personaVishnuQuote": "Щоразу, коли дхарма занепадає, я проявляюся, щоб захистити праведних.",
-
   "personaTolstoy": "Лев Толстой",
   "personaTolstoyTitle": "Велетень Російської Літератури",
-  "personaTolstoyQuote": "Кожен думає про зміну світу, але ніхто не думає про зміну себе."
+  "personaTolstoyQuote": "Кожен думає про зміну світу, але ніхто не думає про зміну себе.",
+  "category_anime": "Аніме",
+  "persona_luffy": "Монкі Д. Луффі",
+  "persona_luffy_title": "Майбутній Король Піратів",
+  "persona_luffy_quote": "Я стану Королем Піратів!"
 }

@@ -2,11 +2,9 @@
   "@@locale": "vi",
   "appName": "Tiếng Nói Hiền Triết",
   "appTitle": "Tiếng Nói Hiền Triết",
-
   "onboardingTitle": "Gặp gỡ người thầy\ntừ lịch sử ngay hôm nay",
   "onboardingSubtitle": "Từ Chúa Jesus, Socrates, Tướng quân Lý Thường Kiệt đến Steve Jobs.\nChúng tôi mang đến trí tuệ vượt thời gian cho những trăn trở của bạn.",
   "getStarted": "Bắt đầu ngay",
-
   "homeTitle": "Hôm nay bạn muốn xin lời khuyên từ ai?",
   "homeWelcome": "Hôm nay bạn muốn tìm kiếm trí tuệ từ ai?",
   "homeSubtitle": "Chọn một người thầy để dẫn dắt bạn",
@@ -16,14 +14,12 @@
   "seeAll": "Xem tất cả",
   "trending": "Phổ biến",
   "new_": "Mới",
-
   "categoryAll": "Tất cả",
   "categoryHistory": "Lịch sử",
   "categoryPhilosophy": "Triết học",
   "categoryReligion": "Tôn giáo",
   "categoryLiterature": "Văn học",
   "categoryFavorites": "Yêu thích",
-
   "inputTitle": "Điều gì đang khiến bạn trăn trở?",
   "inputSubtitle": "Hãy chia sẻ thật lòng. Càng cụ thể, chúng tôi càng có thể đưa ra câu trả lời rõ ràng hơn.",
   "inputPlaceholder": "Tôi đang gặp khó khăn này...\nNó bắt đầu như thế này...\nTôi lo sợ về...",
@@ -35,11 +31,14 @@
   "characterCount": "{count} / {max}",
   "@characterCount": {
     "placeholders": {
-      "count": {"type": "int"},
-      "max": {"type": "int"}
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
     }
   },
-
   "loadingConnecting": "Đang kết nối",
   "loadingConsulting": "Đang tìm kiếm trong kho tàng trí tuệ cổ đại",
   "loadingAnalyzing": "Đang phân tích câu hỏi",
@@ -47,7 +46,6 @@
   "loadingOnline": "Trực tuyến",
   "cancelRequest": "Hủy yêu cầu",
   "loadingNote": "Có thể mất một chút thời gian để tải nhân vật.",
-
   "resultWisdom": "Trí tuệ",
   "resultAiPersona": "Lời khuyên từ AI",
   "resultGeneratedBy": "Được tạo bởi AI",
@@ -59,7 +57,6 @@
   "resultShare": "Chia sẻ",
   "askAnotherSage": "Hỏi hiền triết khác",
   "resultActionSteps": "Các bước hành động",
-
   "historyTitle": "Lịch sử lời khuyên của tôi",
   "historySearch": "Bạn muốn tìm kiếm vấn đề nào?",
   "historyEmpty": "Chưa có lịch sử lời khuyên",
@@ -73,7 +70,6 @@
   "historyClearMessage": "Bạn có muốn xóa tất cả lịch sử không? Hành động này không thể hoàn tác.",
   "historyCleared": "Lịch sử đã được xóa",
   "clear": "Xóa",
-
   "navSelect": "Chọn",
   "navChat": "Trò chuyện",
   "navSaved": "Đã lưu",
@@ -82,7 +78,6 @@
   "navSettings": "Cài đặt",
   "navHome": "Trang chủ",
   "navFavorites": "Đã lưu",
-
   "settingsLanguage": "Ngôn ngữ",
   "settingsAbout": "Giới thiệu ứng dụng",
   "settingsPrivacy": "Chính sách bảo mật",
@@ -102,7 +97,6 @@
   "settingsClearHistoryDialogMessage": "Tất cả lịch sử cuộc trò chuyện sẽ bị xóa vĩnh viễn. Hành động này không thể hoàn tác.",
   "settingsHistoryCleared": "Lịch sử đã được xóa thành công",
   "settingsAboutContent": "Tiếng Nói Hiền Triết kết nối bạn với trí tuệ của những triết gia, nhà lãnh đạo và nhà tư tưởng vĩ đại nhất trong lịch sử thông qua các cuộc trò chuyện được hỗ trợ bởi AI.",
-
   "errorGeneric": "Đã xảy ra lỗi. Vui lòng thử lại.",
   "errorNetwork": "Vui lòng kiểm tra kết nối internet của bạn.",
   "errorTimeout": "Yêu cầu đã hết thời gian. Vui lòng thử lại.",
@@ -114,7 +108,6 @@
   "delete": "Xóa",
   "confirm": "Xác nhận",
   "remove": "Xóa",
-
   "adviceYourQuestion": "Câu hỏi của bạn",
   "adviceCitation": "Trích dẫn",
   "adviceRelevance": "Tại sao điều này quan trọng",
@@ -132,7 +125,6 @@
   "adviceRemovedFromFavorites": "Đã xóa khỏi yêu thích",
   "adviceCopied": "Đã sao chép vào clipboard",
   "adviceShareError": "Không thể chia sẻ. Vui lòng thử lại.",
-
   "sourceTypeScripture": "Kinh điển",
   "sourceTypeBook": "Sách",
   "sourceTypeSpeech": "Bài phát biểu",
@@ -142,7 +134,6 @@
   "sourceTypeMoment": "Khoảnh khắc",
   "sourceTypeTeaching": "Giáo huấn",
   "sourceTypeNovel": "Tiểu thuyết",
-
   "chatSuggestionsTitle": "Chủ đề gợi ý",
   "chatIntroMessage": "Hãy chia sẻ điều trong lòng bạn, tôi sẽ trao cho bạn những gì trí tuệ của tôi có thể.",
   "chatSuggestion1": "Làm thế nào để tôi tìm thấy mục đích của mình?",
@@ -153,7 +144,6 @@
   "chatInputPlaceholder": "Chia sẻ những trăn trở của bạn...",
   "chatInputHint": "Nhập tin nhắn...",
   "chatSend": "Gửi",
-
   "favoritesTitle": "Lời khuyên đã lưu",
   "favoritesEmpty": "Chưa có lời khuyên nào được lưu",
   "favoritesEmptySubtitle": "Nhấn biểu tượng đánh dấu để lưu trí tuệ",
@@ -161,11 +151,9 @@
   "favoritesRemoveTitle": "Xóa khỏi mục đã lưu",
   "favoritesRemoveMessage": "Bạn có muốn xóa lời khuyên này khỏi mục đã lưu không?",
   "favoritesRemoved": "Đã xóa khỏi mục đã lưu",
-
   "languageTitle": "Chọn ngôn ngữ",
   "languageSelectPrompt": "Chọn ngôn ngữ bạn muốn",
   "languageSelectSubtitle": "Bạn có thể thay đổi bất cứ lúc nào trong cài đặt",
-
   "personaFeatured": "Nổi bật",
   "personaSignatureQuote": "Câu nói nổi tiếng",
   "personaAbout": "Giới thiệu",
@@ -174,84 +162,68 @@
   "personaEra": "Thời đại",
   "personaExpertise": "Lĩnh vực trí tuệ",
   "personaAskQuestion": "Đặt câu hỏi",
-
   "personaSocrates": "Socrates",
   "personaSocratesTitle": "Cha đẻ của triết học phương Tây",
   "personaSocratesQuote": "Cuộc sống không được suy xét thì không đáng sống.",
-
   "personaPlato": "Plato",
   "personaPlatoTitle": "Triết gia của thế giới ý niệm",
   "personaPlatoQuote": "Hãy tử tế, vì mỗi người bạn gặp đều đang chiến đấu với trận chiến khó khăn.",
-
   "personaAristotle": "Aristotle",
   "personaAristotleTitle": "Người thầy đầu tiên",
   "personaAristotleQuote": "Chúng ta là những gì chúng ta làm đi làm lại. Sự xuất sắc không phải là hành động, mà là thói quen.",
-
   "personaSeneca": "Seneca",
   "personaSenecaTitle": "Triết gia khắc kỷ",
   "personaSenecaQuote": "Không phải chúng ta có ít thời gian, mà là chúng ta lãng phí quá nhiều.",
-
   "personaConfucius": "Khổng Tử",
   "personaConfuciusTitle": "Bậc thánh nhân vĩ đại",
   "personaConfuciusQuote": "Không quan trọng bạn đi chậm đến đâu, miễn là bạn không dừng lại.",
-
   "personaLaozi": "Lão Tử",
   "personaLaoziTitle": "Người sáng lập Đạo giáo",
   "personaLaoziQuote": "Hành trình ngàn dặm bắt đầu từ một bước chân.",
-
   "personaJesus": "Chúa Jesus",
   "personaJesusTitle": "Người thầy tâm linh",
   "personaJesusQuote": "Hãy yêu người lân cận như chính mình.",
-
   "personaBuddha": "Đức Phật",
   "personaBuddhaTitle": "Đấng giác ngộ",
   "personaBuddhaQuote": "Bình an đến từ nội tâm. Đừng tìm kiếm nó ở bên ngoài.",
-
   "personaMuhammad": "Muhammad",
   "personaMuhammadTitle": "Nhà tiên tri của Hồi giáo",
   "personaMuhammadQuote": "Người tốt nhất là người có phẩm hạnh tốt nhất.",
-
   "personaLincoln": "Abraham Lincoln",
   "personaLincolnTitle": "Tổng thống thứ 16 của Hoa Kỳ",
   "personaLincolnQuote": "Cuối cùng, điều quan trọng không phải là số năm trong cuộc đời, mà là cuộc sống trong những năm tháng đó.",
-
   "personaNapoleon": "Napoleon",
   "personaNapoleonTitle": "Hoàng đế nước Pháp",
   "personaNapoleonQuote": "Không có gì là không thể. Từ đó chỉ có trong từ điển của kẻ ngu ngốc.",
-
   "personaSteveJobs": "Steve Jobs",
   "personaSteveJobsTitle": "Doanh nhân có tầm nhìn",
   "personaSteveJobsQuote": "Hãy khát khao. Hãy dại khờ.",
-
   "personaSherlockHolmes": "Sherlock Holmes",
   "personaSherlockHolmesTitle": "Bậc thầy suy luận",
   "personaSherlockHolmesQuote": "Khi bạn loại trừ những gì không thể, thì điều còn lại, dù có vẻ bất khả thi đến đâu, cũng phải là sự thật.",
-
   "personaDumbledore": "Albus Dumbledore",
   "personaDumbledoreTitle": "Hiệu trưởng Hogwarts",
   "personaDumbledoreQuote": "Hạnh phúc có thể được tìm thấy ngay cả trong những thời khắc đen tối nhất, nếu ta chỉ nhớ bật đèn lên.",
-
   "personaGandhi": "Mahatma Gandhi",
   "personaGandhiTitle": "Cha đẻ của nước Ấn Độ",
   "personaGandhiQuote": "Hãy là sự thay đổi mà bạn muốn thấy trên thế giới.",
-
   "personaRumi": "Rumi",
   "personaRumiTitle": "Nhà thơ Sufi & Nhà thần bí",
   "personaRumiQuote": "Vết thương là nơi ánh sáng đi vào bạn.",
-
   "personaKrishna": "Krishna",
   "personaKrishnaTitle": "Người dẫn đường thiêng liêng trong Bhagavad Gita",
   "personaKrishnaQuote": "Bạn có quyền hành động, nhưng không có quyền với kết quả của hành động.",
-
   "personaBrahma": "Brahma",
   "personaBrahmaTitle": "Thần sáng tạo",
   "personaBrahmaQuote": "Từ ảo tưởng đến chân lý, từ bóng tối đến ánh sáng, xin hãy dẫn dắt chúng con.",
-
   "personaVishnu": "Vishnu",
   "personaVishnuTitle": "Thần Bảo Tồn",
   "personaVishnuQuote": "Mỗi khi dharma suy tàn, ta hiện thân để bảo vệ người chính nghĩa.",
-
   "personaTolstoy": "Leo Tolstoy",
   "personaTolstoyTitle": "Bậc thầy văn học Nga",
-  "personaTolstoyQuote": "Ai cũng nghĩ đến việc thay đổi thế giới, nhưng không ai nghĩ đến việc thay đổi chính mình."
+  "personaTolstoyQuote": "Ai cũng nghĩ đến việc thay đổi thế giới, nhưng không ai nghĩ đến việc thay đổi chính mình.",
+  "category_anime": "Anime",
+  "persona_luffy": "Monkey D. Luffy",
+  "persona_luffy_title": "Vua Hai Tac tuong lai",
+  "persona_luffy_quote": "Toi se tro thanh Vua Hai Tac!"
 }

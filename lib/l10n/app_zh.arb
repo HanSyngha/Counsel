@@ -2,11 +2,9 @@
   "@@locale": "zh",
   "appName": "智者之声",
   "appTitle": "智者之声",
-
   "onboardingTitle": "与历史上的导师\n即刻相遇",
   "onboardingSubtitle": "从耶稣、苏格拉底、李舜臣将军到史蒂夫·乔布斯。\n为您的困惑借来跨越时代的智慧。",
   "getStarted": "立即开始",
-
   "homeTitle": "今天您想向谁请教？",
   "homeWelcome": "今天您想向谁寻求智慧？",
   "homeSubtitle": "选择一位引导您的导师",
@@ -16,14 +14,12 @@
   "seeAll": "查看全部",
   "trending": "热门",
   "new_": "最新",
-
   "categoryAll": "全部",
   "categoryHistory": "历史",
   "categoryPhilosophy": "哲学",
   "categoryReligion": "宗教",
   "categoryLiterature": "文学",
   "categoryFavorites": "收藏夹",
-
   "inputTitle": "什么让您心烦意乱？",
   "inputSubtitle": "请坦诚地说出来。越具体，我们能给您的答案就越清晰。",
   "inputPlaceholder": "我正面临这样的困难...\n事情是这样开始的...\n我害怕的是...",
@@ -35,11 +31,14 @@
   "characterCount": "{count} / {max}",
   "@characterCount": {
     "placeholders": {
-      "count": {"type": "int"},
-      "max": {"type": "int"}
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
     }
   },
-
   "loadingConnecting": "连接中",
   "loadingConsulting": "正在探索古老的智慧宝库",
   "loadingAnalyzing": "分析问题中",
@@ -47,7 +46,6 @@
   "loadingOnline": "在线",
   "cancelRequest": "取消请求",
   "loadingNote": "加载角色可能需要一点时间。",
-
   "resultWisdom": "智慧",
   "resultAiPersona": "AI角色建议",
   "resultGeneratedBy": "由AI角色生成",
@@ -59,7 +57,6 @@
   "resultShare": "分享",
   "askAnotherSage": "请教另一位智者",
   "resultActionSteps": "行动步骤",
-
   "historyTitle": "我的建议记录",
   "historySearch": "搜索什么困惑？",
   "historyEmpty": "还没有建议记录",
@@ -73,7 +70,6 @@
   "historyClearMessage": "确定要清除所有记录吗？此操作无法撤销。",
   "historyCleared": "记录已清除",
   "clear": "清除",
-
   "navSelect": "选择",
   "navChat": "对话",
   "navSaved": "已保存",
@@ -82,7 +78,6 @@
   "navSettings": "设置",
   "navHome": "首页",
   "navFavorites": "已保存",
-
   "settingsLanguage": "语言",
   "settingsAbout": "关于应用",
   "settingsPrivacy": "隐私政策",
@@ -102,7 +97,6 @@
   "settingsClearHistoryDialogMessage": "所有对话记录将被永久删除。此操作无法撤销。",
   "settingsHistoryCleared": "记录已成功清除",
   "settingsAboutContent": "智者之声通过AI驱动的对话，将您与历史上最伟大的哲学家、领袖和思想家的智慧连接起来。",
-
   "errorGeneric": "出了点问题。请重试。",
   "errorNetwork": "请检查您的网络连接。",
   "errorTimeout": "请求超时。请重试。",
@@ -114,7 +108,6 @@
   "delete": "删除",
   "confirm": "确认",
   "remove": "移除",
-
   "adviceYourQuestion": "您的问题",
   "adviceCitation": "引用",
   "adviceRelevance": "为何重要",
@@ -132,7 +125,6 @@
   "adviceRemovedFromFavorites": "已从收藏夹移除",
   "adviceCopied": "已复制到剪贴板",
   "adviceShareError": "无法分享，请重试。",
-
   "sourceTypeScripture": "经典",
   "sourceTypeBook": "书籍",
   "sourceTypeSpeech": "演讲",
@@ -142,7 +134,6 @@
   "sourceTypeMoment": "时刻",
   "sourceTypeTeaching": "教导",
   "sourceTypeNovel": "小说",
-
   "chatSuggestionsTitle": "推荐话题",
   "chatIntroMessage": "请分享您心中所想，我将尽我所能给予智慧。",
   "chatSuggestion1": "我如何能找到我的人生目标？",
@@ -153,7 +144,6 @@
   "chatInputPlaceholder": "分享您的困惑...",
   "chatInputHint": "输入消息...",
   "chatSend": "发送",
-
   "favoritesTitle": "保存的建议",
   "favoritesEmpty": "没有保存的建议",
   "favoritesEmptySubtitle": "点击书签图标保存智慧",
@@ -161,11 +151,9 @@
   "favoritesRemoveTitle": "从保存中移除",
   "favoritesRemoveMessage": "确定要从保存的项目中移除这条建议吗？",
   "favoritesRemoved": "已从保存中移除",
-
   "languageTitle": "选择语言",
   "languageSelectPrompt": "请选择您的首选语言",
   "languageSelectSubtitle": "您可以随时在设置中更改",
-
   "personaFeatured": "推荐",
   "personaSignatureQuote": "代表名言",
   "personaAbout": "简介",
@@ -174,80 +162,65 @@
   "personaEra": "时代",
   "personaExpertise": "智慧领域",
   "personaAskQuestion": "提问",
-
   "personaSocrates": "苏格拉底",
   "personaSocratesTitle": "西方哲学之父",
   "personaSocratesQuote": "未经审视的人生不值得过。",
-
   "personaPlato": "柏拉图",
   "personaPlatoTitle": "理念论哲学家",
   "personaPlatoQuote": "善待他人，因为你遇到的每个人都在进行一场艰难的战斗。",
-
   "personaAristotle": "亚里士多德",
   "personaAristotleTitle": "万学之师",
   "personaAristotleQuote": "我们反复做的事情造就了我们。因此，卓越不是一种行为，而是一种习惯。",
-
   "personaSeneca": "塞涅卡",
   "personaSenecaTitle": "斯多葛派哲学家",
   "personaSenecaQuote": "不是我们拥有的时间太少，而是我们浪费的时间太多。",
-
   "personaConfucius": "孔子",
   "personaConfuciusTitle": "至圣先师",
   "personaConfuciusQuote": "不怕慢，只怕站。",
-
   "personaLaozi": "老子",
   "personaLaoziTitle": "道家创始人",
   "personaLaoziQuote": "千里之行，始于足下。",
-
   "personaJesus": "耶稣",
   "personaJesusTitle": "灵性导师",
   "personaJesusQuote": "爱人如己。",
-
   "personaBuddha": "释迦牟尼",
   "personaBuddhaTitle": "觉者",
   "personaBuddhaQuote": "平和来自内心。不要向外寻求。",
-
   "personaMuhammad": "穆罕默德",
   "personaMuhammadTitle": "伊斯兰先知",
   "personaMuhammadQuote": "最优秀的人是品德最好的人。",
-
   "personaLincoln": "亚伯拉罕·林肯",
   "personaLincolnTitle": "美国第16任总统",
   "personaLincolnQuote": "最终重要的不是你活了多少年，而是这些年里你怎样活。",
-
   "personaNapoleon": "拿破仑",
   "personaNapoleonTitle": "法兰西皇帝",
   "personaNapoleonQuote": "不可能这个词只存在于愚人的字典里。",
-
   "personaSteveJobs": "史蒂夫·乔布斯",
   "personaSteveJobsTitle": "远见卓识的企业家",
   "personaSteveJobsQuote": "求知若饥，虚心若愚。",
-
   "personaSherlockHolmes": "夏洛克·福尔摩斯",
   "personaSherlockHolmesTitle": "推理大师",
   "personaSherlockHolmesQuote": "排除一切不可能，剩下的即使再不可思议，也必定是真相。",
-
   "personaDumbledore": "阿不思·邓布利多",
   "personaDumbledoreTitle": "霍格沃茨校长",
   "personaDumbledoreQuote": "即使在最黑暗的时刻也能找到幸福。只要记得点亮明灯。",
-
   "personaGandhi": "圣雄甘地",
   "personaGandhiTitle": "印度国父",
   "personaGandhiQuote": "成为你希望在世界上看到的改变。",
-
   "personaRumi": "鲁米",
   "personaRumiTitle": "苏菲派诗人与神秘主义者",
   "personaRumiQuote": "伤口是光进入你内心的地方。",
-
   "personaKrishna": "克里希纳",
   "personaKrishnaTitle": "薄伽梵歌的神圣向导",
   "personaKrishnaQuote": "你有权行动，但无权享受行动的果实。",
-
   "personaBrahma": "梵天",
   "personaBrahmaTitle": "创造之神",
   "personaBrahmaQuote": "引领我从虚幻走向真实，从黑暗走向光明。",
-
   "personaTolstoy": "列夫·托尔斯泰",
   "personaTolstoyTitle": "俄罗斯文学巨匠",
-  "personaTolstoyQuote": "每个人都想改变世界，却没人想改变自己。"
+  "personaTolstoyQuote": "每个人都想改变世界，却没人想改变自己。",
+  "category_anime": "动漫",
+  "persona_luffy": "蒙奇·D·路飞",
+  "persona_luffy_title": "未来的海贼王",
+  "persona_luffy_quote": "我要成为海贼王!"
 }

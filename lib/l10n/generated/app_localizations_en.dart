@@ -672,4 +672,16 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'Counsel connects you with the wisdom of history\'s greatest philosophers, leaders, and thinkers through AI-powered conversations.';
+
+  @override
+  String get category_anime => 'Anime';
+
+  @override
+  String get persona_luffy => 'Monkey D. Luffy';
+
+  @override
+  String get persona_luffy_title => 'Future Pirate King';
+
+  @override
+  String get persona_luffy_quote => 'I\'m gonna be the Pirate King!';
 }

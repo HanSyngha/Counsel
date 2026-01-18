@@ -681,4 +681,16 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'Stimme der Weisen verbindet Sie durch KI-gestuetzte Gespraeche mit der Weisheit der groessten Philosophen, Fuehrer und Denker der Geschichte.';
+
+  @override
+  String get category_anime => 'Anime';
+
+  @override
+  String get persona_luffy => 'Monkey D. Ruffy';
+
+  @override
+  String get persona_luffy_title => 'Zukuenftiger Piratenkoenig';
+
+  @override
+  String get persona_luffy_quote => 'Ich werde der Koenig der Piraten!';
 }

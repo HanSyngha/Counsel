@@ -2,11 +2,9 @@
   "@@locale": "ru",
   "appName": "Голос Мудрецов",
   "appTitle": "Голос Мудрецов",
-
   "onboardingTitle": "Встретьте наставников\nиз глубины веков",
   "onboardingSubtitle": "От Иисуса, Сократа и адмирала Ли Сунсина до Стива Джобса.\nМы предложим вам мудрость, преодолевающую время, для ваших жизненных вопросов.",
   "getStarted": "Начать",
-
   "homeTitle": "У кого вы хотите спросить совета сегодня?",
   "homeWelcome": "Чьей мудрости вы ищете сегодня?",
   "homeSubtitle": "Выберите наставника, который направит вас",
@@ -16,14 +14,12 @@
   "seeAll": "Смотреть все",
   "trending": "Популярное",
   "new_": "Новое",
-
   "categoryAll": "Все",
   "categoryHistory": "История",
   "categoryPhilosophy": "Философия",
   "categoryReligion": "Религия",
   "categoryLiterature": "Литература",
   "categoryFavorites": "Избранное",
-
   "inputTitle": "Что вас беспокоит?",
   "inputSubtitle": "Говорите откровенно. Чем конкретнее вопрос, тем точнее будет ответ.",
   "inputPlaceholder": "Я столкнулся с такой проблемой...\nВсё началось с того, что...\nЯ боюсь, что...",
@@ -35,11 +31,14 @@
   "characterCount": "{count} / {max}",
   "@characterCount": {
     "placeholders": {
-      "count": {"type": "int"},
-      "max": {"type": "int"}
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
     }
   },
-
   "loadingConnecting": "Подключение",
   "loadingConsulting": "Изучаем древние хранилища мудрости",
   "loadingAnalyzing": "Анализируем ваш вопрос",
@@ -47,7 +46,6 @@
   "loadingOnline": "Онлайн",
   "cancelRequest": "Отменить запрос",
   "loadingNote": "Загрузка персоны может занять некоторое время.",
-
   "resultWisdom": "Мудрость",
   "resultAiPersona": "Совет AI-персоны",
   "resultGeneratedBy": "Создано AI-персоной",
@@ -59,7 +57,6 @@
   "resultShare": "Поделиться",
   "askAnotherSage": "Спросить другого мудреца",
   "resultActionSteps": "Практические шаги",
-
   "historyTitle": "Мои консультации",
   "historySearch": "Какой вопрос вы ищете?",
   "historyEmpty": "История консультаций пуста",
@@ -73,7 +70,6 @@
   "historyClearMessage": "Вы уверены, что хотите очистить всю историю? Это действие необратимо.",
   "historyCleared": "История очищена",
   "clear": "Очистить",
-
   "navSelect": "Выбор",
   "navChat": "Чат",
   "navSaved": "Сохранённое",
@@ -82,7 +78,6 @@
   "navSettings": "Настройки",
   "navHome": "Главная",
   "navFavorites": "Сохранённое",
-
   "settingsLanguage": "Язык",
   "settingsAbout": "О приложении",
   "settingsPrivacy": "Политика конфиденциальности",
@@ -102,7 +97,6 @@
   "settingsClearHistoryDialogMessage": "Все диалоги будут удалены безвозвратно. Это действие нельзя отменить.",
   "settingsHistoryCleared": "История успешно очищена",
   "settingsAboutContent": "Голос Мудрецов соединяет вас с мудростью величайших философов, лидеров и мыслителей в истории через диалоги на основе искусственного интеллекта.",
-
   "errorGeneric": "Что-то пошло не так. Пожалуйста, попробуйте ещё раз.",
   "errorNetwork": "Проверьте подключение к интернету.",
   "errorTimeout": "Время ожидания истекло. Пожалуйста, попробуйте ещё раз.",
@@ -114,7 +108,6 @@
   "delete": "Удалить",
   "confirm": "Подтвердить",
   "remove": "Удалить",
-
   "adviceYourQuestion": "Ваш вопрос",
   "adviceCitation": "Цитата",
   "adviceRelevance": "Почему это важно",
@@ -132,7 +125,6 @@
   "adviceRemovedFromFavorites": "Удалено из избранного",
   "adviceCopied": "Скопировано в буфер обмена",
   "adviceShareError": "Не удалось поделиться. Пожалуйста, попробуйте еще раз.",
-
   "sourceTypeScripture": "Священное писание",
   "sourceTypeBook": "Книга",
   "sourceTypeSpeech": "Речь",
@@ -142,7 +134,6 @@
   "sourceTypeMoment": "Момент",
   "sourceTypeTeaching": "Учение",
   "sourceTypeNovel": "Роман",
-
   "chatSuggestionsTitle": "Рекомендуемые темы",
   "chatIntroMessage": "Поделитесь тем, что у вас на душе, и я поделюсь с вами своей мудростью.",
   "chatSuggestion1": "Как мне найти своё предназначение?",
@@ -153,7 +144,6 @@
   "chatInputPlaceholder": "Поделитесь своими переживаниями...",
   "chatInputHint": "Введите сообщение...",
   "chatSend": "Отправить",
-
   "favoritesTitle": "Сохранённые советы",
   "favoritesEmpty": "Нет сохранённых советов",
   "favoritesEmptySubtitle": "Нажмите на закладку, чтобы сохранить мудрость",
@@ -161,11 +151,9 @@
   "favoritesRemoveTitle": "Удалить из сохранённого",
   "favoritesRemoveMessage": "Вы уверены, что хотите удалить этот совет из сохранённого?",
   "favoritesRemoved": "Удалено из сохранённого",
-
   "languageTitle": "Выбор языка",
   "languageSelectPrompt": "Выберите предпочитаемый язык",
   "languageSelectSubtitle": "Вы можете изменить это в настройках в любое время",
-
   "personaFeatured": "Рекомендуемые",
   "personaSignatureQuote": "Известная цитата",
   "personaAbout": "О персоне",
@@ -174,84 +162,68 @@
   "personaEra": "Эпоха",
   "personaExpertise": "Область мудрости",
   "personaAskQuestion": "Задать вопрос",
-
   "personaSocrates": "Сократ",
   "personaSocratesTitle": "Отец западной философии",
   "personaSocratesQuote": "Непознанная жизнь не стоит того, чтобы быть прожитой.",
-
   "personaPlato": "Платон",
   "personaPlatoTitle": "Философ идей",
   "personaPlatoQuote": "Будьте добры, ведь каждый, кого вы встречаете, ведёт свою нелёгкую борьбу.",
-
   "personaAristotle": "Аристотель",
   "personaAristotleTitle": "Первый учитель",
   "personaAristotleQuote": "Мы есть то, что мы делаем постоянно. Совершенство — это не действие, а привычка.",
-
   "personaSeneca": "Сенека",
   "personaSenecaTitle": "Философ-стоик",
   "personaSenecaQuote": "Дело не в том, что нам мало времени, а в том, что мы много его теряем.",
-
   "personaConfucius": "Конфуций",
   "personaConfuciusTitle": "Великий мудрец",
   "personaConfuciusQuote": "Неважно, как медленно ты идёшь, главное — не останавливайся.",
-
   "personaLaozi": "Лао-цзы",
   "personaLaoziTitle": "Основатель даосизма",
   "personaLaoziQuote": "Путь в тысячу ли начинается с одного шага.",
-
   "personaJesus": "Иисус",
   "personaJesusTitle": "Духовный учитель",
   "personaJesusQuote": "Возлюби ближнего твоего, как самого себя.",
-
   "personaBuddha": "Будда",
   "personaBuddhaTitle": "Просветлённый",
   "personaBuddhaQuote": "Покой приходит изнутри. Не ищи его снаружи.",
-
   "personaMuhammad": "Мухаммед",
   "personaMuhammadTitle": "Пророк ислама",
   "personaMuhammadQuote": "Лучший из людей тот, кто обладает лучшим нравом.",
-
   "personaLincoln": "Авраам Линкольн",
   "personaLincolnTitle": "16-й президент США",
   "personaLincolnQuote": "В конце концов важны не годы жизни, а жизнь в этих годах.",
-
   "personaNapoleon": "Наполеон",
   "personaNapoleonTitle": "Император Франции",
   "personaNapoleonQuote": "Невозможно — слово из словаря глупцов.",
-
   "personaSteveJobs": "Стив Джобс",
   "personaSteveJobsTitle": "Предприниматель-визионер",
   "personaSteveJobsQuote": "Оставайтесь голодными. Оставайтесь безрассудными.",
-
   "personaSherlockHolmes": "Шерлок Холмс",
   "personaSherlockHolmesTitle": "Мастер дедукции",
   "personaSherlockHolmesQuote": "Когда вы исключите невозможное, то, что останется, каким бы невероятным оно ни было, и есть истина.",
-
   "personaDumbledore": "Альбус Дамблдор",
   "personaDumbledoreTitle": "Директор Хогвартса",
   "personaDumbledoreQuote": "Счастье можно найти даже в самые тёмные времена, если не забывать зажигать свет.",
-
   "personaGandhi": "Махатма Ганди",
   "personaGandhiTitle": "Отец нации Индии",
   "personaGandhiQuote": "Будь тем изменением, которое хочешь видеть в мире.",
-
   "personaRumi": "Руми",
   "personaRumiTitle": "Суфийский поэт и мистик",
   "personaRumiQuote": "Рана — это место, через которое в тебя входит свет.",
-
   "personaKrishna": "Кришна",
   "personaKrishnaTitle": "Божественный наставник Бхагавад-гиты",
   "personaKrishnaQuote": "Ты имеешь право на действие, но не на его плоды.",
-
   "personaBrahma": "Брахма",
   "personaBrahmaTitle": "Бог-творец",
   "personaBrahmaQuote": "Веди нас от иллюзии к истине, от тьмы к свету.",
-
   "personaVishnu": "Вишну",
   "personaVishnuTitle": "Бог-Хранитель",
   "personaVishnuQuote": "Когда дхарма приходит в упадок, я являюсь, чтобы защитить праведных.",
-
   "personaTolstoy": "Лев Толстой",
   "personaTolstoyTitle": "Великий русский писатель",
-  "personaTolstoyQuote": "Каждый мечтает изменить мир, но никто не думает о том, как изменить себя."
+  "personaTolstoyQuote": "Каждый мечтает изменить мир, но никто не думает о том, как изменить себя.",
+  "category_anime": "Аниме",
+  "persona_luffy": "Монки Д. Луффи",
+  "persona_luffy_title": "Будущий Король Пиратов",
+  "persona_luffy_quote": "Я стану Королём Пиратов!"
 }

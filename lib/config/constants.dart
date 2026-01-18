@@ -34,6 +34,7 @@ class AppConstants {
   static const String categoryPhilosophy = 'philosophy';
   static const String categoryReligion = 'religion';
   static const String categoryLiterature = 'literature';
+  static const String categoryAnime = 'anime';
 }
 
 /// Supported locales
@@ -145,4 +146,7 @@ class AppAssets {
   static const String krishna = '${personaImagesPath}krishna.jpeg';
   static const String tolstoy = '${personaImagesPath}tolstoy.jpeg';
   static const String vishnu = '${personaImagesPath}vishnu.jpeg';
+
+  // Anime characters
+  static const String luffy = '${personaImagesPath}luffy.jpeg';
 }

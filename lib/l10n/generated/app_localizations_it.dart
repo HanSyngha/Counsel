@@ -680,4 +680,16 @@ class AppLocalizationsIt extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'Counsel ti connette con la saggezza dei più grandi filosofi, leader e pensatori della storia attraverso conversazioni alimentate dall\'IA.';
+
+  @override
+  String get category_anime => 'Anime';
+
+  @override
+  String get persona_luffy => 'Monkey D. Luffy';
+
+  @override
+  String get persona_luffy_title => 'Futuro Re dei Pirati';
+
+  @override
+  String get persona_luffy_quote => 'Diventero il Re dei Pirati!';
 }

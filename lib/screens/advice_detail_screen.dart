@@ -949,6 +949,8 @@ ${l10n.adviceClosingWords}:
         return AppColors.categoryHistory;
       case PersonaCategory.literature:
         return AppColors.categoryLiterature;
+      case PersonaCategory.anime:
+        return AppColors.categoryAnime;
     }
   }
 
@@ -997,6 +999,7 @@ ${l10n.adviceClosingWords}:
       case 'brahma': return l10n.personaBrahma;
       case 'tolstoy': return l10n.personaTolstoy;
       case 'vishnu': return l10n.personaVishnu;
+      case 'luffy': return l10n.persona_luffy;
       default: return persona.id;
     }
   }
@@ -1023,6 +1026,7 @@ ${l10n.adviceClosingWords}:
       case 'brahma': return l10n.personaBrahmaTitle;
       case 'tolstoy': return l10n.personaTolstoyTitle;
       case 'vishnu': return l10n.personaVishnuTitle;
+      case 'luffy': return l10n.persona_luffy_title;
       default: return '';
     }
   }

@@ -676,4 +676,16 @@ class AppLocalizationsUk extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'Counsel з\'єднує тебе з мудрістю найвеличніших філософів, лідерів та мислителів історії через розмови на базі ШІ.';
+
+  @override
+  String get category_anime => 'Аніме';
+
+  @override
+  String get persona_luffy => 'Монкі Д. Луффі';
+
+  @override
+  String get persona_luffy_title => 'Майбутній Король Піратів';
+
+  @override
+  String get persona_luffy_quote => 'Я стану Королем Піратів!';
 }

@@ -663,4 +663,16 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'صوت الحكماء يصلك بحكمة أعظم الفلاسفة والقادة والمفكرين في التاريخ من خلال محادثات مدعومة بالذكاء الاصطناعي.';
+
+  @override
+  String get category_anime => 'أنمي';
+
+  @override
+  String get persona_luffy => 'مونكي دي لوفي';
+
+  @override
+  String get persona_luffy_title => 'ملك القراصنة المستقبلي';
+
+  @override
+  String get persona_luffy_quote => 'سأصبح ملك القراصنة!';
 }

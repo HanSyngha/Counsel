@@ -650,4 +650,16 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       '賢者の声は、AI駆動の会話を通じて、歴史上最も偉大な哲学者、指導者、思想家たちの知恵とあなたをつなぎます。';
+
+  @override
+  String get category_anime => 'アニメ';
+
+  @override
+  String get persona_luffy => 'モンキー・D・ルフィ';
+
+  @override
+  String get persona_luffy_title => '未来の海賊王';
+
+  @override
+  String get persona_luffy_quote => 'おれは海賊王になる!';
 }

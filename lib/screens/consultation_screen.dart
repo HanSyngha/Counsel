@@ -722,13 +722,11 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
       return;
     }
 
-    // Show interstitial ad every 5 requests
-    final adService = ref.read(adServiceProvider);
-    await adService.onAdviceReceived();
-
+    // Note: History is already saved via adviceRequestProvider
+    // Note: Ad is shown via adviceProvider.onAdviceReceived()
     if (!mounted) return;
 
-    // Create advice record and navigate to detail
+    // Create advice record for navigation (already saved in provider)
     final record = AdviceRecord(
       id: DateTime.now().millisecondsSinceEpoch.toString(),
       personaId: widget.persona.id,
@@ -736,9 +734,6 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
       response: adviceResponse,
       createdAt: DateTime.now(),
     );
-
-    // Save to history
-    ref.read(adviceHistoryProvider.notifier).addAdvice(record);
 
     // Navigate to advice detail screen
     Navigator.pushReplacement(
@@ -838,6 +833,8 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
         return AppColors.categoryHistory;
       case PersonaCategory.literature:
         return AppColors.categoryLiterature;
+      case PersonaCategory.anime:
+        return AppColors.categoryAnime;
     }
   }
 
@@ -863,6 +860,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
       case 'brahma': return l10n.personaBrahma;
       case 'vishnu': return l10n.personaVishnu;
       case 'tolstoy': return l10n.personaTolstoy;
+      case 'luffy': return l10n.persona_luffy;
       default: return persona.id;
     }
   }
@@ -889,6 +887,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
       case 'brahma': return l10n.personaBrahmaTitle;
       case 'vishnu': return l10n.personaVishnuTitle;
       case 'tolstoy': return l10n.personaTolstoyTitle;
+      case 'luffy': return l10n.persona_luffy_title;
       default: return '';
     }
   }
@@ -915,6 +914,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
       case 'brahma': return l10n.personaBrahmaQuote;
       case 'vishnu': return l10n.personaVishnuQuote;
       case 'tolstoy': return l10n.personaTolstoyQuote;
+      case 'luffy': return l10n.persona_luffy_quote;
       default: return '';
     }
   }

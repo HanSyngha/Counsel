@@ -679,4 +679,16 @@ class AppLocalizationsId extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'Suara Para Bijak menghubungkan Anda dengan kebijaksanaan filsuf, pemimpin, dan pemikir terhebat dalam sejarah melalui percakapan berbasis AI.';
+
+  @override
+  String get category_anime => 'Anime';
+
+  @override
+  String get persona_luffy => 'Monkey D. Luffy';
+
+  @override
+  String get persona_luffy_title => 'Calon Raja Bajak Laut';
+
+  @override
+  String get persona_luffy_quote => 'Aku akan menjadi Raja Bajak Laut!';
 }

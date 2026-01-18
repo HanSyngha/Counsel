@@ -669,4 +669,16 @@ class AppLocalizationsTh extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'เสียงแห่งปราชญ์เชื่อมต่อคุณกับปัญญาของนักปรัชญา ผู้นำ และนักคิดที่ยิ่งใหญ่ที่สุดในประวัติศาสตร์ผ่านการสนทนาที่ขับเคลื่อนด้วย AI';
+
+  @override
+  String get category_anime => 'อนิเมะ';
+
+  @override
+  String get persona_luffy => 'มังกี้ ดี. ลูฟี่';
+
+  @override
+  String get persona_luffy_title => 'ราชาโจรสลัดในอนาคต';
+
+  @override
+  String get persona_luffy_quote => 'ฉันจะเป็นราชาโจรสลัด!';
 }

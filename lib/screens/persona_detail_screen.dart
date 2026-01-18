@@ -313,6 +313,8 @@ class PersonaDetailScreen extends ConsumerWidget {
         return AppColors.categoryHistory;
       case PersonaCategory.literature:
         return AppColors.categoryLiterature;
+      case PersonaCategory.anime:
+        return AppColors.categoryAnime;
     }
   }
 
@@ -326,6 +328,8 @@ class PersonaDetailScreen extends ConsumerWidget {
         return l10n.categoryHistory;
       case PersonaCategory.literature:
         return l10n.categoryLiterature;
+      case PersonaCategory.anime:
+        return l10n.category_anime;
     }
   }
 

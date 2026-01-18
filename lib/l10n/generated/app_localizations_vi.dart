@@ -679,4 +679,16 @@ class AppLocalizationsVi extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'Tiếng Nói Hiền Triết kết nối bạn với trí tuệ của những triết gia, nhà lãnh đạo và nhà tư tưởng vĩ đại nhất trong lịch sử thông qua các cuộc trò chuyện được hỗ trợ bởi AI.';
+
+  @override
+  String get category_anime => 'Anime';
+
+  @override
+  String get persona_luffy => 'Monkey D. Luffy';
+
+  @override
+  String get persona_luffy_title => 'Vua Hai Tac tuong lai';
+
+  @override
+  String get persona_luffy_quote => 'Toi se tro thanh Vua Hai Tac!';
 }

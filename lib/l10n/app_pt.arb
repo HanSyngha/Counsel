@@ -2,11 +2,9 @@
   "@@locale": "pt",
   "appName": "Voz dos Sabios",
   "appTitle": "Voz dos Sabios",
-
   "onboardingTitle": "Encontre mentores da historia\nagora mesmo",
   "onboardingSubtitle": "De Jesus e Socrates ao Almirante Yi e Steve Jobs.\nSabedoria atemporal para suas duvidas e dilemas.",
   "getStarted": "Comecar agora",
-
   "homeTitle": "De quem voce gostaria de receber conselhos hoje?",
   "homeWelcome": "De quem voce buscara sabedoria hoje?",
   "homeSubtitle": "Escolha um mentor para guia-lo",
@@ -16,14 +14,12 @@
   "seeAll": "Ver todos",
   "trending": "Em alta",
   "new_": "Novo",
-
   "categoryAll": "Todos",
   "categoryHistory": "Historia",
   "categoryPhilosophy": "Filosofia",
   "categoryReligion": "Religiao",
   "categoryLiterature": "Literatura",
   "categoryFavorites": "Favoritos",
-
   "inputTitle": "O que esta pesando em seu coracao?",
   "inputSubtitle": "Fale abertamente. Quanto mais especifico, mais clara sera a resposta.",
   "inputPlaceholder": "Estou enfrentando esta dificuldade...\nComecou assim...\nTenho medo de...",
@@ -35,11 +31,14 @@
   "characterCount": "{count} / {max}",
   "@characterCount": {
     "placeholders": {
-      "count": {"type": "int"},
-      "max": {"type": "int"}
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
     }
   },
-
   "loadingConnecting": "Conectando",
   "loadingConsulting": "Consultando os arquivos da sabedoria antiga",
   "loadingAnalyzing": "Analisando sua pergunta",
@@ -47,7 +46,6 @@
   "loadingOnline": "Online",
   "cancelRequest": "Cancelar solicitacao",
   "loadingNote": "Pode levar um momento para invocar a persona.",
-
   "resultWisdom": "Sabedoria",
   "resultAiPersona": "Conselho da Persona IA",
   "resultGeneratedBy": "Gerado pela Persona IA",
@@ -59,7 +57,6 @@
   "resultShare": "Compartilhar",
   "askAnotherSage": "Perguntar a outro sabio",
   "resultActionSteps": "Passos de Acao",
-
   "historyTitle": "Meu Historico de Conselhos",
   "historySearch": "Que preocupacao voce gostaria de buscar?",
   "historyEmpty": "Nenhum conselho ainda",
@@ -73,7 +70,6 @@
   "historyClearMessage": "Deseja limpar todo o historico? Esta acao nao pode ser desfeita.",
   "historyCleared": "Historico limpo",
   "clear": "Limpar",
-
   "navSelect": "Selecionar",
   "navChat": "Chat",
   "navSaved": "Salvos",
@@ -82,7 +78,6 @@
   "navSettings": "Configuracoes",
   "navHome": "Inicio",
   "navFavorites": "Salvos",
-
   "settingsLanguage": "Idioma",
   "settingsAbout": "Sobre o App",
   "settingsPrivacy": "Privacidade",
@@ -102,7 +97,6 @@
   "settingsClearHistoryDialogMessage": "Todo o historico de conversas sera excluido permanentemente. Esta acao nao pode ser desfeita.",
   "settingsHistoryCleared": "Historico limpo com sucesso",
   "settingsAboutContent": "Voz dos Sabios conecta voce com a sabedoria dos maiores filosofos, lideres e pensadores da historia atraves de conversas com IA.",
-
   "errorGeneric": "Algo deu errado. Por favor, tente novamente.",
   "errorNetwork": "Por favor, verifique sua conexao com a internet.",
   "errorTimeout": "A solicitacao expirou. Por favor, tente novamente.",
@@ -114,7 +108,6 @@
   "delete": "Excluir",
   "confirm": "Confirmar",
   "remove": "Remover",
-
   "adviceYourQuestion": "Sua Pergunta",
   "adviceCitation": "Citacao",
   "adviceRelevance": "Por que isso importa",
@@ -132,7 +125,6 @@
   "adviceRemovedFromFavorites": "Removido dos favoritos",
   "adviceCopied": "Copiado para a area de transferencia",
   "adviceShareError": "Nao foi possivel compartilhar. Por favor, tente novamente.",
-
   "sourceTypeScripture": "Escritura",
   "sourceTypeBook": "Livro",
   "sourceTypeSpeech": "Discurso",
@@ -142,7 +134,6 @@
   "sourceTypeMoment": "Momento",
   "sourceTypeTeaching": "Ensinamento",
   "sourceTypeNovel": "Romance",
-
   "chatSuggestionsTitle": "Topicos Sugeridos",
   "chatIntroMessage": "Compartilhe o que esta em seu coracao, e oferecerei a sabedoria que posso.",
   "chatSuggestion1": "Como posso encontrar meu proposito?",
@@ -153,7 +144,6 @@
   "chatInputPlaceholder": "Compartilhe suas preocupacoes...",
   "chatInputHint": "Digite sua mensagem...",
   "chatSend": "Enviar",
-
   "favoritesTitle": "Conselhos Salvos",
   "favoritesEmpty": "Nenhum conselho salvo",
   "favoritesEmptySubtitle": "Toque no icone de favorito para salvar sabedoria",
@@ -161,11 +151,9 @@
   "favoritesRemoveTitle": "Remover dos Salvos",
   "favoritesRemoveMessage": "Deseja remover este conselho dos salvos?",
   "favoritesRemoved": "Removido dos salvos",
-
   "languageTitle": "Selecionar Idioma",
   "languageSelectPrompt": "Escolha seu idioma preferido",
   "languageSelectSubtitle": "Voce pode alterar isso a qualquer momento nas configuracoes",
-
   "personaFeatured": "Destaque",
   "personaSignatureQuote": "Citacao Marcante",
   "personaAbout": "Sobre",
@@ -174,84 +162,68 @@
   "personaEra": "Era",
   "personaExpertise": "Areas de Sabedoria",
   "personaAskQuestion": "Fazer uma Pergunta",
-
   "personaSocrates": "Socrates",
   "personaSocratesTitle": "Pai da Filosofia Ocidental",
   "personaSocratesQuote": "Uma vida nao examinada nao vale a pena ser vivida.",
-
   "personaPlato": "Platao",
   "personaPlatoTitle": "Filosofo das Ideias",
   "personaPlatoQuote": "Seja gentil, pois cada pessoa que voce encontra esta travando uma batalha dificil.",
-
   "personaAristotle": "Aristoteles",
   "personaAristotleTitle": "O Primeiro Mestre",
   "personaAristotleQuote": "Nos somos o que fazemos repetidamente. A excelencia nao e um ato, mas um habito.",
-
   "personaSeneca": "Seneca",
   "personaSenecaTitle": "Filosofo Estoico",
   "personaSenecaQuote": "Nao e que temos pouco tempo, mas que desperdicamos muito dele.",
-
   "personaConfucius": "Confucio",
   "personaConfuciusTitle": "O Grande Sabio",
   "personaConfuciusQuote": "Nao importa quao devagar voce va, desde que nao pare.",
-
   "personaLaozi": "Lao Tzu",
   "personaLaoziTitle": "Fundador do Taoismo",
   "personaLaoziQuote": "Uma jornada de mil milhas comeca com um unico passo.",
-
   "personaJesus": "Jesus",
   "personaJesusTitle": "Mestre Espiritual",
   "personaJesusQuote": "Ama o teu proximo como a ti mesmo.",
-
   "personaBuddha": "Buda",
   "personaBuddhaTitle": "O Iluminado",
   "personaBuddhaQuote": "A paz vem de dentro. Nao a busque fora.",
-
   "personaMuhammad": "Maome",
   "personaMuhammadTitle": "Profeta do Isla",
   "personaMuhammadQuote": "Os melhores entre voces sao aqueles que tem o melhor carater.",
-
   "personaLincoln": "Abraham Lincoln",
   "personaLincolnTitle": "16o Presidente dos EUA",
   "personaLincolnQuote": "No final, o que conta nao sao os anos de sua vida, mas a vida em seus anos.",
-
   "personaNapoleon": "Napoleao",
   "personaNapoleonTitle": "Imperador da Franca",
   "personaNapoleonQuote": "Impossivel e uma palavra encontrada apenas no dicionario dos tolos.",
-
   "personaSteveJobs": "Steve Jobs",
   "personaSteveJobsTitle": "Empreendedor Visionario",
   "personaSteveJobsQuote": "Continue com fome. Continue tolo.",
-
   "personaSherlockHolmes": "Sherlock Holmes",
   "personaSherlockHolmesTitle": "Mestre Detetive",
   "personaSherlockHolmesQuote": "Quando voce elimina o impossivel, o que resta, por mais improvavel que seja, deve ser a verdade.",
-
   "personaDumbledore": "Alvo Dumbledore",
   "personaDumbledoreTitle": "Diretor de Hogwarts",
   "personaDumbledoreQuote": "A felicidade pode ser encontrada mesmo nos momentos mais sombrios, se voce se lembrar de acender a luz.",
-
   "personaGandhi": "Mahatma Gandhi",
   "personaGandhiTitle": "Pai da India",
   "personaGandhiQuote": "Seja a mudanca que voce deseja ver no mundo.",
-
   "personaRumi": "Rumi",
   "personaRumiTitle": "Poeta Sufi e Mistico",
   "personaRumiQuote": "A ferida e o lugar por onde a luz entra em voce.",
-
   "personaKrishna": "Krishna",
   "personaKrishnaTitle": "Guia Divino do Bhagavad Gita",
   "personaKrishnaQuote": "Voce tem direito a agir, mas nunca aos frutos de suas acoes.",
-
   "personaBrahma": "Brahma",
   "personaBrahmaTitle": "O Deus Criador",
   "personaBrahmaQuote": "Conduza-me da ilusao a verdade, das trevas a luz.",
-
   "personaVishnu": "Vishnu",
   "personaVishnuTitle": "O Deus Preservador",
   "personaVishnuQuote": "Sempre que o dharma declina, eu me manifesto para proteger os justos.",
-
   "personaTolstoy": "Lev Tolstoi",
   "personaTolstoyTitle": "Mestre da Literatura Russa",
-  "personaTolstoyQuote": "Todos pensam em mudar o mundo, mas ninguem pensa em mudar a si mesmo."
+  "personaTolstoyQuote": "Todos pensam em mudar o mundo, mas ninguem pensa em mudar a si mesmo.",
+  "category_anime": "Anime",
+  "persona_luffy": "Monkey D. Luffy",
+  "persona_luffy_title": "Futuro Rei dos Piratas",
+  "persona_luffy_quote": "Eu vou ser o Rei dos Piratas!"
 }

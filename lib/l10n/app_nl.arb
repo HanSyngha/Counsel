@@ -2,11 +2,9 @@
   "@@locale": "nl",
   "appName": "Counsel",
   "appTitle": "Counsel",
-
   "onboardingTitle": "Ontmoet Je Mentoren\nuit de Geschiedenis",
   "onboardingSubtitle": "Van Jezus tot Socrates, van Napoleon tot Steve Jobs.\nLeen tijdloze wijsheid voor je zorgen.",
   "getStarted": "Aan de slag",
-
   "homeTitle": "Bij wie zoek je vandaag raad?",
   "homeWelcome": "Van wie zoek je vandaag wijsheid?",
   "homeSubtitle": "Kies een mentor om je te begeleiden",
@@ -16,14 +14,12 @@
   "seeAll": "Alles bekijken",
   "trending": "Trending",
   "new_": "Nieuw",
-
   "categoryAll": "Alles",
   "categoryHistory": "Geschiedenis",
   "categoryPhilosophy": "Filosofie",
   "categoryReligion": "Religie",
   "categoryLiterature": "Literatuur",
   "categoryFavorites": "Favorieten",
-
   "inputTitle": "Wat drukt er op je?",
   "inputSubtitle": "Wees eerlijk. Detail is de weg naar helderheid.",
   "inputPlaceholder": "Ik worstel met...\nHet begon toen...\nIk ben bang dat...",
@@ -35,11 +31,14 @@
   "characterCount": "{count} / {max}",
   "@characterCount": {
     "placeholders": {
-      "count": {"type": "int"},
-      "max": {"type": "int"}
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
     }
   },
-
   "loadingConnecting": "Verbinden met",
   "loadingConsulting": "Raadplegen van de oude archieven der wijsheid",
   "loadingAnalyzing": "Vraag Analyseren",
@@ -47,7 +46,6 @@
   "loadingOnline": "Online",
   "cancelRequest": "Verzoek Annuleren",
   "loadingNote": "Dit kan even duren terwijl we de persona kanaliseren.",
-
   "resultWisdom": "Wijsheid",
   "resultAiPersona": "AI Persona Advies",
   "resultGeneratedBy": "Gegenereerd door AI Persona",
@@ -59,7 +57,6 @@
   "resultShare": "Delen",
   "askAnotherSage": "Vraag een Andere Wijze",
   "resultActionSteps": "Actiestappen",
-
   "historyTitle": "Mijn Adviesgeschiedenis",
   "historySearch": "Welke zorg zoek je?",
   "historyEmpty": "Nog geen adviesgeschiedenis",
@@ -73,7 +70,6 @@
   "historyClearMessage": "Weet je zeker dat je alle geschiedenis wilt wissen? Dit kan niet ongedaan worden gemaakt.",
   "historyCleared": "Geschiedenis gewist",
   "clear": "Wissen",
-
   "navSelect": "Selecteer",
   "navChat": "Chat",
   "navSaved": "Opgeslagen",
@@ -82,7 +78,6 @@
   "navSettings": "Instellingen",
   "navHome": "Home",
   "navFavorites": "Opgeslagen",
-
   "settingsLanguage": "Taal",
   "settingsAbout": "Over",
   "settingsPrivacy": "Privacybeleid",
@@ -102,7 +97,6 @@
   "settingsClearHistoryDialogMessage": "Dit zal al je gespreksgeschiedenis permanent verwijderen. Deze actie kan niet ongedaan worden gemaakt.",
   "settingsHistoryCleared": "Geschiedenis succesvol gewist",
   "settingsAboutContent": "Counsel verbindt je met de wijsheid van 's geschiedenisgrootste filosofen, leiders en denkers via AI-gestuurde gesprekken.",
-
   "errorGeneric": "Er ging iets mis. Probeer het opnieuw.",
   "errorNetwork": "Controleer je internetverbinding.",
   "errorTimeout": "Verzoek verlopen. Probeer het opnieuw.",
@@ -114,7 +108,6 @@
   "delete": "Verwijderen",
   "confirm": "Bevestigen",
   "remove": "Verwijderen",
-
   "adviceYourQuestion": "Jouw Vraag",
   "adviceCitation": "Citaat",
   "adviceRelevance": "Waarom Dit Belangrijk Is",
@@ -132,7 +125,6 @@
   "adviceRemovedFromFavorites": "Verwijderd uit favorieten",
   "adviceCopied": "Gekopieerd naar klembord",
   "adviceShareError": "Kon niet delen. Probeer het opnieuw.",
-
   "sourceTypeScripture": "Geschrift",
   "sourceTypeBook": "Boek",
   "sourceTypeSpeech": "Toespraak",
@@ -142,7 +134,6 @@
   "sourceTypeMoment": "Moment",
   "sourceTypeTeaching": "Onderwijzing",
   "sourceTypeNovel": "Roman",
-
   "chatSuggestionsTitle": "Voorgestelde Onderwerpen",
   "chatIntroMessage": "Deel wat er op je hart drukt, en ik zal de wijsheid bieden die ik kan.",
   "chatSuggestion1": "Hoe vind ik mijn doel?",
@@ -153,7 +144,6 @@
   "chatInputPlaceholder": "Deel je zorg...",
   "chatInputHint": "Typ hier je bericht...",
   "chatSend": "Versturen",
-
   "favoritesTitle": "Opgeslagen Advies",
   "favoritesEmpty": "Nog geen opgeslagen advies",
   "favoritesEmptySubtitle": "Tik op het bladwijzericoon om wijsheid op te slaan",
@@ -161,11 +151,9 @@
   "favoritesRemoveTitle": "Verwijderen uit Opgeslagen",
   "favoritesRemoveMessage": "Weet je zeker dat je dit advies uit je opgeslagen items wilt verwijderen?",
   "favoritesRemoved": "Verwijderd uit opgeslagen",
-
   "languageTitle": "Selecteer Taal",
   "languageSelectPrompt": "Kies je voorkeurstaal",
   "languageSelectSubtitle": "Je kunt dit altijd wijzigen in instellingen",
-
   "personaFeatured": "Uitgelicht",
   "personaSignatureQuote": "Kenmerkend Citaat",
   "personaAbout": "Over",
@@ -174,84 +162,68 @@
   "personaEra": "Era",
   "personaExpertise": "Gebieden van Wijsheid",
   "personaAskQuestion": "Stel een Vraag",
-
   "personaSocrates": "Socrates",
   "personaSocratesTitle": "Vader van de Westerse Filosofie",
   "personaSocratesQuote": "Een ononderzocht leven is het leven niet waard.",
-
   "personaPlato": "Plato",
   "personaPlatoTitle": "Filosoof van de Vormen",
   "personaPlatoQuote": "Wees aardig, want iedereen die je ontmoet voert een harde strijd.",
-
   "personaAristotle": "Aristoteles",
   "personaAristotleTitle": "De Eerste Leraar",
   "personaAristotleQuote": "Wij zijn wat we herhaaldelijk doen. Excellentie is geen daad, maar een gewoonte.",
-
   "personaSeneca": "Seneca",
   "personaSenecaTitle": "Stoïcijns Filosoof",
   "personaSenecaQuote": "Het is niet dat we weinig tijd hebben, maar dat we veel verspillen.",
-
   "personaConfucius": "Confucius",
   "personaConfuciusTitle": "De Grote Wijze",
   "personaConfuciusQuote": "Het maakt niet uit hoe langzaam je gaat, zolang je niet stopt.",
-
   "personaLaozi": "Laozi",
   "personaLaoziTitle": "Stichter van het Taoïsme",
   "personaLaoziQuote": "Een reis van duizend mijl begint met een enkele stap.",
-
   "personaJesus": "Jezus",
   "personaJesusTitle": "Spiritueel Leraar",
   "personaJesusQuote": "Heb je naaste lief als jezelf.",
-
   "personaBuddha": "Boeddha",
   "personaBuddhaTitle": "De Ontwaakte",
   "personaBuddhaQuote": "Vrede komt van binnenuit. Zoek het niet daarbuiten.",
-
   "personaMuhammad": "Mohammed",
   "personaMuhammadTitle": "Profeet van de Islam",
   "personaMuhammadQuote": "De besten onder jullie zijn degenen met het beste karakter.",
-
   "personaLincoln": "Abraham Lincoln",
   "personaLincolnTitle": "16e President VS",
   "personaLincolnQuote": "Uiteindelijk tellen niet de jaren in je leven, maar het leven in je jaren.",
-
   "personaNapoleon": "Napoleon",
   "personaNapoleonTitle": "Keizer van Frankrijk",
   "personaNapoleonQuote": "Onmogelijk is een woord dat alleen in het woordenboek van dwazen staat.",
-
   "personaSteveJobs": "Steve Jobs",
   "personaSteveJobsTitle": "Visionair Ondernemer",
   "personaSteveJobsQuote": "Blijf hongerig. Blijf dwaas.",
-
   "personaSherlockHolmes": "Sherlock Holmes",
   "personaSherlockHolmesTitle": "Meester van Deductie",
   "personaSherlockHolmesQuote": "Als je het onmogelijke hebt geëlimineerd, moet wat overblijft de waarheid zijn.",
-
   "personaDumbledore": "Albus Perkamentus",
   "personaDumbledoreTitle": "Schoolhoofd van Zweinstein",
   "personaDumbledoreQuote": "Geluk kan zelfs in de donkerste tijden worden gevonden, als men maar het licht aandoet.",
-
   "personaGandhi": "Mahatma Gandhi",
   "personaGandhiTitle": "Vader des Vaderlands",
   "personaGandhiQuote": "Wees de verandering die je in de wereld wilt zien.",
-
   "personaRumi": "Rumi",
   "personaRumiTitle": "Soefi Dichter & Mysticus",
   "personaRumiQuote": "De wond is de plek waar het Licht in je binnentreedt.",
-
   "personaKrishna": "Krishna",
   "personaKrishnaTitle": "Goddelijke Gids van de Bhagavad Gita",
   "personaKrishnaQuote": "Je hebt recht op werk, maar nooit op de vruchten ervan.",
-
   "personaBrahma": "Brahma",
   "personaBrahmaTitle": "De Scheppergod",
   "personaBrahmaQuote": "Van het onwerkelijke leid mij naar het werkelijke, van duisternis leid mij naar licht.",
-
   "personaVishnu": "Vishnu",
   "personaVishnuTitle": "De Behoedergod",
   "personaVishnuQuote": "Telkens wanneer dharma afneemt, manifesteer ik mezelf om de rechtvaardigen te beschermen.",
-
   "personaTolstoy": "Leo Tolstoj",
   "personaTolstoyTitle": "Russische Literaire Reus",
-  "personaTolstoyQuote": "Iedereen denkt aan het veranderen van de wereld, maar niemand denkt aan het veranderen van zichzelf."
+  "personaTolstoyQuote": "Iedereen denkt aan het veranderen van de wereld, maar niemand denkt aan het veranderen van zichzelf.",
+  "category_anime": "Anime",
+  "persona_luffy": "Monkey D. Luffy",
+  "persona_luffy_title": "Toekomstige Piratenkoning",
+  "persona_luffy_quote": "Ik word de Koning der Piraten!"
 }

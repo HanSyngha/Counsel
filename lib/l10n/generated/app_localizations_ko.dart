@@ -652,4 +652,16 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       '위인의 목소리는 AI 기반 대화를 통해 역사상 가장 위대한 철학자, 지도자, 사상가들의 지혜와 연결해 드립니다.';
+
+  @override
+  String get category_anime => '애니메이션';
+
+  @override
+  String get persona_luffy => '몽키 D. 루피';
+
+  @override
+  String get persona_luffy_title => '미래의 해적왕';
+
+  @override
+  String get persona_luffy_quote => '난 해적왕이 될 거야!';
 }

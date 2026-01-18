@@ -680,4 +680,16 @@ class AppLocalizationsMs extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'Suara Orang Bijak menghubungkan anda dengan kebijaksanaan ahli falsafah, pemimpin, dan pemikir terhebat dalam sejarah melalui perbualan berkuasa AI.';
+
+  @override
+  String get category_anime => 'Anime';
+
+  @override
+  String get persona_luffy => 'Monkey D. Luffy';
+
+  @override
+  String get persona_luffy_title => 'Bakal Raja Lanun';
+
+  @override
+  String get persona_luffy_quote => 'Saya akan menjadi Raja Lanun!';
 }

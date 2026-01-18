@@ -2,11 +2,9 @@
   "@@locale": "de",
   "appName": "Stimme der Weisen",
   "appTitle": "Stimme der Weisen",
-
   "onboardingTitle": "Begegnen Sie Mentoren\naus der Geschichte",
   "onboardingSubtitle": "Von Jesus, Sokrates und Admiral Yi Sun-sin bis Steve Jobs.\nZeitlose Weisheit fuer Ihre Herausforderungen.",
   "getStarted": "Jetzt starten",
-
   "homeTitle": "Wen moechten Sie heute um Rat fragen?",
   "homeWelcome": "Bei wem suchen Sie heute Weisheit?",
   "homeSubtitle": "Waehlen Sie einen Mentor, der Sie fuehrt",
@@ -16,14 +14,12 @@
   "seeAll": "Alle anzeigen",
   "trending": "Beliebt",
   "new_": "Neu",
-
   "categoryAll": "Alle",
   "categoryHistory": "Geschichte",
   "categoryPhilosophy": "Philosophie",
   "categoryReligion": "Religion",
   "categoryLiterature": "Literatur",
   "categoryFavorites": "Favoriten",
-
   "inputTitle": "Was beschaeftigt Sie?",
   "inputSubtitle": "Sprechen Sie offen. Je genauer Sie sind, desto klarer kann ich antworten.",
   "inputPlaceholder": "Ich kaempfe mit...\nEs begann so...\nIch habe Angst vor...",
@@ -35,11 +31,14 @@
   "characterCount": "{count} / {max}",
   "@characterCount": {
     "placeholders": {
-      "count": {"type": "int"},
-      "max": {"type": "int"}
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
     }
   },
-
   "loadingConnecting": "Verbinde",
   "loadingConsulting": "Durchsuche die Bibliothek antiker Weisheit",
   "loadingAnalyzing": "Analysiere Ihre Frage",
@@ -47,7 +46,6 @@
   "loadingOnline": "Online",
   "cancelRequest": "Anfrage abbrechen",
   "loadingNote": "Das Laden der Persona kann einen Moment dauern.",
-
   "resultWisdom": "Weisheit",
   "resultAiPersona": "KI-Persona-Beratung",
   "resultGeneratedBy": "Erstellt von KI-Persona",
@@ -59,7 +57,6 @@
   "resultShare": "Teilen",
   "askAnotherSage": "Einen anderen Weisen fragen",
   "resultActionSteps": "Handlungsschritte",
-
   "historyTitle": "Meine Beratungshistorie",
   "historySearch": "Wonach suchen Sie?",
   "historyEmpty": "Noch keine Beratungshistorie",
@@ -73,7 +70,6 @@
   "historyClearMessage": "Moechten Sie die gesamte Historie loeschen? Dies kann nicht rueckgaengig gemacht werden.",
   "historyCleared": "Historie geloescht",
   "clear": "Loeschen",
-
   "navSelect": "Auswaehlen",
   "navChat": "Chat",
   "navSaved": "Gespeichert",
@@ -82,7 +78,6 @@
   "navSettings": "Einstellungen",
   "navHome": "Startseite",
   "navFavorites": "Gespeichert",
-
   "settingsLanguage": "Sprache",
   "settingsAbout": "Ueber die App",
   "settingsPrivacy": "Datenschutzrichtlinie",
@@ -102,7 +97,6 @@
   "settingsClearHistoryDialogMessage": "Der gesamte Gespraechsverlauf wird dauerhaft geloescht. Dies kann nicht rueckgaengig gemacht werden.",
   "settingsHistoryCleared": "Historie erfolgreich geloescht",
   "settingsAboutContent": "Stimme der Weisen verbindet Sie durch KI-gestuetzte Gespraeche mit der Weisheit der groessten Philosophen, Fuehrer und Denker der Geschichte.",
-
   "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
   "errorNetwork": "Bitte ueberpruefen Sie Ihre Internetverbindung.",
   "errorTimeout": "Zeitlimit ueberschritten. Bitte versuchen Sie es erneut.",
@@ -114,7 +108,6 @@
   "delete": "Loeschen",
   "confirm": "Bestaetigen",
   "remove": "Entfernen",
-
   "adviceYourQuestion": "Ihre Frage",
   "adviceCitation": "Zitat",
   "adviceRelevance": "Warum es wichtig ist",
@@ -132,7 +125,6 @@
   "adviceRemovedFromFavorites": "Aus Favoriten entfernt",
   "adviceCopied": "In die Zwischenablage kopiert",
   "adviceShareError": "Teilen fehlgeschlagen. Bitte versuchen Sie es erneut.",
-
   "sourceTypeScripture": "Heilige Schrift",
   "sourceTypeBook": "Buch",
   "sourceTypeSpeech": "Rede",
@@ -142,7 +134,6 @@
   "sourceTypeMoment": "Moment",
   "sourceTypeTeaching": "Lehre",
   "sourceTypeNovel": "Roman",
-
   "chatSuggestionsTitle": "Vorgeschlagene Themen",
   "chatIntroMessage": "Teilen Sie mir mit, was Sie beschaeftigt, und ich werde meine Weisheit mit Ihnen teilen.",
   "chatSuggestion1": "Wie kann ich meinen Lebenszweck finden?",
@@ -153,7 +144,6 @@
   "chatInputPlaceholder": "Teilen Sie Ihre Gedanken...",
   "chatInputHint": "Nachricht eingeben...",
   "chatSend": "Senden",
-
   "favoritesTitle": "Gespeicherte Ratschlaege",
   "favoritesEmpty": "Keine gespeicherten Ratschlaege",
   "favoritesEmptySubtitle": "Tippen Sie auf das Lesezeichen-Symbol, um Weisheit zu speichern",
@@ -161,11 +151,9 @@
   "favoritesRemoveTitle": "Aus Gespeicherten entfernen",
   "favoritesRemoveMessage": "Moechten Sie diesen Rat aus den gespeicherten Eintraegen entfernen?",
   "favoritesRemoved": "Aus Gespeicherten entfernt",
-
   "languageTitle": "Sprache waehlen",
   "languageSelectPrompt": "Waehlen Sie Ihre bevorzugte Sprache",
   "languageSelectSubtitle": "Sie koennen dies jederzeit in den Einstellungen aendern",
-
   "personaFeatured": "Empfohlen",
   "personaSignatureQuote": "Beruemtes Zitat",
   "personaAbout": "Ueber",
@@ -174,84 +162,68 @@
   "personaEra": "Epoche",
   "personaExpertise": "Weisheitsbereich",
   "personaAskQuestion": "Frage stellen",
-
   "personaSocrates": "Sokrates",
   "personaSocratesTitle": "Vater der westlichen Philosophie",
   "personaSocratesQuote": "Das ungepruefte Leben ist nicht lebenswert.",
-
   "personaPlato": "Platon",
   "personaPlatoTitle": "Philosoph der Ideen",
   "personaPlatoQuote": "Sei guetig, denn jeder, dem du begegnest, kaempft einen schweren Kampf.",
-
   "personaAristotle": "Aristoteles",
   "personaAristotleTitle": "Der erste Lehrer",
   "personaAristotleQuote": "Wir sind, was wir wiederholt tun. Vortrefflichkeit ist daher keine Handlung, sondern eine Gewohnheit.",
-
   "personaSeneca": "Seneca",
   "personaSenecaTitle": "Stoischer Philosoph",
   "personaSenecaQuote": "Es ist nicht, dass wir wenig Zeit haben, sondern dass wir viel davon verschwenden.",
-
   "personaConfucius": "Konfuzius",
   "personaConfuciusTitle": "Der grosse Weise",
   "personaConfuciusQuote": "Es spielt keine Rolle, wie langsam du gehst, solange du nicht stehen bleibst.",
-
   "personaLaozi": "Laozi",
   "personaLaoziTitle": "Gruender des Taoismus",
   "personaLaoziQuote": "Auch die laengste Reise beginnt mit dem ersten Schritt.",
-
   "personaJesus": "Jesus",
   "personaJesusTitle": "Spiritueller Lehrer",
   "personaJesusQuote": "Liebe deinen Naechsten wie dich selbst.",
-
   "personaBuddha": "Buddha",
   "personaBuddhaTitle": "Der Erleuchtete",
   "personaBuddhaQuote": "Frieden kommt von innen. Suche ihn nicht ausserhalb.",
-
   "personaMuhammad": "Mohammed",
   "personaMuhammadTitle": "Prophet des Islam",
   "personaMuhammadQuote": "Der beste unter euch ist derjenige mit dem besten Charakter.",
-
   "personaLincoln": "Abraham Lincoln",
   "personaLincolnTitle": "16. Praesident der USA",
   "personaLincolnQuote": "Am Ende zaehlt nicht die Anzahl der Jahre im Leben, sondern das Leben in den Jahren.",
-
   "personaNapoleon": "Napoleon",
   "personaNapoleonTitle": "Kaiser von Frankreich",
   "personaNapoleonQuote": "Unmoeglich ist ein Wort, das nur im Woerterbuch der Narren steht.",
-
   "personaSteveJobs": "Steve Jobs",
   "personaSteveJobsTitle": "Visionaerer Unternehmer",
   "personaSteveJobsQuote": "Bleibt hungrig. Bleibt toericht.",
-
   "personaSherlockHolmes": "Sherlock Holmes",
   "personaSherlockHolmesTitle": "Meister der Deduktion",
   "personaSherlockHolmesQuote": "Wenn du das Unmoegliche ausgeschlossen hast, muss das, was uebrig bleibt, die Wahrheit sein, wie unwahrscheinlich sie auch erscheinen mag.",
-
   "personaDumbledore": "Albus Dumbledore",
   "personaDumbledoreTitle": "Schulleiter von Hogwarts",
   "personaDumbledoreQuote": "Glueck kann selbst in den dunkelsten Zeiten gefunden werden, wenn man nur daran denkt, das Licht anzuzuenden.",
-
   "personaGandhi": "Mahatma Gandhi",
   "personaGandhiTitle": "Vater der indischen Nation",
   "personaGandhiQuote": "Sei du selbst die Veraenderung, die du dir wuenschst fuer diese Welt.",
-
   "personaRumi": "Rumi",
   "personaRumiTitle": "Sufi-Dichter & Mystiker",
   "personaRumiQuote": "Die Wunde ist der Ort, wo das Licht in dich eindringt.",
-
   "personaKrishna": "Krishna",
   "personaKrishnaTitle": "Goettlicher Fuehrer der Bhagavad Gita",
   "personaKrishnaQuote": "Du hast das Recht zu handeln, aber niemals auf die Fruechte deiner Taten.",
-
   "personaBrahma": "Brahma",
   "personaBrahmaTitle": "Gott der Schoepfung",
   "personaBrahmaQuote": "Fuehre mich vom Unwirklichen zum Wirklichen, von der Dunkelheit zum Licht.",
-
   "personaVishnu": "Vishnu",
   "personaVishnuTitle": "Der Bewahrer-Gott",
   "personaVishnuQuote": "Wann immer das Dharma verfaellt, manifestiere ich mich, um die Gerechten zu schuetzen.",
-
   "personaTolstoy": "Leo Tolstoi",
   "personaTolstoyTitle": "Meister der russischen Literatur",
-  "personaTolstoyQuote": "Jeder denkt daran, die Welt zu veraendern, aber niemand denkt daran, sich selbst zu veraendern."
+  "personaTolstoyQuote": "Jeder denkt daran, die Welt zu veraendern, aber niemand denkt daran, sich selbst zu veraendern.",
+  "category_anime": "Anime",
+  "persona_luffy": "Monkey D. Ruffy",
+  "persona_luffy_title": "Zukuenftiger Piratenkoenig",
+  "persona_luffy_quote": "Ich werde der Koenig der Piraten!"
 }

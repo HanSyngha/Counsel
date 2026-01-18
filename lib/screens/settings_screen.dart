@@ -162,7 +162,7 @@ class SettingsScreen extends ConsumerWidget {
           ClipRRect(
             borderRadius: BorderRadius.circular(16),
             child: Image.asset(
-              'assets/images/personas/counsel_logo.png',
+              'assets/images/app_icon.png',
               width: 64,
               height: 64,
               fit: BoxFit.cover,
@@ -246,7 +246,7 @@ class SettingsScreen extends ConsumerWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(8),
               child: Image.asset(
-                'assets/images/personas/counsel_logo.png',
+                'assets/images/app_icon.png',
                 width: 40,
                 height: 40,
                 fit: BoxFit.cover,

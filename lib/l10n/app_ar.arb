@@ -2,11 +2,9 @@
   "@@locale": "ar",
   "appName": "صوت الحكماء",
   "appTitle": "صوت الحكماء",
-
   "onboardingTitle": "التقِ بمرشدك\nمن عمق التاريخ",
   "onboardingSubtitle": "من عيسى وسقراط والأدميرال يي سون شين إلى ستيف جوبز.\nنقدم لك حكمة خالدة تتجاوز حدود الزمان لمساعدتك في مواجهة تحدياتك.",
   "getStarted": "ابدأ الآن",
-
   "homeTitle": "من تريد أن تستشير اليوم؟",
   "homeWelcome": "ممن تطلب الحكمة اليوم؟",
   "homeSubtitle": "اختر مرشدك ليهديك الطريق",
@@ -16,14 +14,12 @@
   "seeAll": "عرض الكل",
   "trending": "رائج",
   "new_": "جديد",
-
   "categoryAll": "الكل",
   "categoryHistory": "التاريخ",
   "categoryPhilosophy": "الفلسفة",
   "categoryReligion": "الدين",
   "categoryLiterature": "الأدب",
   "categoryFavorites": "المفضلة",
-
   "inputTitle": "ما الذي يشغل بالك؟",
   "inputSubtitle": "شاركنا بصراحة. كلما كنت أكثر تحديداً، كانت الإجابة أوضح.",
   "inputPlaceholder": "أواجه هذه الصعوبة...\nبدأ الأمر هكذا...\nأخشى من...",
@@ -35,11 +31,14 @@
   "characterCount": "{count} / {max}",
   "@characterCount": {
     "placeholders": {
-      "count": {"type": "int"},
-      "max": {"type": "int"}
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
     }
   },
-
   "loadingConnecting": "جارٍ الاتصال",
   "loadingConsulting": "يتصفح مكتبة الحكمة القديمة",
   "loadingAnalyzing": "جارٍ تحليل سؤالك",
@@ -47,7 +46,6 @@
   "loadingOnline": "متصل",
   "cancelRequest": "إلغاء الطلب",
   "loadingNote": "قد يستغرق استحضار الشخصية بعض الوقت.",
-
   "resultWisdom": "الحكمة",
   "resultAiPersona": "نصيحة شخصية ذكاء اصطناعي",
   "resultGeneratedBy": "أنشأتها شخصية ذكاء اصطناعي",
@@ -59,7 +57,6 @@
   "resultShare": "مشاركة",
   "askAnotherSage": "اسأل حكيماً آخر",
   "resultActionSteps": "خطوات العمل",
-
   "historyTitle": "سجل نصائحي",
   "historySearch": "ما الموضوع الذي تبحث عنه؟",
   "historyEmpty": "لا توجد نصائح محفوظة بعد",
@@ -73,7 +70,6 @@
   "historyClearMessage": "هل تريد مسح كل السجل؟ لا يمكن التراجع عن هذا الإجراء.",
   "historyCleared": "تم مسح السجل",
   "clear": "مسح",
-
   "navSelect": "اختيار",
   "navChat": "محادثة",
   "navSaved": "المحفوظات",
@@ -82,7 +78,6 @@
   "navSettings": "الإعدادات",
   "navHome": "الرئيسية",
   "navFavorites": "المحفوظات",
-
   "settingsLanguage": "اللغة",
   "settingsAbout": "حول التطبيق",
   "settingsPrivacy": "سياسة الخصوصية",
@@ -102,7 +97,6 @@
   "settingsClearHistoryDialogMessage": "سيتم حذف جميع سجلات المحادثات نهائياً. لا يمكن التراجع عن هذا الإجراء.",
   "settingsHistoryCleared": "تم مسح السجل بنجاح",
   "settingsAboutContent": "صوت الحكماء يصلك بحكمة أعظم الفلاسفة والقادة والمفكرين في التاريخ من خلال محادثات مدعومة بالذكاء الاصطناعي.",
-
   "errorGeneric": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
   "errorNetwork": "يرجى التحقق من اتصالك بالإنترنت.",
   "errorTimeout": "انتهت مهلة الطلب. يرجى المحاولة مرة أخرى.",
@@ -114,7 +108,6 @@
   "delete": "حذف",
   "confirm": "تأكيد",
   "remove": "إزالة",
-
   "adviceYourQuestion": "سؤالك",
   "adviceCitation": "الاقتباس",
   "adviceRelevance": "لماذا هذا مهم",
@@ -132,7 +125,6 @@
   "adviceRemovedFromFavorites": "تمت الإزالة من المفضلة",
   "adviceCopied": "تم النسخ إلى الحافظة",
   "adviceShareError": "تعذرت المشاركة. يرجى المحاولة مرة أخرى.",
-
   "sourceTypeScripture": "كتاب مقدس",
   "sourceTypeBook": "كتاب",
   "sourceTypeSpeech": "خطاب",
@@ -142,7 +134,6 @@
   "sourceTypeMoment": "لحظة",
   "sourceTypeTeaching": "تعليم",
   "sourceTypeNovel": "رواية",
-
   "chatSuggestionsTitle": "مواضيع مقترحة",
   "chatIntroMessage": "شاركني ما في قلبك، وسأقدم لك ما لدي من حكمة.",
   "chatSuggestion1": "كيف أجد هدفي في الحياة؟",
@@ -153,7 +144,6 @@
   "chatInputPlaceholder": "شارك همومك...",
   "chatInputHint": "اكتب رسالتك...",
   "chatSend": "إرسال",
-
   "favoritesTitle": "النصائح المحفوظة",
   "favoritesEmpty": "لا توجد نصائح محفوظة",
   "favoritesEmptySubtitle": "اضغط على أيقونة الإشارة المرجعية لحفظ الحكمة",
@@ -161,11 +151,9 @@
   "favoritesRemoveTitle": "إزالة من المحفوظات",
   "favoritesRemoveMessage": "هل تريد إزالة هذه النصيحة من المحفوظات؟",
   "favoritesRemoved": "تمت الإزالة من المحفوظات",
-
   "languageTitle": "اختر اللغة",
   "languageSelectPrompt": "اختر لغتك المفضلة",
   "languageSelectSubtitle": "يمكنك تغييرها في أي وقت من الإعدادات",
-
   "personaFeatured": "مميز",
   "personaSignatureQuote": "مقولة شهيرة",
   "personaAbout": "نبذة",
@@ -174,84 +162,68 @@
   "personaEra": "الحقبة",
   "personaExpertise": "مجال الحكمة",
   "personaAskQuestion": "اطرح سؤالاً",
-
   "personaSocrates": "سقراط",
   "personaSocratesTitle": "أبو الفلسفة الغربية",
   "personaSocratesQuote": "الحياة غير المختبرة لا تستحق أن تُعاش.",
-
   "personaPlato": "أفلاطون",
   "personaPlatoTitle": "فيلسوف المُثُل",
   "personaPlatoQuote": "كن رحيماً، فكل من تلقاه يخوض معركة شاقة.",
-
   "personaAristotle": "أرسطو",
   "personaAristotleTitle": "المعلم الأول",
   "personaAristotleQuote": "نحن ما نفعله بشكل متكرر. التميز إذن ليس فعلاً، بل عادة.",
-
   "personaSeneca": "سينيكا",
   "personaSenecaTitle": "الفيلسوف الرواقي",
   "personaSenecaQuote": "ليس أن لدينا وقتاً قليلاً، بل نضيع الكثير منه.",
-
   "personaConfucius": "كونفوشيوس",
   "personaConfuciusTitle": "الحكيم العظيم",
   "personaConfuciusQuote": "لا يهم مدى بطئك، طالما أنك لا تتوقف.",
-
   "personaLaozi": "لاو تزو",
   "personaLaoziTitle": "مؤسس الطاوية",
   "personaLaoziQuote": "رحلة الألف ميل تبدأ بخطوة واحدة.",
-
   "personaJesus": "عيسى",
   "personaJesusTitle": "المعلم الروحي",
   "personaJesusQuote": "أحبب قريبك كنفسك.",
-
   "personaBuddha": "بوذا",
   "personaBuddhaTitle": "المستنير",
   "personaBuddhaQuote": "السلام يأتي من الداخل. لا تبحث عنه في الخارج.",
-
   "personaMuhammad": "محمد",
   "personaMuhammadTitle": "نبي الإسلام",
   "personaMuhammadQuote": "خيركم أحسنكم أخلاقاً.",
-
   "personaLincoln": "أبراهام لينكولن",
   "personaLincolnTitle": "الرئيس السادس عشر للولايات المتحدة",
   "personaLincolnQuote": "في النهاية، ليست سنوات حياتك هي المهمة، بل الحياة في سنواتك.",
-
   "personaNapoleon": "نابليون",
   "personaNapoleonTitle": "إمبراطور فرنسا",
   "personaNapoleonQuote": "المستحيل كلمة في قاموس الحمقى فقط.",
-
   "personaSteveJobs": "ستيف جوبز",
   "personaSteveJobsTitle": "رائد الأعمال صاحب الرؤية",
   "personaSteveJobsQuote": "ابقَ جائعاً. ابقَ أحمق.",
-
   "personaSherlockHolmes": "شيرلوك هولمز",
   "personaSherlockHolmesTitle": "سيد الاستنتاج",
   "personaSherlockHolmesQuote": "عندما تستبعد المستحيل، فما يتبقى مهما كان غير محتمل، لا بد أن يكون الحقيقة.",
-
   "personaDumbledore": "ألباس دمبلدور",
   "personaDumbledoreTitle": "مدير هوغوورتس",
   "personaDumbledoreQuote": "يمكن العثور على السعادة حتى في أحلك الأوقات، إن تذكر المرء فقط أن يضيء النور.",
-
   "personaGandhi": "المهاتما غاندي",
   "personaGandhiTitle": "أبو الأمة الهندية",
   "personaGandhiQuote": "كن التغيير الذي تريد أن تراه في العالم.",
-
   "personaRumi": "الرومي",
   "personaRumiTitle": "الشاعر الصوفي والعارف",
   "personaRumiQuote": "الجرح هو المكان الذي يدخل منه النور إليك.",
-
   "personaKrishna": "كريشنا",
   "personaKrishnaTitle": "المرشد الإلهي في البهاغافاد غيتا",
   "personaKrishnaQuote": "لك الحق في العمل، لكن ليس لك الحق في ثماره.",
-
   "personaBrahma": "براهما",
   "personaBrahmaTitle": "إله الخلق",
   "personaBrahmaQuote": "من الوهم إلى الحقيقة، ومن الظلام إلى النور، اهدني.",
-
   "personaVishnu": "فيشنو",
   "personaVishnuTitle": "إله الحفظ",
   "personaVishnuQuote": "كلما تراجعت الدارما، أتجلى لحماية الصالحين.",
-
   "personaTolstoy": "ليو تولستوي",
   "personaTolstoyTitle": "عملاق الأدب الروسي",
-  "personaTolstoyQuote": "الجميع يفكر في تغيير العالم، لكن لا أحد يفكر في تغيير نفسه."
+  "personaTolstoyQuote": "الجميع يفكر في تغيير العالم، لكن لا أحد يفكر في تغيير نفسه.",
+  "category_anime": "أنمي",
+  "persona_luffy": "مونكي دي لوفي",
+  "persona_luffy_title": "ملك القراصنة المستقبلي",
+  "persona_luffy_quote": "سأصبح ملك القراصنة!"
 }

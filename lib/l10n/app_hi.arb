@@ -2,11 +2,9 @@
   "@@locale": "hi",
   "appName": "ज्ञानियों की आवाज़",
   "appTitle": "ज्ञानियों की आवाज़",
-
   "onboardingTitle": "इतिहास के गुरुओं से\nआज ही मिलें",
   "onboardingSubtitle": "ईसा मसीह, सुकरात, शिवाजी महाराज से लेकर स्टीव जॉब्स तक।\nआपकी समस्याओं के लिए युगों का ज्ञान उपलब्ध है।",
   "getStarted": "अभी शुरू करें",
-
   "homeTitle": "आज किससे सलाह लेना चाहेंगे?",
   "homeWelcome": "आज किससे ज्ञान प्राप्त करना चाहेंगे?",
   "homeSubtitle": "अपना मार्गदर्शक चुनें",
@@ -16,14 +14,12 @@
   "seeAll": "सभी देखें",
   "trending": "लोकप्रिय",
   "new_": "नया",
-
   "categoryAll": "सभी",
   "categoryHistory": "इतिहास",
   "categoryPhilosophy": "दर्शन",
   "categoryReligion": "धर्म",
   "categoryLiterature": "साहित्य",
   "categoryFavorites": "पसंदीदा",
-
   "inputTitle": "आपके मन में क्या चल रहा है?",
   "inputSubtitle": "खुलकर बताइए। जितना विस्तार से बताएंगे, उतना स्पष्ट उत्तर मिलेगा।",
   "inputPlaceholder": "मैं इस समस्या से जूझ रहा/रही हूं...\nयह इस तरह शुरू हुआ...\nमुझे इसका डर है...",
@@ -35,11 +31,14 @@
   "characterCount": "{count} / {max}",
   "@characterCount": {
     "placeholders": {
-      "count": {"type": "int"},
-      "max": {"type": "int"}
+      "count": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
     }
   },
-
   "loadingConnecting": "जुड़ रहा है",
   "loadingConsulting": "प्राचीन ज्ञान के भंडार की खोज हो रही है",
   "loadingAnalyzing": "प्रश्न का विश्लेषण हो रहा है",
@@ -47,7 +46,6 @@
   "loadingOnline": "ऑनलाइन",
   "cancelRequest": "अनुरोध रद्द करें",
   "loadingNote": "गुरु को बुलाने में कुछ समय लग सकता है।",
-
   "resultWisdom": "ज्ञान",
   "resultAiPersona": "AI गुरु की सलाह",
   "resultGeneratedBy": "AI गुरु द्वारा निर्मित",
@@ -59,7 +57,6 @@
   "resultShare": "साझा करें",
   "askAnotherSage": "किसी अन्य ज्ञानी से पूछें",
   "resultActionSteps": "कार्य योजना",
-
   "historyTitle": "मेरी सलाह का इतिहास",
   "historySearch": "कौन सी समस्या खोजें?",
   "historyEmpty": "अभी तक कोई सलाह का इतिहास नहीं है",
@@ -73,7 +70,6 @@
   "historyClearMessage": "क्या आप सारा इतिहास मिटाना चाहते हैं? यह क्रिया पूर्ववत नहीं की जा सकती।",
   "historyCleared": "इतिहास मिटा दिया गया",
   "clear": "मिटाएं",
-
   "navSelect": "चुनें",
   "navChat": "चैट",
   "navSaved": "सहेजा गया",
@@ -82,7 +78,6 @@
   "navSettings": "सेटिंग्स",
   "navHome": "होम",
   "navFavorites": "सहेजा गया",
-
   "settingsLanguage": "भाषा",
   "settingsAbout": "ऐप के बारे में",
   "settingsPrivacy": "गोपनीयता नीति",
@@ -102,7 +97,6 @@
   "settingsClearHistoryDialogMessage": "सभी बातचीत का इतिहास स्थायी रूप से हटा दिया जाएगा। यह क्रिया पूर्ववत नहीं की जा सकती।",
   "settingsHistoryCleared": "इतिहास सफलतापूर्वक मिटा दिया गया",
   "settingsAboutContent": "ज्ञानियों की आवाज़ AI-संचालित संवाद के माध्यम से इतिहास के महानतम दार्शनिकों, नेताओं और विचारकों के ज्ञान से आपको जोड़ता है।",
-
   "errorGeneric": "कुछ गड़बड़ हो गई। कृपया पुनः प्रयास करें।",
   "errorNetwork": "कृपया अपना इंटरनेट कनेक्शन जांचें।",
   "errorTimeout": "अनुरोध का समय समाप्त हो गया। कृपया पुनः प्रयास करें।",
@@ -114,7 +108,6 @@
   "delete": "हटाएं",
   "confirm": "पुष्टि करें",
   "remove": "हटाएं",
-
   "adviceYourQuestion": "आपका प्रश्न",
   "adviceCitation": "उद्धरण",
   "adviceRelevance": "यह महत्वपूर्ण क्यों है",
@@ -132,7 +125,6 @@
   "adviceRemovedFromFavorites": "पसंदीदा से हटाया गया",
   "adviceCopied": "क्लिपबोर्ड में कॉपी किया गया",
   "adviceShareError": "साझा नहीं किया जा सका। कृपया पुनः प्रयास करें।",
-
   "sourceTypeScripture": "धर्मग्रंथ",
   "sourceTypeBook": "पुस्तक",
   "sourceTypeSpeech": "भाषण",
@@ -142,7 +134,6 @@
   "sourceTypeMoment": "क्षण",
   "sourceTypeTeaching": "शिक्षा",
   "sourceTypeNovel": "उपन्यास",
-
   "chatSuggestionsTitle": "सुझाए गए विषय",
   "chatIntroMessage": "अपने मन की बात साझा करें, मैं अपना ज्ञान आपको दूंगा।",
   "chatSuggestion1": "मैं अपने जीवन का उद्देश्य कैसे खोजूं?",
@@ -153,7 +144,6 @@
   "chatInputPlaceholder": "अपनी समस्या साझा करें...",
   "chatInputHint": "संदेश लिखें...",
   "chatSend": "भेजें",
-
   "favoritesTitle": "सहेजी गई सलाह",
   "favoritesEmpty": "कोई सहेजी गई सलाह नहीं है",
   "favoritesEmptySubtitle": "ज्ञान को सहेजने के लिए बुकमार्क आइकन दबाएं",
@@ -161,11 +151,9 @@
   "favoritesRemoveTitle": "सहेजे गए से हटाएं",
   "favoritesRemoveMessage": "क्या आप इस सलाह को सहेजे गए से हटाना चाहते हैं?",
   "favoritesRemoved": "सहेजे गए से हटाया गया",
-
   "languageTitle": "भाषा चुनें",
   "languageSelectPrompt": "अपनी पसंदीदा भाषा चुनें",
   "languageSelectSubtitle": "आप इसे सेटिंग्स में कभी भी बदल सकते हैं",
-
   "personaFeatured": "विशेष",
   "personaSignatureQuote": "प्रसिद्ध उक्ति",
   "personaAbout": "परिचय",
@@ -174,84 +162,68 @@
   "personaEra": "युग",
   "personaExpertise": "ज्ञान का क्षेत्र",
   "personaAskQuestion": "प्रश्न पूछें",
-
   "personaSocrates": "सुकरात",
   "personaSocratesTitle": "पश्चिमी दर्शन के जनक",
   "personaSocratesQuote": "बिना जांचा जीवन जीने योग्य नहीं है।",
-
   "personaPlato": "प्लेटो",
   "personaPlatoTitle": "आदर्शों के दार्शनिक",
   "personaPlatoQuote": "दयालु बनो, क्योंकि हर व्यक्ति जिससे तुम मिलते हो वह एक कठिन लड़ाई लड़ रहा है।",
-
   "personaAristotle": "अरस्तू",
   "personaAristotleTitle": "प्रथम गुरु",
   "personaAristotleQuote": "हम वही हैं जो हम बार-बार करते हैं। उत्कृष्टता कोई कार्य नहीं, बल्कि आदत है।",
-
   "personaSeneca": "सेनेका",
   "personaSenecaTitle": "स्टोइक दार्शनिक",
   "personaSenecaQuote": "हमारे पास समय कम नहीं है, बल्कि हम बहुत समय बर्बाद करते हैं।",
-
   "personaConfucius": "कन्फ्यूशियस",
   "personaConfuciusTitle": "महान संत",
   "personaConfuciusQuote": "इससे कोई फर्क नहीं पड़ता कि तुम कितनी धीरे चलते हो, बस रुको मत।",
-
   "personaLaozi": "लाओ त्ज़ु",
   "personaLaoziTitle": "ताओवाद के संस्थापक",
   "personaLaoziQuote": "हजार मील की यात्रा एक कदम से शुरू होती है।",
-
   "personaJesus": "ईसा मसीह",
   "personaJesusTitle": "आध्यात्मिक गुरु",
   "personaJesusQuote": "अपने पड़ोसी से अपने समान प्रेम करो।",
-
   "personaBuddha": "गौतम बुद्ध",
   "personaBuddhaTitle": "प्रबुद्ध",
   "personaBuddhaQuote": "शांति भीतर से आती है। इसे बाहर मत खोजो।",
-
   "personaMuhammad": "पैगंबर मुहम्मद",
   "personaMuhammadTitle": "इस्लाम के पैगंबर",
   "personaMuhammadQuote": "सर्वश्रेष्ठ व्यक्ति वह है जिसका आचरण सबसे अच्छा हो।",
-
   "personaLincoln": "अब्राहम लिंकन",
   "personaLincolnTitle": "अमेरिका के 16वें राष्ट्रपति",
   "personaLincolnQuote": "अंत में महत्वपूर्ण यह नहीं कि जीवन में कितने वर्ष थे, बल्कि उन वर्षों में कितना जीवन था।",
-
   "personaNapoleon": "नेपोलियन",
   "personaNapoleonTitle": "फ्रांस के सम्राट",
   "personaNapoleonQuote": "असंभव शब्द केवल मूर्खों के शब्दकोश में होता है।",
-
   "personaSteveJobs": "स्टीव जॉब्स",
   "personaSteveJobsTitle": "दूरदर्शी उद्यमी",
   "personaSteveJobsQuote": "भूखे रहो। मूर्ख बने रहो।",
-
   "personaSherlockHolmes": "शर्लक होम्स",
   "personaSherlockHolmesTitle": "तर्क के स्वामी",
   "personaSherlockHolmesQuote": "जब तुम असंभव को हटा दो, तो जो बचे, चाहे कितना भी अविश्वसनीय हो, वही सत्य है।",
-
   "personaDumbledore": "एल्बस डंबलडोर",
   "personaDumbledoreTitle": "हॉगवर्ट्स के प्रधानाचार्य",
   "personaDumbledoreQuote": "सबसे अंधेरे समय में भी खुशी मिल सकती है, बस याद रखो कि दीपक जलाना है।",
-
   "personaGandhi": "महात्मा गांधी",
   "personaGandhiTitle": "भारत के राष्ट्रपिता",
   "personaGandhiQuote": "वह बदलाव बनो जो तुम दुनिया में देखना चाहते हो।",
-
   "personaRumi": "रूमी",
   "personaRumiTitle": "सूफी कवि और रहस्यवादी",
   "personaRumiQuote": "घाव वह जगह है जहां से प्रकाश तुम्हारे भीतर प्रवेश करता है।",
-
   "personaKrishna": "श्री कृष्ण",
   "personaKrishnaTitle": "भगवद्गीता के दिव्य मार्गदर्शक",
   "personaKrishnaQuote": "कर्म करने का अधिकार है, फल की चिंता मत करो।",
-
   "personaBrahma": "ब्रह्मा",
   "personaBrahmaTitle": "सृष्टि के देवता",
   "personaBrahmaQuote": "असत्य से सत्य की ओर, अंधकार से प्रकाश की ओर ले चलो।",
-
   "personaVishnu": "विष्णु",
   "personaVishnuTitle": "पालनकर्ता देव",
   "personaVishnuQuote": "जब भी धर्म का पतन होता है, मैं धर्मियों की रक्षा के लिए प्रकट होता हूं।",
-
   "personaTolstoy": "लियो टॉल्स्टॉय",
   "personaTolstoyTitle": "रूसी साहित्य के महान लेखक",
-  "personaTolstoyQuote": "हर कोई दुनिया बदलना चाहता है, लेकिन कोई खुद को बदलना नहीं चाहता।"
+  "personaTolstoyQuote": "हर कोई दुनिया बदलना चाहता है, लेकिन कोई खुद को बदलना नहीं चाहता।",
+  "category_anime": "एनीमे",
+  "persona_luffy": "मंकी डी. लफी",
+  "persona_luffy_title": "भविष्य के पाइरेट किंग",
+  "persona_luffy_quote": "मैं पाइरेट किंग बनूंगा!"
 }

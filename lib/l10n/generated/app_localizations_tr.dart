@@ -672,4 +672,16 @@ class AppLocalizationsTr extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'Bilgelerin Sesi, yapay zeka destekli konuşmalar aracılığıyla tarihin en büyük filozofları, liderleri ve düşünürleriyle bağlantı kurmanızı sağlar.';
+
+  @override
+  String get category_anime => 'Anime';
+
+  @override
+  String get persona_luffy => 'Monkey D. Luffy';
+
+  @override
+  String get persona_luffy_title => 'Gelecekteki Korsan Kral';
+
+  @override
+  String get persona_luffy_quote => 'Korsanlar Krali olacagim!';
 }

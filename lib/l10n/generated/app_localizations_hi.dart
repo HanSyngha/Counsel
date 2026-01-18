@@ -674,4 +674,16 @@ class AppLocalizationsHi extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'ज्ञानियों की आवाज़ AI-संचालित संवाद के माध्यम से इतिहास के महानतम दार्शनिकों, नेताओं और विचारकों के ज्ञान से आपको जोड़ता है।';
+
+  @override
+  String get category_anime => 'एनीमे';
+
+  @override
+  String get persona_luffy => 'मंकी डी. लफी';
+
+  @override
+  String get persona_luffy_title => 'भविष्य के पाइरेट किंग';
+
+  @override
+  String get persona_luffy_quote => 'मैं पाइरेट किंग बनूंगा!';
 }

@@ -676,4 +676,16 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get settingsAboutContent =>
       'Voz dos Sabios conecta voce com a sabedoria dos maiores filosofos, lideres e pensadores da historia atraves de conversas com IA.';
+
+  @override
+  String get category_anime => 'Anime';
+
+  @override
+  String get persona_luffy => 'Monkey D. Luffy';
+
+  @override
+  String get persona_luffy_title => 'Futuro Rei dos Piratas';
+
+  @override
+  String get persona_luffy_quote => 'Eu vou ser o Rei dos Piratas!';
 }

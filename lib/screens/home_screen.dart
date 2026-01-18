@@ -6,6 +6,7 @@ import '../config/theme.dart';
 import '../models/persona.dart';
 import '../providers/providers.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/glass_card.dart';
 import 'consultation_screen.dart';
 import 'history_screen.dart';
 import 'favorites_screen.dart';
@@ -19,9 +20,48 @@ class HomeScreen extends ConsumerStatefulWidget {
   ConsumerState<HomeScreen> createState() => _HomeScreenState();
 }
 
+/// Custom scroll physics that allows only one item at a time
+class SingleItemScrollPhysics extends ScrollPhysics {
+  const SingleItemScrollPhysics({super.parent});
+
+  @override
+  SingleItemScrollPhysics applyTo(ScrollPhysics? ancestor) {
+    return SingleItemScrollPhysics(parent: buildParent(ancestor));
+  }
+
+  @override
+  double applyPhysicsToUserOffset(ScrollMetrics position, double offset) {
+    // Limit swipe speed to prevent skipping multiple items
+    final maxOffset = position.viewportDimension * 0.25;
+    return super.applyPhysicsToUserOffset(
+      position,
+      offset.clamp(-maxOffset, maxOffset),
+    );
+  }
+}
+
 class _HomeScreenState extends ConsumerState<HomeScreen> {
   int _currentIndex = 0;
-  PersonaCategory? _selectedCategory;
+
+  // PageController for each category carousel
+  final Map<PersonaCategory, PageController> _pageControllers = {};
+
+  @override
+  void initState() {
+    super.initState();
+    // Initialize page controllers for each category
+    for (final category in PersonaCategory.values) {
+      _pageControllers[category] = PageController(viewportFraction: 0.45);
+    }
+  }
+
+  @override
+  void dispose() {
+    for (final controller in _pageControllers.values) {
+      controller.dispose();
+    }
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -81,270 +121,294 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   }
 
   Widget _buildHomeContent(AppLocalizations l10n) {
-    return SafeArea(
-      child: CustomScrollView(
-        slivers: [
-          // App Bar
-          SliverAppBar(
-            floating: true,
-            title: Text(
-              l10n.appTitle,
-              style: AppTextStyles.headlineLarge,
-            ),
-            centerTitle: true,
-          ),
-          // Welcome Section
-          SliverToBoxAdapter(
-            child: Padding(
-              padding: const EdgeInsets.all(20),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    l10n.homeWelcome,
-                    style: AppTextStyles.titleLarge,
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    l10n.homeSubtitle,
-                    style: AppTextStyles.bodyMedium,
-                  ),
-                ],
-              ),
+    return Stack(
+      children: [
+        // Gradient background
+        Positioned.fill(
+          child: Container(
+            decoration: const BoxDecoration(
+              gradient: AppColors.backgroundGradient,
             ),
           ),
-          // Category Chips
-          SliverToBoxAdapter(
-            child: SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: Row(
-                children: [
-                  _buildCategoryChip(null, l10n.categoryAll, l10n),
-                  const SizedBox(width: 8),
-                  _buildCategoryChip(
-                    PersonaCategory.philosophy,
-                    l10n.categoryPhilosophy,
-                    l10n,
-                    color: AppColors.categoryPhilosophy,
-                  ),
-                  const SizedBox(width: 8),
-                  _buildCategoryChip(
-                    PersonaCategory.religion,
-                    l10n.categoryReligion,
-                    l10n,
-                    color: AppColors.categoryReligion,
-                  ),
-                  const SizedBox(width: 8),
-                  _buildCategoryChip(
-                    PersonaCategory.history,
-                    l10n.categoryHistory,
-                    l10n,
-                    color: AppColors.categoryHistory,
-                  ),
-                  const SizedBox(width: 8),
-                  _buildCategoryChip(
-                    PersonaCategory.literature,
-                    l10n.categoryLiterature,
-                    l10n,
-                    color: AppColors.categoryLiterature,
-                  ),
-                ],
-              ),
-            ),
-          ),
-          const SliverToBoxAdapter(child: SizedBox(height: 20)),
-          // Persona Grid
-          SliverPadding(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            sliver: _buildPersonaGrid(l10n),
-          ),
-          const SliverToBoxAdapter(child: SizedBox(height: 20)),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildCategoryChip(
-    PersonaCategory? category,
-    String label,
-    AppLocalizations l10n, {
-    Color? color,
-  }) {
-    final isSelected = _selectedCategory == category;
-    return FilterChip(
-      label: Text(
-        label,
-        style: AppTextStyles.labelMedium.copyWith(
-          color: isSelected ? Colors.white : AppColors.textSecondary,
         ),
-      ),
-      selected: isSelected,
-      onSelected: (_) => setState(() => _selectedCategory = category),
-      backgroundColor: AppColors.surfaceVariant,
-      selectedColor: color ?? AppColors.primary,
-      checkmarkColor: Colors.white,
-      side: BorderSide(
-        color: isSelected ? (color ?? AppColors.primary) : AppColors.border,
-      ),
+        // Decorative blur circles
+        Positioned(
+          top: -100,
+          right: -80,
+          child: Container(
+            width: 250,
+            height: 250,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              gradient: RadialGradient(
+                colors: [
+                  AppColors.primary.withValues(alpha: 0.15),
+                  AppColors.primary.withValues(alpha: 0.0),
+                ],
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          top: 300,
+          left: -100,
+          child: Container(
+            width: 200,
+            height: 200,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              gradient: RadialGradient(
+                colors: [
+                  AppColors.categoryReligion.withValues(alpha: 0.1),
+                  AppColors.categoryReligion.withValues(alpha: 0.0),
+                ],
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          bottom: 200,
+          right: -50,
+          child: Container(
+            width: 180,
+            height: 180,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              gradient: RadialGradient(
+                colors: [
+                  AppColors.categoryLiterature.withValues(alpha: 0.12),
+                  AppColors.categoryLiterature.withValues(alpha: 0.0),
+                ],
+              ),
+            ),
+          ),
+        ),
+        // Main content
+        SafeArea(
+          child: CustomScrollView(
+            slivers: [
+              // App Bar
+              SliverAppBar(
+                floating: true,
+                backgroundColor: Colors.transparent,
+                title: Text(
+                  l10n.appTitle,
+                  style: AppTextStyles.headlineLarge.copyWith(
+                    fontWeight: FontWeight.w700,
+                    letterSpacing: -0.5,
+                  ),
+                ),
+                centerTitle: true,
+              ),
+              // Welcome Section
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.fromLTRB(20, 8, 20, 20),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      ShaderMask(
+                        shaderCallback: (bounds) =>
+                            AppColors.primaryGradient.createShader(bounds),
+                        child: Text(
+                          l10n.homeWelcome,
+                          style: AppTextStyles.titleLarge.copyWith(
+                            color: Colors.white,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 6),
+                      Text(
+                        l10n.homeSubtitle,
+                        style: AppTextStyles.bodyMedium.copyWith(
+                          color: AppColors.textSecondary,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              // Category Carousels
+              ..._buildCategoryCarousels(l10n),
+              const SliverToBoxAdapter(child: SizedBox(height: 20)),
+            ],
+          ),
+        ),
+      ],
     );
   }
 
-  Widget _buildPersonaGrid(AppLocalizations l10n) {
+  List<Widget> _buildCategoryCarousels(AppLocalizations l10n) {
     final history = ref.watch(adviceHistoryProvider);
 
-    // Count consultations per persona
+    // Count consultations per persona and category
     final consultationCounts = <String, int>{};
+    final categoryCounts = <PersonaCategory, int>{};
+
     for (final record in history) {
       consultationCounts[record.personaId] =
           (consultationCounts[record.personaId] ?? 0) + 1;
+
+      // Find persona's category and count it
+      final persona = PersonaData.all.where((p) => p.id == record.personaId).firstOrNull;
+      if (persona != null) {
+        categoryCounts[persona.category] =
+            (categoryCounts[persona.category] ?? 0) + 1;
+      }
     }
 
-    List<Persona> personas;
-    if (_selectedCategory == null) {
-      personas = List.from(PersonaData.all);
-    } else {
-      personas = List.from(PersonaData.byCategory(_selectedCategory!));
-    }
+    final List<Widget> slivers = [];
 
-    // Sort by consultation count (descending)
-    personas.sort((a, b) {
-      final countA = consultationCounts[a.id] ?? 0;
-      final countB = consultationCounts[b.id] ?? 0;
+    // Sort categories by consultation count (descending)
+    final categoryOrder = [
+      PersonaCategory.philosophy,
+      PersonaCategory.religion,
+      PersonaCategory.history,
+      PersonaCategory.literature,
+      PersonaCategory.anime,
+    ];
+
+    categoryOrder.sort((a, b) {
+      final countA = categoryCounts[a] ?? 0;
+      final countB = categoryCounts[b] ?? 0;
       return countB.compareTo(countA);
     });
 
-    return SliverGrid(
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        crossAxisSpacing: 12,
-        mainAxisSpacing: 12,
-        childAspectRatio: 0.70,
-      ),
-      delegate: SliverChildBuilderDelegate(
-        (context, index) => _buildPersonaCard(personas[index], l10n),
-        childCount: personas.length,
-      ),
-    );
-  }
+    for (final category in categoryOrder) {
+      final personas = List<Persona>.from(PersonaData.byCategory(category));
+      if (personas.isEmpty) continue;
 
-  Widget _buildPersonaCard(Persona persona, AppLocalizations l10n) {
-    final categoryColor = _getCategoryColor(persona.category);
+      // Sort by consultation count
+      personas.sort((a, b) {
+        final countA = consultationCounts[a.id] ?? 0;
+        final countB = consultationCounts[b.id] ?? 0;
+        return countB.compareTo(countA);
+      });
 
-    return GestureDetector(
-      onTap: () => _onPersonaTap(persona),
-      onLongPress: () => _onPersonaLongPress(persona),
-      child: Container(
-        decoration: BoxDecoration(
-          color: AppColors.surface,
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: AppColors.border),
+      final categoryColor = _getCategoryColor(category);
+      final categoryLabel = _getCategoryLabel(category, l10n);
+
+      // Category Header
+      slivers.add(
+        SliverToBoxAdapter(
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(20, 24, 20, 14),
+            child: Row(
+              children: [
+                // Glowing accent dot
+                Container(
+                  width: 8,
+                  height: 8,
+                  decoration: BoxDecoration(
+                    color: categoryColor,
+                    shape: BoxShape.circle,
+                    boxShadow: [
+                      BoxShadow(
+                        color: categoryColor.withValues(alpha: 0.6),
+                        blurRadius: 8,
+                        spreadRadius: 2,
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Text(
+                  categoryLabel,
+                  style: AppTextStyles.titleMedium.copyWith(
+                    fontWeight: FontWeight.w600,
+                    letterSpacing: -0.3,
+                  ),
+                ),
+                const SizedBox(width: 10),
+                Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 8,
+                    vertical: 2,
+                  ),
+                  decoration: BoxDecoration(
+                    color: categoryColor.withValues(alpha: 0.15),
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border.all(
+                      color: categoryColor.withValues(alpha: 0.3),
+                      width: 0.5,
+                    ),
+                  ),
+                  child: Text(
+                    '${personas.length}',
+                    style: AppTextStyles.labelSmall.copyWith(
+                      color: categoryColor,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ),
+                const Spacer(),
+                // Swipe hint (only show if infinite scroll is enabled)
+                if (personas.length > 3)
+                  Icon(
+                    Icons.swipe,
+                    size: 16,
+                    color: AppColors.textTertiary.withValues(alpha: 0.5),
+                  ),
+              ],
+            ),
+          ),
         ),
-        clipBehavior: Clip.antiAlias,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            // Persona Image
-            Expanded(
-              flex: 3,
-              child: Stack(
-                fit: StackFit.expand,
-                children: [
-                  Image.asset(
-                    persona.imagePath,
-                    fit: BoxFit.cover,
-                    alignment: Alignment.topCenter,
-                    errorBuilder: (context, error, stackTrace) {
-                      return Container(
-                        color: AppColors.surfaceVariant,
-                        child: Icon(
-                          Icons.person,
-                          size: 48,
-                          color: AppColors.textTertiary,
-                        ),
-                      );
+      );
+
+      // Category Carousel
+      // Use infinite scroll only if there are more than 3 personas
+      final enableInfiniteScroll = personas.length > 3;
+
+      slivers.add(
+        SliverToBoxAdapter(
+          child: SizedBox(
+            height: 220,
+            child: enableInfiniteScroll
+                ? PageView.builder(
+                    controller: _pageControllers[category],
+                    padEnds: false,
+                    physics: const SingleItemScrollPhysics(
+                      parent: PageScrollPhysics(),
+                    ),
+                    itemBuilder: (context, index) {
+                      // Infinite loop: use modulo to cycle through personas
+                      final persona = personas[index % personas.length];
+                      return _buildCarouselCard(persona, l10n, categoryColor);
+                    },
+                  )
+                : ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    padding: const EdgeInsets.symmetric(horizontal: 14),
+                    physics: const SingleItemScrollPhysics(
+                      parent: BouncingScrollPhysics(),
+                    ),
+                    itemCount: personas.length,
+                    itemBuilder: (context, index) {
+                      return _buildCarouselCard(personas[index], l10n, categoryColor);
                     },
                   ),
-                  // Gradient overlay
-                  Positioned(
-                    bottom: 0,
-                    left: 0,
-                    right: 0,
-                    child: Container(
-                      height: 40,
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment.topCenter,
-                          end: Alignment.bottomCenter,
-                          colors: [
-                            Colors.transparent,
-                            AppColors.surface.withOpacity(0.8),
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
-                  // Category badge
-                  Positioned(
-                    top: 8,
-                    right: 8,
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 8,
-                        vertical: 4,
-                      ),
-                      decoration: BoxDecoration(
-                        color: categoryColor.withOpacity(0.9),
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: Text(
-                        _getCategoryLabel(persona.category, l10n),
-                        style: AppTextStyles.labelSmall.copyWith(
-                          color: Colors.white,
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            // Persona Info
-            Expanded(
-              flex: 2,
-              child: Padding(
-                padding: const EdgeInsets.all(12),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      _getPersonaName(persona, l10n),
-                      style: AppTextStyles.titleMedium,
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                    const SizedBox(height: 4),
-                    Expanded(
-                      child: Text(
-                        _getPersonaTitle(persona, l10n),
-                        style: AppTextStyles.bodySmall,
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ),
-                    if (persona.era != 0)
-                      Text(
-                        persona.eraDisplay,
-                        style: AppTextStyles.labelSmall.copyWith(
-                          color: categoryColor,
-                        ),
-                      ),
-                  ],
-                ),
-              ),
-            ),
-          ],
+          ),
         ),
-      ),
+      );
+    }
+
+    return slivers;
+  }
+
+  Widget _buildCarouselCard(
+    Persona persona,
+    AppLocalizations l10n,
+    Color categoryColor,
+  ) {
+    return GlassPersonaCard(
+      imagePath: persona.imagePath,
+      name: _getPersonaName(persona, l10n),
+      title: _getPersonaTitle(persona, l10n),
+      era: persona.era != 0 ? persona.eraDisplay : null,
+      categoryColor: categoryColor,
+      onTap: () => _onPersonaTap(persona),
+      onLongPress: () => _onPersonaLongPress(persona),
     );
   }
 
@@ -358,6 +422,8 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         return AppColors.categoryHistory;
       case PersonaCategory.literature:
         return AppColors.categoryLiterature;
+      case PersonaCategory.anime:
+        return AppColors.categoryAnime;
     }
   }
 
@@ -371,6 +437,8 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         return l10n.categoryHistory;
       case PersonaCategory.literature:
         return l10n.categoryLiterature;
+      case PersonaCategory.anime:
+        return l10n.category_anime;
     }
   }
 
@@ -396,6 +464,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       case 'brahma': return l10n.personaBrahma;
       case 'tolstoy': return l10n.personaTolstoy;
       case 'vishnu': return l10n.personaVishnu;
+      case 'luffy': return l10n.persona_luffy;
       default: return persona.id;
     }
   }
@@ -422,6 +491,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       case 'brahma': return l10n.personaBrahmaTitle;
       case 'tolstoy': return l10n.personaTolstoyTitle;
       case 'vishnu': return l10n.personaVishnuTitle;
+      case 'luffy': return l10n.persona_luffy_title;
       default: return '';
     }
   }
