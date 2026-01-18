@@ -81,6 +81,7 @@ class GlassPersonaCard extends StatelessWidget {
   final String name;
   final String title;
   final String? era;
+  final String? sourceTag;
   final Color categoryColor;
   final VoidCallback? onTap;
   final VoidCallback? onLongPress;
@@ -91,6 +92,7 @@ class GlassPersonaCard extends StatelessWidget {
     required this.name,
     required this.title,
     this.era,
+    this.sourceTag,
     required this.categoryColor,
     this.onTap,
     this.onLongPress,
@@ -203,20 +205,39 @@ class GlassPersonaCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Text(
-                    name,
-                    style: AppTextStyles.titleSmall.copyWith(
-                      fontWeight: FontWeight.w700,
-                      color: AppColors.textPrimary,
-                      shadows: [
-                        Shadow(
-                          color: Colors.black.withValues(alpha: 0.5),
-                          blurRadius: 4,
+                  // Name with optional sourceTag
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Flexible(
+                        child: Text(
+                          name,
+                          style: AppTextStyles.titleSmall.copyWith(
+                            fontWeight: FontWeight.w700,
+                            color: AppColors.textPrimary,
+                            shadows: [
+                              Shadow(
+                                color: Colors.black.withValues(alpha: 0.5),
+                                blurRadius: 4,
+                              ),
+                            ],
+                          ),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                      if (sourceTag != null) ...[
+                        const SizedBox(width: 4),
+                        Text(
+                          sourceTag!,
+                          style: AppTextStyles.labelSmall.copyWith(
+                            color: categoryColor.withValues(alpha: 0.9),
+                            fontSize: 8,
+                            fontWeight: FontWeight.w500,
+                          ),
                         ),
                       ],
-                    ),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
+                    ],
                   ),
                   const SizedBox(height: 2),
                   Text(

@@ -107,6 +107,8 @@ class CategoryHeader extends StatelessWidget {
         return AppColors.categoryReligion;
       case PersonaCategory.literature:
         return AppColors.categoryLiterature;
+      case PersonaCategory.anime:
+        return AppColors.categoryAnime;
     }
   }
 
@@ -120,6 +122,8 @@ class CategoryHeader extends StatelessWidget {
         return Icons.auto_awesome;
       case PersonaCategory.literature:
         return Icons.auto_stories;
+      case PersonaCategory.anime:
+        return Icons.movie_filter;
     }
   }
 
@@ -133,6 +137,8 @@ class CategoryHeader extends StatelessWidget {
         return l10n.categoryReligion;
       case PersonaCategory.literature:
         return l10n.categoryLiterature;
+      case PersonaCategory.anime:
+        return l10n.category_anime;
     }
   }
 }
@@ -300,6 +306,8 @@ class CategoryHeaderGradient extends StatelessWidget {
         return AppColors.categoryReligion;
       case PersonaCategory.literature:
         return AppColors.categoryLiterature;
+      case PersonaCategory.anime:
+        return AppColors.categoryAnime;
     }
   }
 
@@ -313,6 +321,8 @@ class CategoryHeaderGradient extends StatelessWidget {
         return Icons.auto_awesome;
       case PersonaCategory.literature:
         return Icons.auto_stories;
+      case PersonaCategory.anime:
+        return Icons.movie_filter;
     }
   }
 
@@ -326,6 +336,8 @@ class CategoryHeaderGradient extends StatelessWidget {
         return l10n.categoryReligion;
       case PersonaCategory.literature:
         return l10n.categoryLiterature;
+      case PersonaCategory.anime:
+        return l10n.category_anime;
     }
   }
 }
@@ -391,6 +403,8 @@ class CategoryChips extends StatelessWidget {
         return AppColors.categoryReligion;
       case PersonaCategory.literature:
         return AppColors.categoryLiterature;
+      case PersonaCategory.anime:
+        return AppColors.categoryAnime;
     }
   }
 
@@ -404,6 +418,8 @@ class CategoryChips extends StatelessWidget {
         return Icons.auto_awesome;
       case PersonaCategory.literature:
         return Icons.auto_stories;
+      case PersonaCategory.anime:
+        return Icons.movie_filter;
     }
   }
 
@@ -417,6 +433,8 @@ class CategoryChips extends StatelessWidget {
         return l10n.categoryReligion;
       case PersonaCategory.literature:
         return l10n.categoryLiterature;
+      case PersonaCategory.anime:
+        return l10n.category_anime;
     }
   }
 }

@@ -50,6 +50,7 @@ class Persona {
   final PersonaCategory category;
   final String imagePath;
   final int era; // Year (negative for BC)
+  final String? sourceTag; // Source reference for expanded personas (e.g., "[New Testament]", "[Harry Potter]")
 
   const Persona({
     required this.id,
@@ -59,6 +60,7 @@ class Persona {
     required this.category,
     required this.imagePath,
     this.era = 0,
+    this.sourceTag,
   });
 
   /// Get era display string
@@ -114,6 +116,7 @@ class PersonaData {
     category: PersonaCategory.philosophy,
     imagePath: AppAssets.socrates,
     era: -399,
+    sourceTag: '[Plato, Xenophon]',
   );
 
   static const Persona plato = Persona(
@@ -154,6 +157,7 @@ class PersonaData {
     category: PersonaCategory.philosophy,
     imagePath: AppAssets.confucius,
     era: -479,
+    sourceTag: '[Analects]',
   );
 
   static const Persona laozi = Persona(
@@ -185,6 +189,7 @@ class PersonaData {
     category: PersonaCategory.religion,
     imagePath: AppAssets.jesus,
     era: 33,
+    sourceTag: '[New Testament]',
   );
 
   static const Persona buddha = Persona(
@@ -195,6 +200,7 @@ class PersonaData {
     category: PersonaCategory.religion,
     imagePath: AppAssets.buddha,
     era: -483,
+    sourceTag: '[Buddhist Sutras]',
   );
 
   static const Persona muhammad = Persona(
@@ -205,6 +211,7 @@ class PersonaData {
     category: PersonaCategory.religion,
     imagePath: AppAssets.muhammad,
     era: 632,
+    sourceTag: '[Quran, Hadith]',
   );
 
   static const Persona krishna = Persona(
@@ -287,6 +294,7 @@ class PersonaData {
     category: PersonaCategory.literature,
     imagePath: AppAssets.sherlockHolmes,
     era: 1890,
+    sourceTag: '[Conan Doyle]',
   );
 
   static const Persona dumbledore = Persona(
@@ -297,6 +305,7 @@ class PersonaData {
     category: PersonaCategory.literature,
     imagePath: AppAssets.dumbledore,
     era: 1997,
+    sourceTag: '[Harry Potter]',
   );
 
   static const Persona tolstoy = Persona(
@@ -318,6 +327,7 @@ class PersonaData {
     category: PersonaCategory.anime,
     imagePath: AppAssets.luffy,
     era: 1997, // One Piece manga started
+    sourceTag: '[One Piece]',
   );
 
   /// Get persona by ID

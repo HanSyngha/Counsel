@@ -301,6 +301,8 @@ class AdviceCard extends ConsumerWidget {
         return AppColors.categoryReligion;
       case PersonaCategory.literature:
         return AppColors.categoryLiterature;
+      case PersonaCategory.anime:
+        return AppColors.categoryAnime;
     }
   }
 

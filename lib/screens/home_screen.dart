@@ -406,6 +406,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       name: _getPersonaName(persona, l10n),
       title: _getPersonaTitle(persona, l10n),
       era: persona.era != 0 ? persona.eraDisplay : null,
+      sourceTag: persona.sourceTag,
       categoryColor: categoryColor,
       onTap: () => _onPersonaTap(persona),
       onLongPress: () => _onPersonaLongPress(persona),

@@ -97,29 +97,6 @@ class PersonaCard extends ConsumerWidget {
                         left: 8,
                         child: _buildCategoryBadge(context),
                       ),
-                    // Featured badge
-                    if (persona.isFeatured)
-                      Positioned(
-                        top: 8,
-                        right: 8,
-                        child: Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 8,
-                            vertical: 4,
-                          ),
-                          decoration: BoxDecoration(
-                            gradient: AppColors.primaryGradient,
-                            borderRadius: BorderRadius.circular(12),
-                          ),
-                          child: Text(
-                            l10n.trending,
-                            style: AppTextStyles.labelSmall.copyWith(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ),
-                      ),
                   ],
                 ),
               ),
@@ -197,6 +174,8 @@ class PersonaCard extends ConsumerWidget {
         return AppColors.categoryReligion;
       case PersonaCategory.literature:
         return AppColors.categoryLiterature;
+      case PersonaCategory.anime:
+        return AppColors.categoryAnime;
     }
   }
 
@@ -211,6 +190,8 @@ class PersonaCard extends ConsumerWidget {
         return l10n.categoryReligion;
       case PersonaCategory.literature:
         return l10n.categoryLiterature;
+      case PersonaCategory.anime:
+        return l10n.category_anime;
     }
   }
 
