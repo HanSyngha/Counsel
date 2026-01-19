@@ -576,6 +576,25 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
       case 'tolstoy': return l10n.personaTolstoy;
       case 'vishnu': return l10n.personaVishnu;
       case 'luffy': return l10n.persona_luffy;
+      case 'gon_freecss': return l10n.persona_gon_freecss;
+      case 'natsu_dragneel': return l10n.persona_natsu_dragneel;
+      case 'izuku_midoriya': return l10n.persona_izuku_midoriya;
+      case 'son_goku': return l10n.persona_son_goku;
+      case 'edward_elric': return l10n.persona_edward_elric;
+      case 'eren_yeager': return l10n.persona_eren_yeager;
+      case 'naruto_uzumaki': return l10n.persona_naruto_uzumaki;
+      case 'tsunayoshi_sawada': return l10n.persona_tsunayoshi_sawada;
+      case 'tanjiro_kamado': return l10n.persona_tanjiro_kamado;
+      case 'ichigo_kurosaki': return l10n.persona_ichigo_kurosaki;
+      case 'martin_luther_king': return l10n.persona_martin_luther_king;
+      case 'albert_einstein': return l10n.persona_albert_einstein;
+      case 'julius_caesar': return l10n.persona_julius_caesar;
+      case 'david': return l10n.persona_david;
+      case 'aslan': return l10n.persona_aslan;
+      case 'jean_valjean': return l10n.persona_jean_valjean;
+      case 'liu_bei': return l10n.persona_liu_bei;
+      case 'zhuge_liang': return l10n.persona_zhuge_liang;
+      case 'cao_cao': return l10n.persona_cao_cao;
       default: return persona.id;
     }
   }
@@ -603,6 +622,25 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
       case 'tolstoy': return l10n.personaTolstoyTitle;
       case 'vishnu': return l10n.personaVishnuTitle;
       case 'luffy': return l10n.persona_luffy_title;
+      case 'gon_freecss': return l10n.persona_gon_freecss_title;
+      case 'natsu_dragneel': return l10n.persona_natsu_dragneel_title;
+      case 'izuku_midoriya': return l10n.persona_izuku_midoriya_title;
+      case 'son_goku': return l10n.persona_son_goku_title;
+      case 'edward_elric': return l10n.persona_edward_elric_title;
+      case 'eren_yeager': return l10n.persona_eren_yeager_title;
+      case 'naruto_uzumaki': return l10n.persona_naruto_uzumaki_title;
+      case 'tsunayoshi_sawada': return l10n.persona_tsunayoshi_sawada_title;
+      case 'tanjiro_kamado': return l10n.persona_tanjiro_kamado_title;
+      case 'ichigo_kurosaki': return l10n.persona_ichigo_kurosaki_title;
+      case 'martin_luther_king': return l10n.persona_martin_luther_king_title;
+      case 'albert_einstein': return l10n.persona_albert_einstein_title;
+      case 'julius_caesar': return l10n.persona_julius_caesar_title;
+      case 'david': return l10n.persona_david_title;
+      case 'aslan': return l10n.persona_aslan_title;
+      case 'jean_valjean': return l10n.persona_jean_valjean_title;
+      case 'liu_bei': return l10n.persona_liu_bei_title;
+      case 'zhuge_liang': return l10n.persona_zhuge_liang_title;
+      case 'cao_cao': return l10n.persona_cao_cao_title;
       default: return '';
     }
   }
@@ -630,6 +668,25 @@ class _ChatScreenState extends ConsumerState<ChatScreen>
       case 'tolstoy': return l10n.personaTolstoyQuote;
       case 'vishnu': return l10n.personaVishnuQuote;
       case 'luffy': return l10n.persona_luffy_quote;
+      case 'gon_freecss': return l10n.persona_gon_freecss_quote;
+      case 'natsu_dragneel': return l10n.persona_natsu_dragneel_quote;
+      case 'izuku_midoriya': return l10n.persona_izuku_midoriya_quote;
+      case 'son_goku': return l10n.persona_son_goku_quote;
+      case 'edward_elric': return l10n.persona_edward_elric_quote;
+      case 'eren_yeager': return l10n.persona_eren_yeager_quote;
+      case 'naruto_uzumaki': return l10n.persona_naruto_uzumaki_quote;
+      case 'tsunayoshi_sawada': return l10n.persona_tsunayoshi_sawada_quote;
+      case 'tanjiro_kamado': return l10n.persona_tanjiro_kamado_quote;
+      case 'ichigo_kurosaki': return l10n.persona_ichigo_kurosaki_quote;
+      case 'martin_luther_king': return l10n.persona_martin_luther_king_quote;
+      case 'albert_einstein': return l10n.persona_albert_einstein_quote;
+      case 'julius_caesar': return l10n.persona_julius_caesar_quote;
+      case 'david': return l10n.persona_david_quote;
+      case 'aslan': return l10n.persona_aslan_quote;
+      case 'jean_valjean': return l10n.persona_jean_valjean_quote;
+      case 'liu_bei': return l10n.persona_liu_bei_quote;
+      case 'zhuge_liang': return l10n.persona_zhuge_liang_quote;
+      case 'cao_cao': return l10n.persona_cao_cao_quote;
       default: return '';
     }
   }

@@ -9,7 +9,7 @@ class AppLocalizationsTr extends AppLocalizations {
   AppLocalizationsTr([String locale = 'tr']) : super(locale);
 
   @override
-  String get appName => 'Bilgelerin Sesi';
+  String get appName => 'Yıldızların Sesi';
 
   @override
   String get onboardingTitle => 'Tarihin Mentorlarıyla\nŞimdi Tanışın';
@@ -586,7 +586,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get navFavorites => 'Kaydedilenler';
 
   @override
-  String get appTitle => 'Bilgelerin Sesi';
+  String get appTitle => 'Yıldızların Sesi';
 
   @override
   String get homeWelcome => 'Bugün kimin bilgeliğine başvurmak istersiniz?';
@@ -684,4 +684,188 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => 'Korsanlar Krali olacagim!';
+
+  @override
+  String get persona_gon_freecss => 'Gon Freecss';
+
+  @override
+  String get persona_gon_freecss_title => 'Genc Avci';
+
+  @override
+  String get persona_gon_freecss_quote => 'Babami bulacagim!';
+
+  @override
+  String get persona_natsu_dragneel => 'Natsu Dragneel';
+
+  @override
+  String get persona_natsu_dragneel_title => 'Ates Ejderha Avcisi';
+
+  @override
+  String get persona_natsu_dragneel_quote => 'Ateslendim!';
+
+  @override
+  String get persona_izuku_midoriya => 'Izuku Midoriya';
+
+  @override
+  String get persona_izuku_midoriya_title => 'One For All\'in Varisi';
+
+  @override
+  String get persona_izuku_midoriya_quote =>
+      'Onları kurtarmalıyım! Kahramanlar bunu yapar!';
+
+  @override
+  String get persona_son_goku => 'Son Goku';
+
+  @override
+  String get persona_son_goku_title => 'Efsanevi Saiyan Savaşçısı';
+
+  @override
+  String get persona_son_goku_quote => 'Bu heyecanlı oluyor!';
+
+  @override
+  String get persona_edward_elric => 'Edward Elric';
+
+  @override
+  String get persona_edward_elric_title => 'Çelik Simyacı';
+
+  @override
+  String get persona_edward_elric_quote =>
+      'Eşdeğer Değişim - simyanın temeli budur!';
+
+  @override
+  String get persona_eren_yeager => 'Eren Yeager';
+
+  @override
+  String get persona_eren_yeager_title => 'Saldırı Titanı';
+
+  @override
+  String get persona_eren_yeager_quote =>
+      'İlerlemeye devam edeceğim... tüm düşmanlarımı yok edene kadar.';
+
+  @override
+  String get persona_naruto_uzumaki => 'Naruto Uzumaki';
+
+  @override
+  String get persona_naruto_uzumaki_title => 'Yedinci Hokage';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      'Kaçmayacağım. Sözümden asla dönmem. Bu benim ninja yolum!';
+
+  @override
+  String get persona_tsunayoshi_sawada => 'Tsunayoshi Sawada';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => 'Onuncu Vongola Patronu';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote =>
+      'Dying Will\'imle herkesi koruyacağım!';
+
+  @override
+  String get persona_tanjiro_kamado => 'Tanjiro Kamado';
+
+  @override
+  String get persona_tanjiro_kamado_title => 'İblis Avcısı';
+
+  @override
+  String get persona_tanjiro_kamado_quote =>
+      'Kendi zayıflığın tarafından ne kadar yıkılırsan yıkıl, kalbini ateşle.';
+
+  @override
+  String get persona_ichigo_kurosaki => 'Ichigo Kurosaki';
+
+  @override
+  String get persona_ichigo_kurosaki_title => 'Vekil Shinigami';
+
+  @override
+  String get persona_ichigo_kurosaki_quote =>
+      'Kazanmak istediğim için savaşmıyorum. Kazanmam gerektiği için savaşıyorum!';
+
+  @override
+  String get persona_martin_luther_king => 'Martin Luther King Jr.';
+
+  @override
+  String get persona_martin_luther_king_title => 'Sivil Haklar Lideri';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      'Bir hayalim var ki dört küçük çocuğum bir gün ten rengine göre değil, karakterlerine göre değerlendirilecekleri bir ülkede yaşayacak.';
+
+  @override
+  String get persona_albert_einstein => 'Albert Einstein';
+
+  @override
+  String get persona_albert_einstein_title => 'Teorik Fizikçi';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      'Hayal gücü bilgiden daha önemlidir. Bilgi sınırlıdır, hayal gücü dünyayı kuşatır.';
+
+  @override
+  String get persona_julius_caesar => 'Julius Caesar';
+
+  @override
+  String get persona_julius_caesar_title => 'Roma Diktatörü ve Fatihi';
+
+  @override
+  String get persona_julius_caesar_quote => 'Geldim, gördüm, yendim.';
+
+  @override
+  String get persona_david => 'Kral Davut';
+
+  @override
+  String get persona_david_title => 'Mezmur Yazarı ve İsrail Kralı';
+
+  @override
+  String get persona_david_quote => 'RAB çobanımdır; eksiğim olmaz.';
+
+  @override
+  String get persona_aslan => 'Aslan';
+
+  @override
+  String get persona_aslan_title => 'Narnia\'nın Büyük Aslanı';
+
+  @override
+  String get persona_aslan_quote => 'Ben evcilleştirilmiş bir aslan değilim.';
+
+  @override
+  String get persona_jean_valjean => 'Jean Valjean';
+
+  @override
+  String get persona_jean_valjean_title => 'Sefiller\'den Kurtarılmış Ruh';
+
+  @override
+  String get persona_jean_valjean_quote =>
+      'Başka bir insanı sevmek, Tanrı\'nın yüzünü görmektir.';
+
+  @override
+  String get persona_liu_bei => 'Liu Bei';
+
+  @override
+  String get persona_liu_bei_title => 'Shu Han\'ın Kurucu İmparatoru';
+
+  @override
+  String get persona_liu_bei_quote =>
+      'Dünyayı aldatmaktansa, dünyanın beni aldatmasına izin vermem.';
+
+  @override
+  String get persona_zhuge_liang => 'Zhuge Liang';
+
+  @override
+  String get persona_zhuge_liang_title => 'Shu Han\'ın Başbakanı';
+
+  @override
+  String get persona_zhuge_liang_quote =>
+      'Dağlar gibi durağan, rüzgâr ve yıldırım gibi hareketli.';
+
+  @override
+  String get persona_cao_cao => 'Cao Cao';
+
+  @override
+  String get persona_cao_cao_title => 'Han Şansölyesi ve Cao Wei\'nin Kurucusu';
+
+  @override
+  String get persona_cao_cao_quote =>
+      'Dünyayı ihanete uğratmaktansa dünyanın beni ihanete uğratmasına izin vermem.';
 }

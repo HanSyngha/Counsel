@@ -9,7 +9,7 @@ class AppLocalizationsFr extends AppLocalizations {
   AppLocalizationsFr([String locale = 'fr']) : super(locale);
 
   @override
-  String get appName => 'Voix des Sages';
+  String get appName => 'Voix des Étoiles';
 
   @override
   String get onboardingTitle => 'Rencontrez les mentors\nde l\'histoire';
@@ -592,7 +592,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get navFavorites => 'Enregistres';
 
   @override
-  String get appTitle => 'Voix des Sages';
+  String get appTitle => 'Voix des Étoiles';
 
   @override
   String get homeWelcome =>
@@ -694,4 +694,190 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => 'Je serai le Roi des Pirates!';
+
+  @override
+  String get persona_gon_freecss => 'Gon Freecss';
+
+  @override
+  String get persona_gon_freecss_title => 'Jeune Hunter';
+
+  @override
+  String get persona_gon_freecss_quote => 'Je vais trouver mon pere!';
+
+  @override
+  String get persona_natsu_dragneel => 'Natsu Dragneel';
+
+  @override
+  String get persona_natsu_dragneel_title => 'Chasseur de Dragons de Feu';
+
+  @override
+  String get persona_natsu_dragneel_quote => 'Je suis tout feu tout flamme!';
+
+  @override
+  String get persona_izuku_midoriya => 'Izuku Midoriya';
+
+  @override
+  String get persona_izuku_midoriya_title => 'Heritier de One For All';
+
+  @override
+  String get persona_izuku_midoriya_quote =>
+      'Je dois les sauver! C\'est ca etre un heros!';
+
+  @override
+  String get persona_son_goku => 'Son Goku';
+
+  @override
+  String get persona_son_goku_title => 'Guerrier Saiyan Legendaire';
+
+  @override
+  String get persona_son_goku_quote => 'Ca devient excitant!';
+
+  @override
+  String get persona_edward_elric => 'Edward Elric';
+
+  @override
+  String get persona_edward_elric_title => 'L\'Alchimiste d\'Acier';
+
+  @override
+  String get persona_edward_elric_quote =>
+      'L\'Échange Équivalent - c\'est le fondement de l\'alchimie!';
+
+  @override
+  String get persona_eren_yeager => 'Eren Yeager';
+
+  @override
+  String get persona_eren_yeager_title => 'Le Titan Assaillant';
+
+  @override
+  String get persona_eren_yeager_quote =>
+      'Je continuerai d\'avancer... jusqu\'à ce que je détruise tous mes ennemis.';
+
+  @override
+  String get persona_naruto_uzumaki => 'Naruto Uzumaki';
+
+  @override
+  String get persona_naruto_uzumaki_title => 'Septième Hokage';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      'Je ne fuirai pas. Je ne reviens jamais sur ma parole. C\'est ma voie du ninja!';
+
+  @override
+  String get persona_tsunayoshi_sawada => 'Tsunayoshi Sawada';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => 'Dixième Boss Vongola';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote =>
+      'Je protégerai tout le monde avec ma Dernière Volonté!';
+
+  @override
+  String get persona_tanjiro_kamado => 'Tanjiro Kamado';
+
+  @override
+  String get persona_tanjiro_kamado_title => 'Pourfendeur de Démons';
+
+  @override
+  String get persona_tanjiro_kamado_quote =>
+      'Peu importe à quel point ta propre faiblesse t\'a dévasté, enflamme ton cœur.';
+
+  @override
+  String get persona_ichigo_kurosaki => 'Ichigo Kurosaki';
+
+  @override
+  String get persona_ichigo_kurosaki_title => 'Shinigami Remplaçant';
+
+  @override
+  String get persona_ichigo_kurosaki_quote =>
+      'Je ne me bats pas parce que je veux gagner. Je me bats parce que je dois gagner!';
+
+  @override
+  String get persona_martin_luther_king => 'Martin Luther King Jr.';
+
+  @override
+  String get persona_martin_luther_king_title => 'Leader des Droits Civiques';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      'J\'ai fait un rêve que mes quatre petits enfants vivront un jour dans une nation où ils ne seront pas jugés par la couleur de leur peau mais par le contenu de leur caractère.';
+
+  @override
+  String get persona_albert_einstein => 'Albert Einstein';
+
+  @override
+  String get persona_albert_einstein_title => 'Physicien Théoricien';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      'L\'imagination est plus importante que le savoir. Le savoir est limité, l\'imagination embrasse le monde.';
+
+  @override
+  String get persona_julius_caesar => 'Jules César';
+
+  @override
+  String get persona_julius_caesar_title => 'Dictateur et Conquérant Romain';
+
+  @override
+  String get persona_julius_caesar_quote =>
+      'Je suis venu, j\'ai vu, j\'ai vaincu.';
+
+  @override
+  String get persona_david => 'Roi David';
+
+  @override
+  String get persona_david_title => 'Psalmiste et Roi d\'Israël';
+
+  @override
+  String get persona_david_quote =>
+      'L\'Éternel est mon berger; je ne manquerai de rien.';
+
+  @override
+  String get persona_aslan => 'Aslan';
+
+  @override
+  String get persona_aslan_title => 'Le Grand Lion de Narnia';
+
+  @override
+  String get persona_aslan_quote => 'Je ne suis pas un lion apprivoisé.';
+
+  @override
+  String get persona_jean_valjean => 'Jean Valjean';
+
+  @override
+  String get persona_jean_valjean_title => 'Âme rachetée des Misérables';
+
+  @override
+  String get persona_jean_valjean_quote =>
+      'Aimer un autre être, c\'est voir le visage de Dieu.';
+
+  @override
+  String get persona_liu_bei => 'Liu Bei';
+
+  @override
+  String get persona_liu_bei_title => 'Empereur Fondateur de Shu Han';
+
+  @override
+  String get persona_liu_bei_quote =>
+      'Je préfère trahir le monde plutôt que de laisser le monde me trahir.';
+
+  @override
+  String get persona_zhuge_liang => 'Zhuge Liang';
+
+  @override
+  String get persona_zhuge_liang_title => 'Premier Ministre de Shu Han';
+
+  @override
+  String get persona_zhuge_liang_quote =>
+      'Immobile comme les montagnes, mouvant comme le vent et l\'éclair.';
+
+  @override
+  String get persona_cao_cao => 'Cao Cao';
+
+  @override
+  String get persona_cao_cao_title => 'Chancelier de Han et Fondateur de Wei';
+
+  @override
+  String get persona_cao_cao_quote =>
+      'Je préfère trahir le monde plutôt que de laisser le monde me trahir.';
 }

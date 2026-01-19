@@ -9,7 +9,7 @@ class AppLocalizationsHi extends AppLocalizations {
   AppLocalizationsHi([String locale = 'hi']) : super(locale);
 
   @override
-  String get appName => 'ज्ञानियों की आवाज़';
+  String get appName => 'सितारों की आवाज़';
 
   @override
   String get onboardingTitle => 'इतिहास के गुरुओं से\nआज ही मिलें';
@@ -588,7 +588,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get navFavorites => 'सहेजा गया';
 
   @override
-  String get appTitle => 'ज्ञानियों की आवाज़';
+  String get appTitle => 'सितारों की आवाज़';
 
   @override
   String get homeWelcome => 'आज किससे ज्ञान प्राप्त करना चाहेंगे?';
@@ -686,4 +686,189 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => 'मैं पाइरेट किंग बनूंगा!';
+
+  @override
+  String get persona_gon_freecss => 'गोन फ्रीक्स';
+
+  @override
+  String get persona_gon_freecss_title => 'युवा हंटर';
+
+  @override
+  String get persona_gon_freecss_quote => 'मैं अपने पापा को ढूंढूंगा!';
+
+  @override
+  String get persona_natsu_dragneel => 'नात्सु ड्रैग्नील';
+
+  @override
+  String get persona_natsu_dragneel_title => 'फायर ड्रैगन स्लेयर';
+
+  @override
+  String get persona_natsu_dragneel_quote => 'मैं पूरी तरह जल रहा हूं!';
+
+  @override
+  String get persona_izuku_midoriya => 'इज़ुकु मिदोरिया';
+
+  @override
+  String get persona_izuku_midoriya_title => 'वन फॉर ऑल के उत्तराधिकारी';
+
+  @override
+  String get persona_izuku_midoriya_quote =>
+      'मुझे उन्हें बचाना है! यही तो हीरो करते हैं!';
+
+  @override
+  String get persona_son_goku => 'सोन गोकू';
+
+  @override
+  String get persona_son_goku_title => 'पौराणिक साईयन योद्धा';
+
+  @override
+  String get persona_son_goku_quote => 'यह रोमांचक हो रहा है!';
+
+  @override
+  String get persona_edward_elric => 'एडवर्ड एल्रिक';
+
+  @override
+  String get persona_edward_elric_title => 'स्टील का कीमियागर';
+
+  @override
+  String get persona_edward_elric_quote =>
+      'समतुल्य विनिमय - यही कीमिया की नींव है!';
+
+  @override
+  String get persona_eren_yeager => 'एरेन येगर';
+
+  @override
+  String get persona_eren_yeager_title => 'हमलावर टाइटन';
+
+  @override
+  String get persona_eren_yeager_quote =>
+      'मैं आगे बढ़ता रहूंगा... जब तक अपने सभी दुश्मनों को नष्ट न कर दूं।';
+
+  @override
+  String get persona_naruto_uzumaki => 'नारुतो उज़ुमाकी';
+
+  @override
+  String get persona_naruto_uzumaki_title => 'सातवें होकागे';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      'मैं भागूंगा नहीं। मैं कभी अपने वचन से पीछे नहीं हटता। यही मेरा निंजा मार्ग है!';
+
+  @override
+  String get persona_tsunayoshi_sawada => 'त्सुनायोशी सावाडा';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => 'वोंगोला के दसवें बॉस';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote =>
+      'मैं अपनी डाइंग विल से सबकी रक्षा करूंगा!';
+
+  @override
+  String get persona_tanjiro_kamado => 'तंजीरो कामाडो';
+
+  @override
+  String get persona_tanjiro_kamado_title => 'दानव शिकारी';
+
+  @override
+  String get persona_tanjiro_kamado_quote =>
+      'चाहे अपनी कमजोरी से कितना भी टूट जाओ, अपने दिल को जला दो।';
+
+  @override
+  String get persona_ichigo_kurosaki => 'इचिगो कुरोसाकी';
+
+  @override
+  String get persona_ichigo_kurosaki_title => 'सब्स्टीट्यूट शिनिगामी';
+
+  @override
+  String get persona_ichigo_kurosaki_quote =>
+      'मैं इसलिए नहीं लड़ता क्योंकि जीतना चाहता हूं। मैं इसलिए लड़ता हूं क्योंकि जीतना जरूरी है!';
+
+  @override
+  String get persona_martin_luther_king => 'मार्टिन लूथर किंग जूनियर';
+
+  @override
+  String get persona_martin_luther_king_title => 'नागरिक अधिकार नेता';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      'मेरा एक सपना है कि मेरे चार छोटे बच्चे एक दिन ऐसे देश में रहेंगे जहां उनका मूल्यांकन उनकी त्वचा के रंग से नहीं बल्कि उनके चरित्र से किया जाएगा।';
+
+  @override
+  String get persona_albert_einstein => 'अल्बर्ट आइंस्टीन';
+
+  @override
+  String get persona_albert_einstein_title => 'सैद्धांतिक भौतिक विज्ञानी';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      'कल्पना ज्ञान से अधिक महत्वपूर्ण है। ज्ञान सीमित है, कल्पना पूरे विश्व को घेरती है।';
+
+  @override
+  String get persona_julius_caesar => 'जूलियस सीज़र';
+
+  @override
+  String get persona_julius_caesar_title => 'रोमन तानाशाह और विजेता';
+
+  @override
+  String get persona_julius_caesar_quote => 'मैं आया, मैंने देखा, मैंने जीता।';
+
+  @override
+  String get persona_david => 'राजा दाऊद';
+
+  @override
+  String get persona_david_title => 'भजनकार और इस्राएल के राजा';
+
+  @override
+  String get persona_david_quote =>
+      'यहोवा मेरा चरवाहा है; मुझे कुछ घटी न होगी।';
+
+  @override
+  String get persona_aslan => 'असलान';
+
+  @override
+  String get persona_aslan_title => 'नार्निया का महान सिंह';
+
+  @override
+  String get persona_aslan_quote => 'मैं पालतू सिंह नहीं हूं।';
+
+  @override
+  String get persona_jean_valjean => 'जीन वालजीन';
+
+  @override
+  String get persona_jean_valjean_title => 'ले मिज़रेबल की मुक्त आत्मा';
+
+  @override
+  String get persona_jean_valjean_quote =>
+      'किसी अन्य व्यक्ति से प्रेम करना ईश्वर का चेहरा देखना है।';
+
+  @override
+  String get persona_liu_bei => 'लिउ बेई';
+
+  @override
+  String get persona_liu_bei_title => 'शु हान के संस्थापक सम्राट';
+
+  @override
+  String get persona_liu_bei_quote =>
+      'मैं दुनिया को धोखा दूंगा इससे पहले कि दुनिया मुझे धोखा दे।';
+
+  @override
+  String get persona_zhuge_liang => 'झुगे लियांग';
+
+  @override
+  String get persona_zhuge_liang_title => 'शु हान के प्रधानमंत्री';
+
+  @override
+  String get persona_zhuge_liang_quote =>
+      'पर्वतों की तरह स्थिर, पवन और बिजली की तरह गतिशील।';
+
+  @override
+  String get persona_cao_cao => 'काओ काओ';
+
+  @override
+  String get persona_cao_cao_title => 'हान के चांसलर और वेई के संस्थापक';
+
+  @override
+  String get persona_cao_cao_quote =>
+      'मैं दुनिया को धोखा दूंगा इससे पहले कि दुनिया मुझे धोखा दे।';
 }

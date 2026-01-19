@@ -9,7 +9,7 @@ class AppLocalizationsJa extends AppLocalizations {
   AppLocalizationsJa([String locale = 'ja']) : super(locale);
 
   @override
-  String get appName => '賢者の声';
+  String get appName => '星々の声';
 
   @override
   String get onboardingTitle => '歴史の中のメンターに\n今すぐ会いましょう';
@@ -566,7 +566,7 @@ class AppLocalizationsJa extends AppLocalizations {
   String get navFavorites => '保存済み';
 
   @override
-  String get appTitle => '賢者の声';
+  String get appTitle => '星々の声';
 
   @override
   String get homeWelcome => '今日は誰に知恵を求めますか？';
@@ -662,4 +662,178 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => 'おれは海賊王になる!';
+
+  @override
+  String get persona_gon_freecss => 'ゴン＝フリークス';
+
+  @override
+  String get persona_gon_freecss_title => '若きハンター';
+
+  @override
+  String get persona_gon_freecss_quote => '父さんを見つけるんだ!';
+
+  @override
+  String get persona_natsu_dragneel => 'ナツ・ドラグニル';
+
+  @override
+  String get persona_natsu_dragneel_title => '炎の滅竜魔導士';
+
+  @override
+  String get persona_natsu_dragneel_quote => '燃えてきた!';
+
+  @override
+  String get persona_izuku_midoriya => '緑谷出久';
+
+  @override
+  String get persona_izuku_midoriya_title => 'ワン・フォー・オールの継承者';
+
+  @override
+  String get persona_izuku_midoriya_quote => '助けなきゃ！それがヒーローでしょ！';
+
+  @override
+  String get persona_son_goku => '孫悟空';
+
+  @override
+  String get persona_son_goku_title => '伝説のサイヤ人戦士';
+
+  @override
+  String get persona_son_goku_quote => 'オラ、わくわくすっぞ！';
+
+  @override
+  String get persona_edward_elric => 'エドワード・エルリック';
+
+  @override
+  String get persona_edward_elric_title => '鋼の錬金術師';
+
+  @override
+  String get persona_edward_elric_quote => '等価交換 - それが錬金術の基本だ！';
+
+  @override
+  String get persona_eren_yeager => 'エレン・イェーガー';
+
+  @override
+  String get persona_eren_yeager_title => '進撃の巨人';
+
+  @override
+  String get persona_eren_yeager_quote => '俺は進み続ける...敵を駆逐するまで。';
+
+  @override
+  String get persona_naruto_uzumaki => 'うずまきナルト';
+
+  @override
+  String get persona_naruto_uzumaki_title => '七代目火影';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      '俺は逃げねぇ。自分の言葉は絶対に曲げねぇ。それが俺の忍道だってばよ！';
+
+  @override
+  String get persona_tsunayoshi_sawada => '沢田綱吉';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => 'ボンゴレ10代目';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote => '死ぬ気で皆を守る！';
+
+  @override
+  String get persona_tanjiro_kamado => '竈門炭治郎';
+
+  @override
+  String get persona_tanjiro_kamado_title => '鬼殺隊士';
+
+  @override
+  String get persona_tanjiro_kamado_quote => 'どんなに打ちのめされても心を燃やせ。';
+
+  @override
+  String get persona_ichigo_kurosaki => '黒崎一護';
+
+  @override
+  String get persona_ichigo_kurosaki_title => '死神代行';
+
+  @override
+  String get persona_ichigo_kurosaki_quote => '勝ちたいから戦うんじゃねえ。勝たなきゃいけねえから戦うんだ！';
+
+  @override
+  String get persona_martin_luther_king => 'マーティン・ルーサー・キング・ジュニア';
+
+  @override
+  String get persona_martin_luther_king_title => '公民権運動指導者';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      '私には夢がある。いつの日か、私の4人の幼い子どもたちが肌の色ではなく、人格の中身によって評価される国に住むという夢が。';
+
+  @override
+  String get persona_albert_einstein => 'アルベルト・アインシュタイン';
+
+  @override
+  String get persona_albert_einstein_title => '理論物理学者';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      '想像力は知識より重要である。知識には限界があるが、想像力は世界を包み込む。';
+
+  @override
+  String get persona_julius_caesar => 'ユリウス・カエサル';
+
+  @override
+  String get persona_julius_caesar_title => 'ローマの独裁官・征服者';
+
+  @override
+  String get persona_julius_caesar_quote => '来た、見た、勝った。';
+
+  @override
+  String get persona_david => 'ダビデ王';
+
+  @override
+  String get persona_david_title => '詩篇の作者・イスラエルの王';
+
+  @override
+  String get persona_david_quote => '主は私の羊飼い。私は乏しいことがありません。';
+
+  @override
+  String get persona_aslan => 'アスラン';
+
+  @override
+  String get persona_aslan_title => 'ナルニアの偉大なる獅子';
+
+  @override
+  String get persona_aslan_quote => '私は飼い慣らされた獅子ではない。';
+
+  @override
+  String get persona_jean_valjean => 'ジャン・バルジャン';
+
+  @override
+  String get persona_jean_valjean_title => 'レ・ミゼラブルの救済された魂';
+
+  @override
+  String get persona_jean_valjean_quote => '人を愛することは、神の顔を見ることである。';
+
+  @override
+  String get persona_liu_bei => '劉備';
+
+  @override
+  String get persona_liu_bei_title => '蜀漢の建国皇帝';
+
+  @override
+  String get persona_liu_bei_quote => '我、天下を裏切ることあれど、天下に裏切らせじ。';
+
+  @override
+  String get persona_zhuge_liang => '諸葛亮';
+
+  @override
+  String get persona_zhuge_liang_title => '蜀漢の丞相';
+
+  @override
+  String get persona_zhuge_liang_quote => '静かなること山の如く、動けば風雷の如し。';
+
+  @override
+  String get persona_cao_cao => '曹操';
+
+  @override
+  String get persona_cao_cao_title => '漢の丞相・魏の建国者';
+
+  @override
+  String get persona_cao_cao_quote => '寧ろ我が天下を負うとも、天下をして我を負わしめず。';
 }

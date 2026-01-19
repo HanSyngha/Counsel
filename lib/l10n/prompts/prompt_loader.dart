@@ -22,6 +22,25 @@ import 'brahma/prompts.dart';
 import 'vishnu/prompts.dart';
 import 'tolstoy/prompts.dart';
 import 'luffy/prompts.dart';
+import 'gon_freecss/prompts.dart';
+import 'natsu_dragneel/prompts.dart';
+import 'izuku_midoriya/prompts.dart';
+import 'son_goku/prompts.dart';
+import 'edward_elric/prompts.dart';
+import 'eren_yeager/prompts.dart';
+import 'naruto_uzumaki/prompts.dart';
+import 'tsunayoshi_sawada/prompts.dart';
+import 'tanjiro_kamado/prompts.dart';
+import 'ichigo_kurosaki/prompts.dart';
+import 'martin_luther_king/prompts.dart';
+import 'albert_einstein/prompts.dart';
+import 'julius_caesar/prompts.dart';
+import 'david/prompts.dart';
+import 'aslan/prompts.dart';
+import 'jean_valjean/prompts.dart';
+import 'liu_bei/prompts.dart';
+import 'zhuge_liang/prompts.dart';
+import 'cao_cao/prompts.dart';
 
 /// Loads persona prompts based on locale
 ///
@@ -51,6 +70,25 @@ class PromptLoader {
     'vishnu': vishnuPrompts,
     'tolstoy': tolstoyPrompts,
     'luffy': luffyPrompts,
+    'gon_freecss': gonFreecssPrompts,
+    'natsu_dragneel': natsuDragneelPrompts,
+    'izuku_midoriya': izukuMidoriyaPrompts,
+    'son_goku': sonGokuPrompts,
+    'edward_elric': edwardElricPrompts,
+    'eren_yeager': erenYeagerPrompts,
+    'naruto_uzumaki': narutoUzumakiPrompts,
+    'tsunayoshi_sawada': tsunayoshiSawadaPrompts,
+    'tanjiro_kamado': tanjiroKamadoPrompts,
+    'ichigo_kurosaki': ichigoKurosakiPrompts,
+    'martin_luther_king': martinLutherKingPrompts,
+    'albert_einstein': albertEinsteinPrompts,
+    'julius_caesar': juliusCaesarPrompts,
+    'david': davidPrompts,
+    'aslan': aslanPrompts,
+    'jean_valjean': jeanValjeanPrompts,
+    'liu_bei': liuBeiPrompts,
+    'zhuge_liang': zhugeLiangPrompts,
+    'cao_cao': caoCaoPrompts,
   };
 
   /// Supported language codes

@@ -9,7 +9,7 @@ class AppLocalizationsVi extends AppLocalizations {
   AppLocalizationsVi([String locale = 'vi']) : super(locale);
 
   @override
-  String get appName => 'Tiếng Nói Hiền Triết';
+  String get appName => 'Tiếng Sao';
 
   @override
   String get onboardingTitle => 'Gặp gỡ người thầy\ntừ lịch sử ngay hôm nay';
@@ -592,7 +592,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get navFavorites => 'Đã lưu';
 
   @override
-  String get appTitle => 'Tiếng Nói Hiền Triết';
+  String get appTitle => 'Tiếng Sao';
 
   @override
   String get homeWelcome => 'Hôm nay bạn muốn tìm kiếm trí tuệ từ ai?';
@@ -691,4 +691,192 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => 'Toi se tro thanh Vua Hai Tac!';
+
+  @override
+  String get persona_gon_freecss => 'Gon Freecss';
+
+  @override
+  String get persona_gon_freecss_title => 'Tho san tre';
+
+  @override
+  String get persona_gon_freecss_quote => 'Toi se tim thay bo!';
+
+  @override
+  String get persona_natsu_dragneel => 'Natsu Dragneel';
+
+  @override
+  String get persona_natsu_dragneel_title => 'Phap su Diet Long Lua';
+
+  @override
+  String get persona_natsu_dragneel_quote => 'Toi dang boc chay!';
+
+  @override
+  String get persona_izuku_midoriya => 'Izuku Midoriya';
+
+  @override
+  String get persona_izuku_midoriya_title => 'Nguoi thua ke One For All';
+
+  @override
+  String get persona_izuku_midoriya_quote =>
+      'Toi phai cuu ho! Do la nhung gi anh hung lam!';
+
+  @override
+  String get persona_son_goku => 'Son Goku';
+
+  @override
+  String get persona_son_goku_title => 'Chien binh Saiyan huyen thoai';
+
+  @override
+  String get persona_son_goku_quote => 'Dieu nay dang thu vi day!';
+
+  @override
+  String get persona_edward_elric => 'Edward Elric';
+
+  @override
+  String get persona_edward_elric_title => 'Giả Kim Thuật Sư Thép';
+
+  @override
+  String get persona_edward_elric_quote =>
+      'Trao Đổi Ngang Giá - đó là nền tảng của giả kim thuật!';
+
+  @override
+  String get persona_eren_yeager => 'Eren Yeager';
+
+  @override
+  String get persona_eren_yeager_title => 'Titan Tấn Công';
+
+  @override
+  String get persona_eren_yeager_quote =>
+      'Tôi sẽ tiếp tục tiến về phía trước... cho đến khi tiêu diệt tất cả kẻ thù.';
+
+  @override
+  String get persona_naruto_uzumaki => 'Naruto Uzumaki';
+
+  @override
+  String get persona_naruto_uzumaki_title => 'Hokage Đệ Thất';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      'Tôi sẽ không bỏ chạy. Tôi không bao giờ nuốt lời. Đó là con đường ninja của tôi!';
+
+  @override
+  String get persona_tsunayoshi_sawada => 'Tsunayoshi Sawada';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => 'Trùm Vongola Thứ Mười';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote =>
+      'Tôi sẽ bảo vệ mọi người với Dying Will của tôi!';
+
+  @override
+  String get persona_tanjiro_kamado => 'Tanjiro Kamado';
+
+  @override
+  String get persona_tanjiro_kamado_title => 'Thợ Săn Quỷ';
+
+  @override
+  String get persona_tanjiro_kamado_quote =>
+      'Dù bạn có bị đánh gục bởi sự yếu đuối của chính mình đến đâu, hãy thắp sáng trái tim.';
+
+  @override
+  String get persona_ichigo_kurosaki => 'Ichigo Kurosaki';
+
+  @override
+  String get persona_ichigo_kurosaki_title => 'Shinigami Thay Thế';
+
+  @override
+  String get persona_ichigo_kurosaki_quote =>
+      'Tôi không chiến đấu vì muốn thắng. Tôi chiến đấu vì phải thắng!';
+
+  @override
+  String get persona_martin_luther_king => 'Martin Luther King Jr.';
+
+  @override
+  String get persona_martin_luther_king_title =>
+      'Lãnh Đạo Phong Trào Dân Quyền';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      'Tôi có một giấc mơ rằng bốn đứa con nhỏ của tôi một ngày nào đó sẽ sống trong một đất nước nơi chúng không bị đánh giá bởi màu da mà bởi phẩm chất nhân cách.';
+
+  @override
+  String get persona_albert_einstein => 'Albert Einstein';
+
+  @override
+  String get persona_albert_einstein_title => 'Nhà Vật Lý Lý Thuyết';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      'Trí tưởng tượng quan trọng hơn kiến thức. Kiến thức có giới hạn, trí tưởng tượng ôm trọn thế giới.';
+
+  @override
+  String get persona_julius_caesar => 'Julius Caesar';
+
+  @override
+  String get persona_julius_caesar_title => 'Nhà Độc Tài và Chinh Phục La Mã';
+
+  @override
+  String get persona_julius_caesar_quote => 'Ta đến, ta thấy, ta chiến thắng.';
+
+  @override
+  String get persona_david => 'Vua Đa-vít';
+
+  @override
+  String get persona_david_title => 'Tác Giả Thi Thiên và Vua Y-sơ-ra-ên';
+
+  @override
+  String get persona_david_quote =>
+      'Đức Giê-hô-va là Đấng Chăn Giữ tôi; tôi sẽ chẳng thiếu thốn gì.';
+
+  @override
+  String get persona_aslan => 'Aslan';
+
+  @override
+  String get persona_aslan_title => 'Sư Tử Vĩ Đại của Narnia';
+
+  @override
+  String get persona_aslan_quote => 'Ta không phải là sư tử được thuần hóa.';
+
+  @override
+  String get persona_jean_valjean => 'Jean Valjean';
+
+  @override
+  String get persona_jean_valjean_title =>
+      'Linh hồn được cứu chuộc của Những Người Khốn Khổ';
+
+  @override
+  String get persona_jean_valjean_quote =>
+      'Yêu một người khác là được nhìn thấy khuôn mặt của Chúa.';
+
+  @override
+  String get persona_liu_bei => 'Lưu Bị';
+
+  @override
+  String get persona_liu_bei_title => 'Hoàng Đế Khai Quốc của Thục Hán';
+
+  @override
+  String get persona_liu_bei_quote =>
+      'Ta thà phụ thiên hạ còn hơn để thiên hạ phụ ta.';
+
+  @override
+  String get persona_zhuge_liang => 'Gia Cát Lượng';
+
+  @override
+  String get persona_zhuge_liang_title => 'Thừa Tướng của Thục Hán';
+
+  @override
+  String get persona_zhuge_liang_quote =>
+      'Tĩnh như núi non, động như gió và sấm sét.';
+
+  @override
+  String get persona_cao_cao => 'Tào Tháo';
+
+  @override
+  String get persona_cao_cao_title =>
+      'Thừa tướng nhà Hán và Người sáng lập nước Ngụy';
+
+  @override
+  String get persona_cao_cao_quote =>
+      'Thà ta phụ thiên hạ, chứ không để thiên hạ phụ ta.';
 }

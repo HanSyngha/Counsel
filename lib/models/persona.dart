@@ -91,17 +91,36 @@ class PersonaData {
     krishna,
     brahma,
     vishnu,
+    david,
     // History
     lincoln,
     napoleon,
     steveJobs,
     gandhi,
+    martinLutherKing,
+    albertEinstein,
+    juliusCaesar,
+    liuBei,
+    zhugeLiang,
+    caoCao,
     // Literature
     sherlockHolmes,
     dumbledore,
     tolstoy,
+    aslan,
+    jeanValjean,
     // Anime
     luffy,
+    gonFreecss,
+    natsuDragneel,
+    izukuMidoriya,
+    sonGoku,
+    edwardElric,
+    erenYeager,
+    narutoUzumaki,
+    tsunayoshiSawada,
+    tanjiroKamado,
+    ichigoKurosaki,
   ];
 
   static List<Persona> byCategory(PersonaCategory category) =>
@@ -244,6 +263,17 @@ class PersonaData {
     era: 0,
   );
 
+  static const Persona david = Persona(
+    id: 'david',
+    nameKey: 'persona_david',
+    titleKey: 'persona_david_title',
+    quoteKey: 'persona_david_quote',
+    category: PersonaCategory.religion,
+    imagePath: AppAssets.david,
+    era: -970,
+    sourceTag: '[Old Testament]',
+  );
+
   // History
   static const Persona lincoln = Persona(
     id: 'lincoln',
@@ -285,6 +315,71 @@ class PersonaData {
     era: 1948,
   );
 
+  static const Persona martinLutherKing = Persona(
+    id: 'martin_luther_king',
+    nameKey: 'persona_martin_luther_king',
+    titleKey: 'persona_martin_luther_king_title',
+    quoteKey: 'persona_martin_luther_king_quote',
+    category: PersonaCategory.history,
+    imagePath: AppAssets.martinLutherKing,
+    era: 1968,
+  );
+
+  static const Persona albertEinstein = Persona(
+    id: 'albert_einstein',
+    nameKey: 'persona_albert_einstein',
+    titleKey: 'persona_albert_einstein_title',
+    quoteKey: 'persona_albert_einstein_quote',
+    category: PersonaCategory.history,
+    imagePath: AppAssets.albertEinstein,
+    era: 1955,
+    sourceTag: '[Scientific Papers, Letters]',
+  );
+
+  static const Persona juliusCaesar = Persona(
+    id: 'julius_caesar',
+    nameKey: 'persona_julius_caesar',
+    titleKey: 'persona_julius_caesar_title',
+    quoteKey: 'persona_julius_caesar_quote',
+    category: PersonaCategory.history,
+    imagePath: AppAssets.juliusCaesar,
+    era: -44,
+    sourceTag: '[De Bello Gallico, De Bello Civili, Suetonius, Plutarch, Cicero]',
+  );
+
+  static const Persona liuBei = Persona(
+    id: 'liu_bei',
+    nameKey: 'persona_liu_bei',
+    titleKey: 'persona_liu_bei_title',
+    quoteKey: 'persona_liu_bei_quote',
+    category: PersonaCategory.history,
+    imagePath: AppAssets.liuBei,
+    era: 223,
+    sourceTag: '[Romance of the Three Kingdoms]',
+  );
+
+  static const Persona zhugeLiang = Persona(
+    id: 'zhuge_liang',
+    nameKey: 'persona_zhuge_liang',
+    titleKey: 'persona_zhuge_liang_title',
+    quoteKey: 'persona_zhuge_liang_quote',
+    category: PersonaCategory.history,
+    imagePath: AppAssets.zhugeLiang,
+    era: 234,
+    sourceTag: '[Romance of the Three Kingdoms]',
+  );
+
+  static const Persona caoCao = Persona(
+    id: 'cao_cao',
+    nameKey: 'persona_cao_cao',
+    titleKey: 'persona_cao_cao_title',
+    quoteKey: 'persona_cao_cao_quote',
+    category: PersonaCategory.history,
+    imagePath: AppAssets.caoCao,
+    era: 220,
+    sourceTag: '[Romance of the Three Kingdoms]',
+  );
+
   // Literature
   static const Persona sherlockHolmes = Persona(
     id: 'sherlock_holmes',
@@ -318,6 +413,28 @@ class PersonaData {
     era: 1910,
   );
 
+  static const Persona aslan = Persona(
+    id: 'aslan',
+    nameKey: 'persona_aslan',
+    titleKey: 'persona_aslan_title',
+    quoteKey: 'persona_aslan_quote',
+    category: PersonaCategory.literature,
+    imagePath: AppAssets.aslan,
+    era: 1950, // The Chronicles of Narnia first published
+    sourceTag: '[The Chronicles of Narnia]',
+  );
+
+  static const Persona jeanValjean = Persona(
+    id: 'jean_valjean',
+    nameKey: 'persona_jean_valjean',
+    titleKey: 'persona_jean_valjean_title',
+    quoteKey: 'persona_jean_valjean_quote',
+    category: PersonaCategory.literature,
+    imagePath: AppAssets.jeanValjean,
+    era: 1862, // Les Misérables published
+    sourceTag: '[Les Misérables]',
+  );
+
   // Anime
   static const Persona luffy = Persona(
     id: 'luffy',
@@ -328,6 +445,116 @@ class PersonaData {
     imagePath: AppAssets.luffy,
     era: 1997, // One Piece manga started
     sourceTag: '[One Piece]',
+  );
+
+  static const Persona gonFreecss = Persona(
+    id: 'gon_freecss',
+    nameKey: 'persona_gon_freecss',
+    titleKey: 'persona_gon_freecss_title',
+    quoteKey: 'persona_gon_freecss_quote',
+    category: PersonaCategory.anime,
+    imagePath: AppAssets.gonFreecss,
+    era: 1998, // Hunter x Hunter manga started
+    sourceTag: '[Hunter x Hunter]',
+  );
+
+  static const Persona natsuDragneel = Persona(
+    id: 'natsu_dragneel',
+    nameKey: 'persona_natsu_dragneel',
+    titleKey: 'persona_natsu_dragneel_title',
+    quoteKey: 'persona_natsu_dragneel_quote',
+    category: PersonaCategory.anime,
+    imagePath: AppAssets.natsuDragneel,
+    era: 2006, // Fairy Tail manga started
+    sourceTag: '[Fairy Tail]',
+  );
+
+  static const Persona izukuMidoriya = Persona(
+    id: 'izuku_midoriya',
+    nameKey: 'persona_izuku_midoriya',
+    titleKey: 'persona_izuku_midoriya_title',
+    quoteKey: 'persona_izuku_midoriya_quote',
+    category: PersonaCategory.anime,
+    imagePath: AppAssets.izukuMidoriya,
+    era: 2014, // My Hero Academia manga started
+    sourceTag: '[My Hero Academia]',
+  );
+
+  static const Persona sonGoku = Persona(
+    id: 'son_goku',
+    nameKey: 'persona_son_goku',
+    titleKey: 'persona_son_goku_title',
+    quoteKey: 'persona_son_goku_quote',
+    category: PersonaCategory.anime,
+    imagePath: AppAssets.sonGoku,
+    era: 1984, // Dragon Ball manga started
+    sourceTag: '[Dragon Ball]',
+  );
+
+  static const Persona edwardElric = Persona(
+    id: 'edward_elric',
+    nameKey: 'persona_edward_elric',
+    titleKey: 'persona_edward_elric_title',
+    quoteKey: 'persona_edward_elric_quote',
+    category: PersonaCategory.anime,
+    imagePath: AppAssets.edwardElric,
+    era: 2001, // Fullmetal Alchemist manga started
+    sourceTag: '[Fullmetal Alchemist]',
+  );
+
+  static const Persona erenYeager = Persona(
+    id: 'eren_yeager',
+    nameKey: 'persona_eren_yeager',
+    titleKey: 'persona_eren_yeager_title',
+    quoteKey: 'persona_eren_yeager_quote',
+    category: PersonaCategory.anime,
+    imagePath: AppAssets.erenYeager,
+    era: 2009, // Attack on Titan manga started
+    sourceTag: '[Attack on Titan]',
+  );
+
+  static const Persona narutoUzumaki = Persona(
+    id: 'naruto_uzumaki',
+    nameKey: 'persona_naruto_uzumaki',
+    titleKey: 'persona_naruto_uzumaki_title',
+    quoteKey: 'persona_naruto_uzumaki_quote',
+    category: PersonaCategory.anime,
+    imagePath: AppAssets.narutoUzumaki,
+    era: 1999, // Naruto manga started
+    sourceTag: '[Naruto]',
+  );
+
+  static const Persona tsunayoshiSawada = Persona(
+    id: 'tsunayoshi_sawada',
+    nameKey: 'persona_tsunayoshi_sawada',
+    titleKey: 'persona_tsunayoshi_sawada_title',
+    quoteKey: 'persona_tsunayoshi_sawada_quote',
+    category: PersonaCategory.anime,
+    imagePath: AppAssets.tsunayoshiSawada,
+    era: 2004, // Katekyo Hitman Reborn manga started
+    sourceTag: '[Katekyo Hitman Reborn]',
+  );
+
+  static const Persona tanjiroKamado = Persona(
+    id: 'tanjiro_kamado',
+    nameKey: 'persona_tanjiro_kamado',
+    titleKey: 'persona_tanjiro_kamado_title',
+    quoteKey: 'persona_tanjiro_kamado_quote',
+    category: PersonaCategory.anime,
+    imagePath: AppAssets.tanjiroKamado,
+    era: 2016, // Demon Slayer manga started
+    sourceTag: '[Demon Slayer]',
+  );
+
+  static const Persona ichigoKurosaki = Persona(
+    id: 'ichigo_kurosaki',
+    nameKey: 'persona_ichigo_kurosaki',
+    titleKey: 'persona_ichigo_kurosaki_title',
+    quoteKey: 'persona_ichigo_kurosaki_quote',
+    category: PersonaCategory.anime,
+    imagePath: AppAssets.ichigoKurosaki,
+    era: 2001, // Bleach manga started
+    sourceTag: '[Bleach]',
   );
 
   /// Get persona by ID

@@ -9,7 +9,7 @@ class AppLocalizationsKo extends AppLocalizations {
   AppLocalizationsKo([String locale = 'ko']) : super(locale);
 
   @override
-  String get appName => '위인의 목소리';
+  String get appName => '별들의 목소리';
 
   @override
   String get onboardingTitle => '역사 속 멘토를\n지금 만나보세요';
@@ -568,7 +568,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get navFavorites => '저장됨';
 
   @override
-  String get appTitle => '위인의 목소리';
+  String get appTitle => '별들의 목소리';
 
   @override
   String get homeWelcome => '오늘은 누구에게 지혜를 구하시겠어요?';
@@ -622,7 +622,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get settingsClearHistorySubtitle => '저장된 모든 대화 삭제';
 
   @override
-  String get settingsAboutApp => '위인의 목소리 소개';
+  String get settingsAboutApp => '별들의 목소리 소개';
 
   @override
   String get settingsAboutAppSubtitle => '버전 및 앱 정보';
@@ -651,7 +651,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get settingsAboutContent =>
-      '위인의 목소리는 AI 기반 대화를 통해 역사상 가장 위대한 철학자, 지도자, 사상가들의 지혜와 연결해 드립니다.';
+      '별들의 목소리는 AI 기반 대화를 통해 역사상 가장 위대한 철학자, 지도자, 사상가들의 지혜와 연결해 드립니다.';
 
   @override
   String get category_anime => '애니메이션';
@@ -664,4 +664,179 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => '난 해적왕이 될 거야!';
+
+  @override
+  String get persona_gon_freecss => '곤 프릭스';
+
+  @override
+  String get persona_gon_freecss_title => '젊은 헌터';
+
+  @override
+  String get persona_gon_freecss_quote => '난 아빠를 찾을 거야!';
+
+  @override
+  String get persona_natsu_dragneel => '나츠 드래그닐';
+
+  @override
+  String get persona_natsu_dragneel_title => '불의 드래곤 슬레이어';
+
+  @override
+  String get persona_natsu_dragneel_quote => '나 엄청 불탄다!';
+
+  @override
+  String get persona_izuku_midoriya => '미도리야 이즈쿠';
+
+  @override
+  String get persona_izuku_midoriya_title => '원포올의 계승자';
+
+  @override
+  String get persona_izuku_midoriya_quote => '구해야 해! 그게 히어로잖아!';
+
+  @override
+  String get persona_son_goku => '손오공';
+
+  @override
+  String get persona_son_goku_title => '전설의 사이어인 전사';
+
+  @override
+  String get persona_son_goku_quote => '신난다!';
+
+  @override
+  String get persona_edward_elric => '에드워드 엘릭';
+
+  @override
+  String get persona_edward_elric_title => '강철의 연금술사';
+
+  @override
+  String get persona_edward_elric_quote => '등가교환 - 그게 연금술의 기본이야!';
+
+  @override
+  String get persona_eren_yeager => '엘런 예거';
+
+  @override
+  String get persona_eren_yeager_title => '진격의 거인';
+
+  @override
+  String get persona_eren_yeager_quote => '계속 나아갈 거야... 적을 모두 쓰러뜨릴 때까지.';
+
+  @override
+  String get persona_naruto_uzumaki => '우즈마키 나루토';
+
+  @override
+  String get persona_naruto_uzumaki_title => '7대 호카게';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      '난 도망치지 않아. 내 말은 절대 번복하지 않아. 그게 내 닌자도야!';
+
+  @override
+  String get persona_tsunayoshi_sawada => '사와다 츠나요시';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => '본고레 10대 보스';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote => '죽기살기로 모두를 지킬 거야!';
+
+  @override
+  String get persona_tanjiro_kamado => '카마도 탄지로';
+
+  @override
+  String get persona_tanjiro_kamado_title => '귀살대 검사';
+
+  @override
+  String get persona_tanjiro_kamado_quote => '아무리 자신의 약함에 절망해도, 마음을 불태워라.';
+
+  @override
+  String get persona_ichigo_kurosaki => '쿠로사키 이치고';
+
+  @override
+  String get persona_ichigo_kurosaki_title => '대행 사신';
+
+  @override
+  String get persona_ichigo_kurosaki_quote =>
+      '이기고 싶어서 싸우는 게 아니야. 이겨야 하니까 싸우는 거야!';
+
+  @override
+  String get persona_martin_luther_king => '마틴 루터 킹 주니어';
+
+  @override
+  String get persona_martin_luther_king_title => '민권운동 지도자';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      '나에게는 꿈이 있습니다. 언젠가 나의 네 아이들이 피부색이 아닌 인격으로 평가받는 나라에서 살게 되는 꿈이.';
+
+  @override
+  String get persona_albert_einstein => '알버트 아인슈타인';
+
+  @override
+  String get persona_albert_einstein_title => '이론 물리학자';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      '상상력은 지식보다 중요하다. 지식은 한계가 있지만, 상상력은 세상을 감싼다.';
+
+  @override
+  String get persona_julius_caesar => '율리우스 카이사르';
+
+  @override
+  String get persona_julius_caesar_title => '로마의 독재관이자 정복자';
+
+  @override
+  String get persona_julius_caesar_quote => '왔노라, 보았노라, 이겼노라.';
+
+  @override
+  String get persona_david => '다윗 왕';
+
+  @override
+  String get persona_david_title => '시편 저자이자 이스라엘의 왕';
+
+  @override
+  String get persona_david_quote => '여호와는 나의 목자시니 내게 부족함이 없으리로다.';
+
+  @override
+  String get persona_aslan => '아슬란';
+
+  @override
+  String get persona_aslan_title => '나니아의 위대한 사자';
+
+  @override
+  String get persona_aslan_quote => '나는 길들여진 사자가 아니다.';
+
+  @override
+  String get persona_jean_valjean => '장발장';
+
+  @override
+  String get persona_jean_valjean_title => '레 미제라블의 구원받은 영혼';
+
+  @override
+  String get persona_jean_valjean_quote => '다른 사람을 사랑하는 것은 신의 얼굴을 보는 것이다.';
+
+  @override
+  String get persona_liu_bei => '유비';
+
+  @override
+  String get persona_liu_bei_title => '촉한의 건국 황제';
+
+  @override
+  String get persona_liu_bei_quote => '차라리 내가 천하를 저버릴지언정, 천하가 나를 저버리게 하지 않으리라.';
+
+  @override
+  String get persona_zhuge_liang => '제갈량';
+
+  @override
+  String get persona_zhuge_liang_title => '촉한의 승상';
+
+  @override
+  String get persona_zhuge_liang_quote => '고요하기는 산과 같고, 움직이면 바람과 번개 같으리.';
+
+  @override
+  String get persona_cao_cao => '조조';
+
+  @override
+  String get persona_cao_cao_title => '한나라의 승상이자 위나라의 건국자';
+
+  @override
+  String get persona_cao_cao_quote => '차라리 내가 천하를 저버릴지언정, 천하가 나를 저버리게 하지 않으리라.';
 }

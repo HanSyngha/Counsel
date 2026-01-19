@@ -1,7 +1,7 @@
 name: counsel
 description: "Counsel - Get wisdom from historical figures, philosophers, and literary characters"
 publish_to: 'none'
-version: 1.1.4+14
+version: 2.0.2+17
 
 environment:
   sdk: ^3.10.4

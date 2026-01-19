@@ -9,7 +9,7 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get appName => '智者之声';
+  String get appName => '星辰之声';
 
   @override
   String get onboardingTitle => '与历史上的导师\n即刻相遇';
@@ -564,7 +564,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get navFavorites => '已保存';
 
   @override
-  String get appTitle => '智者之声';
+  String get appTitle => '星辰之声';
 
   @override
   String get homeWelcome => '今天您想向谁寻求智慧？';
@@ -659,6 +659,178 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => '我要成为海贼王!';
+
+  @override
+  String get persona_gon_freecss => '小杰·富力士';
+
+  @override
+  String get persona_gon_freecss_title => '年轻猎人';
+
+  @override
+  String get persona_gon_freecss_quote => '我要找到我爸爸!';
+
+  @override
+  String get persona_natsu_dragneel => '纳兹·多拉格尼尔';
+
+  @override
+  String get persona_natsu_dragneel_title => '火之灭龙魔导士';
+
+  @override
+  String get persona_natsu_dragneel_quote => '我燃起来了!';
+
+  @override
+  String get persona_izuku_midoriya => '绿谷出久';
+
+  @override
+  String get persona_izuku_midoriya_title => 'One For All的继承者';
+
+  @override
+  String get persona_izuku_midoriya_quote => '我必须救他们！这才是英雄！';
+
+  @override
+  String get persona_son_goku => '孙悟空';
+
+  @override
+  String get persona_son_goku_title => '传奇赛亚人战士';
+
+  @override
+  String get persona_son_goku_quote => '这下有趣了！';
+
+  @override
+  String get persona_edward_elric => '爱德华·艾尔利克';
+
+  @override
+  String get persona_edward_elric_title => '钢之炼金术师';
+
+  @override
+  String get persona_edward_elric_quote => '等价交换——这是炼金术的基础！';
+
+  @override
+  String get persona_eren_yeager => '艾伦·耶格尔';
+
+  @override
+  String get persona_eren_yeager_title => '进击的巨人';
+
+  @override
+  String get persona_eren_yeager_quote => '我会继续前进...直到消灭所有敌人。';
+
+  @override
+  String get persona_naruto_uzumaki => '漩涡鸣人';
+
+  @override
+  String get persona_naruto_uzumaki_title => '第七代火影';
+
+  @override
+  String get persona_naruto_uzumaki_quote => '我不会逃跑。我绝不食言。这就是我的忍道！';
+
+  @override
+  String get persona_tsunayoshi_sawada => '�的纲吉';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => '彭格列第十代首领';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote => '用死气保护大家！';
+
+  @override
+  String get persona_tanjiro_kamado => '灶门炭治郎';
+
+  @override
+  String get persona_tanjiro_kamado_title => '鬼杀队剑士';
+
+  @override
+  String get persona_tanjiro_kamado_quote => '无论多么被自己的软弱击垮，也要让心燃烧起来。';
+
+  @override
+  String get persona_ichigo_kurosaki => '黑崎一护';
+
+  @override
+  String get persona_ichigo_kurosaki_title => '代理死神';
+
+  @override
+  String get persona_ichigo_kurosaki_quote => '我不是因为想赢才战斗。是因为必须赢才战斗！';
+
+  @override
+  String get persona_martin_luther_king => '马丁·路德·金';
+
+  @override
+  String get persona_martin_luther_king_title => '民权运动领袖';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      '我有一个梦想，有一天，我的四个孩子将生活在一个不是以肤色而是以品格来评判他们的国家。';
+
+  @override
+  String get persona_albert_einstein => '阿尔伯特·爱因斯坦';
+
+  @override
+  String get persona_albert_einstein_title => '理论物理学家';
+
+  @override
+  String get persona_albert_einstein_quote => '想象力比知识更重要。知识是有限的，而想象力拥抱整个世界。';
+
+  @override
+  String get persona_julius_caesar => '尤利乌斯·恺撒';
+
+  @override
+  String get persona_julius_caesar_title => '罗马独裁者与征服者';
+
+  @override
+  String get persona_julius_caesar_quote => '我来，我见，我征服。';
+
+  @override
+  String get persona_david => '大卫王';
+
+  @override
+  String get persona_david_title => '诗篇作者、以色列国王';
+
+  @override
+  String get persona_david_quote => '耶和华是我的牧者，我必不至缺乏。';
+
+  @override
+  String get persona_aslan => '阿斯兰';
+
+  @override
+  String get persona_aslan_title => '纳尼亚的伟大雄狮';
+
+  @override
+  String get persona_aslan_quote => '我不是一只被驯服的狮子。';
+
+  @override
+  String get persona_jean_valjean => '冉阿让';
+
+  @override
+  String get persona_jean_valjean_title => '悲惨世界中的救赎灵魂';
+
+  @override
+  String get persona_jean_valjean_quote => '爱一个人，就是看见上帝的面容。';
+
+  @override
+  String get persona_liu_bei => '刘备';
+
+  @override
+  String get persona_liu_bei_title => '蜀汉开国皇帝';
+
+  @override
+  String get persona_liu_bei_quote => '宁教我负天下人，休教天下人负我。';
+
+  @override
+  String get persona_zhuge_liang => '诸葛亮';
+
+  @override
+  String get persona_zhuge_liang_title => '蜀汉丞相';
+
+  @override
+  String get persona_zhuge_liang_quote => '静若山岳，动如风雷。';
+
+  @override
+  String get persona_cao_cao => '曹操';
+
+  @override
+  String get persona_cao_cao_title => '汉朝丞相、魏国奠基人';
+
+  @override
+  String get persona_cao_cao_quote => '宁教我负天下人，休教天下人负我。';
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
@@ -666,7 +838,7 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   AppLocalizationsZhTw() : super('zh_TW');
 
   @override
-  String get appName => 'Counsel';
+  String get appName => '星辰之聲';
 
   @override
   String get onboardingTitle => '遇見你的歷史導師';
@@ -1220,7 +1392,7 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get navFavorites => '已儲存';
 
   @override
-  String get appTitle => 'Counsel';
+  String get appTitle => '星辰之聲';
 
   @override
   String get homeWelcome => '今天你想向誰尋求智慧？';
@@ -1315,4 +1487,176 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get persona_luffy_quote => '我要成為海賊王!';
+
+  @override
+  String get persona_gon_freecss => '小傑·富力士';
+
+  @override
+  String get persona_gon_freecss_title => '年輕獵人';
+
+  @override
+  String get persona_gon_freecss_quote => '我要找到我爸爸!';
+
+  @override
+  String get persona_natsu_dragneel => '納茲·多拉乾尼爾';
+
+  @override
+  String get persona_natsu_dragneel_title => '火之滅龍魔導士';
+
+  @override
+  String get persona_natsu_dragneel_quote => '我燃起來了!';
+
+  @override
+  String get persona_izuku_midoriya => '綠谷出久';
+
+  @override
+  String get persona_izuku_midoriya_title => 'One For All的繼承者';
+
+  @override
+  String get persona_izuku_midoriya_quote => '我必須救他們！這才是英雄！';
+
+  @override
+  String get persona_son_goku => '孫悟空';
+
+  @override
+  String get persona_son_goku_title => '傳奇賽亞人戰士';
+
+  @override
+  String get persona_son_goku_quote => '這下有趣了！';
+
+  @override
+  String get persona_edward_elric => '愛德華·艾爾利克';
+
+  @override
+  String get persona_edward_elric_title => '鋼之鍊金術師';
+
+  @override
+  String get persona_edward_elric_quote => '等價交換——這是鍊金術的基礎！';
+
+  @override
+  String get persona_eren_yeager => '艾連·葉卡';
+
+  @override
+  String get persona_eren_yeager_title => '進擊的巨人';
+
+  @override
+  String get persona_eren_yeager_quote => '我會繼續前進...直到消滅所有敵人。';
+
+  @override
+  String get persona_naruto_uzumaki => '漩渦鳴人';
+
+  @override
+  String get persona_naruto_uzumaki_title => '第七代火影';
+
+  @override
+  String get persona_naruto_uzumaki_quote => '我不會逃跑。我絕不食言。這就是我的忍道！';
+
+  @override
+  String get persona_tsunayoshi_sawada => '澤田綱吉';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => '彭格列第十代首領';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote => '用死氣保護大家！';
+
+  @override
+  String get persona_tanjiro_kamado => '竈門炭治郎';
+
+  @override
+  String get persona_tanjiro_kamado_title => '鬼殺隊劍士';
+
+  @override
+  String get persona_tanjiro_kamado_quote => '無論多麼被自己的軟弱擊垮，也要讓心燃燒起來。';
+
+  @override
+  String get persona_ichigo_kurosaki => '黑崎一護';
+
+  @override
+  String get persona_ichigo_kurosaki_title => '代理死神';
+
+  @override
+  String get persona_ichigo_kurosaki_quote => '我不是因為想贏才戰鬥。是因為必須贏才戰鬥！';
+
+  @override
+  String get persona_martin_luther_king => '馬丁·路德·金恩';
+
+  @override
+  String get persona_martin_luther_king_title => '民權運動領袖';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      '我有一個夢想，有一天，我的四個孩子將生活在一個不是以膚色而是以品格來評判他們的國家。';
+
+  @override
+  String get persona_albert_einstein => '阿爾伯特·愛因斯坦';
+
+  @override
+  String get persona_albert_einstein_title => '理論物理學家';
+
+  @override
+  String get persona_albert_einstein_quote => '想像力比知識更重要。知識是有限的，而想像力擁抱整個世界。';
+
+  @override
+  String get persona_julius_caesar => '尤利烏斯·凱撒';
+
+  @override
+  String get persona_julius_caesar_title => '羅馬獨裁者與征服者';
+
+  @override
+  String get persona_julius_caesar_quote => '我來，我見，我征服。';
+
+  @override
+  String get persona_david => '大衛王';
+
+  @override
+  String get persona_david_title => '詩篇作者、以色列國王';
+
+  @override
+  String get persona_david_quote => '耶和華是我的牧者，我必不至缺乏。';
+
+  @override
+  String get persona_aslan => '阿斯蘭';
+
+  @override
+  String get persona_aslan_title => '納尼亞的偉大雄獅';
+
+  @override
+  String get persona_aslan_quote => '我不是一隻被馴服的獅子。';
+
+  @override
+  String get persona_jean_valjean => '乃阿讓';
+
+  @override
+  String get persona_jean_valjean_title => '悲慘世界中的救贖靈魂';
+
+  @override
+  String get persona_jean_valjean_quote => '愛一個人，就是看見上帝的面容。';
+
+  @override
+  String get persona_liu_bei => '劉備';
+
+  @override
+  String get persona_liu_bei_title => '蜀漢開國皇帝';
+
+  @override
+  String get persona_liu_bei_quote => '寧教我負天下人，休教天下人負我。';
+
+  @override
+  String get persona_zhuge_liang => '諸葛亮';
+
+  @override
+  String get persona_zhuge_liang_title => '蜀漢丞相';
+
+  @override
+  String get persona_zhuge_liang_quote => '靜若山嶽，動如風雷。';
+
+  @override
+  String get persona_cao_cao => '曹操';
+
+  @override
+  String get persona_cao_cao_title => '漢朝丞相、魏國奠基人';
+
+  @override
+  String get persona_cao_cao_quote => '寧教我負天下人，休教天下人負我。';
 }

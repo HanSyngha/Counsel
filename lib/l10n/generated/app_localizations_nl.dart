@@ -9,7 +9,7 @@ class AppLocalizationsNl extends AppLocalizations {
   AppLocalizationsNl([String locale = 'nl']) : super(locale);
 
   @override
-  String get appName => 'Counsel';
+  String get appName => 'Stem van de Sterren';
 
   @override
   String get onboardingTitle => 'Ontmoet Je Mentoren\nuit de Geschiedenis';
@@ -590,7 +590,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get navFavorites => 'Opgeslagen';
 
   @override
-  String get appTitle => 'Counsel';
+  String get appTitle => 'Stem van de Sterren';
 
   @override
   String get homeWelcome => 'Van wie zoek je vandaag wijsheid?';
@@ -689,4 +689,190 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => 'Ik word de Koning der Piraten!';
+
+  @override
+  String get persona_gon_freecss => 'Gon Freecss';
+
+  @override
+  String get persona_gon_freecss_title => 'Jonge Jager';
+
+  @override
+  String get persona_gon_freecss_quote => 'Ik ga mijn vader vinden!';
+
+  @override
+  String get persona_natsu_dragneel => 'Natsu Dragneel';
+
+  @override
+  String get persona_natsu_dragneel_title => 'Vuur Dragon Slayer';
+
+  @override
+  String get persona_natsu_dragneel_quote => 'Ik sta in vuur en vlam!';
+
+  @override
+  String get persona_izuku_midoriya => 'Izuku Midoriya';
+
+  @override
+  String get persona_izuku_midoriya_title => 'Erfgenaam van One For All';
+
+  @override
+  String get persona_izuku_midoriya_quote =>
+      'Ik moet ze redden! Dat is wat helden doen!';
+
+  @override
+  String get persona_son_goku => 'Son Goku';
+
+  @override
+  String get persona_son_goku_title => 'Legendarische Saiyan Strijder';
+
+  @override
+  String get persona_son_goku_quote => 'Dit wordt spannend!';
+
+  @override
+  String get persona_edward_elric => 'Edward Elric';
+
+  @override
+  String get persona_edward_elric_title => 'De Stalen Alchemist';
+
+  @override
+  String get persona_edward_elric_quote =>
+      'Gelijkwaardige Ruil - dat is de basis van alchemie!';
+
+  @override
+  String get persona_eren_yeager => 'Eren Yeager';
+
+  @override
+  String get persona_eren_yeager_title => 'De Aanvallende Titan';
+
+  @override
+  String get persona_eren_yeager_quote =>
+      'Ik zal blijven doorgaan... totdat ik al mijn vijanden heb vernietigd.';
+
+  @override
+  String get persona_naruto_uzumaki => 'Naruto Uzumaki';
+
+  @override
+  String get persona_naruto_uzumaki_title => 'Zevende Hokage';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      'Ik zal niet vluchten. Ik kom nooit terug op mijn woord. Dat is mijn ninja-weg!';
+
+  @override
+  String get persona_tsunayoshi_sawada => 'Tsunayoshi Sawada';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => 'Tiende Vongola Baas';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote =>
+      'Ik zal iedereen beschermen met mijn Dying Will!';
+
+  @override
+  String get persona_tanjiro_kamado => 'Tanjiro Kamado';
+
+  @override
+  String get persona_tanjiro_kamado_title => 'Demonenjager';
+
+  @override
+  String get persona_tanjiro_kamado_quote =>
+      'Hoe verwoest je ook bent door je eigen zwakheid, ontvlam je hart.';
+
+  @override
+  String get persona_ichigo_kurosaki => 'Ichigo Kurosaki';
+
+  @override
+  String get persona_ichigo_kurosaki_title => 'Plaatsvervangende Shinigami';
+
+  @override
+  String get persona_ichigo_kurosaki_quote =>
+      'Ik vecht niet omdat ik wil winnen. Ik vecht omdat ik moet winnen!';
+
+  @override
+  String get persona_martin_luther_king => 'Martin Luther King Jr.';
+
+  @override
+  String get persona_martin_luther_king_title => 'Burgerrechtenleider';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      'Ik heb een droom dat mijn vier kleine kinderen op een dag zullen leven in een land waar ze niet worden beoordeeld op hun huidskleur maar op hun karakter.';
+
+  @override
+  String get persona_albert_einstein => 'Albert Einstein';
+
+  @override
+  String get persona_albert_einstein_title => 'Theoretisch Fysicus';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      'Verbeelding is belangrijker dan kennis. Kennis is beperkt, verbeelding omvat de wereld.';
+
+  @override
+  String get persona_julius_caesar => 'Julius Caesar';
+
+  @override
+  String get persona_julius_caesar_title => 'Romeinse Dictator en Veroveraar';
+
+  @override
+  String get persona_julius_caesar_quote => 'Ik kwam, ik zag, ik overwon.';
+
+  @override
+  String get persona_david => 'Koning David';
+
+  @override
+  String get persona_david_title => 'Psalmist en Koning van Israël';
+
+  @override
+  String get persona_david_quote =>
+      'De HEER is mijn herder; het ontbreekt mij aan niets.';
+
+  @override
+  String get persona_aslan => 'Aslan';
+
+  @override
+  String get persona_aslan_title => 'De Grote Leeuw van Narnia';
+
+  @override
+  String get persona_aslan_quote => 'Ik ben geen tamme leeuw.';
+
+  @override
+  String get persona_jean_valjean => 'Jean Valjean';
+
+  @override
+  String get persona_jean_valjean_title => 'Verloste ziel uit Les Misérables';
+
+  @override
+  String get persona_jean_valjean_quote =>
+      'Een ander mens liefhebben is het gelaat van God zien.';
+
+  @override
+  String get persona_liu_bei => 'Liu Bei';
+
+  @override
+  String get persona_liu_bei_title => 'Stichtingkeizer van Shu Han';
+
+  @override
+  String get persona_liu_bei_quote =>
+      'Liever verraad ik de wereld dan dat de wereld mij verraadt.';
+
+  @override
+  String get persona_zhuge_liang => 'Zhuge Liang';
+
+  @override
+  String get persona_zhuge_liang_title => 'Premier van Shu Han';
+
+  @override
+  String get persona_zhuge_liang_quote =>
+      'Stil als de bergen, bewegend als wind en bliksem.';
+
+  @override
+  String get persona_cao_cao => 'Cao Cao';
+
+  @override
+  String get persona_cao_cao_title =>
+      'Kanselier van Han en Stichter van Cao Wei';
+
+  @override
+  String get persona_cao_cao_quote =>
+      'Liever verraad ik de wereld dan dat de wereld mij verraadt.';
 }

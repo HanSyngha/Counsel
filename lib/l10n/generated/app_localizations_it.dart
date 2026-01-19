@@ -9,7 +9,7 @@ class AppLocalizationsIt extends AppLocalizations {
   AppLocalizationsIt([String locale = 'it']) : super(locale);
 
   @override
-  String get appName => 'Counsel';
+  String get appName => 'Voce delle Stelle';
 
   @override
   String get onboardingTitle => 'Incontra i Tuoi Mentori\ndella Storia';
@@ -592,7 +592,7 @@ class AppLocalizationsIt extends AppLocalizations {
   String get navFavorites => 'Salvati';
 
   @override
-  String get appTitle => 'Counsel';
+  String get appTitle => 'Voce delle Stelle';
 
   @override
   String get homeWelcome => 'Da chi cerchi saggezza oggi?';
@@ -692,4 +692,190 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => 'Diventero il Re dei Pirati!';
+
+  @override
+  String get persona_gon_freecss => 'Gon Freecss';
+
+  @override
+  String get persona_gon_freecss_title => 'Giovane Hunter';
+
+  @override
+  String get persona_gon_freecss_quote => 'Trovero mio padre!';
+
+  @override
+  String get persona_natsu_dragneel => 'Natsu Dragneel';
+
+  @override
+  String get persona_natsu_dragneel_title => 'Dragon Slayer del Fuoco';
+
+  @override
+  String get persona_natsu_dragneel_quote => 'Sono tutto fuoco!';
+
+  @override
+  String get persona_izuku_midoriya => 'Izuku Midoriya';
+
+  @override
+  String get persona_izuku_midoriya_title => 'Erede di One For All';
+
+  @override
+  String get persona_izuku_midoriya_quote =>
+      'Devo salvarli! Questo e essere un eroe!';
+
+  @override
+  String get persona_son_goku => 'Son Goku';
+
+  @override
+  String get persona_son_goku_title => 'Leggendario Guerriero Saiyan';
+
+  @override
+  String get persona_son_goku_quote => 'Che bello!';
+
+  @override
+  String get persona_edward_elric => 'Edward Elric';
+
+  @override
+  String get persona_edward_elric_title => 'L\'Alchimista d\'Acciaio';
+
+  @override
+  String get persona_edward_elric_quote =>
+      'Scambio Equivalente - questa è la base dell\'alchimia!';
+
+  @override
+  String get persona_eren_yeager => 'Eren Yeager';
+
+  @override
+  String get persona_eren_yeager_title => 'Il Gigante d\'Attacco';
+
+  @override
+  String get persona_eren_yeager_quote =>
+      'Continuerò ad andare avanti... finché non avrò distrutto tutti i miei nemici.';
+
+  @override
+  String get persona_naruto_uzumaki => 'Naruto Uzumaki';
+
+  @override
+  String get persona_naruto_uzumaki_title => 'Settimo Hokage';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      'Non scapperò. Non ritiro mai la mia parola. Questa è la mia via ninja!';
+
+  @override
+  String get persona_tsunayoshi_sawada => 'Tsunayoshi Sawada';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => 'Decimo Boss Vongola';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote =>
+      'Proteggerò tutti con la mia Dying Will!';
+
+  @override
+  String get persona_tanjiro_kamado => 'Tanjiro Kamado';
+
+  @override
+  String get persona_tanjiro_kamado_title => 'Cacciatore di Demoni';
+
+  @override
+  String get persona_tanjiro_kamado_quote =>
+      'Non importa quanto sei devastato dalla tua debolezza, incendia il tuo cuore.';
+
+  @override
+  String get persona_ichigo_kurosaki => 'Ichigo Kurosaki';
+
+  @override
+  String get persona_ichigo_kurosaki_title => 'Shinigami Sostituto';
+
+  @override
+  String get persona_ichigo_kurosaki_quote =>
+      'Non combatto perché voglio vincere. Combatto perché devo vincere!';
+
+  @override
+  String get persona_martin_luther_king => 'Martin Luther King Jr.';
+
+  @override
+  String get persona_martin_luther_king_title => 'Leader dei Diritti Civili';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      'Ho un sogno che i miei quattro figli piccoli vivranno un giorno in una nazione dove non saranno giudicati dal colore della loro pelle ma dal contenuto del loro carattere.';
+
+  @override
+  String get persona_albert_einstein => 'Albert Einstein';
+
+  @override
+  String get persona_albert_einstein_title => 'Fisico Teorico';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      'L\'immaginazione è più importante della conoscenza. La conoscenza è limitata, l\'immaginazione abbraccia il mondo.';
+
+  @override
+  String get persona_julius_caesar => 'Giulio Cesare';
+
+  @override
+  String get persona_julius_caesar_title => 'Dittatore e Conquistatore Romano';
+
+  @override
+  String get persona_julius_caesar_quote => 'Venni, vidi, vinsi.';
+
+  @override
+  String get persona_david => 'Re Davide';
+
+  @override
+  String get persona_david_title => 'Salmista e Re d\'Israele';
+
+  @override
+  String get persona_david_quote =>
+      'Il Signore è il mio pastore; non manco di nulla.';
+
+  @override
+  String get persona_aslan => 'Aslan';
+
+  @override
+  String get persona_aslan_title => 'Il Grande Leone di Narnia';
+
+  @override
+  String get persona_aslan_quote => 'Non sono un leone addomesticato.';
+
+  @override
+  String get persona_jean_valjean => 'Jean Valjean';
+
+  @override
+  String get persona_jean_valjean_title => 'Anima redenta de I Miserabili';
+
+  @override
+  String get persona_jean_valjean_quote =>
+      'Amare un\'altra persona è vedere il volto di Dio.';
+
+  @override
+  String get persona_liu_bei => 'Liu Bei';
+
+  @override
+  String get persona_liu_bei_title => 'Imperatore Fondatore di Shu Han';
+
+  @override
+  String get persona_liu_bei_quote =>
+      'Preferisco tradire il mondo piuttosto che lasciare che il mondo tradisca me.';
+
+  @override
+  String get persona_zhuge_liang => 'Zhuge Liang';
+
+  @override
+  String get persona_zhuge_liang_title => 'Primo Ministro di Shu Han';
+
+  @override
+  String get persona_zhuge_liang_quote =>
+      'Fermo come le montagne, muovendosi come il vento e il fulmine.';
+
+  @override
+  String get persona_cao_cao => 'Cao Cao';
+
+  @override
+  String get persona_cao_cao_title =>
+      'Cancelliere di Han e Fondatore di Cao Wei';
+
+  @override
+  String get persona_cao_cao_quote =>
+      'Preferisco tradire il mondo piuttosto che lasciare che il mondo tradisca me.';
 }

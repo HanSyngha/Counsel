@@ -9,7 +9,7 @@ class AppLocalizationsAr extends AppLocalizations {
   AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
-  String get appName => 'صوت الحكماء';
+  String get appName => 'صوت النجوم';
 
   @override
   String get onboardingTitle => 'التقِ بمرشدك\nمن عمق التاريخ';
@@ -579,7 +579,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get navFavorites => 'المحفوظات';
 
   @override
-  String get appTitle => 'صوت الحكماء';
+  String get appTitle => 'صوت النجوم';
 
   @override
   String get homeWelcome => 'ممن تطلب الحكمة اليوم؟';
@@ -675,4 +675,187 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => 'سأصبح ملك القراصنة!';
+
+  @override
+  String get persona_gon_freecss => 'غون فريكس';
+
+  @override
+  String get persona_gon_freecss_title => 'الصياد الشاب';
+
+  @override
+  String get persona_gon_freecss_quote => 'سأجد أبي!';
+
+  @override
+  String get persona_natsu_dragneel => 'ناتسو دراغنيل';
+
+  @override
+  String get persona_natsu_dragneel_title => 'قاتل تنين النار';
+
+  @override
+  String get persona_natsu_dragneel_quote => 'أنا محتدم!';
+
+  @override
+  String get persona_izuku_midoriya => 'إيزوكو ميدوريا';
+
+  @override
+  String get persona_izuku_midoriya_title => 'وريث One For All';
+
+  @override
+  String get persona_izuku_midoriya_quote =>
+      'يجب أن أنقذهم! هذا ما يفعله الأبطال!';
+
+  @override
+  String get persona_son_goku => 'سون غوكو';
+
+  @override
+  String get persona_son_goku_title => 'محارب السايان الأسطوري';
+
+  @override
+  String get persona_son_goku_quote => 'هذا ممتع!';
+
+  @override
+  String get persona_edward_elric => 'إدوارد إلريك';
+
+  @override
+  String get persona_edward_elric_title => 'خيميائي الفولاذ';
+
+  @override
+  String get persona_edward_elric_quote =>
+      'التبادل المتكافئ - هذا أساس الخيمياء!';
+
+  @override
+  String get persona_eren_yeager => 'إيرين ييغر';
+
+  @override
+  String get persona_eren_yeager_title => 'عملاق الهجوم';
+
+  @override
+  String get persona_eren_yeager_quote =>
+      'سأستمر في التقدم... حتى أدمر جميع أعدائي.';
+
+  @override
+  String get persona_naruto_uzumaki => 'ناروتو أوزوماكي';
+
+  @override
+  String get persona_naruto_uzumaki_title => 'الهوكاجي السابع';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      'لن أهرب أبداً. لن أتراجع عن كلمتي أبداً. هذا هو طريق النينجا الخاص بي!';
+
+  @override
+  String get persona_tsunayoshi_sawada => 'تسونايوشي ساوادا';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => 'رئيس فونغولا العاشر';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote => 'سأحمي الجميع بإرادتي المميتة!';
+
+  @override
+  String get persona_tanjiro_kamado => 'تانجيرو كامادو';
+
+  @override
+  String get persona_tanjiro_kamado_title => 'قاتل الشياطين';
+
+  @override
+  String get persona_tanjiro_kamado_quote =>
+      'مهما انهزمت بسبب ضعفك، اشعل قلبك.';
+
+  @override
+  String get persona_ichigo_kurosaki => 'إيتشيغو كوروساكي';
+
+  @override
+  String get persona_ichigo_kurosaki_title => 'شينيغامي بديل';
+
+  @override
+  String get persona_ichigo_kurosaki_quote =>
+      'أنا لا أقاتل لأنني أريد الفوز. أقاتل لأنني يجب أن أفوز!';
+
+  @override
+  String get persona_martin_luther_king => 'مارتن لوثر كينغ جونيور';
+
+  @override
+  String get persona_martin_luther_king_title => 'قائد حركة الحقوق المدنية';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      'لدي حلم أن أطفالي الأربعة الصغار سيعيشون يوماً ما في أمة لا يُحكم عليهم فيها بلون بشرتهم بل بمحتوى شخصياتهم.';
+
+  @override
+  String get persona_albert_einstein => 'ألبرت أينشتاين';
+
+  @override
+  String get persona_albert_einstein_title => 'فيزيائي نظري';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      'الخيال أهم من المعرفة. المعرفة محدودة، لكن الخيال يحيط بالعالم.';
+
+  @override
+  String get persona_julius_caesar => 'يوليوس قيصر';
+
+  @override
+  String get persona_julius_caesar_title => 'ديكتاتور روما والفاتح';
+
+  @override
+  String get persona_julius_caesar_quote => 'جئت، رأيت، انتصرت.';
+
+  @override
+  String get persona_david => 'الملك داود';
+
+  @override
+  String get persona_david_title => 'مرنم المزامير وملك إسرائيل';
+
+  @override
+  String get persona_david_quote => 'الرب راعيّ فلا يعوزني شيء.';
+
+  @override
+  String get persona_aslan => 'أسلان';
+
+  @override
+  String get persona_aslan_title => 'الأسد العظيم من نارنيا';
+
+  @override
+  String get persona_aslan_quote => 'لست أسداً مروّضاً.';
+
+  @override
+  String get persona_jean_valjean => 'جان فالجان';
+
+  @override
+  String get persona_jean_valjean_title => 'الروح المُخلَّصة من البؤساء';
+
+  @override
+  String get persona_jean_valjean_quote =>
+      'أن تحب شخصاً آخر هو أن ترى وجه الله.';
+
+  @override
+  String get persona_liu_bei => 'ليو باي';
+
+  @override
+  String get persona_liu_bei_title => 'الإمبراطور المؤسس لشو هان';
+
+  @override
+  String get persona_liu_bei_quote =>
+      'أفضّل أن أخون العالم على أن يخونني العالم.';
+
+  @override
+  String get persona_zhuge_liang => 'تشوقه ليانغ';
+
+  @override
+  String get persona_zhuge_liang_title => 'رئيس وزراء شو هان';
+
+  @override
+  String get persona_zhuge_liang_quote =>
+      'كن ساكناً كالجبال، ومتحركاً كالريح والبرق.';
+
+  @override
+  String get persona_cao_cao => 'تساو تساو';
+
+  @override
+  String get persona_cao_cao_title => 'مستشار هان ومؤسس مملكة وي';
+
+  @override
+  String get persona_cao_cao_quote =>
+      'أفضّل أن أخون العالم على أن يخونني العالم.';
 }

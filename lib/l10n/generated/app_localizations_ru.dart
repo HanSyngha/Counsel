@@ -9,7 +9,7 @@ class AppLocalizationsRu extends AppLocalizations {
   AppLocalizationsRu([String locale = 'ru']) : super(locale);
 
   @override
-  String get appName => 'Голос Мудрецов';
+  String get appName => 'Голос Звёзд';
 
   @override
   String get onboardingTitle => 'Встретьте наставников\nиз глубины веков';
@@ -591,7 +591,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get navFavorites => 'Сохранённое';
 
   @override
-  String get appTitle => 'Голос Мудрецов';
+  String get appTitle => 'Голос Звёзд';
 
   @override
   String get homeWelcome => 'Чьей мудрости вы ищете сегодня?';
@@ -689,4 +689,190 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => 'Я стану Королём Пиратов!';
+
+  @override
+  String get persona_gon_freecss => 'Гон Фрикс';
+
+  @override
+  String get persona_gon_freecss_title => 'Молодой Охотник';
+
+  @override
+  String get persona_gon_freecss_quote => 'Я найду своего папу!';
+
+  @override
+  String get persona_natsu_dragneel => 'Нацу Драгнил';
+
+  @override
+  String get persona_natsu_dragneel_title => 'Убийца Драконов Огня';
+
+  @override
+  String get persona_natsu_dragneel_quote => 'Я весь горю!';
+
+  @override
+  String get persona_izuku_midoriya => 'Изуку Мидория';
+
+  @override
+  String get persona_izuku_midoriya_title => 'Наследник One For All';
+
+  @override
+  String get persona_izuku_midoriya_quote =>
+      'Я должен их спасти! Вот что значит быть героем!';
+
+  @override
+  String get persona_son_goku => 'Сон Гоку';
+
+  @override
+  String get persona_son_goku_title => 'Легендарный воин Сайян';
+
+  @override
+  String get persona_son_goku_quote => 'Это становится интересным!';
+
+  @override
+  String get persona_edward_elric => 'Эдвард Элрик';
+
+  @override
+  String get persona_edward_elric_title => 'Стальной Алхимик';
+
+  @override
+  String get persona_edward_elric_quote =>
+      'Равноценный Обмен - это основа алхимии!';
+
+  @override
+  String get persona_eren_yeager => 'Эрен Йегер';
+
+  @override
+  String get persona_eren_yeager_title => 'Атакующий Титан';
+
+  @override
+  String get persona_eren_yeager_quote =>
+      'Я буду двигаться вперёд... пока не уничтожу всех своих врагов.';
+
+  @override
+  String get persona_naruto_uzumaki => 'Наруто Узумаки';
+
+  @override
+  String get persona_naruto_uzumaki_title => 'Седьмой Хокаге';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      'Я не убегу. Я никогда не отступаю от своих слов. Это мой путь ниндзя!';
+
+  @override
+  String get persona_tsunayoshi_sawada => 'Цунаёши Савада';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => 'Десятый Босс Вонголы';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote =>
+      'Я защищу всех своей Предсмертной Волей!';
+
+  @override
+  String get persona_tanjiro_kamado => 'Тандзиро Камадо';
+
+  @override
+  String get persona_tanjiro_kamado_title => 'Истребитель Демонов';
+
+  @override
+  String get persona_tanjiro_kamado_quote =>
+      'Как бы ты ни был сломлен собственной слабостью, зажги своё сердце.';
+
+  @override
+  String get persona_ichigo_kurosaki => 'Ичиго Куросаки';
+
+  @override
+  String get persona_ichigo_kurosaki_title => 'Заместитель Синигами';
+
+  @override
+  String get persona_ichigo_kurosaki_quote =>
+      'Я сражаюсь не потому что хочу победить. Я сражаюсь потому что должен победить!';
+
+  @override
+  String get persona_martin_luther_king => 'Мартин Лютер Кинг-младший';
+
+  @override
+  String get persona_martin_luther_king_title =>
+      'Лидер движения за гражданские права';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      'У меня есть мечта, что мои четверо маленьких детей однажды будут жить в стране, где о них будут судить не по цвету кожи, а по их характеру.';
+
+  @override
+  String get persona_albert_einstein => 'Альберт Эйнштейн';
+
+  @override
+  String get persona_albert_einstein_title => 'Физик-теоретик';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      'Воображение важнее знания. Знание ограничено, воображение охватывает мир.';
+
+  @override
+  String get persona_julius_caesar => 'Юлий Цезарь';
+
+  @override
+  String get persona_julius_caesar_title => 'Римский диктатор и завоеватель';
+
+  @override
+  String get persona_julius_caesar_quote => 'Пришёл, увидел, победил.';
+
+  @override
+  String get persona_david => 'Царь Давид';
+
+  @override
+  String get persona_david_title => 'Автор псалмов и царь Израиля';
+
+  @override
+  String get persona_david_quote =>
+      'Господь — Пастырь мой; я ни в чём не буду нуждаться.';
+
+  @override
+  String get persona_aslan => 'Аслан';
+
+  @override
+  String get persona_aslan_title => 'Великий Лев Нарнии';
+
+  @override
+  String get persona_aslan_quote => 'Я не ручной лев.';
+
+  @override
+  String get persona_jean_valjean => 'Жан Вальжан';
+
+  @override
+  String get persona_jean_valjean_title => 'Искупленная душа из Отверженных';
+
+  @override
+  String get persona_jean_valjean_quote =>
+      'Любить другого человека — значит видеть лицо Бога.';
+
+  @override
+  String get persona_liu_bei => 'Лю Бэй';
+
+  @override
+  String get persona_liu_bei_title => 'Основатель империи Шу Хань';
+
+  @override
+  String get persona_liu_bei_quote =>
+      'Лучше я предам весь мир, чем позволю миру предать меня.';
+
+  @override
+  String get persona_zhuge_liang => 'Чжугэ Лян';
+
+  @override
+  String get persona_zhuge_liang_title => 'Первый министр Шу Хань';
+
+  @override
+  String get persona_zhuge_liang_quote =>
+      'Неподвижен как горы, стремителен как ветер и молния.';
+
+  @override
+  String get persona_cao_cao => 'Цао Цао';
+
+  @override
+  String get persona_cao_cao_title => 'Канцлер Хань и Основатель Цао Вэй';
+
+  @override
+  String get persona_cao_cao_quote =>
+      'Лучше я предам весь мир, чем позволю миру предать меня.';
 }

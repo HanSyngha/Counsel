@@ -334,17 +334,95 @@ class PersonaDetailScreen extends ConsumerWidget {
   }
 
   String _getPersonaName(Persona persona, AppLocalizations l10n) {
-    final formattedKey = persona.nameKey.replaceAll('persona_', '').replaceAll('_', ' ');
-    return formattedKey.split(' ').map((word) =>
-      word.isNotEmpty ? '${word[0].toUpperCase()}${word.substring(1)}' : ''
-    ).join(' ');
+    switch (persona.id) {
+      case 'socrates': return l10n.personaSocrates;
+      case 'plato': return l10n.personaPlato;
+      case 'aristotle': return l10n.personaAristotle;
+      case 'seneca': return l10n.personaSeneca;
+      case 'confucius': return l10n.personaConfucius;
+      case 'laozi': return l10n.personaLaozi;
+      case 'jesus': return l10n.personaJesus;
+      case 'buddha': return l10n.personaBuddha;
+      case 'muhammad': return l10n.personaMuhammad;
+      case 'lincoln': return l10n.personaLincoln;
+      case 'napoleon': return l10n.personaNapoleon;
+      case 'steve_jobs': return l10n.personaSteveJobs;
+      case 'sherlock_holmes': return l10n.personaSherlockHolmes;
+      case 'dumbledore': return l10n.personaDumbledore;
+      case 'gandhi': return l10n.personaGandhi;
+      case 'rumi': return l10n.personaRumi;
+      case 'krishna': return l10n.personaKrishna;
+      case 'brahma': return l10n.personaBrahma;
+      case 'tolstoy': return l10n.personaTolstoy;
+      case 'vishnu': return l10n.personaVishnu;
+      case 'luffy': return l10n.persona_luffy;
+      case 'gon_freecss': return l10n.persona_gon_freecss;
+      case 'natsu_dragneel': return l10n.persona_natsu_dragneel;
+      case 'izuku_midoriya': return l10n.persona_izuku_midoriya;
+      case 'son_goku': return l10n.persona_son_goku;
+      case 'edward_elric': return l10n.persona_edward_elric;
+      case 'eren_yeager': return l10n.persona_eren_yeager;
+      case 'naruto_uzumaki': return l10n.persona_naruto_uzumaki;
+      case 'tsunayoshi_sawada': return l10n.persona_tsunayoshi_sawada;
+      case 'tanjiro_kamado': return l10n.persona_tanjiro_kamado;
+      case 'ichigo_kurosaki': return l10n.persona_ichigo_kurosaki;
+      case 'martin_luther_king': return l10n.persona_martin_luther_king;
+      case 'albert_einstein': return l10n.persona_albert_einstein;
+      case 'julius_caesar': return l10n.persona_julius_caesar;
+      case 'david': return l10n.persona_david;
+      case 'aslan': return l10n.persona_aslan;
+      case 'jean_valjean': return l10n.persona_jean_valjean;
+      case 'liu_bei': return l10n.persona_liu_bei;
+      case 'zhuge_liang': return l10n.persona_zhuge_liang;
+      case 'cao_cao': return l10n.persona_cao_cao;
+      default: return persona.id;
+    }
   }
 
   String _getPersonaTitle(Persona persona, AppLocalizations l10n) {
-    final formattedKey = persona.titleKey.replaceAll('persona_', '').replaceAll('_title', '');
-    return formattedKey.split('_').map((word) =>
-      word.isNotEmpty ? '${word[0].toUpperCase()}${word.substring(1)}' : ''
-    ).join(' ');
+    switch (persona.id) {
+      case 'socrates': return l10n.personaSocratesTitle;
+      case 'plato': return l10n.personaPlatoTitle;
+      case 'aristotle': return l10n.personaAristotleTitle;
+      case 'seneca': return l10n.personaSenecaTitle;
+      case 'confucius': return l10n.personaConfuciusTitle;
+      case 'laozi': return l10n.personaLaoziTitle;
+      case 'jesus': return l10n.personaJesusTitle;
+      case 'buddha': return l10n.personaBuddhaTitle;
+      case 'muhammad': return l10n.personaMuhammadTitle;
+      case 'lincoln': return l10n.personaLincolnTitle;
+      case 'napoleon': return l10n.personaNapoleonTitle;
+      case 'steve_jobs': return l10n.personaSteveJobsTitle;
+      case 'sherlock_holmes': return l10n.personaSherlockHolmesTitle;
+      case 'dumbledore': return l10n.personaDumbledoreTitle;
+      case 'gandhi': return l10n.personaGandhiTitle;
+      case 'rumi': return l10n.personaRumiTitle;
+      case 'krishna': return l10n.personaKrishnaTitle;
+      case 'brahma': return l10n.personaBrahmaTitle;
+      case 'tolstoy': return l10n.personaTolstoyTitle;
+      case 'vishnu': return l10n.personaVishnuTitle;
+      case 'luffy': return l10n.persona_luffy_title;
+      case 'gon_freecss': return l10n.persona_gon_freecss_title;
+      case 'natsu_dragneel': return l10n.persona_natsu_dragneel_title;
+      case 'izuku_midoriya': return l10n.persona_izuku_midoriya_title;
+      case 'son_goku': return l10n.persona_son_goku_title;
+      case 'edward_elric': return l10n.persona_edward_elric_title;
+      case 'eren_yeager': return l10n.persona_eren_yeager_title;
+      case 'naruto_uzumaki': return l10n.persona_naruto_uzumaki_title;
+      case 'tsunayoshi_sawada': return l10n.persona_tsunayoshi_sawada_title;
+      case 'tanjiro_kamado': return l10n.persona_tanjiro_kamado_title;
+      case 'ichigo_kurosaki': return l10n.persona_ichigo_kurosaki_title;
+      case 'martin_luther_king': return l10n.persona_martin_luther_king_title;
+      case 'albert_einstein': return l10n.persona_albert_einstein_title;
+      case 'julius_caesar': return l10n.persona_julius_caesar_title;
+      case 'david': return l10n.persona_david_title;
+      case 'aslan': return l10n.persona_aslan_title;
+      case 'jean_valjean': return l10n.persona_jean_valjean_title;
+      case 'liu_bei': return l10n.persona_liu_bei_title;
+      case 'zhuge_liang': return l10n.persona_zhuge_liang_title;
+      case 'cao_cao': return l10n.persona_cao_cao_title;
+      default: return '';
+    }
   }
 
   String _getPersonaQuote(Persona persona, AppLocalizations l10n) {

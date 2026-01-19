@@ -9,7 +9,7 @@ class AppLocalizationsTh extends AppLocalizations {
   AppLocalizationsTh([String locale = 'th']) : super(locale);
 
   @override
-  String get appName => 'เสียงแห่งปราชญ์';
+  String get appName => 'เสียงดวงดาว';
 
   @override
   String get onboardingTitle => 'พบกับที่ปรึกษา\nจากประวัติศาสตร์';
@@ -583,7 +583,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get navFavorites => 'บันทึกแล้ว';
 
   @override
-  String get appTitle => 'เสียงแห่งปราชญ์';
+  String get appTitle => 'เสียงดวงดาว';
 
   @override
   String get homeWelcome => 'วันนี้คุณต้องการปัญญาจากใคร?';
@@ -681,4 +681,190 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => 'ฉันจะเป็นราชาโจรสลัด!';
+
+  @override
+  String get persona_gon_freecss => 'กอน ฟรีคส์';
+
+  @override
+  String get persona_gon_freecss_title => 'นักล่าหนุ่ม';
+
+  @override
+  String get persona_gon_freecss_quote => 'ฉันจะตามหาพ่อให้เจอ!';
+
+  @override
+  String get persona_natsu_dragneel => 'นัตสึ ดราก์นีล';
+
+  @override
+  String get persona_natsu_dragneel_title => 'นักเวทมนต์สังหารมังกรไฟ';
+
+  @override
+  String get persona_natsu_dragneel_quote => 'ฉันลุกเป็นไฟแล้ว!';
+
+  @override
+  String get persona_izuku_midoriya => 'อิซุกุ มิโดริยะ';
+
+  @override
+  String get persona_izuku_midoriya_title => 'ผู้สืบทอด One For All';
+
+  @override
+  String get persona_izuku_midoriya_quote =>
+      'ต้องช่วยพวกเขา! นั่นคือสิ่งที่ฮีโร่ทำ!';
+
+  @override
+  String get persona_son_goku => 'ซุน โกคู';
+
+  @override
+  String get persona_son_goku_title => 'นักรบชาวไซย่าในตำนาน';
+
+  @override
+  String get persona_son_goku_quote => 'สนุกแล้ว!';
+
+  @override
+  String get persona_edward_elric => 'เอ็ดเวิร์ด เอลริก';
+
+  @override
+  String get persona_edward_elric_title => 'นักเล่นแร่แปรธาตุเหล็กกล้า';
+
+  @override
+  String get persona_edward_elric_quote =>
+      'การแลกเปลี่ยนเท่าเทียม - นั่นคือพื้นฐานของการเล่นแร่แปรธาตุ!';
+
+  @override
+  String get persona_eren_yeager => 'เอเรน เยเกอร์';
+
+  @override
+  String get persona_eren_yeager_title => 'ไททันผู้โจมตี';
+
+  @override
+  String get persona_eren_yeager_quote =>
+      'ฉันจะเดินหน้าต่อไป...จนกว่าจะทำลายศัตรูทั้งหมด';
+
+  @override
+  String get persona_naruto_uzumaki => 'นารูโตะ อุซึมากิ';
+
+  @override
+  String get persona_naruto_uzumaki_title => 'โฮคาเงะคนที่เจ็ด';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      'ฉันจะไม่หนี ฉันไม่มีวันกลับคำ นั่นคือวิถีนินจาของฉัน!';
+
+  @override
+  String get persona_tsunayoshi_sawada => 'ซาวาดะ สึนาโยชิ';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => 'หัวหน้าวองโกเล่รุ่นที่ 10';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote =>
+      'ฉันจะปกป้องทุกคนด้วยความมุ่งมั่นถึงตาย!';
+
+  @override
+  String get persona_tanjiro_kamado => 'ทันจิโร่ คามาโดะ';
+
+  @override
+  String get persona_tanjiro_kamado_title => 'นักล่าอสูร';
+
+  @override
+  String get persona_tanjiro_kamado_quote =>
+      'ไม่ว่าจะถูกความอ่อนแอของตัวเองทำลายแค่ไหน ก็ต้องจุดไฟให้หัวใจลุกโชน';
+
+  @override
+  String get persona_ichigo_kurosaki => 'อิจิโกะ คุโรซากิ';
+
+  @override
+  String get persona_ichigo_kurosaki_title => 'ชินิงามิตัวแทน';
+
+  @override
+  String get persona_ichigo_kurosaki_quote =>
+      'ฉันไม่ได้ต่อสู้เพราะอยากชนะ ฉันต่อสู้เพราะต้องชนะ!';
+
+  @override
+  String get persona_martin_luther_king => 'มาร์ติน ลูเธอร์ คิง จูเนียร์';
+
+  @override
+  String get persona_martin_luther_king_title => 'ผู้นำขบวนการสิทธิพลเมือง';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      'ฉันมีความฝัน ว่าสักวันหนึ่งลูกทั้งสี่ของฉันจะได้อยู่ในประเทศที่พวกเขาจะไม่ถูกตัดสินด้วยสีผิว แต่ด้วยคุณสมบัติของจิตใจ';
+
+  @override
+  String get persona_albert_einstein => 'อัลเบิร์ต ไอน์สไตน์';
+
+  @override
+  String get persona_albert_einstein_title => 'นักฟิสิกส์ทฤษฎี';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      'จินตนาการสำคัญกว่าความรู้ ความรู้มีขีดจำกัด แต่จินตนาการโอบล้อมโลกทั้งใบ';
+
+  @override
+  String get persona_julius_caesar => 'จูเลียส ซีซาร์';
+
+  @override
+  String get persona_julius_caesar_title => 'ผู้เผด็จการและผู้พิชิตโรมัน';
+
+  @override
+  String get persona_julius_caesar_quote => 'ข้ามา ข้าเห็น ข้าชนะ';
+
+  @override
+  String get persona_david => 'กษัตริย์ดาวิด';
+
+  @override
+  String get persona_david_title => 'ผู้ประพันธ์สดุดีและกษัตริย์แห่งอิสราเอล';
+
+  @override
+  String get persona_david_quote =>
+      'พระเจ้าทรงเป็นผู้เลี้ยงของข้าพเจ้า ข้าพเจ้าจะไม่ขัดสน';
+
+  @override
+  String get persona_aslan => 'อัสลาน';
+
+  @override
+  String get persona_aslan_title => 'ราชสิงโตผู้ยิ่งใหญ่แห่งนาร์เนีย';
+
+  @override
+  String get persona_aslan_quote => 'ข้าไม่ใช่สิงโตที่ถูกเลี้ยง';
+
+  @override
+  String get persona_jean_valjean => 'ฌอง วัลฌอง';
+
+  @override
+  String get persona_jean_valjean_title =>
+      'วิญญาณที่ได้รับการไถ่จากเหยื่ออธรรม';
+
+  @override
+  String get persona_jean_valjean_quote =>
+      'การรักผู้อื่นคือการได้เห็นพระพักตร์ของพระเจ้า';
+
+  @override
+  String get persona_liu_bei => 'หลิวเป่ย';
+
+  @override
+  String get persona_liu_bei_title => 'จักรพรรดิผู้ก่อตั้งซู่ฮั่น';
+
+  @override
+  String get persona_liu_bei_quote =>
+      'ข้าขอทรยศต่อโลกนี้ ดีกว่าปล่อยให้โลกทรยศต่อข้า';
+
+  @override
+  String get persona_zhuge_liang => 'จูกัดเหลียง';
+
+  @override
+  String get persona_zhuge_liang_title => 'อัครมหาเสนาบดีแห่งซู่ฮั่น';
+
+  @override
+  String get persona_zhuge_liang_quote =>
+      'สงบดั่งขุนเขา เคลื่อนไหวดั่งลมและสายฟ้า';
+
+  @override
+  String get persona_cao_cao => 'โจโฉ';
+
+  @override
+  String get persona_cao_cao_title => 'อัครมหาเสนาบดีฮั่นและผู้ก่อตั้งวุยก๊ก';
+
+  @override
+  String get persona_cao_cao_quote =>
+      'ข้าขอทรยศต่อโลกนี้ ดีกว่าปล่อยให้โลกทรยศต่อข้า';
 }

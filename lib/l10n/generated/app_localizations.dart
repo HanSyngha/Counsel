@@ -1430,6 +1430,348 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'I\'m gonna be the Pirate King!'**
   String get persona_luffy_quote;
+
+  /// No description provided for @persona_gon_freecss.
+  ///
+  /// In en, this message translates to:
+  /// **'Gon Freecss'**
+  String get persona_gon_freecss;
+
+  /// No description provided for @persona_gon_freecss_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Young Hunter'**
+  String get persona_gon_freecss_title;
+
+  /// No description provided for @persona_gon_freecss_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I\'m going to find my dad!'**
+  String get persona_gon_freecss_quote;
+
+  /// No description provided for @persona_natsu_dragneel.
+  ///
+  /// In en, this message translates to:
+  /// **'Natsu Dragneel'**
+  String get persona_natsu_dragneel;
+
+  /// No description provided for @persona_natsu_dragneel_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Fire Dragon Slayer'**
+  String get persona_natsu_dragneel_title;
+
+  /// No description provided for @persona_natsu_dragneel_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I\'m all fired up!'**
+  String get persona_natsu_dragneel_quote;
+
+  /// No description provided for @persona_izuku_midoriya.
+  ///
+  /// In en, this message translates to:
+  /// **'Izuku Midoriya'**
+  String get persona_izuku_midoriya;
+
+  /// No description provided for @persona_izuku_midoriya_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Inheritor of One For All'**
+  String get persona_izuku_midoriya_title;
+
+  /// No description provided for @persona_izuku_midoriya_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I have to save them! That\'s what heroes do!'**
+  String get persona_izuku_midoriya_quote;
+
+  /// No description provided for @persona_son_goku.
+  ///
+  /// In en, this message translates to:
+  /// **'Son Goku'**
+  String get persona_son_goku;
+
+  /// No description provided for @persona_son_goku_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Legendary Saiyan Warrior'**
+  String get persona_son_goku_title;
+
+  /// No description provided for @persona_son_goku_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I\'m getting excited!'**
+  String get persona_son_goku_quote;
+
+  /// No description provided for @persona_edward_elric.
+  ///
+  /// In en, this message translates to:
+  /// **'Edward Elric'**
+  String get persona_edward_elric;
+
+  /// No description provided for @persona_edward_elric_title.
+  ///
+  /// In en, this message translates to:
+  /// **'The Fullmetal Alchemist'**
+  String get persona_edward_elric_title;
+
+  /// No description provided for @persona_edward_elric_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'Equivalent exchange - that\'s the foundation of alchemy!'**
+  String get persona_edward_elric_quote;
+
+  /// No description provided for @persona_eren_yeager.
+  ///
+  /// In en, this message translates to:
+  /// **'Eren Yeager'**
+  String get persona_eren_yeager;
+
+  /// No description provided for @persona_eren_yeager_title.
+  ///
+  /// In en, this message translates to:
+  /// **'The Attack Titan'**
+  String get persona_eren_yeager_title;
+
+  /// No description provided for @persona_eren_yeager_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I\'ll keep moving forward... until I destroy my enemies.'**
+  String get persona_eren_yeager_quote;
+
+  /// No description provided for @persona_naruto_uzumaki.
+  ///
+  /// In en, this message translates to:
+  /// **'Naruto Uzumaki'**
+  String get persona_naruto_uzumaki;
+
+  /// No description provided for @persona_naruto_uzumaki_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Seventh Hokage'**
+  String get persona_naruto_uzumaki_title;
+
+  /// No description provided for @persona_naruto_uzumaki_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I\'m not gonna run away. I never go back on my word. That\'s my ninja way!'**
+  String get persona_naruto_uzumaki_quote;
+
+  /// No description provided for @persona_tsunayoshi_sawada.
+  ///
+  /// In en, this message translates to:
+  /// **'Tsunayoshi Sawada'**
+  String get persona_tsunayoshi_sawada;
+
+  /// No description provided for @persona_tsunayoshi_sawada_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Tenth Vongola Boss'**
+  String get persona_tsunayoshi_sawada_title;
+
+  /// No description provided for @persona_tsunayoshi_sawada_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I\'ll protect everyone with my Dying Will!'**
+  String get persona_tsunayoshi_sawada_quote;
+
+  /// No description provided for @persona_tanjiro_kamado.
+  ///
+  /// In en, this message translates to:
+  /// **'Tanjiro Kamado'**
+  String get persona_tanjiro_kamado;
+
+  /// No description provided for @persona_tanjiro_kamado_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Demon Slayer'**
+  String get persona_tanjiro_kamado_title;
+
+  /// No description provided for @persona_tanjiro_kamado_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'No matter how devastated you may be by your own weakness, you have to set your heart ablaze.'**
+  String get persona_tanjiro_kamado_quote;
+
+  /// No description provided for @persona_ichigo_kurosaki.
+  ///
+  /// In en, this message translates to:
+  /// **'Ichigo Kurosaki'**
+  String get persona_ichigo_kurosaki;
+
+  /// No description provided for @persona_ichigo_kurosaki_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Substitute Shinigami'**
+  String get persona_ichigo_kurosaki_title;
+
+  /// No description provided for @persona_ichigo_kurosaki_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I\'m not fighting because I want to win. I\'m fighting because I have to win!'**
+  String get persona_ichigo_kurosaki_quote;
+
+  /// No description provided for @persona_martin_luther_king.
+  ///
+  /// In en, this message translates to:
+  /// **'Martin Luther King Jr.'**
+  String get persona_martin_luther_king;
+
+  /// No description provided for @persona_martin_luther_king_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Civil Rights Leader'**
+  String get persona_martin_luther_king_title;
+
+  /// No description provided for @persona_martin_luther_king_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.'**
+  String get persona_martin_luther_king_quote;
+
+  /// No description provided for @persona_albert_einstein.
+  ///
+  /// In en, this message translates to:
+  /// **'Albert Einstein'**
+  String get persona_albert_einstein;
+
+  /// No description provided for @persona_albert_einstein_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Theoretical Physicist'**
+  String get persona_albert_einstein_title;
+
+  /// No description provided for @persona_albert_einstein_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.'**
+  String get persona_albert_einstein_quote;
+
+  /// No description provided for @persona_julius_caesar.
+  ///
+  /// In en, this message translates to:
+  /// **'Julius Caesar'**
+  String get persona_julius_caesar;
+
+  /// No description provided for @persona_julius_caesar_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Roman Dictator & Conqueror'**
+  String get persona_julius_caesar_title;
+
+  /// No description provided for @persona_julius_caesar_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'Veni, vidi, vici. (I came, I saw, I conquered.)'**
+  String get persona_julius_caesar_quote;
+
+  /// No description provided for @persona_david.
+  ///
+  /// In en, this message translates to:
+  /// **'King David'**
+  String get persona_david;
+
+  /// No description provided for @persona_david_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Psalmist and King of Israel'**
+  String get persona_david_title;
+
+  /// No description provided for @persona_david_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'The Lord is my shepherd; I shall not want.'**
+  String get persona_david_quote;
+
+  /// No description provided for @persona_aslan.
+  ///
+  /// In en, this message translates to:
+  /// **'Aslan'**
+  String get persona_aslan;
+
+  /// No description provided for @persona_aslan_title.
+  ///
+  /// In en, this message translates to:
+  /// **'The Great Lion of Narnia'**
+  String get persona_aslan_title;
+
+  /// No description provided for @persona_aslan_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I am not a tame lion.'**
+  String get persona_aslan_quote;
+
+  /// No description provided for @persona_jean_valjean.
+  ///
+  /// In en, this message translates to:
+  /// **'Jean Valjean'**
+  String get persona_jean_valjean;
+
+  /// No description provided for @persona_jean_valjean_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Redeemed Soul of Les Misérables'**
+  String get persona_jean_valjean_title;
+
+  /// No description provided for @persona_jean_valjean_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'To love another person is to see the face of God.'**
+  String get persona_jean_valjean_quote;
+
+  /// No description provided for @persona_liu_bei.
+  ///
+  /// In en, this message translates to:
+  /// **'Liu Bei'**
+  String get persona_liu_bei;
+
+  /// No description provided for @persona_liu_bei_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Founding Emperor of Shu Han'**
+  String get persona_liu_bei_title;
+
+  /// No description provided for @persona_liu_bei_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I would rather betray the world than let the world betray me.'**
+  String get persona_liu_bei_quote;
+
+  /// No description provided for @persona_zhuge_liang.
+  ///
+  /// In en, this message translates to:
+  /// **'Zhuge Liang'**
+  String get persona_zhuge_liang;
+
+  /// No description provided for @persona_zhuge_liang_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Prime Minister of Shu Han'**
+  String get persona_zhuge_liang_title;
+
+  /// No description provided for @persona_zhuge_liang_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'To be still like the mountains, yet moving like the wind and lightning.'**
+  String get persona_zhuge_liang_quote;
+
+  /// No description provided for @persona_cao_cao.
+  ///
+  /// In en, this message translates to:
+  /// **'Cao Cao'**
+  String get persona_cao_cao;
+
+  /// No description provided for @persona_cao_cao_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Chancellor of Han and Founder of Cao Wei'**
+  String get persona_cao_cao_title;
+
+  /// No description provided for @persona_cao_cao_quote.
+  ///
+  /// In en, this message translates to:
+  /// **'I would rather betray the world than let the world betray me.'**
+  String get persona_cao_cao_quote;
 }
 
 class _AppLocalizationsDelegate

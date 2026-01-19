@@ -735,6 +735,9 @@ ${l10n.adviceClosingWords}:
     );
   }
 
+  // App store link (placeholder for now)
+  static const String _appLink = 'https://play.google.com/store/apps/details?id=com.counsel.app';
+
   Future<void> _shareAdvice(AppLocalizations l10n) async {
     if (_isSharing) return;
 
@@ -755,10 +758,17 @@ ${l10n.adviceClosingWords}:
 
       final personaName = _persona != null ? _getPersonaName(_persona!, l10n) : '';
 
+      // Share text with original question and app link
+      final shareText = '''${l10n.appTitle} - $personaName
+
+${l10n.adviceYourQuestion}: ${widget.record.userQuery}
+
+$_appLink''';
+
       // Share the image
       await Share.shareXFiles(
         [XFile(file.path)],
-        text: '${l10n.appTitle} - $personaName',
+        text: shareText,
         subject: '${l10n.appTitle} - $personaName',
       );
     } catch (e) {
@@ -826,7 +836,36 @@ ${l10n.adviceClosingWords}:
               ),
             ],
           ),
-          const SizedBox(height: 20),
+          const SizedBox(height: 16),
+
+          // User's original question
+          Container(
+            padding: const EdgeInsets.all(12),
+            decoration: BoxDecoration(
+              color: AppColors.surfaceVariant,
+              borderRadius: BorderRadius.circular(8),
+              border: Border.all(color: AppColors.border),
+            ),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Icon(Icons.help_outline, color: AppColors.textTertiary, size: 16),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    widget.record.userQuery,
+                    style: AppTextStyles.bodySmall.copyWith(
+                      color: AppColors.textSecondary,
+                      height: 1.4,
+                    ),
+                    maxLines: 3,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: 16),
 
           // Citation quote
           Container(
@@ -1000,6 +1039,25 @@ ${l10n.adviceClosingWords}:
       case 'tolstoy': return l10n.personaTolstoy;
       case 'vishnu': return l10n.personaVishnu;
       case 'luffy': return l10n.persona_luffy;
+      case 'gon_freecss': return l10n.persona_gon_freecss;
+      case 'natsu_dragneel': return l10n.persona_natsu_dragneel;
+      case 'izuku_midoriya': return l10n.persona_izuku_midoriya;
+      case 'son_goku': return l10n.persona_son_goku;
+      case 'edward_elric': return l10n.persona_edward_elric;
+      case 'eren_yeager': return l10n.persona_eren_yeager;
+      case 'naruto_uzumaki': return l10n.persona_naruto_uzumaki;
+      case 'tsunayoshi_sawada': return l10n.persona_tsunayoshi_sawada;
+      case 'tanjiro_kamado': return l10n.persona_tanjiro_kamado;
+      case 'ichigo_kurosaki': return l10n.persona_ichigo_kurosaki;
+      case 'martin_luther_king': return l10n.persona_martin_luther_king;
+      case 'albert_einstein': return l10n.persona_albert_einstein;
+      case 'julius_caesar': return l10n.persona_julius_caesar;
+      case 'david': return l10n.persona_david;
+      case 'aslan': return l10n.persona_aslan;
+      case 'jean_valjean': return l10n.persona_jean_valjean;
+      case 'liu_bei': return l10n.persona_liu_bei;
+      case 'zhuge_liang': return l10n.persona_zhuge_liang;
+      case 'cao_cao': return l10n.persona_cao_cao;
       default: return persona.id;
     }
   }
@@ -1027,6 +1085,25 @@ ${l10n.adviceClosingWords}:
       case 'tolstoy': return l10n.personaTolstoyTitle;
       case 'vishnu': return l10n.personaVishnuTitle;
       case 'luffy': return l10n.persona_luffy_title;
+      case 'gon_freecss': return l10n.persona_gon_freecss_title;
+      case 'natsu_dragneel': return l10n.persona_natsu_dragneel_title;
+      case 'izuku_midoriya': return l10n.persona_izuku_midoriya_title;
+      case 'son_goku': return l10n.persona_son_goku_title;
+      case 'edward_elric': return l10n.persona_edward_elric_title;
+      case 'eren_yeager': return l10n.persona_eren_yeager_title;
+      case 'naruto_uzumaki': return l10n.persona_naruto_uzumaki_title;
+      case 'tsunayoshi_sawada': return l10n.persona_tsunayoshi_sawada_title;
+      case 'tanjiro_kamado': return l10n.persona_tanjiro_kamado_title;
+      case 'ichigo_kurosaki': return l10n.persona_ichigo_kurosaki_title;
+      case 'martin_luther_king': return l10n.persona_martin_luther_king_title;
+      case 'albert_einstein': return l10n.persona_albert_einstein_title;
+      case 'julius_caesar': return l10n.persona_julius_caesar_title;
+      case 'david': return l10n.persona_david_title;
+      case 'aslan': return l10n.persona_aslan_title;
+      case 'jean_valjean': return l10n.persona_jean_valjean_title;
+      case 'liu_bei': return l10n.persona_liu_bei_title;
+      case 'zhuge_liang': return l10n.persona_zhuge_liang_title;
+      case 'cao_cao': return l10n.persona_cao_cao_title;
       default: return '';
     }
   }

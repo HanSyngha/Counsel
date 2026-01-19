@@ -310,48 +310,47 @@ class AdviceCard extends ConsumerWidget {
     if (persona == null) return record.personaId;
 
     switch (persona.id) {
-      case 'socrates':
-        return l10n.personaSocrates;
-      case 'plato':
-        return l10n.personaPlato;
-      case 'aristotle':
-        return l10n.personaAristotle;
-      case 'seneca':
-        return l10n.personaSeneca;
-      case 'confucius':
-        return l10n.personaConfucius;
-      case 'laozi':
-        return l10n.personaLaozi;
-      case 'jesus':
-        return l10n.personaJesus;
-      case 'buddha':
-        return l10n.personaBuddha;
-      case 'muhammad':
-        return l10n.personaMuhammad;
-      case 'lincoln':
-        return l10n.personaLincoln;
-      case 'napoleon':
-        return l10n.personaNapoleon;
-      case 'steve_jobs':
-        return l10n.personaSteveJobs;
-      case 'sherlock_holmes':
-        return l10n.personaSherlockHolmes;
-      case 'dumbledore':
-        return l10n.personaDumbledore;
-      case 'gandhi':
-        return l10n.personaGandhi;
-      case 'rumi':
-        return l10n.personaRumi;
-      case 'krishna':
-        return l10n.personaKrishna;
-      case 'brahma':
-        return l10n.personaBrahma;
-      case 'tolstoy':
-        return l10n.personaTolstoy;
-      case 'vishnu':
-        return l10n.personaVishnu;
-      default:
-        return persona.nameKey;
+      case 'socrates': return l10n.personaSocrates;
+      case 'plato': return l10n.personaPlato;
+      case 'aristotle': return l10n.personaAristotle;
+      case 'seneca': return l10n.personaSeneca;
+      case 'confucius': return l10n.personaConfucius;
+      case 'laozi': return l10n.personaLaozi;
+      case 'jesus': return l10n.personaJesus;
+      case 'buddha': return l10n.personaBuddha;
+      case 'muhammad': return l10n.personaMuhammad;
+      case 'lincoln': return l10n.personaLincoln;
+      case 'napoleon': return l10n.personaNapoleon;
+      case 'steve_jobs': return l10n.personaSteveJobs;
+      case 'sherlock_holmes': return l10n.personaSherlockHolmes;
+      case 'dumbledore': return l10n.personaDumbledore;
+      case 'gandhi': return l10n.personaGandhi;
+      case 'rumi': return l10n.personaRumi;
+      case 'krishna': return l10n.personaKrishna;
+      case 'brahma': return l10n.personaBrahma;
+      case 'tolstoy': return l10n.personaTolstoy;
+      case 'vishnu': return l10n.personaVishnu;
+      case 'luffy': return l10n.persona_luffy;
+      case 'gon_freecss': return l10n.persona_gon_freecss;
+      case 'natsu_dragneel': return l10n.persona_natsu_dragneel;
+      case 'izuku_midoriya': return l10n.persona_izuku_midoriya;
+      case 'son_goku': return l10n.persona_son_goku;
+      case 'edward_elric': return l10n.persona_edward_elric;
+      case 'eren_yeager': return l10n.persona_eren_yeager;
+      case 'naruto_uzumaki': return l10n.persona_naruto_uzumaki;
+      case 'tsunayoshi_sawada': return l10n.persona_tsunayoshi_sawada;
+      case 'tanjiro_kamado': return l10n.persona_tanjiro_kamado;
+      case 'ichigo_kurosaki': return l10n.persona_ichigo_kurosaki;
+      case 'martin_luther_king': return l10n.persona_martin_luther_king;
+      case 'albert_einstein': return l10n.persona_albert_einstein;
+      case 'julius_caesar': return l10n.persona_julius_caesar;
+      case 'david': return l10n.persona_david;
+      case 'aslan': return l10n.persona_aslan;
+      case 'jean_valjean': return l10n.persona_jean_valjean;
+      case 'liu_bei': return l10n.persona_liu_bei;
+      case 'zhuge_liang': return l10n.persona_zhuge_liang;
+      case 'cao_cao': return l10n.persona_cao_cao;
+      default: return persona.id;
     }
   }
 

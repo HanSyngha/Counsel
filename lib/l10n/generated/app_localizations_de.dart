@@ -9,7 +9,7 @@ class AppLocalizationsDe extends AppLocalizations {
   AppLocalizationsDe([String locale = 'de']) : super(locale);
 
   @override
-  String get appName => 'Stimme der Weisen';
+  String get appName => 'Stimme der Sterne';
 
   @override
   String get onboardingTitle => 'Begegnen Sie Mentoren\naus der Geschichte';
@@ -593,7 +593,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get navFavorites => 'Gespeichert';
 
   @override
-  String get appTitle => 'Stimme der Weisen';
+  String get appTitle => 'Stimme der Sterne';
 
   @override
   String get homeWelcome => 'Bei wem suchen Sie heute Weisheit?';
@@ -693,4 +693,189 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => 'Ich werde der Koenig der Piraten!';
+
+  @override
+  String get persona_gon_freecss => 'Gon Freecss';
+
+  @override
+  String get persona_gon_freecss_title => 'Junger Jaeger';
+
+  @override
+  String get persona_gon_freecss_quote => 'Ich werde meinen Vater finden!';
+
+  @override
+  String get persona_natsu_dragneel => 'Natsu Dragneel';
+
+  @override
+  String get persona_natsu_dragneel_title => 'Feuer-Drachentoeter-Magier';
+
+  @override
+  String get persona_natsu_dragneel_quote => 'Ich bin voll entflammt!';
+
+  @override
+  String get persona_izuku_midoriya => 'Izuku Midoriya';
+
+  @override
+  String get persona_izuku_midoriya_title => 'Erbe von One For All';
+
+  @override
+  String get persona_izuku_midoriya_quote =>
+      'Ich muss sie retten! Das ist es, was Helden tun!';
+
+  @override
+  String get persona_son_goku => 'Son Goku';
+
+  @override
+  String get persona_son_goku_title => 'Legendaerer Saiyajin-Krieger';
+
+  @override
+  String get persona_son_goku_quote => 'Das wird spannend!';
+
+  @override
+  String get persona_edward_elric => 'Edward Elric';
+
+  @override
+  String get persona_edward_elric_title => 'Der Stahlalchemist';
+
+  @override
+  String get persona_edward_elric_quote =>
+      'Äquivalenter Austausch - das ist die Grundlage der Alchemie!';
+
+  @override
+  String get persona_eren_yeager => 'Eren Yeager';
+
+  @override
+  String get persona_eren_yeager_title => 'Der Angriffstitan';
+
+  @override
+  String get persona_eren_yeager_quote =>
+      'Ich werde weitergehen... bis ich alle meine Feinde vernichtet habe.';
+
+  @override
+  String get persona_naruto_uzumaki => 'Naruto Uzumaki';
+
+  @override
+  String get persona_naruto_uzumaki_title => 'Siebter Hokage';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      'Ich werde nicht weglaufen. Ich nehme mein Wort niemals zurück. Das ist mein Ninja-Weg!';
+
+  @override
+  String get persona_tsunayoshi_sawada => 'Tsunayoshi Sawada';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => 'Zehnter Vongola-Boss';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote =>
+      'Ich werde alle mit meinem Sterbewillen beschützen!';
+
+  @override
+  String get persona_tanjiro_kamado => 'Tanjiro Kamado';
+
+  @override
+  String get persona_tanjiro_kamado_title => 'Dämonenjäger';
+
+  @override
+  String get persona_tanjiro_kamado_quote =>
+      'Egal wie sehr du von deiner eigenen Schwäche zerbrochen bist, entflamme dein Herz.';
+
+  @override
+  String get persona_ichigo_kurosaki => 'Ichigo Kurosaki';
+
+  @override
+  String get persona_ichigo_kurosaki_title => 'Ersatz-Shinigami';
+
+  @override
+  String get persona_ichigo_kurosaki_quote =>
+      'Ich kämpfe nicht, weil ich gewinnen will. Ich kämpfe, weil ich gewinnen muss!';
+
+  @override
+  String get persona_martin_luther_king => 'Martin Luther King Jr.';
+
+  @override
+  String get persona_martin_luther_king_title => 'Buergerrechtsfuehrer';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      'Ich habe einen Traum, dass meine vier kleinen Kinder eines Tages in einer Nation leben werden, in der sie nicht nach ihrer Hautfarbe, sondern nach ihrem Charakter beurteilt werden.';
+
+  @override
+  String get persona_albert_einstein => 'Albert Einstein';
+
+  @override
+  String get persona_albert_einstein_title => 'Theoretischer Physiker';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      'Phantasie ist wichtiger als Wissen. Wissen ist begrenzt, Phantasie umspannt die Welt.';
+
+  @override
+  String get persona_julius_caesar => 'Julius Cäsar';
+
+  @override
+  String get persona_julius_caesar_title => 'Römischer Diktator und Eroberer';
+
+  @override
+  String get persona_julius_caesar_quote => 'Ich kam, ich sah, ich siegte.';
+
+  @override
+  String get persona_david => 'König David';
+
+  @override
+  String get persona_david_title => 'Psalmist und König von Israel';
+
+  @override
+  String get persona_david_quote =>
+      'Der Herr ist mein Hirte; mir wird nichts mangeln.';
+
+  @override
+  String get persona_aslan => 'Aslan';
+
+  @override
+  String get persona_aslan_title => 'Der Große Löwe von Narnia';
+
+  @override
+  String get persona_aslan_quote => 'Ich bin kein zahmer Löwe.';
+
+  @override
+  String get persona_jean_valjean => 'Jean Valjean';
+
+  @override
+  String get persona_jean_valjean_title => 'Erlöste Seele aus Die Elenden';
+
+  @override
+  String get persona_jean_valjean_quote =>
+      'Einen anderen Menschen zu lieben heißt, das Angesicht Gottes zu sehen.';
+
+  @override
+  String get persona_liu_bei => 'Liu Bei';
+
+  @override
+  String get persona_liu_bei_title => 'Gründungskaiser von Shu Han';
+
+  @override
+  String get persona_liu_bei_quote =>
+      'Lieber verrate ich die Welt, als dass die Welt mich verrät.';
+
+  @override
+  String get persona_zhuge_liang => 'Zhuge Liang';
+
+  @override
+  String get persona_zhuge_liang_title => 'Premierminister von Shu Han';
+
+  @override
+  String get persona_zhuge_liang_quote =>
+      'Still wie die Berge, bewegend wie Wind und Blitz.';
+
+  @override
+  String get persona_cao_cao => 'Cao Cao';
+
+  @override
+  String get persona_cao_cao_title => 'Kanzler von Han und Gründer von Wei';
+
+  @override
+  String get persona_cao_cao_quote =>
+      'Lieber verrate ich die Welt, als dass die Welt mich verrät.';
 }

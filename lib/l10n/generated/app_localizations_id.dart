@@ -9,7 +9,7 @@ class AppLocalizationsId extends AppLocalizations {
   AppLocalizationsId([String locale = 'id']) : super(locale);
 
   @override
-  String get appName => 'Suara Para Bijak';
+  String get appName => 'Suara Bintang';
 
   @override
   String get onboardingTitle => 'Temui mentor dari\nsejarah hari ini';
@@ -591,7 +591,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get navFavorites => 'Tersimpan';
 
   @override
-  String get appTitle => 'Suara Para Bijak';
+  String get appTitle => 'Suara Bintang';
 
   @override
   String get homeWelcome =>
@@ -691,4 +691,191 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get persona_luffy_quote => 'Aku akan menjadi Raja Bajak Laut!';
+
+  @override
+  String get persona_gon_freecss => 'Gon Freecss';
+
+  @override
+  String get persona_gon_freecss_title => 'Hunter Muda';
+
+  @override
+  String get persona_gon_freecss_quote => 'Aku akan menemukan ayahku!';
+
+  @override
+  String get persona_natsu_dragneel => 'Natsu Dragneel';
+
+  @override
+  String get persona_natsu_dragneel_title => 'Pembunuh Naga Api';
+
+  @override
+  String get persona_natsu_dragneel_quote => 'Aku sudah membara!';
+
+  @override
+  String get persona_izuku_midoriya => 'Izuku Midoriya';
+
+  @override
+  String get persona_izuku_midoriya_title => 'Pewaris One For All';
+
+  @override
+  String get persona_izuku_midoriya_quote =>
+      'Aku harus menyelamatkan mereka! Itulah yang pahlawan lakukan!';
+
+  @override
+  String get persona_son_goku => 'Son Goku';
+
+  @override
+  String get persona_son_goku_title => 'Pejuang Saiyan Legendaris';
+
+  @override
+  String get persona_son_goku_quote => 'Ini semakin seru!';
+
+  @override
+  String get persona_edward_elric => 'Edward Elric';
+
+  @override
+  String get persona_edward_elric_title => 'Alchemist Baja';
+
+  @override
+  String get persona_edward_elric_quote =>
+      'Pertukaran Setara - itu dasar alkimia!';
+
+  @override
+  String get persona_eren_yeager => 'Eren Yeager';
+
+  @override
+  String get persona_eren_yeager_title => 'Titan Penyerang';
+
+  @override
+  String get persona_eren_yeager_quote =>
+      'Aku akan terus maju... sampai menghancurkan semua musuhku.';
+
+  @override
+  String get persona_naruto_uzumaki => 'Naruto Uzumaki';
+
+  @override
+  String get persona_naruto_uzumaki_title => 'Hokage Ketujuh';
+
+  @override
+  String get persona_naruto_uzumaki_quote =>
+      'Aku tidak akan lari. Aku tidak akan pernah menarik kata-kataku. Itulah jalan ninjaku!';
+
+  @override
+  String get persona_tsunayoshi_sawada => 'Tsunayoshi Sawada';
+
+  @override
+  String get persona_tsunayoshi_sawada_title => 'Bos Vongola Kesepuluh';
+
+  @override
+  String get persona_tsunayoshi_sawada_quote =>
+      'Aku akan melindungi semua orang dengan Dying Will-ku!';
+
+  @override
+  String get persona_tanjiro_kamado => 'Tanjiro Kamado';
+
+  @override
+  String get persona_tanjiro_kamado_title => 'Pemburu Iblis';
+
+  @override
+  String get persona_tanjiro_kamado_quote =>
+      'Tidak peduli seberapa hancur kau oleh kelemahanmu sendiri, nyalakan hatimu.';
+
+  @override
+  String get persona_ichigo_kurosaki => 'Ichigo Kurosaki';
+
+  @override
+  String get persona_ichigo_kurosaki_title => 'Shinigami Pengganti';
+
+  @override
+  String get persona_ichigo_kurosaki_quote =>
+      'Aku tidak bertarung karena ingin menang. Aku bertarung karena harus menang!';
+
+  @override
+  String get persona_martin_luther_king => 'Martin Luther King Jr.';
+
+  @override
+  String get persona_martin_luther_king_title => 'Pemimpin Hak Sipil';
+
+  @override
+  String get persona_martin_luther_king_quote =>
+      'Saya punya mimpi bahwa empat anak kecil saya suatu hari akan hidup di negara di mana mereka tidak dinilai berdasarkan warna kulit tetapi isi karakter mereka.';
+
+  @override
+  String get persona_albert_einstein => 'Albert Einstein';
+
+  @override
+  String get persona_albert_einstein_title => 'Fisikawan Teoretis';
+
+  @override
+  String get persona_albert_einstein_quote =>
+      'Imajinasi lebih penting daripada pengetahuan. Pengetahuan terbatas, imajinasi merangkul dunia.';
+
+  @override
+  String get persona_julius_caesar => 'Julius Caesar';
+
+  @override
+  String get persona_julius_caesar_title => 'Diktator dan Penakluk Romawi';
+
+  @override
+  String get persona_julius_caesar_quote =>
+      'Aku datang, aku melihat, aku menang.';
+
+  @override
+  String get persona_david => 'Raja Daud';
+
+  @override
+  String get persona_david_title => 'Penulis Mazmur dan Raja Israel';
+
+  @override
+  String get persona_david_quote =>
+      'TUHAN adalah gembalaku; aku tidak kekurangan.';
+
+  @override
+  String get persona_aslan => 'Aslan';
+
+  @override
+  String get persona_aslan_title => 'Singa Agung dari Narnia';
+
+  @override
+  String get persona_aslan_quote => 'Aku bukan singa yang dijinakkan.';
+
+  @override
+  String get persona_jean_valjean => 'Jean Valjean';
+
+  @override
+  String get persona_jean_valjean_title =>
+      'Jiwa yang Ditebus dari Les Misérables';
+
+  @override
+  String get persona_jean_valjean_quote =>
+      'Mencintai orang lain adalah melihat wajah Tuhan.';
+
+  @override
+  String get persona_liu_bei => 'Liu Bei';
+
+  @override
+  String get persona_liu_bei_title => 'Kaisar Pendiri Shu Han';
+
+  @override
+  String get persona_liu_bei_quote =>
+      'Lebih baik aku mengkhianati dunia daripada membiarkan dunia mengkhianatiku.';
+
+  @override
+  String get persona_zhuge_liang => 'Zhuge Liang';
+
+  @override
+  String get persona_zhuge_liang_title => 'Perdana Menteri Shu Han';
+
+  @override
+  String get persona_zhuge_liang_quote =>
+      'Tenang seperti gunung, bergerak seperti angin dan kilat.';
+
+  @override
+  String get persona_cao_cao => 'Cao Cao';
+
+  @override
+  String get persona_cao_cao_title => 'Kanselir Han dan Pendiri Wei';
+
+  @override
+  String get persona_cao_cao_quote =>
+      'Lebih baik aku mengkhianati dunia daripada membiarkan dunia mengkhianatiku.';
 }

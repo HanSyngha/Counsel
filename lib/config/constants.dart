@@ -99,21 +99,21 @@ class AppLocales {
 
   static const Map<String, String> appNames = {
     english: 'Counsel',
-    korean: '위인의 목소리',
-    japanese: '偉人の声',
-    chinese: '先贤之声',
-    arabic: 'صوت الحكماء',
-    thai: 'เสียงปราชญ์',
-    malay: 'Suara Bijak',
-    spanish: 'Voz de Sabios',
-    german: 'Stimme der Weisen',
-    french: 'Voix des Sages',
-    hindi: 'महापुरुषों की वाणी',
-    indonesian: 'Suara Bijaksana',
-    portuguese: 'Voz dos Sábios',
-    turkish: 'Bilgelerin Sesi',
-    vietnamese: 'Tiếng Nói Hiền Triết',
-    russian: 'Голос Мудрецов',
+    korean: '별들의 목소리',
+    japanese: '星々の声',
+    chinese: '星辰之声',
+    arabic: 'صوت النجوم',
+    thai: 'เสียงดวงดาว',
+    malay: 'Suara Bintang',
+    spanish: 'Voz de las Estrellas',
+    german: 'Stimme der Sterne',
+    french: 'Voix des Étoiles',
+    hindi: 'सितारों की आवाज़',
+    indonesian: 'Suara Bintang',
+    portuguese: 'Voz das Estrelas',
+    turkish: 'Yıldızların Sesi',
+    vietnamese: 'Tiếng Sao',
+    russian: 'Голос Звёзд',
   };
 }
 
@@ -149,4 +149,29 @@ class AppAssets {
 
   // Anime characters
   static const String luffy = '${personaImagesPath}luffy.jpeg';
+  static const String gonFreecss = '${personaImagesPath}gon_freecss.jpeg';
+  static const String natsuDragneel = '${personaImagesPath}natsu_dragneel.jpeg';
+  static const String izukuMidoriya = '${personaImagesPath}izuku_midoriya.jpeg';
+  static const String sonGoku = '${personaImagesPath}son_goku.jpeg';
+  static const String edwardElric = '${personaImagesPath}edward_elric.jpeg';
+  static const String erenYeager = '${personaImagesPath}eren_yeager.jpeg';
+  static const String narutoUzumaki = '${personaImagesPath}naruto_uzumaki.jpeg';
+  static const String tsunayoshiSawada = '${personaImagesPath}tsunayoshi_sawada.jpeg';
+  static const String tanjiroKamado = '${personaImagesPath}tanjiro_kamado.jpeg';
+  static const String ichigoKurosaki = '${personaImagesPath}ichigo_kurosaki.png';
+
+  // Historical figures
+  static const String martinLutherKing = '${personaImagesPath}martin_luther_king.jpeg';
+  static const String albertEinstein = '${personaImagesPath}albert_einstein.jpg';
+  static const String juliusCaesar = '${personaImagesPath}julius_caesar.jpg';
+  static const String liuBei = '${personaImagesPath}liu_bei.jpeg';
+  static const String zhugeLiang = '${personaImagesPath}zhuge_liang.jpeg';
+  static const String caoCao = '${personaImagesPath}cao_cao.jpeg';
+
+  // Religious figures
+  static const String david = '${personaImagesPath}david.jpeg';
+
+  // Literature characters
+  static const String aslan = '${personaImagesPath}aslan.jpg';
+  static const String jeanValjean = '${personaImagesPath}jean_valjean.jpeg';
 }
