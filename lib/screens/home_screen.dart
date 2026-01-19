@@ -20,7 +20,7 @@ class HomeScreen extends ConsumerStatefulWidget {
   ConsumerState<HomeScreen> createState() => _HomeScreenState();
 }
 
-/// Custom scroll physics that allows only one item at a time
+/// Custom scroll physics that snaps exactly one item at a time
 class SingleItemScrollPhysics extends ScrollPhysics {
   const SingleItemScrollPhysics({super.parent});
 
@@ -30,13 +30,12 @@ class SingleItemScrollPhysics extends ScrollPhysics {
   }
 
   @override
-  double applyPhysicsToUserOffset(ScrollMetrics position, double offset) {
-    // Limit swipe speed to prevent skipping multiple items
-    final maxOffset = position.viewportDimension * 0.25;
-    return super.applyPhysicsToUserOffset(
-      position,
-      offset.clamp(-maxOffset, maxOffset),
-    );
+  Simulation? createBallisticSimulation(ScrollMetrics position, double velocity) {
+    // Limit velocity to prevent skipping multiple items
+    // This ensures swipes only move one item at a time
+    final double maxVelocity = position.viewportDimension * 2;
+    final clampedVelocity = velocity.clamp(-maxVelocity, maxVelocity);
+    return super.createBallisticSimulation(position, clampedVelocity);
   }
 }
 

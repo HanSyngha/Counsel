@@ -58,21 +58,26 @@ class PersonaCard extends ConsumerWidget {
                 child: Stack(
                   fit: StackFit.expand,
                   children: [
-                    // Image
-                    Image.asset(
-                      persona.imagePath,
-                      fit: BoxFit.cover,
-                      alignment: Alignment.topCenter,
-                      errorBuilder: (context, error, stackTrace) {
-                        return Container(
-                          color: AppColors.surfaceVariant,
-                          child: Icon(
-                            Icons.person,
-                            size: isCompact ? 40 : 60,
-                            color: AppColors.textTertiary,
-                          ),
-                        );
-                      },
+                    // Background color for padding area
+                    Container(color: AppColors.surfaceVariant),
+                    // Image with padding to prevent cropping
+                    Padding(
+                      padding: const EdgeInsets.only(top: 4, left: 4, right: 4),
+                      child: Image.asset(
+                        persona.imagePath,
+                        fit: BoxFit.contain,
+                        alignment: Alignment.topCenter,
+                        errorBuilder: (context, error, stackTrace) {
+                          return Container(
+                            color: AppColors.surfaceVariant,
+                            child: Icon(
+                              Icons.person,
+                              size: isCompact ? 40 : 60,
+                              color: AppColors.textTertiary,
+                            ),
+                          );
+                        },
+                      ),
                     ),
                     // Gradient overlay
                     Positioned.fill(
@@ -112,9 +117,9 @@ class PersonaCard extends ConsumerWidget {
                     Text(
                       _getPersonaName(l10n),
                       style: isCompact
-                          ? AppTextStyles.titleSmall
-                          : AppTextStyles.titleMedium,
-                      maxLines: 1,
+                          ? AppTextStyles.titleSmall.copyWith(height: 1.2)
+                          : AppTextStyles.titleMedium.copyWith(height: 1.2),
+                      maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                     ),
                     const SizedBox(height: 2),

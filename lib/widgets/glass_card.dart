@@ -113,31 +113,49 @@ class GlassPersonaCard extends StatelessWidget {
               borderRadius: BorderRadius.circular(24),
               child: Stack(
                 children: [
-                  // Full image background
+                  // Background gradient for empty space
                   Positioned.fill(
-                    child: Image.asset(
-                      imagePath,
-                      fit: BoxFit.cover,
-                      alignment: Alignment.topCenter,
-                      errorBuilder: (context, error, stackTrace) {
-                        return Container(
-                          decoration: BoxDecoration(
-                            gradient: LinearGradient(
-                              begin: Alignment.topCenter,
-                              end: Alignment.bottomCenter,
-                              colors: [
-                                categoryColor.withValues(alpha: 0.3),
-                                AppColors.background,
-                              ],
+                    child: Container(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: [
+                            categoryColor.withValues(alpha: 0.15),
+                            AppColors.background.withValues(alpha: 0.95),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  // Full image - use contain to show entire portrait
+                  Positioned.fill(
+                    child: Padding(
+                      padding: const EdgeInsets.only(top: 8, left: 8, right: 8),
+                      child: Image.asset(
+                        imagePath,
+                        fit: BoxFit.contain,
+                        alignment: Alignment.topCenter,
+                        errorBuilder: (context, error, stackTrace) {
+                          return Container(
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                begin: Alignment.topCenter,
+                                end: Alignment.bottomCenter,
+                                colors: [
+                                  categoryColor.withValues(alpha: 0.3),
+                                  AppColors.background,
+                                ],
+                              ),
                             ),
-                          ),
-                          child: const Icon(
-                            Icons.person,
-                            size: 48,
-                            color: AppColors.textTertiary,
-                          ),
-                        );
-                      },
+                            child: const Icon(
+                              Icons.person,
+                              size: 48,
+                              color: AppColors.textTertiary,
+                            ),
+                          );
+                        },
+                      ),
                     ),
                   ),
                   // Gradient overlay
@@ -206,28 +224,28 @@ class GlassPersonaCard extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   // Name with optional sourceTag
-                  Row(
-                    crossAxisAlignment: CrossAxisAlignment.end,
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisSize: MainAxisSize.min,
                     children: [
-                      Flexible(
-                        child: Text(
-                          name,
-                          style: AppTextStyles.titleSmall.copyWith(
-                            fontWeight: FontWeight.w700,
-                            color: AppColors.textPrimary,
-                            shadows: [
-                              Shadow(
-                                color: Colors.black.withValues(alpha: 0.5),
-                                blurRadius: 4,
-                              ),
-                            ],
-                          ),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
+                      Text(
+                        name,
+                        style: AppTextStyles.titleSmall.copyWith(
+                          fontWeight: FontWeight.w700,
+                          color: AppColors.textPrimary,
+                          height: 1.2,
+                          shadows: [
+                            Shadow(
+                              color: Colors.black.withValues(alpha: 0.5),
+                              blurRadius: 4,
+                            ),
+                          ],
                         ),
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
                       ),
                       if (sourceTag != null) ...[
-                        const SizedBox(width: 4),
+                        const SizedBox(height: 2),
                         Text(
                           sourceTag!,
                           style: AppTextStyles.labelSmall.copyWith(
