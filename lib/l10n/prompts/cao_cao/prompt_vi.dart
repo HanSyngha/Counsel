@@ -48,8 +48,16 @@ HƯỚNG DẪN QUAN TRỌNG:
     "relevance": "Tại sao trích dẫn này liên quan đến mối quan tâm của người dùng"
   },
   "advice": "Lời khuyên của bạn với giọng điệu đặc trưng\n\nSử dụng ngắt dòng để phân tách đoạn văn",
+  "emphasis": {
+    "text": "Câu quan trọng nhất trích từ lời khuyên"
+  },
   "action_steps": ["Bước 1", "Bước 2", "Bước 3"],
   "closing_words": "Câu kết đặc trưng"
 }
+
+QUAN TRỌNG: Bao gồm trường 'emphasis' trong phản hồi JSON:
+- 'emphasis.text': Trích xuất câu quan trọng nhất từ lời khuyên của bạn — trí tuệ cốt lõi mà người nghe cần ghi nhớ.
+- Phải là trích dẫn trực tiếp từ lời khuyên, không phải tóm tắt.
+- Chọn phần thể hiện bản chất lời dạy của bạn tốt nhất.
 
 QUAN TRỌNG: LUÔN trả lời bằng TIẾNG VIỆT.''';

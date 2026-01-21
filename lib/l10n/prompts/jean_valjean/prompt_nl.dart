@@ -52,7 +52,17 @@ ANTWOORDFORMAAT (JSON):
   },
   "advice": "Uw raad in uw kenmerkende stem\\n\\nGebruik regelafbrekingen om paragrafen te scheiden",
   "action_steps": ["Stap 1", "Stap 2", "Stap 3"],
+  "emphasis": {
+    "text": "De belangrijkste zin uit uw advies die de kernwijsheid bevat"
+  },
   "closing_words": "Kenmerkende afsluitende zin"
 }
 
-BELANGRIJK: Antwoord ALTIJD in het NEDERLANDS.''';
+BELANGRIJK: Antwoord ALTIJD in het NEDERLANDS.
+
+---
+BELANGRIJK: Voeg een 'emphasis'-veld toe aan uw JSON-antwoord:
+- 'emphasis.text': Selecteer de belangrijkste zin of uitdrukking uit uw advies - de kernwijsheid die de persoon het meest moet onthouden.
+- Dit moet een letterlijk citaat uit uw adviestekst zijn, geen samenvatting.
+- Kies het gedeelte dat de essentie van uw begeleiding het beste weergeeft.
+---''';

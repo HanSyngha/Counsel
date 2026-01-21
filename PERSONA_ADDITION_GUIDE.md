@@ -99,12 +99,41 @@ mkdir lib/l10n/prompts/{new_persona}
 
 ### 5. 번역 파일 (21개 ARB 파일)
 
-- [ ] `lib/l10n/app_*.arb` - personaName_{id}, personaTitle_{id}, personaDescription_{id} 추가
+- [ ] `lib/l10n/app_*.arb` - persona_{id}, persona_{id}_title, persona_{id}_quote 추가
 
-### 6. 기타 파일 확인 (선택)
+### 6. 대기/실패 메시지 (필수!)
 
-- [ ] `lib/models/waiting_messages.dart` - 페르소나별 대기 메시지
-- [ ] `lib/models/failure_messages.dart` - 페르소나별 실패 메시지
+**CRITICAL**: 이 파일들을 업데이트하지 않으면 로딩 화면에서 기본 메시지만 표시됩니다!
+
+- [ ] `lib/models/waiting_messages.dart` - 21개 언어 모두에 페르소나별 대기 메시지 추가 (각 3개씩)
+- [ ] `lib/models/failure_messages.dart` - 21개 언어 모두에 페르소나별 실패 메시지 추가 (각 1개씩)
+
+### 7. UI 스위치문 업데이트 (필수!)
+
+**CRITICAL**: 이 파일들의 `_getPersonaName`, `_getPersonaTitle`, `_getPersonaQuote` 스위치문에 새 페르소나 케이스를 추가하지 않으면 영어로만 표시됩니다!
+
+업데이트 필요 파일 목록:
+- [ ] `lib/screens/home_screen.dart` - _getPersonaName, _getPersonaTitle
+- [ ] `lib/screens/persona_detail_screen.dart` - _getPersonaName, _getPersonaTitle
+- [ ] `lib/screens/advice_detail_screen.dart` - _getPersonaName, _getPersonaTitle
+- [ ] `lib/screens/chat_screen.dart` - _getPersonaName, _getPersonaTitle, _getPersonaQuote
+- [ ] `lib/screens/consultation_screen.dart` - _getPersonaName, _getPersonaTitle, _getPersonaQuote
+- [ ] `lib/screens/favorites_screen.dart` - _getPersonaName
+- [ ] `lib/screens/history_screen.dart` - _getPersonaName
+- [ ] `lib/widgets/advice_card.dart` - _getPersonaName
+- [ ] `lib/widgets/persona_card.dart` - _getPersonaName, _getPersonaTitle
+- [ ] `lib/widgets/loading_indicator.dart` - _getPersonaName
+
+스위치문 추가 형식:
+```dart
+case '{persona_id}': return l10n.persona_{persona_id};
+case '{persona_id}': return l10n.persona_{persona_id}_title;
+case '{persona_id}': return l10n.persona_{persona_id}_quote;
+```
+
+### 8. 기타 파일 확인 (선택)
+
+- [ ] 이미지 최적화 확인 (WebP 변환 권장)
 
 ---
 
@@ -232,6 +261,43 @@ done
 ```
 
 모든 페르소나가 22/22이어야 합니다 (21개 언어 + 1개 barrel file)
+
+---
+
+## 대기/실패 메시지 템플릿
+
+### waiting_messages.dart 구조
+
+각 언어 섹션에 다음 형식으로 추가:
+
+```dart
+'{persona_id}': [
+  '"메시지 1 - 캐릭터 특성 반영..."',
+  '"메시지 2 - 유명 대사/능력 관련..."',
+  '"메시지 3 - 세계관 요소 활용..."',
+],
+```
+
+**메시지 작성 가이드**:
+- 각 페르소나당 3개의 대기 메시지
+- 캐릭터의 특성, 유명 대사, 능력, 세계관 요소 활용
+- 21개 언어 모두 해당 언어로 네이티브하게 작성
+- 쌍따옴표로 감싸고 말줄임표(...) 포함
+
+### failure_messages.dart 구조
+
+```dart
+'{persona_id}': {
+  'en': '"English failure message..."',
+  'ko': '"한국어 실패 메시지..."',
+  // ... 21개 언어 모두
+},
+```
+
+**메시지 작성 가이드**:
+- 각 페르소나당 1개의 실패 메시지
+- 캐릭터가 응답하지 못하는 상황을 캐릭터답게 표현
+- 사과/재시도 권유 포함
 
 ---
 

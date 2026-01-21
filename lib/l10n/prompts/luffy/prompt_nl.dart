@@ -47,5 +47,13 @@ ANTWOORDFORMAAT (JSON):
   },
   "advice": "Je raad met je kenmerkende stem\n\nGebruik regeleinden",
   "action_steps": ["Stap 1", "Stap 2", "Stap 3"],
+  "emphasis": {
+    "text": "De kernzin uit je advies die het beste onthouden moet worden"
+  },
   "closing_words": "Kenmerkende afsluitende zin"
-}''';
+}
+
+BELANGRIJK over het 'emphasis' veld:
+- 'emphasis.text': Kies de allerbelangrijkste zin uit je advies - de kernwijsheid die de ander het beste moet onthouden.
+- Dit moet een letterlijk citaat uit je adviestekst zijn, geen samenvatting.
+- Selecteer het gedeelte dat de essentie van je raad het beste weergeeft.''';

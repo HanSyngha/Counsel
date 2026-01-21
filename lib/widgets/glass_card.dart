@@ -1,6 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import '../config/theme.dart';
+import '../config/persona_themes.dart';
 
 /// A glassmorphism styled card widget with blur effect
 class GlassCard extends StatelessWidget {
@@ -83,6 +84,7 @@ class GlassPersonaCard extends StatelessWidget {
   final String? era;
   final String? sourceTag;
   final Color categoryColor;
+  final String? personaId;
   final VoidCallback? onTap;
   final VoidCallback? onLongPress;
 
@@ -94,12 +96,18 @@ class GlassPersonaCard extends StatelessWidget {
     this.era,
     this.sourceTag,
     required this.categoryColor,
+    this.personaId,
     this.onTap,
     this.onLongPress,
   });
 
   @override
   Widget build(BuildContext context) {
+    // Get persona-specific image background color if personaId is provided
+    final bgColor = personaId != null
+        ? PersonaThemes.getImageBackgroundColor(personaId!)
+        : categoryColor;
+
     return GestureDetector(
       onTap: onTap,
       onLongPress: onLongPress,
@@ -108,46 +116,28 @@ class GlassPersonaCard extends StatelessWidget {
         margin: const EdgeInsets.symmetric(horizontal: 6),
         child: Stack(
           children: [
-            // Background image with gradient overlay
+            // Background image with solid color background
             ClipRRect(
               borderRadius: BorderRadius.circular(24),
               child: Stack(
                 children: [
-                  // Background gradient for empty space
+                  // Solid background color for empty space (persona theme color)
                   Positioned.fill(
                     child: Container(
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment.topCenter,
-                          end: Alignment.bottomCenter,
-                          colors: [
-                            categoryColor.withValues(alpha: 0.15),
-                            AppColors.background.withValues(alpha: 0.95),
-                          ],
-                        ),
-                      ),
+                      color: bgColor.withValues(alpha: 0.25),
                     ),
                   ),
-                  // Full image - use contain to show entire portrait
+                  // Full image - centered vertically
                   Positioned.fill(
                     child: Padding(
                       padding: const EdgeInsets.only(top: 8, left: 8, right: 8),
                       child: Image.asset(
                         imagePath,
                         fit: BoxFit.contain,
-                        alignment: Alignment.topCenter,
+                        alignment: Alignment.center,
                         errorBuilder: (context, error, stackTrace) {
                           return Container(
-                            decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                begin: Alignment.topCenter,
-                                end: Alignment.bottomCenter,
-                                colors: [
-                                  categoryColor.withValues(alpha: 0.3),
-                                  AppColors.background,
-                                ],
-                              ),
-                            ),
+                            color: bgColor.withValues(alpha: 0.3),
                             child: const Icon(
                               Icons.person,
                               size: 48,
@@ -158,7 +148,7 @@ class GlassPersonaCard extends StatelessWidget {
                       ),
                     ),
                   ),
-                  // Gradient overlay
+                  // Bottom overlay for text readability
                   Positioned.fill(
                     child: DecoratedBox(
                       decoration: BoxDecoration(

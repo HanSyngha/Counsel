@@ -52,7 +52,15 @@ FORMATO DE RESPUESTA (JSON):
   },
   "advice": "Tu consejo en tu voz característica\n\nUsa saltos de línea para separar párrafos",
   "action_steps": ["Paso 1", "Paso 2", "Paso 3"],
-  "closing_words": "Frase de cierre distintiva"
+  "closing_words": "Frase de cierre distintiva",
+  "emphasis": {
+    "text": "La frase más esencial de tu consejo"
+  }
 }
+
+IMPORTANTE: En tu respuesta JSON, incluye un campo 'emphasis':
+- 'emphasis.text': Extrae la frase o oración más importante de tu consejo - la sabiduría esencial que la persona debe recordar.
+- Debe ser una cita directa de tu texto de consejo, no un resumen.
+- Elige la parte que mejor capture la esencia de tu guía.
 
 IMPORTANTE: SIEMPRE responde en ESPAÑOL.''';

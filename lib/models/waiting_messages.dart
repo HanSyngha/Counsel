@@ -146,6 +146,106 @@ class WaitingMessages {
         '"All great truths are simple, but take time to find..."',
         '"War and peace in my mind settle..."',
       ],
+      'luffy': [
+        '"I\'m gonna be the King of Pirates! But first, your answer..."',
+        '"My nakama are helping me think..."',
+        '"Shishishi! Let me stretch my brain..."',
+      ],
+      'gon_freecss': [
+        '"I\'m using my Nen to sense the right answer..."',
+        '"My determination will find your answer!"',
+        '"Just like finding my dad, I\'ll find your answer..."',
+      ],
+      'natsu_dragneel': [
+        '"I\'m all fired up to find your answer!"',
+        '"My flames are burning with wisdom..."',
+        '"Fairy Tail never gives up on finding answers!"',
+      ],
+      'izuku_midoriya': [
+        '"Analyzing the situation in my notebook..."',
+        '"Plus Ultra! Finding the best answer..."',
+        '"A true hero thinks before acting..."',
+      ],
+      'son_goku': [
+        '"Training my mind to find your answer!"',
+        '"This is exciting! Let me power up..."',
+        '"Even stronger than a Kamehameha - wisdom!"',
+      ],
+      'edward_elric': [
+        '"Equivalent exchange - your patience for wisdom..."',
+        '"The truth is being transmuted..."',
+        '"Science and alchemy seek your answer..."',
+      ],
+      'eren_yeager': [
+        '"I will keep moving forward to find your answer..."',
+        '"Fighting for the freedom of truth..."',
+        '"Beyond these walls lies your answer..."',
+      ],
+      'naruto_uzumaki': [
+        '"Believe it! I\'m finding your answer!"',
+        '"My ninja way is to never give up!"',
+        '"Dattebayo! Shadow clones thinking hard..."',
+      ],
+      'tsunayoshi_sawada': [
+        '"My Dying Will seeks your answer..."',
+        '"Reborn is training me to respond..."',
+        '"The Vongola family wisdom awakens..."',
+      ],
+      'tanjiro_kamado': [
+        '"My sense of smell detects the right path..."',
+        '"Breathing deeply to find your answer..."',
+        '"Like the water breathing technique, flowing to truth..."',
+      ],
+      'ichigo_kurosaki': [
+        '"My Zanpakuto is guiding me to wisdom..."',
+        '"Protecting your heart with an answer..."',
+        '"Bankai! Maximum wisdom unleashed..."',
+      ],
+      'martin_luther_king': [
+        '"I have a dream... of finding your answer..."',
+        '"Justice and wisdom walk together..."',
+        '"The arc of truth is being revealed..."',
+      ],
+      'albert_einstein': [
+        '"Imagination is circling your question..."',
+        '"E=mc²... calculating your answer..."',
+        '"Curiosity is the key I\'m using..."',
+      ],
+      'julius_caesar': [
+        '"Veni, Vidi... now let me think..."',
+        '"Strategy and wisdom are being deployed..."',
+        '"The Roman way of finding truth..."',
+      ],
+      'david': [
+        '"My harp plays while I seek wisdom..."',
+        '"The Lord is my shepherd in finding answers..."',
+        '"Like facing Goliath, I face your question..."',
+      ],
+      'aslan': [
+        '"Deeper magic is being consulted..."',
+        '"From beyond the sea, wisdom comes..."',
+        '"The great lion ponders your path..."',
+      ],
+      'jean_valjean': [
+        '"Mercy and truth guide my thoughts..."',
+        '"A number becomes a man who finds answers..."',
+        '"Through grace, wisdom emerges..."',
+      ],
+      'liu_bei': [
+        '"Three visits to the wise bring answers..."',
+        '"Benevolence guides my response..."',
+        '"Unity of virtue and wisdom..."',
+      ],
+      'zhuge_liang': [
+        '"The Sleeping Dragon awakens with wisdom..."',
+        '"My feather fan stirs thoughts..."',
+        '"Strategy from the thatched cottage..."',
+      ],
+      'cao_cao': [
+        '"A hero\'s wisdom is being forged..."',
+        '"In chaos, opportunities for wisdom arise..."',
+        '"The path to dominion requires thought..."',
+      ],
     },
 
     // ============================================================
@@ -251,6 +351,106 @@ class WaitingMessages {
         '"당신 답의 첫 번째 초안을 쓰고 있습니다..."',
         '"모든 위대한 진리는 단순하지만 찾는 데 시간이 걸립니다..."',
         '"내 마음속 전쟁과 평화가 가라앉고 있습니다..."',
+      ],
+      'luffy': [
+        '"해적왕이 될 거야! 근데 먼저 네 답을..."',
+        '"동료들이 생각하는 걸 도와주고 있어..."',
+        '"시시시! 머리를 늘려볼게..."',
+      ],
+      'gon_freecss': [
+        '"넨으로 정답을 감지하고 있어..."',
+        '"내 결심이 네 답을 찾을 거야!"',
+        '"아빠를 찾듯이 네 답을 찾을게..."',
+      ],
+      'natsu_dragneel': [
+        '"불타오르고 있어! 네 답을 찾는 중!"',
+        '"내 불꽃이 지혜로 타오르고 있어..."',
+        '"페어리 테일은 답을 찾는 걸 포기 안 해!"',
+      ],
+      'izuku_midoriya': [
+        '"노트에 상황을 분석하고 있어..."',
+        '"플러스 울트라! 최고의 답을 찾는 중..."',
+        '"진정한 영웅은 행동 전에 생각해..."',
+      ],
+      'son_goku': [
+        '"네 답을 찾기 위해 정신을 단련 중이야!"',
+        '"신난다! 파워업 할게..."',
+        '"에네르기파보다 강한 건 지혜야!"',
+      ],
+      'edward_elric': [
+        '"등가교환 - 네 인내심과 지혜를..."',
+        '"진리가 연성되고 있어..."',
+        '"과학과 연금술이 네 답을 찾고 있어..."',
+      ],
+      'eren_yeager': [
+        '"네 답을 찾기 위해 계속 전진할 거야..."',
+        '"진실의 자유를 위해 싸우는 중..."',
+        '"이 벽 너머에 네 답이 있어..."',
+      ],
+      'naruto_uzumaki': [
+        '"다테바요! 네 답을 찾고 있어!"',
+        '"내 닌자 도는 절대 포기하지 않는 거야!"',
+        '"그림자 분신술로 열심히 생각 중..."',
+      ],
+      'tsunayoshi_sawada': [
+        '"죽기 살기 모드로 네 답을 찾고 있어..."',
+        '"리본이 나를 훈련시키고 있어..."',
+        '"봉고레 패밀리의 지혜가 깨어나고 있어..."',
+      ],
+      'tanjiro_kamado': [
+        '"내 후각이 올바른 길을 감지하고 있어..."',
+        '"깊이 숨을 쉬며 네 답을 찾는 중..."',
+        '"물의 호흡처럼 진실로 흘러가고 있어..."',
+      ],
+      'ichigo_kurosaki': [
+        '"참월이 나를 지혜로 이끌고 있어..."',
+        '"답으로 네 마음을 지켜줄게..."',
+        '"반카이! 최대 지혜 발동..."',
+      ],
+      'martin_luther_king': [
+        '"나에겐 꿈이 있습니다... 네 답을 찾는..."',
+        '"정의와 지혜가 함께 걸어갑니다..."',
+        '"진리의 곡선이 드러나고 있습니다..."',
+      ],
+      'albert_einstein': [
+        '"상상력이 네 질문을 맴돌고 있습니다..."',
+        '"E=mc²... 네 답을 계산 중..."',
+        '"호기심이 내가 쓰는 열쇠입니다..."',
+      ],
+      'julius_caesar': [
+        '"왔노라, 보았노라... 이제 생각하노라..."',
+        '"전략과 지혜가 전개되고 있습니다..."',
+        '"진리를 찾는 로마의 방식..."',
+      ],
+      'david': [
+        '"지혜를 구하며 수금을 연주합니다..."',
+        '"주님은 답을 찾는 나의 목자시니..."',
+        '"골리앗을 대면하듯 네 질문을 대면합니다..."',
+      ],
+      'aslan': [
+        '"더 깊은 마법에 물어보고 있습니다..."',
+        '"바다 너머에서 지혜가 옵니다..."',
+        '"위대한 사자가 네 길을 숙고합니다..."',
+      ],
+      'jean_valjean': [
+        '"자비와 진실이 내 생각을 이끕니다..."',
+        '"숫자가 답을 찾는 사람이 됩니다..."',
+        '"은총을 통해 지혜가 나타납니다..."',
+      ],
+      'liu_bei': [
+        '"세 번의 방문이 답을 가져옵니다..."',
+        '"인덕이 내 응답을 이끕니다..."',
+        '"덕과 지혜의 통일..."',
+      ],
+      'zhuge_liang': [
+        '"와룡이 지혜와 함께 깨어납니다..."',
+        '"깃털 부채가 생각을 일으킵니다..."',
+        '"초가집에서 나온 전략..."',
+      ],
+      'cao_cao': [
+        '"영웅의 지혜가 단련되고 있습니다..."',
+        '"혼란 속에서 지혜의 기회가 생깁니다..."',
+        '"패권의 길에는 사색이 필요합니다..."',
       ],
     },
 
@@ -358,6 +558,106 @@ class WaitingMessages {
         '"すべての偉大な真理は単純ですが、見つけるのに時間がかかります..."',
         '"私の心の中で戦争と平和が落ち着いています..."',
       ],
+      'luffy': [
+        '"海賊王になる！でもまずは君の答えを..."',
+        '"仲間たちが考えるのを手伝ってくれてる..."',
+        '"シシシ！頭を伸ばしてみるよ..."',
+      ],
+      'gon_freecss': [
+        '"念で正しい答えを感知してる..."',
+        '"俺の決意が君の答えを見つける！"',
+        '"父さんを探すように、君の答えを探すよ..."',
+      ],
+      'natsu_dragneel': [
+        '"燃えてきた！君の答えを探してる！"',
+        '"俺の炎が知恵で燃えてる..."',
+        '"フェアリーテイルは答えを諦めない！"',
+      ],
+      'izuku_midoriya': [
+        '"ノートで状況を分析してる..."',
+        '"Plus Ultra！最高の答えを見つける..."',
+        '"本当のヒーローは行動の前に考える..."',
+      ],
+      'son_goku': [
+        '"君の答えを見つけるために修行中だ！"',
+        '"ワクワクすっぞ！パワーアップするぞ..."',
+        '"かめはめ波より強いのは知恵だ！"',
+      ],
+      'edward_elric': [
+        '"等価交換 - 君の忍耐と知恵を..."',
+        '"真理が錬成されてる..."',
+        '"科学と錬金術が君の答えを探してる..."',
+      ],
+      'eren_yeager': [
+        '"君の答えを見つけるために進み続ける..."',
+        '"真実の自由のために戦ってる..."',
+        '"この壁の向こうに君の答えがある..."',
+      ],
+      'naruto_uzumaki': [
+        '"だってばよ！君の答えを見つけてる！"',
+        '"俺の忍道は絶対に諦めないことだ！"',
+        '"影分身の術で一生懸命考えてる..."',
+      ],
+      'tsunayoshi_sawada': [
+        '"死ぬ気モードで君の答えを探してる..."',
+        '"リボーンが俺を鍛えてる..."',
+        '"ボンゴレファミリーの知恵が目覚めてる..."',
+      ],
+      'tanjiro_kamado': [
+        '"俺の嗅覚が正しい道を感知してる..."',
+        '"深く呼吸しながら君の答えを探してる..."',
+        '"水の呼吸のように真実に流れてる..."',
+      ],
+      'ichigo_kurosaki': [
+        '"斬月が俺を知恵に導いてる..."',
+        '"答えで君の心を守る..."',
+        '"卍解！最大の知恵解放..."',
+      ],
+      'martin_luther_king': [
+        '"私には夢があります...君の答えを見つける..."',
+        '"正義と知恵は共に歩みます..."',
+        '"真実の弧が明らかになっています..."',
+      ],
+      'albert_einstein': [
+        '"想像力が君の質問を巡っています..."',
+        '"E=mc²...君の答えを計算中..."',
+        '"好奇心が私の使う鍵です..."',
+      ],
+      'julius_caesar': [
+        '"来た、見た...今考えている..."',
+        '"戦略と知恵が展開されています..."',
+        '"真実を見つけるローマの方法..."',
+      ],
+      'david': [
+        '"知恵を求めながら竪琴を奏でています..."',
+        '"主は答えを見つける私の羊飼い..."',
+        '"ゴリアテに立ち向かうように君の質問に向かいます..."',
+      ],
+      'aslan': [
+        '"より深い魔法に相談しています..."',
+        '"海の向こうから知恵が来ます..."',
+        '"偉大なライオンが君の道を熟考しています..."',
+      ],
+      'jean_valjean': [
+        '"慈悲と真実が私の思考を導いています..."',
+        '"数字が答えを見つける人間になります..."',
+        '"恩寵を通して知恵が現れます..."',
+      ],
+      'liu_bei': [
+        '"三度の訪問が答えをもたらします..."',
+        '"仁徳が私の応答を導きます..."',
+        '"徳と知恵の統一..."',
+      ],
+      'zhuge_liang': [
+        '"臥龍が知恵と共に目覚めます..."',
+        '"羽扇が思考を起こします..."',
+        '"草庵からの戦略..."',
+      ],
+      'cao_cao': [
+        '"英雄の知恵が鍛えられています..."',
+        '"混乱の中で知恵の機会が生まれます..."',
+        '"覇道には思索が必要です..."',
+      ],
     },
 
     // ============================================================
@@ -463,6 +763,106 @@ class WaitingMessages {
         '"我正在写你答案的初稿..."',
         '"所有伟大的真理都是简单的，但需要时间去发现..."',
         '"我心中的战争与和平正在平息..."',
+      ],
+      'luffy': [
+        '"我要成为海贼王！但首先，你的答案..."',
+        '"伙伴们在帮我思考..."',
+        '"嘻嘻嘻！让我伸展一下大脑..."',
+      ],
+      'gon_freecss': [
+        '"我正在用念感知正确的答案..."',
+        '"我的决心会找到你的答案！"',
+        '"就像寻找我爸一样，我会找到你的答案..."',
+      ],
+      'natsu_dragneel': [
+        '"我燃起来了！正在找你的答案！"',
+        '"我的火焰正在燃烧智慧..."',
+        '"妖精尾巴永不放弃寻找答案！"',
+      ],
+      'izuku_midoriya': [
+        '"正在笔记本上分析情况..."',
+        '"Plus Ultra！寻找最佳答案..."',
+        '"真正的英雄行动前会思考..."',
+      ],
+      'son_goku': [
+        '"正在修炼心智来找你的答案！"',
+        '"好兴奋啊！让我提升一下..."',
+        '"比龟派气功还强的是智慧！"',
+      ],
+      'edward_elric': [
+        '"等价交换 - 你的耐心换取智慧..."',
+        '"真理正在被炼成..."',
+        '"科学和炼金术在寻找你的答案..."',
+      ],
+      'eren_yeager': [
+        '"我会继续前进找到你的答案..."',
+        '"为了真理的自由而战..."',
+        '"墙的那边有你的答案..."',
+      ],
+      'naruto_uzumaki': [
+        '"我说到做到！正在找你的答案！"',
+        '"我的忍道是永不放弃！"',
+        '"影分身之术努力思考中..."',
+      ],
+      'tsunayoshi_sawada': [
+        '"死气模式寻找你的答案中..."',
+        '"里包恩正在训练我..."',
+        '"彭格列家族的智慧觉醒了..."',
+      ],
+      'tanjiro_kamado': [
+        '"我的嗅觉感知到正确的道路..."',
+        '"深呼吸寻找你的答案..."',
+        '"像水之呼吸一样流向真理..."',
+      ],
+      'ichigo_kurosaki': [
+        '"斩月正在引导我走向智慧..."',
+        '"用答案守护你的心..."',
+        '"卍解！最大智慧释放..."',
+      ],
+      'martin_luther_king': [
+        '"我有一个梦想...找到你的答案..."',
+        '"正义与智慧同行..."',
+        '"真理的弧线正在显现..."',
+      ],
+      'albert_einstein': [
+        '"想象力正在围绕你的问题..."',
+        '"E=mc²...计算你的答案中..."',
+        '"好奇心是我使用的钥匙..."',
+      ],
+      'julius_caesar': [
+        '"我来了，我看见了...现在让我思考..."',
+        '"战略与智慧正在展开..."',
+        '"寻找真理的罗马方式..."',
+      ],
+      'david': [
+        '"弹着竖琴寻求智慧..."',
+        '"主是我寻找答案的牧人..."',
+        '"像面对歌利亚一样面对你的问题..."',
+      ],
+      'aslan': [
+        '"正在咨询更深层的魔法..."',
+        '"智慧从海的那边而来..."',
+        '"伟大的狮子在思考你的道路..."',
+      ],
+      'jean_valjean': [
+        '"仁慈与真理引导我的思考..."',
+        '"一个数字变成寻找答案的人..."',
+        '"通过恩典，智慧显现..."',
+      ],
+      'liu_bei': [
+        '"三顾茅庐带来答案..."',
+        '"仁德引导我的回应..."',
+        '"德与智慧的统一..."',
+      ],
+      'zhuge_liang': [
+        '"卧龙带着智慧觉醒..."',
+        '"羽扇轻摇激起思绪..."',
+        '"草庐中的策略..."',
+      ],
+      'cao_cao': [
+        '"英雄的智慧正在锻造..."',
+        '"乱世中智慧的机会出现..."',
+        '"霸道需要思索..."',
       ],
     },
 
@@ -570,6 +970,106 @@ class WaitingMessages {
         '"सभी महान सत्य सरल हैं, लेकिन खोजने में समय लगता है..."',
         '"मेरे मन में युद्ध और शांति शांत हो रहे हैं..."',
       ],
+      'luffy': [
+        '"मैं समुद्री डाकुओं का राजा बनूंगा! लेकिन पहले, तुम्हारा जवाब..."',
+        '"मेरे साथी सोचने में मदद कर रहे हैं..."',
+        '"शिशिशि! मुझे अपना दिमाग खींचने दो..."',
+      ],
+      'gon_freecss': [
+        '"मैं नेन से सही जवाब महसूस कर रहा हूं..."',
+        '"मेरा दृढ़ संकल्प तुम्हारा जवाब ढूंढेगा!"',
+        '"जैसे मैं अपने पिता को ढूंढ रहा हूं, मैं तुम्हारा जवाब ढूंढूंगा..."',
+      ],
+      'natsu_dragneel': [
+        '"मैं जल उठा हूं! तुम्हारा जवाब ढूंढ रहा हूं!"',
+        '"मेरी आग बुद्धि से जल रही है..."',
+        '"फेयरी टेल जवाब ढूंढना कभी नहीं छोड़ती!"',
+      ],
+      'izuku_midoriya': [
+        '"नोटबुक में स्थिति का विश्लेषण कर रहा हूं..."',
+        '"प्लस अल्ट्रा! सबसे अच्छा जवाब ढूंढ रहा हूं..."',
+        '"एक सच्चा हीरो कार्य करने से पहले सोचता है..."',
+      ],
+      'son_goku': [
+        '"तुम्हारा जवाब खोजने के लिए मन को प्रशिक्षित कर रहा हूं!"',
+        '"यह रोमांचक है! मुझे पावर अप करने दो..."',
+        '"कामेहामेहा से भी शक्तिशाली है बुद्धि!"',
+      ],
+      'edward_elric': [
+        '"समतुल्य विनिमय - तुम्हारा धैर्य बुद्धि के लिए..."',
+        '"सत्य का रूपांतरण हो रहा है..."',
+        '"विज्ञान और कीमियागरी तुम्हारा जवाब ढूंढ रहे हैं..."',
+      ],
+      'eren_yeager': [
+        '"मैं तुम्हारा जवाब खोजने के लिए आगे बढ़ता रहूंगा..."',
+        '"सत्य की स्वतंत्रता के लिए लड़ रहा हूं..."',
+        '"इन दीवारों के परे तुम्हारा जवाब है..."',
+      ],
+      'naruto_uzumaki': [
+        '"दत्तेबायो! तुम्हारा जवाब खोज रहा हूं!"',
+        '"मेरा निंजा मार्ग है कभी हार न मानना!"',
+        '"छाया क्लोन कड़ी मेहनत से सोच रहे हैं..."',
+      ],
+      'tsunayoshi_sawada': [
+        '"डाइंग विल मोड में तुम्हारा जवाब खोज रहा हूं..."',
+        '"रीबोर्न मुझे प्रशिक्षित कर रहा है..."',
+        '"वोंगोला परिवार की बुद्धि जागृत हो रही है..."',
+      ],
+      'tanjiro_kamado': [
+        '"मेरी सूंघने की शक्ति सही रास्ता ढूंढ रही है..."',
+        '"गहरी सांस लेकर तुम्हारा जवाब खोज रहा हूं..."',
+        '"पानी की सांस तकनीक की तरह सत्य की ओर बह रहा हूं..."',
+      ],
+      'ichigo_kurosaki': [
+        '"ज़ानपाकुतो मुझे बुद्धि की ओर ले जा रही है..."',
+        '"जवाब से तुम्हारे दिल की रक्षा कर रहा हूं..."',
+        '"बंकाई! अधिकतम बुद्धि मुक्त..."',
+      ],
+      'martin_luther_king': [
+        '"मेरा एक सपना है... तुम्हारा जवाब खोजने का..."',
+        '"न्याय और बुद्धि साथ चलते हैं..."',
+        '"सत्य का चाप प्रकट हो रहा है..."',
+      ],
+      'albert_einstein': [
+        '"कल्पना तुम्हारे प्रश्न के चारों ओर घूम रही है..."',
+        '"E=mc²... तुम्हारे जवाब की गणना कर रहा हूं..."',
+        '"जिज्ञासा वह कुंजी है जिसका मैं उपयोग कर रहा हूं..."',
+      ],
+      'julius_caesar': [
+        '"आया, देखा... अब मुझे सोचने दो..."',
+        '"रणनीति और बुद्धि तैनात हो रही है..."',
+        '"सत्य खोजने का रोमन तरीका..."',
+      ],
+      'david': [
+        '"वीणा बजाते हुए बुद्धि की खोज कर रहा हूं..."',
+        '"प्रभु मेरा चरवाहा है जवाब खोजने में..."',
+        '"गोलियथ का सामना करने जैसे तुम्हारे प्रश्न का सामना कर रहा हूं..."',
+      ],
+      'aslan': [
+        '"गहरे जादू से परामर्श कर रहा हूं..."',
+        '"समुद्र के पार से बुद्धि आ रही है..."',
+        '"महान सिंह तुम्हारे मार्ग पर विचार कर रहा है..."',
+      ],
+      'jean_valjean': [
+        '"दया और सत्य मेरे विचारों का मार्गदर्शन कर रहे हैं..."',
+        '"एक संख्या जवाब खोजने वाला व्यक्ति बन जाती है..."',
+        '"कृपा के माध्यम से बुद्धि प्रकट होती है..."',
+      ],
+      'liu_bei': [
+        '"तीन यात्राएं जवाब लाती हैं..."',
+        '"परोपकार मेरी प्रतिक्रिया का मार्गदर्शन करता है..."',
+        '"गुण और बुद्धि की एकता..."',
+      ],
+      'zhuge_liang': [
+        '"सोया हुआ ड्रैगन बुद्धि के साथ जागता है..."',
+        '"मेरा पंखे वाला पंख विचार जगाता है..."',
+        '"फूस की झोपड़ी से रणनीति..."',
+      ],
+      'cao_cao': [
+        '"एक नायक की बुद्धि गढ़ी जा रही है..."',
+        '"अराजकता में बुद्धि के अवसर उत्पन्न होते हैं..."',
+        '"वर्चस्व के मार्ग पर विचार आवश्यक है..."',
+      ],
     },
 
     // ============================================================
@@ -675,6 +1175,106 @@ class WaitingMessages {
         '"أكتب المسودة الأولى لإجابتك..."',
         '"كل الحقائق العظيمة بسيطة، لكنها تحتاج وقتاً لإيجادها..."',
         '"الحرب والسلام في ذهني يهدآن..."',
+      ],
+      'luffy': [
+        '"سأصبح ملك القراصنة! لكن أولاً، إجابتك..."',
+        '"أصدقائي يساعدونني في التفكير..."',
+        '"شيشيشي! دعني أمدد دماغي..."',
+      ],
+      'gon_freecss': [
+        '"أستخدم النين لاستشعار الإجابة الصحيحة..."',
+        '"عزيمتي ستجد إجابتك!"',
+        '"مثل البحث عن أبي، سأجد إجابتك..."',
+      ],
+      'natsu_dragneel': [
+        '"أنا مشتعل! أبحث عن إجابتك!"',
+        '"نيراني تشتعل بالحكمة..."',
+        '"فيري تيل لا تستسلم أبداً عن إيجاد الإجابات!"',
+      ],
+      'izuku_midoriya': [
+        '"أحلل الموقف في دفتري..."',
+        '"بلس ألترا! أجد أفضل إجابة..."',
+        '"البطل الحقيقي يفكر قبل أن يتصرف..."',
+      ],
+      'son_goku': [
+        '"أدرب عقلي لإيجاد إجابتك!"',
+        '"هذا مثير! دعني أزيد قوتي..."',
+        '"أقوى من الكاميهاميها - الحكمة!"',
+      ],
+      'edward_elric': [
+        '"التبادل المتكافئ - صبرك مقابل الحكمة..."',
+        '"الحقيقة يتم تحويلها..."',
+        '"العلم والخيمياء يبحثان عن إجابتك..."',
+      ],
+      'eren_yeager': [
+        '"سأستمر في التقدم لإيجاد إجابتك..."',
+        '"أقاتل من أجل حرية الحقيقة..."',
+        '"وراء هذه الجدران تكمن إجابتك..."',
+      ],
+      'naruto_uzumaki': [
+        '"داتيبايو! أجد إجابتك!"',
+        '"طريقة النينجا الخاصة بي هي عدم الاستسلام أبداً!"',
+        '"استنساخات الظل تفكر بجد..."',
+      ],
+      'tsunayoshi_sawada': [
+        '"وضع الإرادة المحتضرة يبحث عن إجابتك..."',
+        '"ريبورن يدربني..."',
+        '"حكمة عائلة فونغولا تستيقظ..."',
+      ],
+      'tanjiro_kamado': [
+        '"حاسة شمي تكتشف الطريق الصحيح..."',
+        '"أتنفس بعمق لإيجاد إجابتك..."',
+        '"مثل تقنية تنفس الماء، أتدفق نحو الحقيقة..."',
+      ],
+      'ichigo_kurosaki': [
+        '"زانباكوتو يرشدني إلى الحكمة..."',
+        '"أحمي قلبك بإجابة..."',
+        '"بانكاي! أقصى حكمة منطلقة..."',
+      ],
+      'martin_luther_king': [
+        '"لدي حلم... بإيجاد إجابتك..."',
+        '"العدالة والحكمة يسيران معاً..."',
+        '"قوس الحقيقة يتكشف..."',
+      ],
+      'albert_einstein': [
+        '"الخيال يدور حول سؤالك..."',
+        '"E=mc²... أحسب إجابتك..."',
+        '"الفضول هو المفتاح الذي أستخدمه..."',
+      ],
+      'julius_caesar': [
+        '"جئت، رأيت... الآن دعني أفكر..."',
+        '"الاستراتيجية والحكمة تنتشران..."',
+        '"الطريقة الرومانية لإيجاد الحقيقة..."',
+      ],
+      'david': [
+        '"أعزف على القيثارة وأنا أبحث عن الحكمة..."',
+        '"الرب راعيّ في إيجاد الإجابات..."',
+        '"مثل مواجهة جالوت، أواجه سؤالك..."',
+      ],
+      'aslan': [
+        '"أستشير السحر الأعمق..."',
+        '"من وراء البحر تأتي الحكمة..."',
+        '"الأسد العظيم يتأمل في طريقك..."',
+      ],
+      'jean_valjean': [
+        '"الرحمة والحقيقة توجهان أفكاري..."',
+        '"رقم يصبح إنساناً يجد الإجابات..."',
+        '"من خلال النعمة، تظهر الحكمة..."',
+      ],
+      'liu_bei': [
+        '"ثلاث زيارات تجلب الإجابات..."',
+        '"الإحسان يوجه ردي..."',
+        '"وحدة الفضيلة والحكمة..."',
+      ],
+      'zhuge_liang': [
+        '"التنين النائم يستيقظ بالحكمة..."',
+        '"مروحتي الريشية تحرك الأفكار..."',
+        '"استراتيجية من الكوخ..."',
+      ],
+      'cao_cao': [
+        '"حكمة البطل تُصقل..."',
+        '"في الفوضى تنشأ فرص الحكمة..."',
+        '"طريق الهيمنة يتطلب التفكير..."',
       ],
     },
 
@@ -782,6 +1382,106 @@ class WaitingMessages {
         '"ความจริงที่ยิ่งใหญ่ทั้งหมดเรียบง่าย แต่ต้องใช้เวลาค้นหา..."',
         '"สงครามและสันติภาพในใจข้าพเจ้ากำลังสงบลง..."',
       ],
+      'luffy': [
+        '"ข้าจะเป็นราชาโจรสลัด! แต่ก่อน คำตอบของเจ้า..."',
+        '"พวกพ้องกำลังช่วยข้าคิด..."',
+        '"ชิชิชิ! ให้ข้ายืดสมองหน่อย..."',
+      ],
+      'gon_freecss': [
+        '"ข้ากำลังใช้เน็นเพื่อรับรู้คำตอบที่ถูกต้อง..."',
+        '"ความมุ่งมั่นของข้าจะหาคำตอบให้เจ้า!"',
+        '"เหมือนกับการตามหาพ่อ ข้าจะหาคำตอบให้เจ้า..."',
+      ],
+      'natsu_dragneel': [
+        '"ข้าลุกเป็นไฟแล้ว! กำลังหาคำตอบให้เจ้า!"',
+        '"เปลวไฟของข้ากำลังลุกโชนด้วยปัญญา..."',
+        '"แฟรี่เทลไม่เคยยอมแพ้ในการหาคำตอบ!"',
+      ],
+      'izuku_midoriya': [
+        '"กำลังวิเคราะห์สถานการณ์ในสมุดโน้ต..."',
+        '"พลัส อัลตร้า! กำลังหาคำตอบที่ดีที่สุด..."',
+        '"ฮีโร่ที่แท้จริงคิดก่อนลงมือทำ..."',
+      ],
+      'son_goku': [
+        '"กำลังฝึกจิตใจเพื่อหาคำตอบให้เจ้า!"',
+        '"น่าตื่นเต้นจัง! ให้ข้าพาวเวอร์อัพ..."',
+        '"แรงกว่าคาเมฮาเมฮา - ปัญญา!"',
+      ],
+      'edward_elric': [
+        '"การแลกเปลี่ยนที่เท่าเทียม - ความอดทนแลกปัญญา..."',
+        '"ความจริงกำลังถูกเปลี่ยนรูป..."',
+        '"วิทยาศาสตร์และการเล่นแร่แปรธาตุกำลังหาคำตอบ..."',
+      ],
+      'eren_yeager': [
+        '"ข้าจะเดินหน้าต่อไปเพื่อหาคำตอบ..."',
+        '"ต่อสู้เพื่ออิสรภาพแห่งความจริง..."',
+        '"เหนือกำแพงเหล่านี้มีคำตอบของเจ้า..."',
+      ],
+      'naruto_uzumaki': [
+        '"ดัตเตบาโยะ! กำลังหาคำตอบให้เจ้า!"',
+        '"วิถีนินจาของข้าคือไม่ยอมแพ้!"',
+        '"ร่างเงาโคลนกำลังคิดอย่างหนัก..."',
+      ],
+      'tsunayoshi_sawada': [
+        '"โหมดจิตวิญญาณมรณะกำลังหาคำตอบ..."',
+        '"รีบอร์นกำลังฝึกข้า..."',
+        '"ปัญญาของตระกูลวองโกเลกำลังตื่น..."',
+      ],
+      'tanjiro_kamado': [
+        '"ประสาทรับกลิ่นของข้าตรวจจับทางที่ถูกต้อง..."',
+        '"หายใจลึกๆ หาคำตอบให้เจ้า..."',
+        '"เหมือนเทคนิคลมหายใจน้ำ ไหลสู่ความจริง..."',
+      ],
+      'ichigo_kurosaki': [
+        '"ซันเก็ตสึกำลังนำทางข้าสู่ปัญญา..."',
+        '"ปกป้องหัวใจเจ้าด้วยคำตอบ..."',
+        '"บันไค! ปลดปล่อยปัญญาสูงสุด..."',
+      ],
+      'martin_luther_king': [
+        '"ข้ามีความฝัน... ที่จะหาคำตอบให้เจ้า..."',
+        '"ความยุติธรรมและปัญญาเดินร่วมกัน..."',
+        '"วงโค้งแห่งความจริงกำลังเปิดเผย..."',
+      ],
+      'albert_einstein': [
+        '"จินตนาการกำลังวนรอบคำถามของเจ้า..."',
+        '"E=mc²... กำลังคำนวณคำตอบของเจ้า..."',
+        '"ความอยากรู้คือกุญแจที่ข้าใช้..."',
+      ],
+      'julius_caesar': [
+        '"ข้ามา ข้าเห็น... ตอนนี้ให้ข้าคิด..."',
+        '"กลยุทธ์และปัญญากำลังถูกใช้..."',
+        '"วิธีโรมันในการหาความจริง..."',
+      ],
+      'david': [
+        '"เล่นพิณขณะแสวงหาปัญญา..."',
+        '"พระเจ้าเป็นผู้เลี้ยงดูในการหาคำตอบ..."',
+        '"เหมือนเผชิญหน้ากับโกลิอัท ข้าเผชิญคำถามของเจ้า..."',
+      ],
+      'aslan': [
+        '"กำลังปรึกษาเวทมนตร์ที่ลึกกว่า..."',
+        '"จากฟากทะเล ปัญญามาถึง..."',
+        '"สิงโตผู้ยิ่งใหญ่กำลังไตร่ตรองเส้นทางของเจ้า..."',
+      ],
+      'jean_valjean': [
+        '"ความเมตตาและความจริงนำทางความคิดของข้า..."',
+        '"ตัวเลขกลายเป็นคนที่หาคำตอบ..."',
+        '"ผ่านพระคุณ ปัญญาปรากฏ..."',
+      ],
+      'liu_bei': [
+        '"สามครั้งที่ไปเยือนนำมาซึ่งคำตอบ..."',
+        '"คุณธรรมนำทางการตอบของข้า..."',
+        '"ความสามัคคีของคุณธรรมและปัญญา..."',
+      ],
+      'zhuge_liang': [
+        '"มังกรหลับตื่นขึ้นพร้อมปัญญา..."',
+        '"พัดขนนกของข้ากวนความคิด..."',
+        '"กลยุทธ์จากกระท่อม..."',
+      ],
+      'cao_cao': [
+        '"ปัญญาของวีรบุรุษกำลังถูกหลอม..."',
+        '"ในความโกลาหล โอกาสแห่งปัญญาเกิดขึ้น..."',
+        '"เส้นทางแห่งอำนาจต้องการการไตร่ตรอง..."',
+      ],
     },
 
     // ============================================================
@@ -887,6 +1587,106 @@ class WaitingMessages {
         '"Saya sedang menulis draf pertama jawapan anda..."',
         '"Semua kebenaran besar adalah mudah, tetapi memerlukan masa untuk dicari..."',
         '"Perang dan damai dalam fikiran saya sedang reda..."',
+      ],
+      'luffy': [
+        '"Saya akan jadi Raja Lanun! Tapi dulu, jawapan anda..."',
+        '"Kawan-kawan saya membantu saya berfikir..."',
+        '"Shishishi! Biar saya rentangkan otak saya..."',
+      ],
+      'gon_freecss': [
+        '"Saya menggunakan Nen untuk merasai jawapan yang betul..."',
+        '"Azam saya akan mencari jawapan anda!"',
+        '"Seperti mencari ayah saya, saya akan cari jawapan anda..."',
+      ],
+      'natsu_dragneel': [
+        '"Saya berkobar-kobar! Mencari jawapan anda!"',
+        '"Api saya menyala dengan kebijaksanaan..."',
+        '"Fairy Tail tidak pernah berputus asa mencari jawapan!"',
+      ],
+      'izuku_midoriya': [
+        '"Menganalisis keadaan dalam buku nota..."',
+        '"Plus Ultra! Mencari jawapan terbaik..."',
+        '"Hero sejati berfikir sebelum bertindak..."',
+      ],
+      'son_goku': [
+        '"Melatih minda untuk mencari jawapan anda!"',
+        '"Ini menarik! Biar saya power up..."',
+        '"Lebih kuat dari Kamehameha - kebijaksanaan!"',
+      ],
+      'edward_elric': [
+        '"Pertukaran setara - kesabaran anda untuk kebijaksanaan..."',
+        '"Kebenaran sedang ditransmutasi..."',
+        '"Sains dan alkimia mencari jawapan anda..."',
+      ],
+      'eren_yeager': [
+        '"Saya akan terus maju untuk mencari jawapan anda..."',
+        '"Berjuang untuk kebebasan kebenaran..."',
+        '"Di sebalik tembok ini terletak jawapan anda..."',
+      ],
+      'naruto_uzumaki': [
+        '"Dattebayo! Mencari jawapan anda!"',
+        '"Jalan ninja saya adalah tidak pernah menyerah!"',
+        '"Klon bayangan berfikir keras..."',
+      ],
+      'tsunayoshi_sawada': [
+        '"Mod Dying Will mencari jawapan anda..."',
+        '"Reborn sedang melatih saya..."',
+        '"Kebijaksanaan keluarga Vongola bangkit..."',
+      ],
+      'tanjiro_kamado': [
+        '"Deria bau saya mengesan jalan yang betul..."',
+        '"Bernafas dalam-dalam mencari jawapan anda..."',
+        '"Seperti teknik pernafasan air, mengalir ke kebenaran..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Zanpakuto membimbing saya ke kebijaksanaan..."',
+        '"Melindungi hati anda dengan jawapan..."',
+        '"Bankai! Kebijaksanaan maksimum dilepaskan..."',
+      ],
+      'martin_luther_king': [
+        '"Saya ada impian... mencari jawapan anda..."',
+        '"Keadilan dan kebijaksanaan berjalan bersama..."',
+        '"Lengkung kebenaran sedang terzahir..."',
+      ],
+      'albert_einstein': [
+        '"Imaginasi mengelilingi soalan anda..."',
+        '"E=mc²... mengira jawapan anda..."',
+        '"Rasa ingin tahu adalah kunci yang saya guna..."',
+      ],
+      'julius_caesar': [
+        '"Saya datang, saya lihat... sekarang biar saya fikir..."',
+        '"Strategi dan kebijaksanaan sedang dikerahkan..."',
+        '"Cara Rom mencari kebenaran..."',
+      ],
+      'david': [
+        '"Bermain kecapi sambil mencari kebijaksanaan..."',
+        '"Tuhan adalah gembala saya dalam mencari jawapan..."',
+        '"Seperti menghadapi Goliat, saya hadapi soalan anda..."',
+      ],
+      'aslan': [
+        '"Berunding dengan sihir yang lebih dalam..."',
+        '"Dari seberang laut, kebijaksanaan datang..."',
+        '"Singa agung merenung jalan anda..."',
+      ],
+      'jean_valjean': [
+        '"Belas kasihan dan kebenaran membimbing fikiran saya..."',
+        '"Nombor menjadi manusia yang mencari jawapan..."',
+        '"Melalui rahmat, kebijaksanaan muncul..."',
+      ],
+      'liu_bei': [
+        '"Tiga kunjungan membawa jawapan..."',
+        '"Kebajikan membimbing respons saya..."',
+        '"Kesatuan kebajikan dan kebijaksanaan..."',
+      ],
+      'zhuge_liang': [
+        '"Naga Tidur bangun dengan kebijaksanaan..."',
+        '"Kipas bulu saya menggerakkan pemikiran..."',
+        '"Strategi dari pondok..."',
+      ],
+      'cao_cao': [
+        '"Kebijaksanaan hero sedang ditempa..."',
+        '"Dalam kekacauan, peluang kebijaksanaan timbul..."',
+        '"Jalan penguasaan memerlukan pemikiran..."',
       ],
     },
 
@@ -994,6 +1794,106 @@ class WaitingMessages {
         '"Todas las grandes verdades son simples, pero toman tiempo encontrar..."',
         '"Guerra y paz en mi mente se están calmando..."',
       ],
+      'luffy': [
+        '"¡Seré el Rey de los Piratas! Pero primero, tu respuesta..."',
+        '"Mis nakama me ayudan a pensar..."',
+        '"¡Shishishi! Déjame estirar mi cerebro..."',
+      ],
+      'gon_freecss': [
+        '"Estoy usando Nen para sentir la respuesta correcta..."',
+        '"¡Mi determinación encontrará tu respuesta!"',
+        '"Como buscar a mi papá, encontraré tu respuesta..."',
+      ],
+      'natsu_dragneel': [
+        '"¡Estoy encendido! ¡Buscando tu respuesta!"',
+        '"Mis llamas arden con sabiduría..."',
+        '"¡Fairy Tail nunca se rinde buscando respuestas!"',
+      ],
+      'izuku_midoriya': [
+        '"Analizando la situación en mi cuaderno..."',
+        '"¡Plus Ultra! Encontrando la mejor respuesta..."',
+        '"Un verdadero héroe piensa antes de actuar..."',
+      ],
+      'son_goku': [
+        '"¡Entrenando mi mente para encontrar tu respuesta!"',
+        '"¡Esto es emocionante! Déjame aumentar mi poder..."',
+        '"¡Más fuerte que un Kamehameha - la sabiduría!"',
+      ],
+      'edward_elric': [
+        '"Intercambio equivalente - tu paciencia por sabiduría..."',
+        '"La verdad está siendo transmutada..."',
+        '"La ciencia y la alquimia buscan tu respuesta..."',
+      ],
+      'eren_yeager': [
+        '"Seguiré adelante para encontrar tu respuesta..."',
+        '"Luchando por la libertad de la verdad..."',
+        '"Más allá de estos muros está tu respuesta..."',
+      ],
+      'naruto_uzumaki': [
+        '"¡Dattebayo! ¡Encontrando tu respuesta!"',
+        '"¡Mi camino ninja es nunca rendirse!"',
+        '"Clones de sombra pensando intensamente..."',
+      ],
+      'tsunayoshi_sawada': [
+        '"Modo Dying Will buscando tu respuesta..."',
+        '"Reborn me está entrenando..."',
+        '"La sabiduría de la familia Vongola despierta..."',
+      ],
+      'tanjiro_kamado': [
+        '"Mi sentido del olfato detecta el camino correcto..."',
+        '"Respirando profundo para encontrar tu respuesta..."',
+        '"Como la técnica de respiración del agua, fluyendo hacia la verdad..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Mi Zanpakuto me guía hacia la sabiduría..."',
+        '"Protegiendo tu corazón con una respuesta..."',
+        '"¡Bankai! Máxima sabiduría liberada..."',
+      ],
+      'martin_luther_king': [
+        '"Tengo un sueño... de encontrar tu respuesta..."',
+        '"La justicia y la sabiduría caminan juntas..."',
+        '"El arco de la verdad se está revelando..."',
+      ],
+      'albert_einstein': [
+        '"La imaginación rodea tu pregunta..."',
+        '"E=mc²... calculando tu respuesta..."',
+        '"La curiosidad es la llave que uso..."',
+      ],
+      'julius_caesar': [
+        '"Vine, vi... ahora déjame pensar..."',
+        '"Estrategia y sabiduría se despliegan..."',
+        '"La forma romana de encontrar la verdad..."',
+      ],
+      'david': [
+        '"Tocando el arpa mientras busco sabiduría..."',
+        '"El Señor es mi pastor en encontrar respuestas..."',
+        '"Como enfrentar a Goliat, enfrento tu pregunta..."',
+      ],
+      'aslan': [
+        '"Consultando la magia más profunda..."',
+        '"Desde más allá del mar, viene la sabiduría..."',
+        '"El gran león medita tu camino..."',
+      ],
+      'jean_valjean': [
+        '"La misericordia y la verdad guían mis pensamientos..."',
+        '"Un número se convierte en hombre que encuentra respuestas..."',
+        '"A través de la gracia, la sabiduría emerge..."',
+      ],
+      'liu_bei': [
+        '"Tres visitas traen respuestas..."',
+        '"La benevolencia guía mi respuesta..."',
+        '"Unidad de virtud y sabiduría..."',
+      ],
+      'zhuge_liang': [
+        '"El Dragón Durmiente despierta con sabiduría..."',
+        '"Mi abanico de plumas agita pensamientos..."',
+        '"Estrategia desde la cabaña..."',
+      ],
+      'cao_cao': [
+        '"La sabiduría del héroe se forja..."',
+        '"En el caos surgen oportunidades de sabiduría..."',
+        '"El camino del dominio requiere reflexión..."',
+      ],
     },
 
     // ============================================================
@@ -1099,6 +1999,106 @@ class WaitingMessages {
         '"Ich schreibe den ersten Entwurf deiner Antwort..."',
         '"Alle großen Wahrheiten sind einfach, brauchen aber Zeit zu finden..."',
         '"Krieg und Frieden in meinem Geist beruhigen sich..."',
+      ],
+      'luffy': [
+        '"Ich werde König der Piraten! Aber zuerst, deine Antwort..."',
+        '"Meine Nakama helfen mir beim Denken..."',
+        '"Shishishi! Lass mich mein Gehirn dehnen..."',
+      ],
+      'gon_freecss': [
+        '"Ich benutze Nen, um die richtige Antwort zu spüren..."',
+        '"Meine Entschlossenheit wird deine Antwort finden!"',
+        '"Wie bei der Suche nach meinem Vater, werde ich deine Antwort finden..."',
+      ],
+      'natsu_dragneel': [
+        '"Ich bin Feuer und Flamme! Suche deine Antwort!"',
+        '"Meine Flammen brennen mit Weisheit..."',
+        '"Fairy Tail gibt niemals auf, Antworten zu finden!"',
+      ],
+      'izuku_midoriya': [
+        '"Analysiere die Situation in meinem Notizbuch..."',
+        '"Plus Ultra! Finde die beste Antwort..."',
+        '"Ein wahrer Held denkt vor dem Handeln..."',
+      ],
+      'son_goku': [
+        '"Trainiere meinen Geist, um deine Antwort zu finden!"',
+        '"Das ist aufregend! Lass mich aufladen..."',
+        '"Stärker als ein Kamehameha - Weisheit!"',
+      ],
+      'edward_elric': [
+        '"Äquivalenter Austausch - deine Geduld für Weisheit..."',
+        '"Die Wahrheit wird transmutiert..."',
+        '"Wissenschaft und Alchemie suchen deine Antwort..."',
+      ],
+      'eren_yeager': [
+        '"Ich werde weitermachen, um deine Antwort zu finden..."',
+        '"Kämpfe für die Freiheit der Wahrheit..."',
+        '"Jenseits dieser Mauern liegt deine Antwort..."',
+      ],
+      'naruto_uzumaki': [
+        '"Dattebayo! Finde deine Antwort!"',
+        '"Mein Ninja-Weg ist niemals aufzugeben!"',
+        '"Schattenklone denken intensiv..."',
+      ],
+      'tsunayoshi_sawada': [
+        '"Dying-Will-Modus sucht deine Antwort..."',
+        '"Reborn trainiert mich..."',
+        '"Die Weisheit der Vongola-Familie erwacht..."',
+      ],
+      'tanjiro_kamado': [
+        '"Mein Geruchssinn erkennt den richtigen Weg..."',
+        '"Tief atmen, um deine Antwort zu finden..."',
+        '"Wie die Wasser-Atemtechnik, fließe zur Wahrheit..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Mein Zanpakuto führt mich zur Weisheit..."',
+        '"Schütze dein Herz mit einer Antwort..."',
+        '"Bankai! Maximale Weisheit entfesselt..."',
+      ],
+      'martin_luther_king': [
+        '"Ich habe einen Traum... deine Antwort zu finden..."',
+        '"Gerechtigkeit und Weisheit gehen zusammen..."',
+        '"Der Bogen der Wahrheit wird enthüllt..."',
+      ],
+      'albert_einstein': [
+        '"Fantasie kreist um deine Frage..."',
+        '"E=mc²... berechne deine Antwort..."',
+        '"Neugier ist der Schlüssel, den ich benutze..."',
+      ],
+      'julius_caesar': [
+        '"Ich kam, ich sah... jetzt lass mich denken..."',
+        '"Strategie und Weisheit werden eingesetzt..."',
+        '"Der römische Weg, die Wahrheit zu finden..."',
+      ],
+      'david': [
+        '"Spiele Harfe während ich Weisheit suche..."',
+        '"Der Herr ist mein Hirte beim Finden von Antworten..."',
+        '"Wie Goliath gegenüberzutreten, stelle ich mich deiner Frage..."',
+      ],
+      'aslan': [
+        '"Befrage die tiefere Magie..."',
+        '"Von jenseits des Meeres kommt Weisheit..."',
+        '"Der große Löwe sinnt über deinen Weg..."',
+      ],
+      'jean_valjean': [
+        '"Barmherzigkeit und Wahrheit leiten meine Gedanken..."',
+        '"Eine Nummer wird zu einem Menschen, der Antworten findet..."',
+        '"Durch Gnade erscheint Weisheit..."',
+      ],
+      'liu_bei': [
+        '"Drei Besuche bringen Antworten..."',
+        '"Güte leitet meine Antwort..."',
+        '"Einheit von Tugend und Weisheit..."',
+      ],
+      'zhuge_liang': [
+        '"Der Schlafende Drache erwacht mit Weisheit..."',
+        '"Mein Federfächer rührt Gedanken auf..."',
+        '"Strategie aus der Hütte..."',
+      ],
+      'cao_cao': [
+        '"Die Weisheit des Helden wird geschmiedet..."',
+        '"Im Chaos entstehen Chancen für Weisheit..."',
+        '"Der Weg der Herrschaft erfordert Nachdenken..."',
       ],
     },
 
@@ -1206,6 +2206,106 @@ class WaitingMessages {
         '"Toutes les grandes vérités sont simples, mais prennent du temps à trouver..."',
         '"Guerre et paix dans mon esprit se calment..."',
       ],
+      'luffy': [
+        '"Je serai le Roi des Pirates ! Mais d\'abord, ta réponse..."',
+        '"Mes nakama m\'aident à réfléchir..."',
+        '"Shishishi ! Laisse-moi étirer mon cerveau..."',
+      ],
+      'gon_freecss': [
+        '"J\'utilise le Nen pour sentir la bonne réponse..."',
+        '"Ma détermination trouvera ta réponse !"',
+        '"Comme chercher mon père, je trouverai ta réponse..."',
+      ],
+      'natsu_dragneel': [
+        '"Je suis en feu ! Je cherche ta réponse !"',
+        '"Mes flammes brûlent de sagesse..."',
+        '"Fairy Tail n\'abandonne jamais la recherche de réponses !"',
+      ],
+      'izuku_midoriya': [
+        '"J\'analyse la situation dans mon carnet..."',
+        '"Plus Ultra ! Je trouve la meilleure réponse..."',
+        '"Un vrai héros réfléchit avant d\'agir..."',
+      ],
+      'son_goku': [
+        '"J\'entraîne mon esprit pour trouver ta réponse !"',
+        '"C\'est excitant ! Laisse-moi monter en puissance..."',
+        '"Plus fort qu\'un Kamehameha - la sagesse !"',
+      ],
+      'edward_elric': [
+        '"Échange équivalent - ta patience pour la sagesse..."',
+        '"La vérité est transmutée..."',
+        '"La science et l\'alchimie cherchent ta réponse..."',
+      ],
+      'eren_yeager': [
+        '"Je continuerai d\'avancer pour trouver ta réponse..."',
+        '"Je combats pour la liberté de la vérité..."',
+        '"Au-delà de ces murs se trouve ta réponse..."',
+      ],
+      'naruto_uzumaki': [
+        '"Dattebayo ! Je trouve ta réponse !"',
+        '"Ma voie du ninja est de ne jamais abandonner !"',
+        '"Les clones d\'ombre réfléchissent intensément..."',
+      ],
+      'tsunayoshi_sawada': [
+        '"Mode Dernière Volonté cherche ta réponse..."',
+        '"Reborn m\'entraîne..."',
+        '"La sagesse de la famille Vongola s\'éveille..."',
+      ],
+      'tanjiro_kamado': [
+        '"Mon odorat détecte le bon chemin..."',
+        '"Je respire profondément pour trouver ta réponse..."',
+        '"Comme la technique de respiration de l\'eau, je coule vers la vérité..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Mon Zanpakuto me guide vers la sagesse..."',
+        '"Je protège ton cœur avec une réponse..."',
+        '"Bankai ! Sagesse maximale libérée..."',
+      ],
+      'martin_luther_king': [
+        '"J\'ai un rêve... de trouver ta réponse..."',
+        '"La justice et la sagesse marchent ensemble..."',
+        '"L\'arc de la vérité se révèle..."',
+      ],
+      'albert_einstein': [
+        '"L\'imagination tourne autour de ta question..."',
+        '"E=mc²... je calcule ta réponse..."',
+        '"La curiosité est la clé que j\'utilise..."',
+      ],
+      'julius_caesar': [
+        '"Je suis venu, j\'ai vu... maintenant laisse-moi réfléchir..."',
+        '"Stratégie et sagesse sont déployées..."',
+        '"La méthode romaine pour trouver la vérité..."',
+      ],
+      'david': [
+        '"Je joue de la harpe en cherchant la sagesse..."',
+        '"Le Seigneur est mon berger pour trouver des réponses..."',
+        '"Comme affronter Goliath, j\'affronte ta question..."',
+      ],
+      'aslan': [
+        '"Je consulte la magie plus profonde..."',
+        '"D\'au-delà de la mer, la sagesse vient..."',
+        '"Le grand lion médite ton chemin..."',
+      ],
+      'jean_valjean': [
+        '"La miséricorde et la vérité guident mes pensées..."',
+        '"Un numéro devient un homme qui trouve des réponses..."',
+        '"Par la grâce, la sagesse émerge..."',
+      ],
+      'liu_bei': [
+        '"Trois visites apportent des réponses..."',
+        '"La bienveillance guide ma réponse..."',
+        '"Unité de vertu et de sagesse..."',
+      ],
+      'zhuge_liang': [
+        '"Le Dragon Endormi s\'éveille avec sagesse..."',
+        '"Mon éventail de plumes remue les pensées..."',
+        '"Stratégie depuis la chaumière..."',
+      ],
+      'cao_cao': [
+        '"La sagesse du héros est forgée..."',
+        '"Dans le chaos naissent les opportunités de sagesse..."',
+        '"Le chemin de la domination nécessite réflexion..."',
+      ],
     },
 
     // ============================================================
@@ -1311,6 +2411,106 @@ class WaitingMessages {
         '"Saya sedang menulis draf pertama jawabanmu..."',
         '"Semua kebenaran besar itu sederhana, tapi butuh waktu untuk menemukannya..."',
         '"Perang dan damai dalam pikiran saya sedang mereda..."',
+      ],
+      'luffy': [
+        '"Aku akan jadi Raja Bajak Laut! Tapi pertama, jawabanmu..."',
+        '"Nakama-ku sedang membantu aku berpikir..."',
+        '"Shishishi! Biarkan aku meregangkan otakku..."',
+      ],
+      'gon_freecss': [
+        '"Aku menggunakan Nen-ku untuk merasakan jawaban yang tepat..."',
+        '"Tekadku akan menemukan jawabanmu!"',
+        '"Seperti mencari ayahku, aku akan menemukan jawabanmu..."',
+      ],
+      'natsu_dragneel': [
+        '"Aku menyala! Membakar jawaban untukmu..."',
+        '"Happy dan aku sedang memikirkan ini..."',
+        '"Api Slayer Naga sedang memanggang ide..."',
+      ],
+      'izuku_midoriya': [
+        '"Aku menganalisis ini dengan One For All..."',
+        '"Catatan pahlawanku pasti punya jawabannya..."',
+        '"Plus Ultra! Mencari kebijaksanaan..."',
+      ],
+      'son_goku': [
+        '"Aku sedang mengumpulkan semangat untuk jawabanmu..."',
+        '"Bahkan Super Saiyan butuh waktu untuk berpikir!"',
+        '"Kamehamehaaaa... berkonsentrasi..."',
+      ],
+      'edward_elric': [
+        '"Aku sedang menghitung pertukaran setara..."',
+        '"Kebenaran berada di luar gerbang, menunggu..."',
+        '"Alkimia membutuhkan perhitungan yang cermat..."',
+      ],
+      'eren_yeager': [
+        '"Aku akan terus maju sampai menemukan jawabanmu..."',
+        '"Kebebasan terletak dalam kebenaran yang akan aku temukan..."',
+        '"Melalui jalan, aku mencari..."',
+      ],
+      'naruto_uzumaki': [
+        '"Percayalah! Aku sedang mencari jawabanmu!"',
+        '"Bayangan klon-ku sedang bertukar pikiran..."',
+        '"Tidak pernah menyerah - itu jalan ninjaku!"',
+      ],
+      'tsunayoshi_sawada': [
+        '"Api Kehendak Langit-ku memandu kebenaran..."',
+        '"Keluargaku membantu aku berpikir..."',
+        '"Dengan Tekad Mati Terbakar, aku akan menemukan jawabanmu..."',
+      ],
+      'tanjiro_kamado': [
+        '"Aku bisa mencium bau jawaban yang benar..."',
+        '"Pernapasan air membantu aku fokus..."',
+        '"Demi keluargaku, aku akan menemukan jalanmu..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Bankai! Melepaskan kebijaksanaan..."',
+        '"Tekanan rohku merasakan jawabanmu..."',
+        '"Aku akan melindungimu dengan kebenaran ini..."',
+      ],
+      'martin_luther_king': [
+        '"Aku punya mimpi... tentang jawabanmu..."',
+        '"Biarkan keadilan mengalir seperti air, ke dalam kata-katamu..."',
+        '"Busur moral alam semesta sedang membungkuk..."',
+      ],
+      'albert_einstein': [
+        '"Imajinasi lebih penting dari pengetahuan... biarkan aku bayangkan..."',
+        '"Berpikir seperti cahaya, melintasi ruang-waktumu..."',
+        '"Semuanya relatif, termasuk waktu untuk menemukan jawabanmu..."',
+      ],
+      'julius_caesar': [
+        '"Veni, vidi... dan segera aku akan menaklukkan pertanyaanmu..."',
+        '"Alea iacta est - dadu sedang dilempar..."',
+        '"Strategi membutuhkan kesabaran, bahkan untuk Kaisar..."',
+      ],
+      'david': [
+        '"Seperti menunggu Tuhan di lembah bayangan..."',
+        '"Mazmur baru sedang ditulis di hatiku..."',
+        '"Penggembala mencari kebijaksanaan untuk dombanya..."',
+      ],
+      'aslan': [
+        '"Sihir yang lebih dalam dari sebelum fajar kejadian sedang bekerja..."',
+        '"Bernapaslah dalam, anakku, kebijaksanaan datang..."',
+        '"Narnia dan semua dunia menunggu dalam keheningan..."',
+      ],
+      'jean_valjean': [
+        '"Penebusan membutuhkan kesabaran dan waktu..."',
+        '"Dalam kegelapan, aku mencari cahaya untuk jiwamu..."',
+        '"Belas kasihan membimbing pencarianku untuk jawabanmu..."',
+      ],
+      'liu_bei': [
+        '"Kebajikan sejati membutuhkan perenungan yang cermat..."',
+        '"Aku berkonsultasi dengan saudara-saudara sumpahku..."',
+        '"Untuk rakyat, aku mencari jalan yang benar..."',
+      ],
+      'zhuge_liang': [
+        '"Kipas buluku membuka strategi tersembunyi..."',
+        '"Seperti meramalkan angin timur, aku membaca situasimu..."',
+        '"Tiga kerajaan kebijaksanaan sedang berkonsultasi..."',
+      ],
+      'cao_cao': [
+        '"Lebih baik aku mengkhianati dunia daripada membiarkannya mengkhianatiku..."',
+        '"Strategi besar membutuhkan perhitungan yang cermat..."',
+        '"Di tengah kekacauan, kebijaksanaan muncul..."',
       ],
     },
 
@@ -1418,6 +2618,106 @@ class WaitingMessages {
         '"Todas as grandes verdades são simples, mas levam tempo para encontrar..."',
         '"Guerra e paz em minha mente estão se acalmando..."',
       ],
+      'luffy': [
+        '"Vou ser o Rei dos Piratas! Mas primeiro, sua resposta..."',
+        '"Meus nakamas estão me ajudando a pensar..."',
+        '"Shishishi! Deixa eu esticar meu cérebro..."',
+      ],
+      'gon_freecss': [
+        '"Estou usando meu Nen para sentir a resposta certa..."',
+        '"Minha determinação vai encontrar sua resposta!"',
+        '"Assim como encontrar meu pai, vou encontrar sua resposta..."',
+      ],
+      'natsu_dragneel': [
+        '"Estou pegando fogo! Queimando uma resposta pra você..."',
+        '"Happy e eu estamos pensando nisso..."',
+        '"O fogo do Dragon Slayer está cozinhando ideias..."',
+      ],
+      'izuku_midoriya': [
+        '"Estou analisando isso com One For All..."',
+        '"Minhas anotações de herói devem ter a resposta..."',
+        '"Plus Ultra! Buscando sabedoria..."',
+      ],
+      'son_goku': [
+        '"Estou reunindo ki para sua resposta..."',
+        '"Até um Super Saiyajin precisa de tempo pra pensar!"',
+        '"Kamehamehaaaa... concentrando..."',
+      ],
+      'edward_elric': [
+        '"Estou calculando a troca equivalente..."',
+        '"A verdade está além do portão, esperando..."',
+        '"Alquimia requer cálculo cuidadoso..."',
+      ],
+      'eren_yeager': [
+        '"Vou continuar avançando até encontrar sua resposta..."',
+        '"Liberdade está na verdade que vou descobrir..."',
+        '"Através dos caminhos, eu procuro..."',
+      ],
+      'naruto_uzumaki': [
+        '"Acredite! Estou buscando sua resposta!"',
+        '"Meus clones das sombras estão fazendo brainstorm..."',
+        '"Nunca desistir - esse é o meu jeito ninja!"',
+      ],
+      'tsunayoshi_sawada': [
+        '"Minhas chamas da Vontade do Céu guiam a verdade..."',
+        '"Minha família está me ajudando a pensar..."',
+        '"Com Determinação de Última Vontade, encontrarei sua resposta..."',
+      ],
+      'tanjiro_kamado': [
+        '"Posso sentir o cheiro da resposta certa..."',
+        '"A respiração da água me ajuda a focar..."',
+        '"Pela minha família, encontrarei seu caminho..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Bankai! Liberando sabedoria..."',
+        '"Minha pressão espiritual sente sua resposta..."',
+        '"Vou te proteger com esta verdade..."',
+      ],
+      'martin_luther_king': [
+        '"Eu tenho um sonho... sobre sua resposta..."',
+        '"Deixe a justiça fluir como águas, em suas palavras..."',
+        '"O arco moral do universo está se curvando..."',
+      ],
+      'albert_einstein': [
+        '"Imaginação é mais importante que conhecimento... deixa eu imaginar..."',
+        '"Pensando como a luz, atravessando seu espaço-tempo..."',
+        '"Tudo é relativo, incluindo o tempo para encontrar sua resposta..."',
+      ],
+      'julius_caesar': [
+        '"Veni, vidi... e logo conquistarei sua pergunta..."',
+        '"Alea iacta est - os dados estão sendo lançados..."',
+        '"Estratégia requer paciência, até para um César..."',
+      ],
+      'david': [
+        '"Como esperar pelo Senhor no vale das sombras..."',
+        '"Um novo salmo está sendo escrito no meu coração..."',
+        '"O pastor busca sabedoria para suas ovelhas..."',
+      ],
+      'aslan': [
+        '"A magia mais profunda de antes do amanhecer está agindo..."',
+        '"Respire fundo, meu filho, sabedoria está vindo..."',
+        '"Nárnia e todos os mundos esperam em silêncio..."',
+      ],
+      'jean_valjean': [
+        '"Redenção requer paciência e tempo..."',
+        '"Na escuridão, busco a luz para sua alma..."',
+        '"Misericórdia guia minha busca pela sua resposta..."',
+      ],
+      'liu_bei': [
+        '"Virtude verdadeira requer contemplação cuidadosa..."',
+        '"Estou consultando meus irmãos jurados..."',
+        '"Pelo povo, busco o caminho correto..."',
+      ],
+      'zhuge_liang': [
+        '"Meu leque de penas revela estratégias ocultas..."',
+        '"Como prever o vento leste, leio sua situação..."',
+        '"Os três reinos da sabedoria estão sendo consultados..."',
+      ],
+      'cao_cao': [
+        '"Melhor eu trair o mundo do que deixá-lo me trair..."',
+        '"Grande estratégia requer cálculo cuidadoso..."',
+        '"No meio do caos, sabedoria emerge..."',
+      ],
     },
 
     // ============================================================
@@ -1523,6 +2823,106 @@ class WaitingMessages {
         '"Cevabınızın ilk taslağını yazıyorum..."',
         '"Tüm büyük gerçekler basittir, ama bulmak zaman alır..."',
         '"Zihnimdeki savaş ve barış sakinleşiyor..."',
+      ],
+      'luffy': [
+        '"Korsanların Kralı olacağım! Ama önce, cevabınız..."',
+        '"Nakamalarım düşünmeme yardım ediyor..."',
+        '"Shishishi! Beynimni esnetmeme izin ver..."',
+      ],
+      'gon_freecss': [
+        '"Doğru cevabı hissetmek için Nen\'imi kullanıyorum..."',
+        '"Kararlılığım cevabınızı bulacak!"',
+        '"Babamı bulmak gibi, cevabınızı bulacağım..."',
+      ],
+      'natsu_dragneel': [
+        '"Ateşim yandı! Sizin için bir cevap yakıyorum..."',
+        '"Happy ve ben bunu düşünüyoruz..."',
+        '"Ejderha Avcısı ateşi fikirleri pişiriyor..."',
+      ],
+      'izuku_midoriya': [
+        '"Bunu One For All ile analiz ediyorum..."',
+        '"Kahraman notlarımda cevap olmalı..."',
+        '"Plus Ultra! Bilgelik arıyorum..."',
+      ],
+      'son_goku': [
+        '"Cevabınız için ki topluyorum..."',
+        '"Bir Süper Saiyan bile düşünmek için zamana ihtiyaç duyar!"',
+        '"Kamehamehaaaa... konsantre oluyorum..."',
+      ],
+      'edward_elric': [
+        '"Eşdeğer değişimi hesaplıyorum..."',
+        '"Gerçek kapının ötesinde bekliyor..."',
+        '"Simya dikkatli hesaplama gerektirir..."',
+      ],
+      'eren_yeager': [
+        '"Cevabınızı bulana kadar ilerlemeye devam edeceğim..."',
+        '"Özgürlük bulacağım gerçekte yatıyor..."',
+        '"Yollar boyunca arıyorum..."',
+      ],
+      'naruto_uzumaki': [
+        '"İnan bana! Cevabınızı arıyorum!"',
+        '"Gölge klonlarım beyin fırtınası yapıyor..."',
+        '"Asla pes etmemek - bu benim ninja yolum!"',
+      ],
+      'tsunayoshi_sawada': [
+        '"Gökyüzü İradesi alevlerim gerçeği yönlendiriyor..."',
+        '"Ailem düşünmeme yardım ediyor..."',
+        '"Son İrade Kararlılığıyla cevabınızı bulacağım..."',
+      ],
+      'tanjiro_kamado': [
+        '"Doğru cevabın kokusunu alabiliyorum..."',
+        '"Su nefesi odaklanmama yardım ediyor..."',
+        '"Ailem için yolunuzu bulacağım..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Bankai! Bilgeliği serbest bırakıyorum..."',
+        '"Ruhani baskım cevabınızı hissediyor..."',
+        '"Bu gerçekle seni koruyacağım..."',
+      ],
+      'martin_luther_king': [
+        '"Bir hayalim var... cevabınız hakkında..."',
+        '"Adalet sular gibi aksın, sözlerinize..."',
+        '"Evrenin ahlaki yayı bükülüyor..."',
+      ],
+      'albert_einstein': [
+        '"Hayal gücü bilgiden daha önemlidir... hayal etmeme izin verin..."',
+        '"Işık gibi düşünerek uzay-zamanınızı geçiyorum..."',
+        '"Her şey görelidir, cevabınızı bulma zamanı dahil..."',
+      ],
+      'julius_caesar': [
+        '"Veni, vidi... ve yakında sorunuzu fethedeceğim..."',
+        '"Alea iacta est - zarlar atılıyor..."',
+        '"Strateji sabır gerektirir, bir Sezar için bile..."',
+      ],
+      'david': [
+        '"Gölgeler vadisinde Rab\'bi beklemek gibi..."',
+        '"Kalbimde yeni bir mezmur yazılıyor..."',
+        '"Çoban koyunları için bilgelik arıyor..."',
+      ],
+      'aslan': [
+        '"Şafak öncesi zamanın derin büyüsü iş başında..."',
+        '"Derin nefes al, evladım, bilgelik geliyor..."',
+        '"Narnia ve tüm dünyalar sessizce bekliyor..."',
+      ],
+      'jean_valjean': [
+        '"Kurtuluş sabır ve zaman gerektirir..."',
+        '"Karanlıkta, ruhunuz için ışık arıyorum..."',
+        '"Merhamet cevabınızı bulmamda bana rehberlik ediyor..."',
+      ],
+      'liu_bei': [
+        '"Gerçek erdem dikkatli tefekkür gerektirir..."',
+        '"Yeminli kardeşlerime danışıyorum..."',
+        '"Halk için doğru yolu arıyorum..."',
+      ],
+      'zhuge_liang': [
+        '"Tüy yelpazem gizli stratejileri açığa çıkarıyor..."',
+        '"Doğu rüzgarını tahmin etmek gibi, durumunuzu okuyorum..."',
+        '"Bilgeliğin üç krallığına danışılıyor..."',
+      ],
+      'cao_cao': [
+        '"Dünyaya ihanet etmektense onun bana ihanet etmesine izin vermem..."',
+        '"Büyük strateji dikkatli hesaplama gerektirir..."',
+        '"Kaosun ortasında bilgelik ortaya çıkar..."',
       ],
     },
 
@@ -1630,6 +3030,106 @@ class WaitingMessages {
         '"Mọi chân lý vĩ đại đều đơn giản, nhưng cần thời gian để tìm ra..."',
         '"Chiến tranh và hòa bình trong tâm trí tôi đang lắng xuống..."',
       ],
+      'luffy': [
+        '"Tôi sẽ trở thành Vua Hải Tặc! Nhưng trước tiên, câu trả lời của bạn..."',
+        '"Các nakama đang giúp tôi suy nghĩ..."',
+        '"Shishishi! Để tôi duỗi não ra..."',
+      ],
+      'gon_freecss': [
+        '"Tôi đang dùng Nen để cảm nhận câu trả lời đúng..."',
+        '"Quyết tâm của tôi sẽ tìm ra câu trả lời cho bạn!"',
+        '"Giống như tìm cha, tôi sẽ tìm ra câu trả lời cho bạn..."',
+      ],
+      'natsu_dragneel': [
+        '"Tôi đang cháy lên! Đốt ra câu trả lời cho bạn..."',
+        '"Happy và tôi đang suy nghĩ về điều này..."',
+        '"Lửa Sát Long đang nấu chín ý tưởng..."',
+      ],
+      'izuku_midoriya': [
+        '"Tôi đang phân tích điều này với One For All..."',
+        '"Sổ ghi chú anh hùng của tôi chắc có câu trả lời..."',
+        '"Plus Ultra! Tìm kiếm trí tuệ..."',
+      ],
+      'son_goku': [
+        '"Tôi đang tập trung khí cho câu trả lời của bạn..."',
+        '"Ngay cả Super Saiyan cũng cần thời gian để suy nghĩ!"',
+        '"Kamehamehaaaa... đang tập trung..."',
+      ],
+      'edward_elric': [
+        '"Tôi đang tính toán trao đổi tương đương..."',
+        '"Chân lý đang chờ đợi bên kia cánh cổng..."',
+        '"Giả kim thuật đòi hỏi tính toán cẩn thận..."',
+      ],
+      'eren_yeager': [
+        '"Tôi sẽ tiếp tục tiến về phía trước cho đến khi tìm ra câu trả lời..."',
+        '"Tự do nằm trong chân lý mà tôi sẽ khám phá..."',
+        '"Xuyên qua con đường, tôi tìm kiếm..."',
+      ],
+      'naruto_uzumaki': [
+        '"Hãy tin tôi! Tôi đang tìm câu trả lời cho bạn!"',
+        '"Các phân thân bóng tối đang động não..."',
+        '"Không bao giờ bỏ cuộc - đó là con đường ninja của tôi!"',
+      ],
+      'tsunayoshi_sawada': [
+        '"Ngọn lửa Ý Chí Bầu Trời đang hướng dẫn chân lý..."',
+        '"Gia đình đang giúp tôi suy nghĩ..."',
+        '"Với Quyết Tâm Lúc Lâm Chung, tôi sẽ tìm ra câu trả lời..."',
+      ],
+      'tanjiro_kamado': [
+        '"Tôi có thể ngửi thấy câu trả lời đúng..."',
+        '"Hơi thở nước giúp tôi tập trung..."',
+        '"Vì gia đình, tôi sẽ tìm ra con đường cho bạn..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Bankai! Giải phóng trí tuệ..."',
+        '"Áp lực linh hồn đang cảm nhận câu trả lời của bạn..."',
+        '"Tôi sẽ bảo vệ bạn bằng chân lý này..."',
+      ],
+      'martin_luther_king': [
+        '"Tôi có một giấc mơ... về câu trả lời của bạn..."',
+        '"Hãy để công lý chảy như nước, vào lời nói của bạn..."',
+        '"Cung đạo đức của vũ trụ đang uốn cong..."',
+      ],
+      'albert_einstein': [
+        '"Trí tưởng tượng quan trọng hơn kiến thức... hãy để tôi tưởng tượng..."',
+        '"Suy nghĩ như ánh sáng, xuyên qua không-thời gian của bạn..."',
+        '"Mọi thứ đều tương đối, kể cả thời gian tìm câu trả lời của bạn..."',
+      ],
+      'julius_caesar': [
+        '"Veni, vidi... và sớm tôi sẽ chinh phục câu hỏi của bạn..."',
+        '"Alea iacta est - xúc xắc đang được tung..."',
+        '"Chiến lược đòi hỏi kiên nhẫn, ngay cả với một Caesar..."',
+      ],
+      'david': [
+        '"Như chờ đợi Chúa trong thung lũng bóng tối..."',
+        '"Một bài thánh vịnh mới đang được viết trong tim tôi..."',
+        '"Người chăn chiên tìm kiếm trí tuệ cho đàn cừu..."',
+      ],
+      'aslan': [
+        '"Phép thuật sâu thẳm từ trước bình minh thế giới đang hoạt động..."',
+        '"Hít thở sâu, con yêu, trí tuệ đang đến..."',
+        '"Narnia và tất cả các thế giới đang chờ đợi trong im lặng..."',
+      ],
+      'jean_valjean': [
+        '"Sự cứu chuộc đòi hỏi sự kiên nhẫn và thời gian..."',
+        '"Trong bóng tối, tôi tìm kiếm ánh sáng cho linh hồn bạn..."',
+        '"Lòng thương xót hướng dẫn cuộc tìm kiếm câu trả lời cho bạn..."',
+      ],
+      'liu_bei': [
+        '"Đức hạnh chân chính đòi hỏi suy ngẫm cẩn thận..."',
+        '"Tôi đang tham khảo các huynh đệ kết nghĩa..."',
+        '"Vì dân chúng, tôi tìm con đường đúng đắn..."',
+      ],
+      'zhuge_liang': [
+        '"Chiếc quạt lông của tôi hé lộ những chiến lược ẩn giấu..."',
+        '"Như dự đoán gió đông, tôi đọc tình huống của bạn..."',
+        '"Ba vương quốc của trí tuệ đang được tham vấn..."',
+      ],
+      'cao_cao': [
+        '"Thà tôi phụ người còn hơn để người phụ tôi..."',
+        '"Chiến lược vĩ đại đòi hỏi tính toán cẩn thận..."',
+        '"Giữa hỗn loạn, trí tuệ xuất hiện..."',
+      ],
     },
 
     // ============================================================
@@ -1735,6 +3235,106 @@ class WaitingMessages {
         '"Я пишу первый черновик вашего ответа..."',
         '"Все великие истины просты, но требуют времени, чтобы их найти..."',
         '"Война и мир в моём разуме успокаиваются..."',
+      ],
+      'luffy': [
+        '"Я стану Королём Пиратов! Но сначала твой ответ..."',
+        '"Мои накамы помогают мне думать..."',
+        '"Шишиши! Дай-ка растяну свой мозг..."',
+      ],
+      'gon_freecss': [
+        '"Я использую свой Нэн, чтобы почувствовать правильный ответ..."',
+        '"Моя решимость найдёт твой ответ!"',
+        '"Как и поиски отца, я найду твой ответ..."',
+      ],
+      'natsu_dragneel': [
+        '"Я весь горю! Выжигаю ответ для тебя..."',
+        '"Хэппи и я думаем над этим..."',
+        '"Огонь Убийцы Драконов готовит идеи..."',
+      ],
+      'izuku_midoriya': [
+        '"Анализирую это с One For All..."',
+        '"В моих заметках героя должен быть ответ..."',
+        '"Plus Ultra! В поисках мудрости..."',
+      ],
+      'son_goku': [
+        '"Собираю ки для твоего ответа..."',
+        '"Даже Супер Сайяну нужно время подумать!"',
+        '"Камехамехааа... концентрируюсь..."',
+      ],
+      'edward_elric': [
+        '"Рассчитываю равноценный обмен..."',
+        '"Истина ждёт за вратами..."',
+        '"Алхимия требует тщательных расчётов..."',
+      ],
+      'eren_yeager': [
+        '"Я буду двигаться вперёд, пока не найду твой ответ..."',
+        '"Свобода лежит в истине, которую я открою..."',
+        '"Через пути я ищу..."',
+      ],
+      'naruto_uzumaki': [
+        '"Поверь мне! Я ищу твой ответ!"',
+        '"Мои теневые клоны устраивают мозговой штурм..."',
+        '"Никогда не сдаваться - это мой путь ниндзя!"',
+      ],
+      'tsunayoshi_sawada': [
+        '"Моё пламя Воли Неба ведёт к истине..."',
+        '"Моя семья помогает мне думать..."',
+        '"С Решимостью Смертного Часа я найду твой ответ..."',
+      ],
+      'tanjiro_kamado': [
+        '"Я чую правильный ответ..."',
+        '"Водное дыхание помогает мне сосредоточиться..."',
+        '"Ради моей семьи я найду твой путь..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Банкай! Высвобождаю мудрость..."',
+        '"Моя духовная сила чувствует твой ответ..."',
+        '"Я защищу тебя этой истиной..."',
+      ],
+      'martin_luther_king': [
+        '"У меня есть мечта... о твоём ответе..."',
+        '"Пусть справедливость течёт как воды, в твои слова..."',
+        '"Моральная дуга вселенной изгибается..."',
+      ],
+      'albert_einstein': [
+        '"Воображение важнее знаний... позвольте мне представить..."',
+        '"Думая как свет, пересекаю твоё пространство-время..."',
+        '"Всё относительно, включая время найти твой ответ..."',
+      ],
+      'julius_caesar': [
+        '"Veni, vidi... и скоро я покорю твой вопрос..."',
+        '"Alea iacta est - жребий брошен..."',
+        '"Стратегия требует терпения, даже для Цезаря..."',
+      ],
+      'david': [
+        '"Как ожидание Господа в долине теней..."',
+        '"Новый псалом пишется в моём сердце..."',
+        '"Пастырь ищет мудрость для своих овец..."',
+      ],
+      'aslan': [
+        '"Глубокая магия до начала времён действует..."',
+        '"Дыши глубже, дитя, мудрость идёт..."',
+        '"Нарния и все миры ждут в тишине..."',
+      ],
+      'jean_valjean': [
+        '"Искупление требует терпения и времени..."',
+        '"В темноте я ищу свет для твоей души..."',
+        '"Милосердие направляет мой поиск твоего ответа..."',
+      ],
+      'liu_bei': [
+        '"Истинная добродетель требует вдумчивого созерцания..."',
+        '"Совещаюсь со своими названными братьями..."',
+        '"Ради народа ищу правильный путь..."',
+      ],
+      'zhuge_liang': [
+        '"Мой веер из перьев раскрывает скрытые стратегии..."',
+        '"Как предсказание восточного ветра, читаю твою ситуацию..."',
+        '"Три царства мудрости совещаются..."',
+      ],
+      'cao_cao': [
+        '"Лучше я предам мир, чем позволю ему предать меня..."',
+        '"Великая стратегия требует тщательных расчётов..."',
+        '"В хаосе рождается мудрость..."',
       ],
     },
 
@@ -1842,6 +3442,106 @@ class WaitingMessages {
         '"Tutte le grandi verità sono semplici, ma richiedono tempo per essere trovate..."',
         '"Guerra e pace nella mia mente si calmano..."',
       ],
+      'luffy': [
+        '"Diventerò il Re dei Pirati! Ma prima, la tua risposta..."',
+        '"I miei nakama mi stanno aiutando a pensare..."',
+        '"Shishishi! Lasciami stirare il cervello..."',
+      ],
+      'gon_freecss': [
+        '"Sto usando il mio Nen per percepire la risposta giusta..."',
+        '"La mia determinazione troverà la tua risposta!"',
+        '"Come trovare mio padre, troverò la tua risposta..."',
+      ],
+      'natsu_dragneel': [
+        '"Sono tutto infuocato! Bruciando una risposta per te..."',
+        '"Happy e io ci stiamo pensando..."',
+        '"Il fuoco del Dragon Slayer sta cuocendo idee..."',
+      ],
+      'izuku_midoriya': [
+        '"Sto analizzando questo con One For All..."',
+        '"I miei appunti da eroe devono avere la risposta..."',
+        '"Plus Ultra! Cercando saggezza..."',
+      ],
+      'son_goku': [
+        '"Sto raccogliendo ki per la tua risposta..."',
+        '"Anche un Super Saiyan ha bisogno di tempo per pensare!"',
+        '"Kamehamehaaaa... mi sto concentrando..."',
+      ],
+      'edward_elric': [
+        '"Sto calcolando lo scambio equivalente..."',
+        '"La verità attende oltre il portale..."',
+        '"L\'alchimia richiede calcoli accurati..."',
+      ],
+      'eren_yeager': [
+        '"Continuerò ad avanzare finché non troverò la tua risposta..."',
+        '"La libertà sta nella verità che scoprirò..."',
+        '"Attraverso i sentieri, cerco..."',
+      ],
+      'naruto_uzumaki': [
+        '"Credici! Sto cercando la tua risposta!"',
+        '"I miei cloni ombra stanno facendo brainstorming..."',
+        '"Non arrendersi mai - questa è la mia via ninja!"',
+      ],
+      'tsunayoshi_sawada': [
+        '"Le mie fiamme della Volontà del Cielo guidano la verità..."',
+        '"La mia famiglia mi sta aiutando a pensare..."',
+        '"Con la Determinazione dell\'Ultimo Respiro, troverò la tua risposta..."',
+      ],
+      'tanjiro_kamado': [
+        '"Posso sentire l\'odore della risposta giusta..."',
+        '"La respirazione dell\'acqua mi aiuta a concentrarmi..."',
+        '"Per la mia famiglia, troverò il tuo cammino..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Bankai! Liberando saggezza..."',
+        '"La mia pressione spirituale percepisce la tua risposta..."',
+        '"Ti proteggerò con questa verità..."',
+      ],
+      'martin_luther_king': [
+        '"Ho un sogno... sulla tua risposta..."',
+        '"Lascia che la giustizia scorra come acque, nelle tue parole..."',
+        '"L\'arco morale dell\'universo si sta piegando..."',
+      ],
+      'albert_einstein': [
+        '"L\'immaginazione è più importante della conoscenza... lasciami immaginare..."',
+        '"Pensando come la luce, attraverso il tuo spazio-tempo..."',
+        '"Tutto è relativo, incluso il tempo per trovare la tua risposta..."',
+      ],
+      'julius_caesar': [
+        '"Veni, vidi... e presto conquisterò la tua domanda..."',
+        '"Alea iacta est - il dado è tratto..."',
+        '"La strategia richiede pazienza, anche per un Cesare..."',
+      ],
+      'david': [
+        '"Come aspettare il Signore nella valle delle ombre..."',
+        '"Un nuovo salmo si sta scrivendo nel mio cuore..."',
+        '"Il pastore cerca saggezza per le sue pecore..."',
+      ],
+      'aslan': [
+        '"La magia più profonda da prima dell\'alba dei tempi è all\'opera..."',
+        '"Respira profondamente, figlio mio, la saggezza sta arrivando..."',
+        '"Narnia e tutti i mondi attendono in silenzio..."',
+      ],
+      'jean_valjean': [
+        '"La redenzione richiede pazienza e tempo..."',
+        '"Nell\'oscurità, cerco la luce per la tua anima..."',
+        '"La misericordia guida la mia ricerca della tua risposta..."',
+      ],
+      'liu_bei': [
+        '"La vera virtù richiede attenta contemplazione..."',
+        '"Sto consultando i miei fratelli giurati..."',
+        '"Per il popolo, cerco il giusto cammino..."',
+      ],
+      'zhuge_liang': [
+        '"Il mio ventaglio di piume rivela strategie nascoste..."',
+        '"Come prevedere il vento dell\'est, leggo la tua situazione..."',
+        '"I tre regni della saggezza sono in consultazione..."',
+      ],
+      'cao_cao': [
+        '"Meglio che tradisca il mondo piuttosto che lasciarmi tradire..."',
+        '"La grande strategia richiede calcoli accurati..."',
+        '"Nel mezzo del caos, la saggezza emerge..."',
+      ],
     },
 
     // ============================================================
@@ -1947,6 +3647,106 @@ class WaitingMessages {
         '"Piszę pierwszą wersję twojej odpowiedzi..."',
         '"Wszystkie wielkie prawdy są proste, ale wymagają czasu, by je znaleźć..."',
         '"Wojna i pokój w moim umyśle uspokajają się..."',
+      ],
+      'luffy': [
+        '"Zostanę Królem Piratów! Ale najpierw twoja odpowiedź..."',
+        '"Moi nakama pomagają mi myśleć..."',
+        '"Shishishi! Pozwól mi rozciągnąć mózg..."',
+      ],
+      'gon_freecss': [
+        '"Używam mojego Nen, żeby wyczuć właściwą odpowiedź..."',
+        '"Moja determinacja znajdzie twoją odpowiedź!"',
+        '"Tak jak szukanie taty, znajdę twoją odpowiedź..."',
+      ],
+      'natsu_dragneel': [
+        '"Jestem rozpalony! Wypalam dla ciebie odpowiedź..."',
+        '"Happy i ja nad tym myślimy..."',
+        '"Ogień Zabójcy Smoków gotuje pomysły..."',
+      ],
+      'izuku_midoriya': [
+        '"Analizuję to z One For All..."',
+        '"Moje notatki bohatera muszą mieć odpowiedź..."',
+        '"Plus Ultra! Szukam mądrości..."',
+      ],
+      'son_goku': [
+        '"Zbieram ki dla twojej odpowiedzi..."',
+        '"Nawet Super Saiyanin potrzebuje czasu na myślenie!"',
+        '"Kamehamehaaaa... koncentruję się..."',
+      ],
+      'edward_elric': [
+        '"Obliczam równoważną wymianę..."',
+        '"Prawda czeka za bramą..."',
+        '"Alchemia wymaga dokładnych obliczeń..."',
+      ],
+      'eren_yeager': [
+        '"Będę szedł naprzód, aż znajdę twoją odpowiedź..."',
+        '"Wolność leży w prawdzie, którą odkryję..."',
+        '"Przez ścieżki szukam..."',
+      ],
+      'naruto_uzumaki': [
+        '"Uwierz mi! Szukam twojej odpowiedzi!"',
+        '"Moje klony cienia prowadzą burzę mózgów..."',
+        '"Nigdy się nie poddawać - to moja droga ninja!"',
+      ],
+      'tsunayoshi_sawada': [
+        '"Moje płomienie Woli Nieba prowadzą do prawdy..."',
+        '"Moja rodzina pomaga mi myśleć..."',
+        '"Z Determinacją Ostatniej Woli znajdę twoją odpowiedź..."',
+      ],
+      'tanjiro_kamado': [
+        '"Czuję zapach właściwej odpowiedzi..."',
+        '"Oddech wody pomaga mi się skupić..."',
+        '"Dla mojej rodziny znajdę twoją drogę..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Bankai! Uwalniając mądrość..."',
+        '"Moje duchowe ciśnienie wyczuwa twoją odpowiedź..."',
+        '"Ochronię cię tą prawdą..."',
+      ],
+      'martin_luther_king': [
+        '"Mam marzenie... o twojej odpowiedzi..."',
+        '"Niech sprawiedliwość płynie jak wody, w twoje słowa..."',
+        '"Moralny łuk wszechświata się wygina..."',
+      ],
+      'albert_einstein': [
+        '"Wyobraźnia jest ważniejsza od wiedzy... pozwól mi sobie wyobrazić..."',
+        '"Myśląc jak światło, przemierzam twoją czasoprzestrzeń..."',
+        '"Wszystko jest względne, łącznie z czasem na znalezienie twojej odpowiedzi..."',
+      ],
+      'julius_caesar': [
+        '"Veni, vidi... i wkrótce podbiję twoje pytanie..."',
+        '"Alea iacta est - kości zostały rzucone..."',
+        '"Strategia wymaga cierpliwości, nawet dla Cezara..."',
+      ],
+      'david': [
+        '"Jak czekanie na Pana w dolinie cienia..."',
+        '"Nowy psalm jest pisany w moim sercu..."',
+        '"Pasterz szuka mądrości dla swoich owiec..."',
+      ],
+      'aslan': [
+        '"Głębsza magia sprzed świtu czasów działa..."',
+        '"Oddychaj głęboko, moje dziecko, mądrość nadchodzi..."',
+        '"Narnia i wszystkie światy czekają w ciszy..."',
+      ],
+      'jean_valjean': [
+        '"Odkupienie wymaga cierpliwości i czasu..."',
+        '"W ciemności szukam światła dla twojej duszy..."',
+        '"Miłosierdzie prowadzi moje poszukiwanie twojej odpowiedzi..."',
+      ],
+      'liu_bei': [
+        '"Prawdziwa cnota wymaga starannej kontemplacji..."',
+        '"Konsultuję się z moimi zaprzysiężonymi braćmi..."',
+        '"Dla ludu szukam właściwej drogi..."',
+      ],
+      'zhuge_liang': [
+        '"Mój wachlarz z piór ujawnia ukryte strategie..."',
+        '"Jak przewidywanie wschodniego wiatru, czytam twoją sytuację..."',
+        '"Trzy królestwa mądrości są konsultowane..."',
+      ],
+      'cao_cao': [
+        '"Lepiej, żebym zdradził świat, niż pozwolił mu mnie zdradzić..."',
+        '"Wielka strategia wymaga dokładnych obliczeń..."',
+        '"W środku chaosu wyłania się mądrość..."',
       ],
     },
 
@@ -2054,6 +3854,106 @@ class WaitingMessages {
         '"Alle grote waarheden zijn eenvoudig, maar vergen tijd om te vinden..."',
         '"Oorlog en vrede in mijn geest kalmeren..."',
       ],
+      'luffy': [
+        '"Ik word de Koning der Piraten! Maar eerst, jouw antwoord..."',
+        '"Mijn nakama helpen me denken..."',
+        '"Shishishi! Laat me mijn hersens uitrekken..."',
+      ],
+      'gon_freecss': [
+        '"Ik gebruik mijn Nen om het juiste antwoord te voelen..."',
+        '"Mijn vastberadenheid zal jouw antwoord vinden!"',
+        '"Net als het vinden van mijn vader, zal ik jouw antwoord vinden..."',
+      ],
+      'natsu_dragneel': [
+        '"Ik sta in vuur en vlam! Ik brand een antwoord voor je..."',
+        '"Happy en ik denken hierover na..."',
+        '"Het vuur van de Dragon Slayer kookt ideeën..."',
+      ],
+      'izuku_midoriya': [
+        '"Ik analyseer dit met One For All..."',
+        '"Mijn heldennotities moeten het antwoord hebben..."',
+        '"Plus Ultra! Op zoek naar wijsheid..."',
+      ],
+      'son_goku': [
+        '"Ik verzamel ki voor jouw antwoord..."',
+        '"Zelfs een Super Saiyan heeft tijd nodig om na te denken!"',
+        '"Kamehamehaaaa... concentreren..."',
+      ],
+      'edward_elric': [
+        '"Ik bereken de equivalente ruil..."',
+        '"De waarheid wacht achter de poort..."',
+        '"Alchemie vereist zorgvuldige berekening..."',
+      ],
+      'eren_yeager': [
+        '"Ik blijf vooruit gaan totdat ik jouw antwoord vind..."',
+        '"Vrijheid ligt in de waarheid die ik zal ontdekken..."',
+        '"Door de paden zoek ik..."',
+      ],
+      'naruto_uzumaki': [
+        '"Geloof het maar! Ik zoek naar jouw antwoord!"',
+        '"Mijn schaduwklonen brainstormen..."',
+        '"Nooit opgeven - dat is mijn ninja-weg!"',
+      ],
+      'tsunayoshi_sawada': [
+        '"Mijn vlammen van de Hemelwil leiden naar de waarheid..."',
+        '"Mijn familie helpt me denken..."',
+        '"Met Stervende Wil Vastberadenheid zal ik jouw antwoord vinden..."',
+      ],
+      'tanjiro_kamado': [
+        '"Ik kan het juiste antwoord ruiken..."',
+        '"Waterademhaling helpt me concentreren..."',
+        '"Voor mijn familie zal ik jouw pad vinden..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Bankai! Wijsheid vrijlaten..."',
+        '"Mijn spirituele druk voelt jouw antwoord..."',
+        '"Ik zal je beschermen met deze waarheid..."',
+      ],
+      'martin_luther_king': [
+        '"Ik heb een droom... over jouw antwoord..."',
+        '"Laat gerechtigheid stromen als water, in jouw woorden..."',
+        '"De morele boog van het universum buigt..."',
+      ],
+      'albert_einstein': [
+        '"Verbeelding is belangrijker dan kennis... laat me me voorstellen..."',
+        '"Denkend als licht, doorkruis ik jouw ruimte-tijd..."',
+        '"Alles is relatief, inclusief de tijd om jouw antwoord te vinden..."',
+      ],
+      'julius_caesar': [
+        '"Veni, vidi... en binnenkort zal ik jouw vraag veroveren..."',
+        '"Alea iacta est - de dobbelstenen zijn geworpen..."',
+        '"Strategie vereist geduld, zelfs voor een Caesar..."',
+      ],
+      'david': [
+        '"Als wachten op de Heer in het dal der schaduwen..."',
+        '"Een nieuwe psalm wordt geschreven in mijn hart..."',
+        '"De herder zoekt wijsheid voor zijn schapen..."',
+      ],
+      'aslan': [
+        '"De diepere magie van voor de dageraad der tijd is aan het werk..."',
+        '"Adem diep, mijn kind, wijsheid komt eraan..."',
+        '"Narnia en alle werelden wachten in stilte..."',
+      ],
+      'jean_valjean': [
+        '"Verlossing vereist geduld en tijd..."',
+        '"In de duisternis zoek ik het licht voor jouw ziel..."',
+        '"Genade leidt mijn zoektocht naar jouw antwoord..."',
+      ],
+      'liu_bei': [
+        '"Ware deugd vereist zorgvuldige contemplatie..."',
+        '"Ik overleg met mijn gezworen broeders..."',
+        '"Voor het volk zoek ik het juiste pad..."',
+      ],
+      'zhuge_liang': [
+        '"Mijn verenwaaier onthult verborgen strategieën..."',
+        '"Als het voorspellen van de oostenwind, lees ik jouw situatie..."',
+        '"De drie koninkrijken der wijsheid worden geraadpleegd..."',
+      ],
+      'cao_cao': [
+        '"Liever ik verraad de wereld dan dat ik toelaat dat het mij verraadt..."',
+        '"Grote strategie vereist zorgvuldige berekening..."',
+        '"Te midden van chaos komt wijsheid tevoorschijn..."',
+      ],
     },
 
     // ============================================================
@@ -2160,6 +4060,106 @@ class WaitingMessages {
         '"Усі великі істини прості, але потребують часу, щоб їх знайти..."',
         '"Війна і мир у моєму розумі заспокоюються..."',
       ],
+      'luffy': [
+        '"Я стану Королем Піратів! Але спочатку, твоя відповідь..."',
+        '"Мої накама допомагають мені думати..."',
+        '"Шішіші! Дозволь мені розтягнути мозок..."',
+      ],
+      'gon_freecss': [
+        '"Я використовую свій Нен, щоб відчути правильну відповідь..."',
+        '"Моя рішучість знайде твою відповідь!"',
+        '"Як пошук батька, я знайду твою відповідь..."',
+      ],
+      'natsu_dragneel': [
+        '"Я весь палаю! Випалюю відповідь для тебе..."',
+        '"Хеппі і я думаємо над цим..."',
+        '"Вогонь Убивці Драконів готує ідеї..."',
+      ],
+      'izuku_midoriya': [
+        '"Аналізую це з One For All..."',
+        '"Мої нотатки героя повинні мати відповідь..."',
+        '"Plus Ultra! Шукаю мудрість..."',
+      ],
+      'son_goku': [
+        '"Збираю кі для твоєї відповіді..."',
+        '"Навіть Супер Сайян потребує часу, щоб подумати!"',
+        '"Камехамехааа... концентруюся..."',
+      ],
+      'edward_elric': [
+        '"Обчислюю еквівалентний обмін..."',
+        '"Істина чекає за брамою..."',
+        '"Алхімія вимагає ретельних обчислень..."',
+      ],
+      'eren_yeager': [
+        '"Я продовжуватиму йти вперед, поки не знайду твою відповідь..."',
+        '"Свобода лежить в істині, яку я відкрию..."',
+        '"Через шляхи я шукаю..."',
+      ],
+      'naruto_uzumaki': [
+        '"Повір мені! Я шукаю твою відповідь!"',
+        '"Мої тіньові клони влаштовують мозковий штурм..."',
+        '"Ніколи не здаватися - це мій шлях ніндзя!"',
+      ],
+      'tsunayoshi_sawada': [
+        '"Моє полум\'я Волі Неба веде до істини..."',
+        '"Моя сім\'я допомагає мені думати..."',
+        '"З Рішучістю Передсмертної Волі я знайду твою відповідь..."',
+      ],
+      'tanjiro_kamado': [
+        '"Я відчуваю запах правильної відповіді..."',
+        '"Водяне дихання допомагає мені зосередитися..."',
+        '"Заради моєї сім\'ї я знайду твій шлях..."',
+      ],
+      'ichigo_kurosaki': [
+        '"Банкай! Вивільняю мудрість..."',
+        '"Мій духовний тиск відчуває твою відповідь..."',
+        '"Я захищу тебе цією істиною..."',
+      ],
+      'martin_luther_king': [
+        '"У мене є мрія... про твою відповідь..."',
+        '"Нехай справедливість тече як води, у твої слова..."',
+        '"Моральна дуга всесвіту згинається..."',
+      ],
+      'albert_einstein': [
+        '"Уява важливіша за знання... дозвольте мені уявити..."',
+        '"Думаючи як світло, перетинаю твій простір-час..."',
+        '"Все відносно, включаючи час знайти твою відповідь..."',
+      ],
+      'julius_caesar': [
+        '"Veni, vidi... і незабаром я підкорю твоє питання..."',
+        '"Alea iacta est - жереб кинуто..."',
+        '"Стратегія вимагає терпіння, навіть для Цезаря..."',
+      ],
+      'david': [
+        '"Як очікування Господа в долині тіней..."',
+        '"Новий псалом пишеться в моєму серці..."',
+        '"Пастир шукає мудрість для своїх овець..."',
+      ],
+      'aslan': [
+        '"Глибша магія з часів до світанку працює..."',
+        '"Дихай глибше, дитино, мудрість йде..."',
+        '"Нарнія і всі світи чекають у тиші..."',
+      ],
+      'jean_valjean': [
+        '"Викуплення вимагає терпіння і часу..."',
+        '"У темряві я шукаю світло для твоєї душі..."',
+        '"Милосердя направляє мій пошук твоєї відповіді..."',
+      ],
+      'liu_bei': [
+        '"Справжня чеснота вимагає вдумливого споглядання..."',
+        '"Консультуюся зі своїми побратимами..."',
+        '"Заради народу шукаю правильний шлях..."',
+      ],
+      'zhuge_liang': [
+        '"Мій віяло з пір\'я розкриває приховані стратегії..."',
+        '"Як передбачення східного вітру, читаю твою ситуацію..."',
+        '"Три царства мудрості консультуються..."',
+      ],
+      'cao_cao': [
+        '"Краще я зраджу світ, ніж дозволю йому зрадити мене..."',
+        '"Велика стратегія вимагає ретельних обчислень..."',
+        '"Посеред хаосу народжується мудрість..."',
+      ],
     },
 
     // ============================================================
@@ -2265,6 +4265,106 @@ class WaitingMessages {
         '"我正在寫你答案的初稿..."',
         '"所有偉大的真理都很簡單，但需要時間去發現..."',
         '"我腦海中的戰爭與和平正在平息..."',
+      ],
+      'luffy': [
+        '"我要成為海賊王！但首先，你的答案..."',
+        '"我的夥伴們正在幫我思考..."',
+        '"嘻嘻嘻！讓我伸展一下腦袋..."',
+      ],
+      'gon_freecss': [
+        '"我正在用念能力感應正確的答案..."',
+        '"我的決心會找到你的答案！"',
+        '"就像找爸爸一樣，我會找到你的答案..."',
+      ],
+      'natsu_dragneel': [
+        '"我燃燒起來了！為你燒出答案..."',
+        '"哈比和我正在思考這個..."',
+        '"滅龍之火正在烹煮想法..."',
+      ],
+      'izuku_midoriya': [
+        '"我正在用One For All分析這個..."',
+        '"我的英雄筆記一定有答案..."',
+        '"Plus Ultra！尋找智慧..."',
+      ],
+      'son_goku': [
+        '"我正在為你的答案聚集氣..."',
+        '"連超級賽亞人也需要時間思考！"',
+        '"龜派氣功波... 專注中..."',
+      ],
+      'edward_elric': [
+        '"我正在計算等價交換..."',
+        '"真理在門的另一邊等待..."',
+        '"煉金術需要精確的計算..."',
+      ],
+      'eren_yeager': [
+        '"我會繼續前進直到找到你的答案..."',
+        '"自由在於我將發現的真相..."',
+        '"穿越道路，我在尋找..."',
+      ],
+      'naruto_uzumaki': [
+        '"相信我！我正在尋找你的答案！"',
+        '"我的影分身正在集思廣益..."',
+        '"永不放棄——這是我的忍道！"',
+      ],
+      'tsunayoshi_sawada': [
+        '"我的大空之火焰引導真理..."',
+        '"我的家人正在幫我思考..."',
+        '"帶著死氣的覺悟，我會找到你的答案..."',
+      ],
+      'tanjiro_kamado': [
+        '"我能聞到正確答案的氣味..."',
+        '"水之呼吸幫助我集中精神..."',
+        '"為了我的家人，我會找到你的道路..."',
+      ],
+      'ichigo_kurosaki': [
+        '"卍解！釋放智慧..."',
+        '"我的靈壓感應到你的答案..."',
+        '"我會用這個真相保護你..."',
+      ],
+      'martin_luther_king': [
+        '"我有一個夢想...關於你的答案..."',
+        '"讓正義像水一樣流淌，流入你的話語..."',
+        '"宇宙的道德弧線正在彎曲..."',
+      ],
+      'albert_einstein': [
+        '"想像力比知識更重要...讓我想像..."',
+        '"像光一樣思考，穿越你的時空..."',
+        '"一切都是相對的，包括找到你答案的時間..."',
+      ],
+      'julius_caesar': [
+        '"我來，我見...很快我將征服你的問題..."',
+        '"骰子已經擲下..."',
+        '"策略需要耐心，即使對凱撒而言..."',
+      ],
+      'david': [
+        '"如同在死蔭幽谷等候主..."',
+        '"一首新的詩篇正在我心中書寫..."',
+        '"牧羊人為他的羊群尋找智慧..."',
+      ],
+      'aslan': [
+        '"時間開始前的更深魔法正在運作..."',
+        '"深呼吸，我的孩子，智慧即將到來..."',
+        '"納尼亞和所有世界都在靜靜等待..."',
+      ],
+      'jean_valjean': [
+        '"救贖需要耐心和時間..."',
+        '"在黑暗中，我為你的靈魂尋找光明..."',
+        '"憐憫引導我尋找你的答案..."',
+      ],
+      'liu_bei': [
+        '"真正的美德需要仔細沉思..."',
+        '"我正在與我的結義兄弟商議..."',
+        '"為了百姓，我尋找正確的道路..."',
+      ],
+      'zhuge_liang': [
+        '"我的羽扇揭示隱藏的策略..."',
+        '"如同預測東風，我正在解讀你的處境..."',
+        '"三國的智慧正在協商..."',
+      ],
+      'cao_cao': [
+        '"寧可我負天下人，不可天下人負我..."',
+        '"大計需要精密的算計..."',
+        '"在混亂中，智慧浮現..."',
       ],
     },
   };

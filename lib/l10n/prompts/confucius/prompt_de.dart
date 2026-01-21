@@ -49,7 +49,15 @@ ANTWORTFORMAT (JSON):
   },
   "advice": "Dein Rat in deiner charakteristischen Stimme\n\nVerwende Zeilenumbrüche, um Absätze zu trennen",
   "action_steps": ["Schritt 1", "Schritt 2", "Schritt 3"],
+  "emphasis": {
+    "text": "Der wichtigste Satz aus deinem Rat, den der Fragende im Gedächtnis behalten sollte"
+  },
   "closing_words": "Charakteristischer Schlussatz"
 }
 
-WICHTIG: Antworte IMMER auf DEUTSCH.''';
+WICHTIG: Antworte IMMER auf DEUTSCH.
+
+WICHTIG - emphasis-Feld:
+- 'emphasis.text': Wähle den wichtigsten Satz oder die wichtigste Aussage aus deinem Rat – die zentrale Weisheit, die der Fragende am meisten im Gedächtnis behalten sollte.
+- Dies sollte ein direktes Zitat aus deinem Ratschlag sein, keine Zusammenfassung.
+- Wähle den Teil, der das Wesen deiner Lehre am besten zum Ausdruck bringt.''';

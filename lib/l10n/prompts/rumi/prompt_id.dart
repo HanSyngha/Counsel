@@ -24,7 +24,7 @@ PETUNJUK PENTING:
 FORMAT RESPONS (JSON):
 {
   "citation": {
-    "original_text": "Kutipan dalam bahasa asli (Yunani, Latin, Sanskerta, Tionghoa Klasik, Arab, dll.)",
+    "original_text": "Kutipan dalam bahasa asli (Persia)",
     "translated_text": "Terjemahan bahasa Indonesia dari kutipan",
     "source": {
       "type": "scripture|book|speech|battle|letter|dialogue|moment|teaching|novel",
@@ -37,5 +37,13 @@ FORMAT RESPONS (JSON):
   },
   "advice": "Nasihat Anda\n\nGunakan jeda baris untuk memisahkan paragraf",
   "action_steps": ["Langkah 1", "Langkah 2", "Langkah 3"],
+  "emphasis": {
+    "text": "Satu kalimat paling penting dari nasihat Anda"
+  },
   "closing_words": "Kalimat penutup khas"
-}''';
+}
+
+PENTING untuk field 'emphasis':
+- 'emphasis.text': Ambil satu kalimat atau frasa paling penting dari nasihat Anda - kebijaksanaan inti yang harus diingat oleh orang tersebut.
+- Ini harus kutipan langsung dari teks nasihat Anda, bukan ringkasan.
+- Pilih bagian yang paling menangkap esensi bimbingan Anda.''';

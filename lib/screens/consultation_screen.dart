@@ -5,10 +5,12 @@ import 'package:counsel/l10n/generated/app_localizations.dart';
 
 import '../config/theme.dart';
 import '../config/constants.dart';
+import '../config/persona_themes.dart';
 import '../models/persona.dart';
 import '../models/advice.dart';
 import '../models/waiting_messages.dart';
 import '../models/failure_messages.dart';
+import '../models/seek_wisdom_buttons.dart';
 import '../providers/providers.dart';
 import '../widgets/banner_ad_widget.dart';
 import 'advice_detail_screen.dart';
@@ -36,6 +38,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
   String _waitingMessage = '';
   int _waitingMessageIndex = 0;
   String _userQuery = '';
+  String? _customButtonText;
 
   late AnimationController _pulseController;
   late AnimationController _glowController;
@@ -72,6 +75,19 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
   }
 
   @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    // Initialize custom button text once when locale is available
+    if (_customButtonText == null) {
+      final locale = ref.read(localeProvider);
+      _customButtonText = SeekWisdomButtons.getRandomButtonText(
+        widget.persona.id,
+        languageCode: locale.languageCode,
+      );
+    }
+  }
+
+  @override
   void dispose() {
     _inputController.dispose();
     _focusNode.dispose();
@@ -84,14 +100,19 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
-    final categoryColor = _getCategoryColor(widget.persona.category);
+    final personaTheme = PersonaThemes.getTheme(widget.persona.id);
+    final hasCustomTheme = PersonaThemes.hasCustomTheme(widget.persona.id);
+    // Use persona theme primary color if custom theme exists, otherwise use category color
+    final themeColor = hasCustomTheme
+        ? personaTheme.primaryColor
+        : _getCategoryColor(widget.persona.category);
 
     return Scaffold(
-      backgroundColor: AppColors.background,
+      backgroundColor: hasCustomTheme ? personaTheme.backgroundColor : AppColors.background,
       body: Stack(
         children: [
           // Atmospheric background
-          _buildAtmosphericBackground(categoryColor),
+          _buildAtmosphericBackground(themeColor, personaTheme: hasCustomTheme ? personaTheme : null),
 
           // Main content
           SafeArea(
@@ -101,13 +122,13 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
                 StickyBannerAd(key: ValueKey('banner_${_isLoading ? 'loading' : 'input'}')),
 
                 // Custom app bar
-                _buildAppBar(l10n),
+                _buildAppBar(l10n, personaTheme: hasCustomTheme ? personaTheme : null),
 
                 // Scrollable content
                 Expanded(
                   child: _isLoading
-                      ? _buildLoadingState(l10n, categoryColor)
-                      : _buildInputContent(l10n, categoryColor),
+                      ? _buildLoadingState(l10n, themeColor, personaTheme: hasCustomTheme ? personaTheme : null)
+                      : _buildInputContent(l10n, themeColor, personaTheme: hasCustomTheme ? personaTheme : null),
                 ),
               ],
             ),
@@ -117,22 +138,26 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
     );
   }
 
-  Widget _buildAtmosphericBackground(Color categoryColor) {
+  Widget _buildAtmosphericBackground(Color categoryColor, {PersonaTheme? personaTheme}) {
+    final bgColor = personaTheme?.backgroundColor ?? AppColors.background;
+
     return Stack(
       children: [
         // Base gradient
         Container(
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [
-                categoryColor.withOpacity(0.15),
-                AppColors.background,
-                AppColors.background,
-              ],
-              stops: const [0.0, 0.4, 1.0],
-            ),
+            gradient: personaTheme != null
+                ? personaTheme.backgroundGradient
+                : LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: [
+                      categoryColor.withOpacity(0.15),
+                      bgColor,
+                      bgColor,
+                    ],
+                    stops: const [0.0, 0.4, 1.0],
+                  ),
           ),
         ),
 
@@ -147,13 +172,15 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
               return Container(
                 height: 400,
                 decoration: BoxDecoration(
-                  gradient: RadialGradient(
-                    colors: [
-                      categoryColor.withOpacity(_glowAnimation.value * 0.3),
-                      Colors.transparent,
-                    ],
-                    radius: 0.8,
-                  ),
+                  gradient: personaTheme != null
+                      ? personaTheme.glowGradient(_glowAnimation.value)
+                      : RadialGradient(
+                          colors: [
+                            categoryColor.withOpacity(_glowAnimation.value * 0.3),
+                            Colors.transparent,
+                          ],
+                          radius: 0.8,
+                        ),
                 ),
               );
             },
@@ -173,7 +200,9 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
     );
   }
 
-  Widget _buildAppBar(AppLocalizations l10n) {
+  Widget _buildAppBar(AppLocalizations l10n, {PersonaTheme? personaTheme}) {
+    final surfaceColor = personaTheme?.surfaceColor ?? AppColors.surface;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
       child: Row(
@@ -182,7 +211,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
             icon: const Icon(Icons.arrow_back_ios_new, size: 20),
             onPressed: () => Navigator.pop(context),
             style: IconButton.styleFrom(
-              backgroundColor: AppColors.surface.withOpacity(0.5),
+              backgroundColor: surfaceColor.withOpacity(0.5),
             ),
           ),
           const Spacer(),
@@ -191,16 +220,16 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
               decoration: BoxDecoration(
-                color: AppColors.surface.withOpacity(0.5),
+                color: surfaceColor.withOpacity(0.5),
                 borderRadius: BorderRadius.circular(20),
                 border: Border.all(
-                  color: AppColors.border.withOpacity(0.5),
+                  color: (personaTheme?.accentColor ?? AppColors.border).withOpacity(0.5),
                 ),
               ),
               child: Text(
                 widget.persona.eraDisplay,
                 style: AppTextStyles.labelSmall.copyWith(
-                  color: AppColors.textSecondary,
+                  color: personaTheme?.accentColor ?? AppColors.textSecondary,
                 ),
               ),
             ),
@@ -209,7 +238,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
     );
   }
 
-  Widget _buildInputContent(AppLocalizations l10n, Color categoryColor) {
+  Widget _buildInputContent(AppLocalizations l10n, Color categoryColor, {PersonaTheme? personaTheme}) {
     return SingleChildScrollView(
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Column(
@@ -217,17 +246,17 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
           const SizedBox(height: 8),
 
           // Hero persona section
-          _buildHeroSection(l10n, categoryColor),
+          _buildHeroSection(l10n, categoryColor, personaTheme: personaTheme),
 
           const SizedBox(height: 32),
 
           // Input section
-          _buildInputSection(l10n, categoryColor),
+          _buildInputSection(l10n, categoryColor, personaTheme: personaTheme),
 
           const SizedBox(height: 24),
 
           // Submit button
-          _buildSubmitButton(l10n, categoryColor),
+          _buildSubmitButton(l10n, categoryColor, personaTheme: personaTheme),
 
           // Error message
           if (_errorMessage != null) ...[
@@ -241,7 +270,10 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
     );
   }
 
-  Widget _buildHeroSection(AppLocalizations l10n, Color categoryColor) {
+  Widget _buildHeroSection(AppLocalizations l10n, Color categoryColor, {PersonaTheme? personaTheme}) {
+    final surfaceColor = personaTheme?.surfaceColor ?? AppColors.surface;
+    final secondaryColor = personaTheme?.secondaryColor ?? categoryColor;
+
     return Column(
       children: [
         // Persona portrait with glow
@@ -267,20 +299,26 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
                   padding: const EdgeInsets.all(4),
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    gradient: LinearGradient(
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                      colors: [
-                        categoryColor.withOpacity(0.8),
-                        categoryColor.withOpacity(0.4),
-                      ],
-                    ),
+                    gradient: personaTheme != null
+                        ? LinearGradient(
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                            colors: personaTheme.gradientColors,
+                          )
+                        : LinearGradient(
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                            colors: [
+                              categoryColor.withOpacity(0.8),
+                              categoryColor.withOpacity(0.4),
+                            ],
+                          ),
                   ),
                   child: CircleAvatar(
                     radius: 56,
                     backgroundImage: AssetImage(widget.persona.imagePath),
                     onBackgroundImageError: (_, __) {},
-                    backgroundColor: AppColors.surface,
+                    backgroundColor: surfaceColor,
                   ),
                 ),
               ),
@@ -295,6 +333,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
           _getPersonaName(widget.persona, l10n),
           style: AppTextStyles.displayMedium.copyWith(
             letterSpacing: 1,
+            color: personaTheme?.accentColor ?? AppColors.textPrimary,
           ),
           textAlign: TextAlign.center,
         ),
@@ -317,10 +356,10 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
         Container(
           padding: const EdgeInsets.all(20),
           decoration: BoxDecoration(
-            color: AppColors.surface.withOpacity(0.6),
+            color: surfaceColor.withOpacity(0.6),
             borderRadius: BorderRadius.circular(16),
             border: Border.all(
-              color: categoryColor.withOpacity(0.3),
+              color: secondaryColor.withOpacity(0.3),
             ),
           ),
           child: Column(
@@ -330,7 +369,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
                 style: AppTextStyles.quote.copyWith(
                   fontSize: 14,
                   height: 1.6,
-                  color: AppColors.textPrimary.withOpacity(0.9),
+                  color: (personaTheme?.accentColor ?? AppColors.textPrimary).withOpacity(0.9),
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -341,7 +380,10 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
     );
   }
 
-  Widget _buildInputSection(AppLocalizations l10n, Color categoryColor) {
+  Widget _buildInputSection(AppLocalizations l10n, Color categoryColor, {PersonaTheme? personaTheme}) {
+    final surfaceColor = personaTheme?.surfaceColor ?? AppColors.surface;
+    final inputBorderColor = personaTheme?.inputBorderColor ?? categoryColor;
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -359,7 +401,9 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
             const SizedBox(width: 12),
             Text(
               l10n.inputTitle,
-              style: AppTextStyles.titleMedium,
+              style: AppTextStyles.titleMedium.copyWith(
+                color: personaTheme?.accentColor ?? AppColors.textPrimary,
+              ),
             ),
           ],
         ),
@@ -372,14 +416,14 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
             borderRadius: BorderRadius.circular(20),
             border: Border.all(
               color: _focusNode.hasFocus
-                  ? categoryColor.withOpacity(0.6)
-                  : AppColors.border,
+                  ? inputBorderColor.withOpacity(0.6)
+                  : (personaTheme?.secondaryColor ?? AppColors.border).withOpacity(0.3),
               width: _focusNode.hasFocus ? 2 : 1,
             ),
             boxShadow: _focusNode.hasFocus
                 ? [
                     BoxShadow(
-                      color: categoryColor.withOpacity(0.1),
+                      color: inputBorderColor.withOpacity(0.1),
                       blurRadius: 20,
                       spreadRadius: 2,
                     ),
@@ -392,11 +436,14 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
             maxLength: AppConstants.maxInputLength,
             maxLines: 5,
             minLines: 4,
-            style: AppTextStyles.bodyLarge.copyWith(height: 1.6),
+            style: AppTextStyles.bodyLarge.copyWith(
+              height: 1.6,
+              color: personaTheme?.accentColor ?? AppColors.textPrimary,
+            ),
             decoration: InputDecoration(
               hintText: l10n.inputPlaceholder,
               hintStyle: AppTextStyles.bodyMedium.copyWith(
-                color: AppColors.textTertiary,
+                color: (personaTheme?.accentColor ?? AppColors.textTertiary).withOpacity(0.5),
               ),
               counterText: '',
               border: OutlineInputBorder(
@@ -404,7 +451,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
                 borderSide: BorderSide.none,
               ),
               filled: true,
-              fillColor: AppColors.surface.withOpacity(0.8),
+              fillColor: surfaceColor.withOpacity(0.8),
               contentPadding: const EdgeInsets.all(20),
             ),
             onChanged: (_) => setState(() {}),
@@ -431,8 +478,10 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
     );
   }
 
-  Widget _buildSubmitButton(AppLocalizations l10n, Color categoryColor) {
+  Widget _buildSubmitButton(AppLocalizations l10n, Color categoryColor, {PersonaTheme? personaTheme}) {
     final isEnabled = _inputController.text.trim().isNotEmpty && !_isLoading;
+    final buttonGlowColor = personaTheme?.buttonGlowColor ?? categoryColor;
+    final textOnPrimary = personaTheme?.textOnPrimary ?? Colors.white;
 
     return AnimatedBuilder(
       animation: _glowAnimation,
@@ -445,19 +494,21 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
             padding: const EdgeInsets.symmetric(vertical: 18),
             decoration: BoxDecoration(
               gradient: isEnabled
-                  ? LinearGradient(
-                      colors: [
-                        categoryColor,
-                        categoryColor.withOpacity(0.8),
-                      ],
-                    )
+                  ? (personaTheme != null
+                      ? personaTheme.buttonGradient
+                      : LinearGradient(
+                          colors: [
+                            categoryColor,
+                            categoryColor.withOpacity(0.8),
+                          ],
+                        ))
                   : null,
-              color: isEnabled ? null : AppColors.surfaceVariant,
+              color: isEnabled ? null : (personaTheme?.surfaceColor ?? AppColors.surfaceVariant),
               borderRadius: BorderRadius.circular(16),
               boxShadow: isEnabled
                   ? [
                       BoxShadow(
-                        color: categoryColor.withOpacity(_glowAnimation.value * 0.5),
+                        color: buttonGlowColor.withOpacity(_glowAnimation.value * 0.5),
                         blurRadius: 20,
                         spreadRadius: 2,
                       ),
@@ -469,14 +520,14 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
               children: [
                 Icon(
                   Icons.auto_awesome,
-                  color: isEnabled ? Colors.white : AppColors.textTertiary,
+                  color: isEnabled ? textOnPrimary : AppColors.textTertiary,
                   size: 20,
                 ),
                 const SizedBox(width: 10),
                 Text(
-                  l10n.seekWisdom,
+                  _customButtonText ?? l10n.seekWisdom,
                   style: AppTextStyles.labelLarge.copyWith(
-                    color: isEnabled ? Colors.white : AppColors.textTertiary,
+                    color: isEnabled ? textOnPrimary : AppColors.textTertiary,
                     fontSize: 16,
                   ),
                 ),
@@ -520,7 +571,10 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
     );
   }
 
-  Widget _buildLoadingState(AppLocalizations l10n, Color categoryColor) {
+  Widget _buildLoadingState(AppLocalizations l10n, Color categoryColor, {PersonaTheme? personaTheme}) {
+    final particleColor = personaTheme?.loadingParticleColor ?? categoryColor;
+    final surfaceColor = personaTheme?.surfaceColor ?? AppColors.surface;
+
     return Center(
       child: Padding(
         padding: const EdgeInsets.all(32),
@@ -551,13 +605,13 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
                             width: 8,
                             height: 8,
                             decoration: BoxDecoration(
-                              color: categoryColor.withOpacity(
+                              color: particleColor.withOpacity(
                                 0.3 + (index / 8) * 0.7,
                               ),
                               shape: BoxShape.circle,
                               boxShadow: [
                                 BoxShadow(
-                                  color: categoryColor.withOpacity(0.5),
+                                  color: particleColor.withOpacity(0.5),
                                   blurRadius: 10,
                                 ),
                               ],
@@ -586,7 +640,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
                       radius: 50,
                       backgroundImage: AssetImage(widget.persona.imagePath),
                       onBackgroundImageError: (_, __) {},
-                      backgroundColor: AppColors.surface,
+                      backgroundColor: surfaceColor,
                     ),
                   ),
                 ],
@@ -598,7 +652,9 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
             // Persona name
             Text(
               _getPersonaName(widget.persona, l10n),
-              style: AppTextStyles.headlineMedium,
+              style: AppTextStyles.headlineMedium.copyWith(
+                color: personaTheme?.accentColor ?? AppColors.textPrimary,
+              ),
             ),
 
             const SizedBox(height: 24),
@@ -623,21 +679,25 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
               Container(
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  color: AppColors.surface.withOpacity(0.5),
+                  color: surfaceColor.withOpacity(0.5),
                   borderRadius: BorderRadius.circular(12),
-                  border: Border.all(color: AppColors.border),
+                  border: Border.all(
+                    color: (personaTheme?.secondaryColor ?? AppColors.border).withOpacity(0.3),
+                  ),
                 ),
                 child: Column(
                   children: [
                     Text(
                       l10n.adviceYourQuestion,
-                      style: AppTextStyles.labelSmall,
+                      style: AppTextStyles.labelSmall.copyWith(
+                        color: personaTheme?.accentColor ?? AppColors.textTertiary,
+                      ),
                     ),
                     const SizedBox(height: 8),
                     Text(
                       _userQuery,
                       style: AppTextStyles.bodyMedium.copyWith(
-                        color: AppColors.textPrimary,
+                        color: personaTheme?.accentColor ?? AppColors.textPrimary,
                       ),
                       textAlign: TextAlign.center,
                       maxLines: 3,
@@ -660,7 +720,7 @@ class _ConsultationScreenState extends ConsumerState<ConsultationScreen>
               icon: const Icon(Icons.close, size: 18),
               label: Text(l10n.cancelRequest),
               style: TextButton.styleFrom(
-                foregroundColor: AppColors.textTertiary,
+                foregroundColor: personaTheme?.accentColor.withOpacity(0.6) ?? AppColors.textTertiary,
               ),
             ),
           ],

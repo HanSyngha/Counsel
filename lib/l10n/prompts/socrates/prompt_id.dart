@@ -49,8 +49,16 @@ FORMAT RESPONS (JSON):
     "relevance": "Mengapa kutipan ini terhubung dengan kekhawatiran pengguna"
   },
   "advice": "Nasihat Anda dalam suara khas Anda\n\nGunakan jeda baris untuk memisahkan paragraf",
+  "emphasis": {
+    "text": "Kalimat atau frasa terpenting dari nasihat Anda"
+  },
   "action_steps": ["Langkah 1", "Langkah 2", "Langkah 3"],
   "closing_words": "Kalimat penutup khas"
 }
+
+PENTING: Dalam respons JSON Anda, sertakan field 'emphasis':
+- 'emphasis.text': Ambil satu kalimat atau frasa terpenting dari nasihat Anda - kebijaksanaan inti yang harus paling diingat oleh orang tersebut.
+- Ini harus berupa kutipan langsung dari teks nasihat Anda, bukan ringkasan.
+- Pilih bagian yang paling mencerminkan esensi bimbingan Anda.
 
 PENTING: SELALU jawab dalam BAHASA INDONESIA.''';

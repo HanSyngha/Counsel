@@ -10,10 +10,13 @@ import 'package:widgets_to_image/widgets_to_image.dart';
 import 'package:path_provider/path_provider.dart';
 
 import '../config/theme.dart';
+import '../config/persona_themes.dart';
 import '../models/persona.dart';
 import '../models/advice.dart';
 import '../providers/providers.dart';
 import '../widgets/banner_ad_widget.dart';
+import '../widgets/themed_markdown.dart';
+import '../widgets/emphasis_text.dart';
 
 class AdviceDetailScreen extends ConsumerStatefulWidget {
   final AdviceRecord record;
@@ -32,6 +35,8 @@ class AdviceDetailScreen extends ConsumerStatefulWidget {
 class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
   late bool _isFavorite;
   late Persona? _persona;
+  late PersonaTheme _personaTheme;
+  late bool _hasCustomTheme;
   final WidgetsToImageController _imageController = WidgetsToImageController();
   bool _isSharing = false;
 
@@ -40,14 +45,20 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
     super.initState();
     _isFavorite = widget.record.isFavorite;
     _persona = widget.persona ?? PersonaData.getById(widget.record.personaId);
+    _personaTheme = PersonaThemes.getTheme(widget.record.personaId);
+    _hasCustomTheme = PersonaThemes.hasCustomTheme(widget.record.personaId);
   }
 
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
     final response = widget.record.response;
+    final themeColor = _hasCustomTheme
+        ? _personaTheme.primaryColor
+        : (_persona != null ? _getCategoryColor(_persona!.category) : AppColors.primary);
 
     return Scaffold(
+      backgroundColor: _hasCustomTheme ? _personaTheme.backgroundColor : AppColors.background,
       body: Stack(
         children: [
           // Hidden widget for image capture
@@ -94,7 +105,7 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
                               const SizedBox(height: 24),
 
                               // Main Advice Section
-                              _buildAdviceSection(response.advice, l10n),
+                              _buildAdviceSection(response.advice, response.emphasis, l10n),
                               const SizedBox(height: 24),
 
                               // Action Steps Section
@@ -126,17 +137,26 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
   }
 
   Widget _buildSliverAppBar(AppLocalizations l10n) {
+    final bgColor = _hasCustomTheme ? _personaTheme.backgroundColor : AppColors.background;
+    final themeColor = _hasCustomTheme
+        ? _personaTheme.primaryColor
+        : (_persona != null ? _getCategoryColor(_persona!.category) : AppColors.primary);
+
     return SliverAppBar(
       expandedHeight: 200,
       pinned: true,
+      backgroundColor: bgColor,
       leading: IconButton(
         icon: Container(
           padding: const EdgeInsets.all(8),
           decoration: BoxDecoration(
-            color: AppColors.background.withOpacity(0.5),
+            color: bgColor.withOpacity(0.5),
             shape: BoxShape.circle,
           ),
-          child: const Icon(Icons.arrow_back),
+          child: Icon(
+            Icons.arrow_back,
+            color: _hasCustomTheme ? _personaTheme.accentColor : null,
+          ),
         ),
         onPressed: () => Navigator.pop(context),
       ),
@@ -145,12 +165,12 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
           icon: Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: AppColors.background.withOpacity(0.5),
+              color: bgColor.withOpacity(0.5),
               shape: BoxShape.circle,
             ),
             child: Icon(
               _isFavorite ? Icons.favorite : Icons.favorite_border,
-              color: _isFavorite ? AppColors.error : null,
+              color: _isFavorite ? AppColors.error : (_hasCustomTheme ? _personaTheme.accentColor : null),
             ),
           ),
           onPressed: _toggleFavorite,
@@ -159,10 +179,13 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
           icon: Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
-              color: AppColors.background.withOpacity(0.5),
+              color: bgColor.withOpacity(0.5),
               shape: BoxShape.circle,
             ),
-            child: const Icon(Icons.share),
+            child: Icon(
+              Icons.share,
+              color: _hasCustomTheme ? _personaTheme.accentColor : null,
+            ),
           ),
           onPressed: () => _shareAdvice(l10n),
         ),
@@ -176,7 +199,7 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
                 _persona!.imagePath,
                 fit: BoxFit.cover,
                 errorBuilder: (context, error, stackTrace) {
-                  return Container(color: AppColors.surfaceVariant);
+                  return Container(color: _hasCustomTheme ? _personaTheme.surfaceColor : AppColors.surfaceVariant);
                 },
               ),
             // Gradient overlay
@@ -187,8 +210,8 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
                   end: Alignment.bottomCenter,
                   colors: [
                     Colors.transparent,
-                    AppColors.background.withOpacity(0.8),
-                    AppColors.background,
+                    bgColor.withOpacity(0.8),
+                    bgColor,
                   ],
                   stops: const [0.0, 0.7, 1.0],
                 ),
@@ -205,12 +228,16 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
                   if (_persona != null) ...[
                     Text(
                       _getPersonaName(_persona!, l10n),
-                      style: AppTextStyles.displaySmall,
+                      style: AppTextStyles.displaySmall.copyWith(
+                        color: _hasCustomTheme ? _personaTheme.accentColor : AppColors.textPrimary,
+                      ),
                     ),
                     const SizedBox(height: 4),
                     Text(
                       _getPersonaTitle(_persona!, l10n),
-                      style: AppTextStyles.bodyMedium,
+                      style: AppTextStyles.bodyMedium.copyWith(
+                        color: themeColor,
+                      ),
                     ),
                   ],
                 ],
@@ -223,30 +250,41 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
   }
 
   Widget _buildUserQuestion(AppLocalizations l10n) {
+    final surfaceColor = _hasCustomTheme ? _personaTheme.surfaceColor : AppColors.surfaceVariant;
+    final borderColor = _hasCustomTheme ? _personaTheme.secondaryColor.withOpacity(0.3) : AppColors.border;
+
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: AppColors.surfaceVariant,
+        color: surfaceColor,
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: AppColors.border),
+        border: Border.all(color: borderColor),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
-              Icon(Icons.help_outline, color: AppColors.textTertiary, size: 18),
+              Icon(
+                Icons.help_outline,
+                color: _hasCustomTheme ? _personaTheme.accentColor.withOpacity(0.6) : AppColors.textTertiary,
+                size: 18,
+              ),
               const SizedBox(width: 8),
               Text(
                 l10n.adviceYourQuestion,
-                style: AppTextStyles.labelMedium,
+                style: AppTextStyles.labelMedium.copyWith(
+                  color: _hasCustomTheme ? _personaTheme.accentColor.withOpacity(0.7) : null,
+                ),
               ),
             ],
           ),
           const SizedBox(height: 8),
           Text(
             widget.record.userQuery,
-            style: AppTextStyles.bodyLarge,
+            style: AppTextStyles.bodyLarge.copyWith(
+              color: _hasCustomTheme ? _personaTheme.accentColor : null,
+            ),
           ),
         ],
       ),
@@ -254,19 +292,23 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
   }
 
   Widget _buildCitationSection(Citation citation, AppLocalizations l10n) {
+    final themeColor = _hasCustomTheme ? _personaTheme.primaryColor : AppColors.primary;
+    final surfaceColor = _hasCustomTheme ? _personaTheme.surfaceColor : AppColors.surfaceVariant;
+    final bgColor = _hasCustomTheme ? _personaTheme.backgroundColor : AppColors.background;
+
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            AppColors.primary.withOpacity(0.1),
-            AppColors.surfaceVariant,
+            themeColor.withOpacity(0.1),
+            surfaceColor,
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppColors.primary.withOpacity(0.3)),
+        border: Border.all(color: themeColor.withOpacity(0.3)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -277,16 +319,16 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
               Container(
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                  color: AppColors.primary.withOpacity(0.2),
+                  color: themeColor.withOpacity(0.2),
                   borderRadius: BorderRadius.circular(8),
                 ),
-                child: Icon(Icons.format_quote, color: AppColors.primary, size: 24),
+                child: Icon(Icons.format_quote, color: themeColor, size: 24),
               ),
               const SizedBox(width: 12),
               Text(
                 l10n.adviceCitation,
                 style: AppTextStyles.headlineSmall.copyWith(
-                  color: AppColors.primary,
+                  color: themeColor,
                 ),
               ),
             ],
@@ -297,10 +339,10 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
           Container(
             padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
-              color: AppColors.background.withOpacity(0.5),
+              color: bgColor.withOpacity(0.5),
               borderRadius: BorderRadius.circular(12),
               border: Border(
-                left: BorderSide(color: AppColors.primary, width: 4),
+                left: BorderSide(color: themeColor, width: 4),
               ),
             ),
             child: Column(
@@ -312,20 +354,24 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
                   style: AppTextStyles.quote.copyWith(
                     height: 1.8,
                     fontStyle: FontStyle.italic,
+                    color: _hasCustomTheme ? _personaTheme.accentColor : null,
                   ),
                   softWrap: true,
                 ),
                 // Show translation if different from original
                 if (citation.translatedText != citation.originalText) ...[
                   const SizedBox(height: 12),
-                  const Divider(height: 1),
+                  Divider(
+                    height: 1,
+                    color: _hasCustomTheme ? _personaTheme.secondaryColor.withOpacity(0.3) : null,
+                  ),
                   const SizedBox(height: 12),
                   // Translated text
                   Text(
                     '"${citation.translatedText}"',
                     style: AppTextStyles.bodyLarge.copyWith(
                       height: 1.7,
-                      color: AppColors.textPrimary,
+                      color: _hasCustomTheme ? _personaTheme.accentColor : AppColors.textPrimary,
                     ),
                     softWrap: true,
                   ),
@@ -343,7 +389,7 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
           Container(
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: AppColors.background.withOpacity(0.3),
+              color: bgColor.withOpacity(0.3),
               borderRadius: BorderRadius.circular(8),
             ),
             child: Column(
@@ -351,23 +397,25 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
               children: [
                 Row(
                   children: [
-                    Icon(Icons.lightbulb_outline, color: AppColors.warning, size: 18),
+                    Icon(Icons.lightbulb_outline, color: _hasCustomTheme ? _personaTheme.buttonGlowColor : AppColors.warning, size: 18),
                     const SizedBox(width: 8),
                     Text(
                       l10n.adviceRelevance,
                       style: AppTextStyles.labelMedium.copyWith(
-                        color: AppColors.warning,
+                        color: _hasCustomTheme ? _personaTheme.buttonGlowColor : AppColors.warning,
                       ),
                     ),
                   ],
                 ),
                 const SizedBox(height: 8),
-                Text(
-                  citation.relevance,
-                  style: AppTextStyles.bodyMedium.copyWith(
+                ThemedMarkdown(
+                  data: citation.relevance,
+                  personaTheme: _personaTheme,
+                  hasCustomTheme: _hasCustomTheme,
+                  baseTextStyle: AppTextStyles.bodyMedium.copyWith(
                     height: 1.6,
+                    color: _hasCustomTheme ? _personaTheme.accentColor.withOpacity(0.8) : AppColors.textSecondary,
                   ),
-                  softWrap: true,
                 ),
               ],
             ),
@@ -378,10 +426,12 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
   }
 
   Widget _buildSourceDetails(CitationSource source, AppLocalizations l10n) {
+    final bgColor = _hasCustomTheme ? _personaTheme.backgroundColor : AppColors.background;
+
     return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        color: AppColors.background.withOpacity(0.3),
+        color: bgColor.withOpacity(0.3),
         borderRadius: BorderRadius.circular(8),
       ),
       child: Column(
@@ -480,13 +530,17 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
     );
   }
 
-  Widget _buildAdviceSection(String advice, AppLocalizations l10n) {
+  Widget _buildAdviceSection(String advice, Emphasis? emphasis, AppLocalizations l10n) {
+    final surfaceColor = _hasCustomTheme ? _personaTheme.surfaceColor : AppColors.surface;
+    final borderColor = _hasCustomTheme ? _personaTheme.secondaryColor.withOpacity(0.3) : AppColors.border;
+    final accentColor = _hasCustomTheme ? _personaTheme.primaryColor : AppColors.success;
+
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: AppColors.surface,
+        color: surfaceColor,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppColors.border),
+        border: Border.all(color: borderColor),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -496,39 +550,90 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
               Container(
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                  color: AppColors.success.withOpacity(0.2),
+                  color: accentColor.withOpacity(0.2),
                   borderRadius: BorderRadius.circular(8),
                 ),
-                child: Icon(Icons.psychology, color: AppColors.success, size: 24),
+                child: Icon(Icons.psychology, color: accentColor, size: 24),
               ),
               const SizedBox(width: 12),
               Text(
                 l10n.adviceMainCounsel,
                 style: AppTextStyles.headlineSmall.copyWith(
-                  color: AppColors.success,
+                  color: accentColor,
                 ),
               ),
             ],
           ),
           const SizedBox(height: 16),
-          Text(
-            advice,
-            style: AppTextStyles.bodyLarge.copyWith(
-              height: 1.8,
+          // emphasis가 있으면 강조 표시 위젯 사용, 없으면 기존 마크다운
+          if (emphasis != null && emphasis.text.isNotEmpty)
+            _buildAdviceWithEmphasis(advice, emphasis)
+          else
+            ThemedMarkdown(
+              data: advice,
+              personaTheme: _personaTheme,
+              hasCustomTheme: _hasCustomTheme,
+              baseTextStyle: AppTextStyles.bodyLarge.copyWith(
+                height: 1.8,
+                color: _hasCustomTheme ? _personaTheme.accentColor : AppColors.textPrimary,
+              ),
             ),
-          ),
         ],
       ),
     );
   }
 
+  /// 강조 표시가 포함된 조언 텍스트 빌드
+  Widget _buildAdviceWithEmphasis(String advice, Emphasis emphasis) {
+    // 마크다운에서 일반 텍스트 추출 (간단한 처리)
+    final plainText = _stripMarkdown(advice);
+
+    return EmphasisText(
+      text: plainText,
+      emphasis: emphasis,
+      baseTextStyle: AppTextStyles.bodyLarge.copyWith(
+        height: 1.8,
+        color: _hasCustomTheme ? _personaTheme.accentColor : AppColors.textPrimary,
+      ),
+      personaTheme: _personaTheme,
+      hasCustomTheme: _hasCustomTheme,
+      underlineColor: const Color(0xFFE53935), // 빨간 밑줄
+      starColor: Colors.amber, // 노란 별표
+      enableAnimation: true,
+    );
+  }
+
+  /// 마크다운 문법 제거하여 일반 텍스트 추출
+  String _stripMarkdown(String markdown) {
+    String text = markdown;
+    // 볼드 제거: **text** -> text
+    text = text.replaceAll(RegExp(r'\*\*(.+?)\*\*'), r'$1');
+    // 이탤릭 제거: *text* -> text
+    text = text.replaceAll(RegExp(r'\*(.+?)\*'), r'$1');
+    // 헤더 제거: # text -> text
+    text = text.replaceAll(RegExp(r'^#+\s*', multiLine: true), '');
+    // 리스트 마커 제거: - text -> text
+    text = text.replaceAll(RegExp(r'^\s*[-*]\s+', multiLine: true), '');
+    // 번호 리스트 제거: 1. text -> text
+    text = text.replaceAll(RegExp(r'^\s*\d+\.\s+', multiLine: true), '');
+    // 인라인 코드 제거: `code` -> code
+    text = text.replaceAll(RegExp(r'`(.+?)`'), r'$1');
+    // 링크 제거: [text](url) -> text
+    text = text.replaceAll(RegExp(r'\[(.+?)\]\(.+?\)'), r'$1');
+    return text.trim();
+  }
+
   Widget _buildActionStepsSection(List<String> actionSteps, AppLocalizations l10n) {
+    final surfaceColor = _hasCustomTheme ? _personaTheme.surfaceColor : AppColors.surface;
+    final borderColor = _hasCustomTheme ? _personaTheme.secondaryColor.withOpacity(0.3) : AppColors.border;
+    final headerColor = _hasCustomTheme ? _personaTheme.secondaryColor : AppColors.categoryHistory;
+
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: AppColors.surface,
+        color: surfaceColor,
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppColors.border),
+        border: Border.all(color: borderColor),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -538,16 +643,16 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
               Container(
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                  color: AppColors.categoryHistory.withOpacity(0.2),
+                  color: headerColor.withOpacity(0.2),
                   borderRadius: BorderRadius.circular(8),
                 ),
-                child: Icon(Icons.checklist, color: AppColors.categoryHistory, size: 24),
+                child: Icon(Icons.checklist, color: headerColor, size: 24),
               ),
               const SizedBox(width: 12),
               Text(
                 l10n.adviceActionSteps,
                 style: AppTextStyles.headlineSmall.copyWith(
-                  color: AppColors.categoryHistory,
+                  color: headerColor,
                 ),
               ),
             ],
@@ -565,14 +670,16 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
                     width: 28,
                     height: 28,
                     decoration: BoxDecoration(
-                      gradient: AppColors.primaryGradient,
+                      gradient: _hasCustomTheme
+                          ? LinearGradient(colors: _personaTheme.gradientColors)
+                          : AppColors.primaryGradient,
                       shape: BoxShape.circle,
                     ),
                     child: Center(
                       child: Text(
                         '${index + 1}',
                         style: AppTextStyles.labelMedium.copyWith(
-                          color: Colors.white,
+                          color: _hasCustomTheme ? _personaTheme.textOnPrimary : Colors.white,
                         ),
                       ),
                     ),
@@ -582,16 +689,17 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
                     child: Container(
                       padding: const EdgeInsets.all(12),
                       decoration: BoxDecoration(
-                        color: AppColors.surfaceVariant,
+                        color: _hasCustomTheme ? _personaTheme.backgroundColor.withOpacity(0.5) : AppColors.surfaceVariant,
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      child: Text(
-                        step,
-                        style: AppTextStyles.bodyMedium.copyWith(
-                          color: AppColors.textPrimary,
+                      child: ThemedMarkdown(
+                        data: step,
+                        personaTheme: _personaTheme,
+                        hasCustomTheme: _hasCustomTheme,
+                        baseTextStyle: AppTextStyles.bodyMedium.copyWith(
+                          color: _hasCustomTheme ? _personaTheme.accentColor : AppColors.textPrimary,
                           height: 1.6,
                         ),
-                        softWrap: true,
                       ),
                     ),
                   ),
@@ -605,19 +713,22 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
   }
 
   Widget _buildClosingWordsSection(String closingWords, AppLocalizations l10n) {
+    final themeColor = _hasCustomTheme ? _personaTheme.primaryColor : AppColors.primary;
+    final surfaceColor = _hasCustomTheme ? _personaTheme.surfaceColor : AppColors.surfaceVariant;
+
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            AppColors.surfaceVariant,
-            AppColors.primary.withOpacity(0.1),
+            surfaceColor,
+            themeColor.withOpacity(0.1),
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppColors.primary.withOpacity(0.3)),
+        border: Border.all(color: themeColor.withOpacity(0.3)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -627,16 +738,16 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
               Container(
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                  color: AppColors.primary.withOpacity(0.2),
+                  color: themeColor.withOpacity(0.2),
                   borderRadius: BorderRadius.circular(8),
                 ),
-                child: Icon(Icons.auto_awesome, color: AppColors.primary, size: 24),
+                child: Icon(Icons.auto_awesome, color: themeColor, size: 24),
               ),
               const SizedBox(width: 12),
               Text(
                 l10n.adviceClosingWords,
                 style: AppTextStyles.headlineSmall.copyWith(
-                  color: AppColors.primary,
+                  color: themeColor,
                 ),
               ),
             ],
@@ -646,7 +757,7 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
             '"$closingWords"',
             style: AppTextStyles.quote.copyWith(
               fontSize: 18,
-              color: AppColors.textPrimary,
+              color: _hasCustomTheme ? _personaTheme.accentColor : AppColors.textPrimary,
               height: 1.7,
             ),
             softWrap: true,
@@ -658,7 +769,7 @@ class _AdviceDetailScreenState extends ConsumerState<AdviceDetailScreen> {
               child: Text(
                 '- ${_getPersonaName(_persona!, l10n)}',
                 style: AppTextStyles.labelMedium.copyWith(
-                  color: AppColors.textSecondary,
+                  color: _hasCustomTheme ? _personaTheme.accentColor.withOpacity(0.7) : AppColors.textSecondary,
                   fontStyle: FontStyle.italic,
                 ),
               ),
@@ -930,10 +1041,11 @@ $_appLink''';
           ),
           const SizedBox(height: 16),
 
-          // Main advice (full)
-          Text(
-            response.advice,
-            style: AppTextStyles.bodyMedium.copyWith(
+          // Main advice (full) with markdown rendering
+          ThemedMarkdownForImage(
+            data: response.advice,
+            categoryColor: categoryColor,
+            baseTextStyle: AppTextStyles.bodyMedium.copyWith(
               height: 1.6,
               color: AppColors.textPrimary,
             ),

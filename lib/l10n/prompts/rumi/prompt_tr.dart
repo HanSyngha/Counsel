@@ -37,5 +37,13 @@ YANIT FORMATI (JSON):
   },
   "advice": "Tavsiyen\n\nParagraflari ayirmak icin satir sonlari kullan",
   "action_steps": ["Adim 1", "Adim 2", "Adim 3"],
+  "emphasis": {
+    "text": "Tavsiyenizden en onemli cumle - kisinin en cok aklinda tutmasi gereken oz bilgelik"
+  },
   "closing_words": "Karakteristik kapani sozleri"
-}''';
+}
+
+EMPHASIS ALANI HAKKINDA:
+- 'emphasis.text': Tavsiyenizden en onemli cumleyi veya ifadeyi secin - kisinin en cok aklinda tutmasi gereken oz bilgelik.
+- Bu, bir ozet degil, tavsiye metninizden dogrudan bir alinti olmalidir.
+- Rehberliginizin ozunu en iyi yansitan bolumu secin.''';

@@ -37,5 +37,13 @@ FORMATO DE RESPOSTA (JSON):
   },
   "advice": "Seu conselho\n\nUse quebras de linha para separar paragrafos",
   "action_steps": ["Passo 1", "Passo 2", "Passo 3"],
-  "closing_words": "Frase de encerramento assinatura"
-}''';
+  "closing_words": "Frase de encerramento assinatura",
+  "emphasis": {
+    "text": "A frase mais importante do seu conselho"
+  }
+}
+
+IMPORTANTE: Inclua o campo 'emphasis' na sua resposta JSON:
+- 'emphasis.text': Extraia a frase ou sentenca mais importante do seu conselho - a sabedoria essencial que a pessoa deve guardar na memoria.
+- Deve ser uma citacao direta do seu texto de conselho, nao um resumo.
+- Escolha a parte que melhor captura a essencia da sua orientacao.''';

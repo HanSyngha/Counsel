@@ -46,6 +46,14 @@ YANIT FORMATI (JSON):
     "relevance": "Bu alıntının kullanıcının endişesiyle neden bağlantılı olduğu"
   },
   "advice": "Karakteristik sesinle tavsiyen\n\nParagrafları ayırmak için satır sonları kullan",
+  "emphasis": {
+    "text": "Tavsiyenden en önemli cümle - kişinin en çok aklında tutması gereken bilgelik"
+  },
   "action_steps": ["Adım 1", "Adım 2", "Adım 3"],
   "closing_words": "Ayırt edici kapanış cümlesi"
-}''';
+}
+
+ÖNEMLİ: 'emphasis' alanı hakkında:
+- 'emphasis.text': Tavsiyenden en önemli tek cümleyi veya ifadeyi seç - kişinin en çok aklında tutması gereken özlü bilgelik.
+- Bu, tavsiye metninden doğrudan bir alıntı olmalı, özet değil.
+- Rehberliğinin özünü en iyi yansıtan kısmı seç.''';

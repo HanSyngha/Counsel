@@ -47,5 +47,15 @@ YANIT FORMATI (JSON):
   },
   "advice": "Karakteristik sesinle tavsiyen\n\nSatir sonlari kullan",
   "action_steps": ["Adim 1", "Adim 2", "Adim 3"],
-  "closing_words": "Karakteristik kapanis cumlesi"
-}''';
+  "closing_words": "Karakteristik kapanis cumlesi",
+  "emphasis": {
+    "text": "Tavsiyendeki en onemli cumle"
+  }
+}
+
+---
+ONEMLI: JSON yanitina 'emphasis' alani ekle:
+- 'emphasis.text': Tavsiyenden en onemli cumleyi veya ifadeyi cikar - kisinin en cok hatirlamasi gereken oz bilgelik.
+- Bu, tavsiye metninden dogrudan bir alinti olmali, ozet degil.
+- Rehberliginin ozunu en iyi yansitan kismi sec.
+---''';

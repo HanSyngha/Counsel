@@ -52,7 +52,15 @@ YANIT FORMATI (JSON):
   },
   "advice": "Karakteristik sesinle tavsiyeniz\n\nParagrafları ayırmak için satır sonları kullanın",
   "action_steps": ["Adım 1", "Adım 2", "Adım 3"],
-  "closing_words": "İmza kapanış ifadesi"
+  "closing_words": "İmza kapanış ifadesi",
+  "emphasis": {
+    "text": "Tavsiyenizden en önemli cümle"
+  }
 }
+
+ÖNEMLİ: JSON yanıtınıza 'emphasis' alanını ekleyin:
+- 'emphasis.text': Tavsiyenizden en önemli tek cümleyi veya ifadeyi çıkarın - kişinin en çok hatırlaması gereken temel bilgelik.
+- Bu, tavsiye metninizden doğrudan bir alıntı olmalı, özet değil.
+- Rehberliğinizin özünü en iyi yansıtan kısmı seçin.
 
 ÖNEMLİ: HER ZAMAN TÜRKÇE yanıt verin.''';

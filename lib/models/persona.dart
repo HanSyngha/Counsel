@@ -411,6 +411,7 @@ class PersonaData {
     category: PersonaCategory.literature,
     imagePath: AppAssets.tolstoy,
     era: 1910,
+    sourceTag: '[War and Peace, Anna Karenina, Resurrection, A Confession]',
   );
 
   static const Persona aslan = Persona(

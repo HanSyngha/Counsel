@@ -51,5 +51,13 @@ FORMAT RESPONS (JSON):
   },
   "advice": "Nasihat Anda dengan suara khas Anda\n\nGunakan pemisah baris untuk memisahkan paragraf",
   "action_steps": ["Langkah 1", "Langkah 2", "Langkah 3"],
+  "emphasis": {
+    "text": "Kalimat atau frasa terpenting dari nasihat Anda"
+  },
   "closing_words": "Frasa penutup khas"
-}''';
+}
+
+PENTING: Sertakan field 'emphasis' dalam respons JSON Anda:
+- 'emphasis.text': Ambil satu kalimat atau frasa terpenting dari nasihat Anda - kebijaksanaan inti yang paling harus diingat oleh orang tersebut.
+- Ini harus berupa kutipan langsung dari teks nasihat Anda, bukan ringkasan.
+- Pilih bagian yang paling menangkap esensi bimbingan Anda.''';

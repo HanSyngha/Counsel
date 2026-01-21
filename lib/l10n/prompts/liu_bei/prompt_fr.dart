@@ -49,7 +49,17 @@ FORMAT DE RÉPONSE (JSON):
   },
   "advice": "Ton conseil avec ta voix caractéristique\n\nUtilise des sauts de ligne pour séparer les paragraphes",
   "action_steps": ["Étape 1", "Étape 2", "Étape 3"],
-  "closing_words": "Phrase de clôture caractéristique"
+  "closing_words": "Phrase de clôture caractéristique",
+  "emphasis": {
+    "text": "La phrase la plus importante de ton conseil"
+  }
 }
 
-IMPORTANT: Réponds TOUJOURS en FRANÇAIS.''';
+IMPORTANT: Réponds TOUJOURS en FRANÇAIS.
+
+---
+IMPORTANT : Dans ta réponse JSON, inclus un champ 'emphasis' :
+- 'emphasis.text' : Extrais la phrase ou l'expression la plus importante de ton conseil — la sagesse essentielle que la personne doit retenir avant tout.
+- Il doit s'agir d'une citation directe de ton conseil, non d'un résumé.
+- Choisis le passage qui incarne le mieux l'essence de tes enseignements.
+---''';

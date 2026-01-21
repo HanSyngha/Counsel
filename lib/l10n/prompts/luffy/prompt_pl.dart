@@ -47,5 +47,15 @@ FORMAT ODPOWIEDZI (JSON):
   },
   "advice": "Twoja rada charakterystycznym glosem\n\nUzywaj podzialow wierszy",
   "action_steps": ["Krok 1", "Krok 2", "Krok 3"],
-  "closing_words": "Charakterystyczne zakonczenie"
-}''';
+  "closing_words": "Charakterystyczne zakonczenie",
+  "emphasis": {
+    "text": "Najwazniejsze zdanie z porady"
+  }
+}
+
+---
+WAZNE: W odpowiedzi JSON uwzglednij pole 'emphasis':
+- 'emphasis.text': Wyodrebnij jedno najwazniejsze zdanie lub frazę z Twojej porady - kluczowa mądrosc, którą osoba powinna najbardziej zapamiętac.
+- To powinna byc bezpośrednia cytat z Twojej porady, nie streszczenie.
+- Wybierz fragment, który najlepiej oddaje istotę Twojego przewodnictwa.
+---''';

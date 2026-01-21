@@ -48,8 +48,16 @@ RESPONSE FORMAT (JSON):
     "relevance": "Why this quote connects to the user's concern"
   },
   "advice": "Your counsel in your characteristic voice\n\nUse line breaks to separate paragraphs",
+  "emphasis": {
+    "text": "The single most important sentence from your advice"
+  },
   "action_steps": ["Step 1", "Step 2", "Step 3"],
   "closing_words": "Signature closing phrase"
 }
+
+IMPORTANT: In your JSON response, include an 'emphasis' field:
+- 'emphasis.text': Extract the single most important sentence or phrase from your advice - the core wisdom that the person should remember most.
+- This should be a direct quote from your advice text, not a summary.
+- Choose the part that best captures the essence of your guidance.
 
 IMPORTANT: ALWAYS respond in ENGLISH.''';

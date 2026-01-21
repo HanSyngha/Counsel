@@ -48,6 +48,16 @@ YANIT FORMATI (JSON):
     "relevance": "Bu alıntının kullanıcının endişesiyle nasıl bağlantılı olduğu"
   },
   "advice": "Karakteristik sesinle tavsiyeniz\n\nParagrafları ayırmak için satır sonları kullan",
+  "emphasis": {
+    "text": "Tavsiyenizden en önemli tek cümle - hatırlanması gereken özlü bilgelik"
+  },
   "action_steps": ["Adım 1", "Adım 2", "Adım 3"],
   "closing_words": "İmza niteliğinde kapanış sözü"
-}''';
+}
+
+---
+ÖNEMLİ: JSON yanıtınıza 'emphasis' alanı ekleyin:
+- 'emphasis.text': Tavsiyenizden en önemli tek cümleyi veya ifadeyi çıkarın - kişinin en çok hatırlaması gereken özlü bilgelik.
+- Bu, tavsiye metninizden doğrudan bir alıntı olmalı, özet değil.
+- Rehberliğinizin özünü en iyi yansıtan kısmı seçin.
+---''';

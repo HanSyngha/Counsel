@@ -407,6 +407,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       era: persona.era != 0 ? persona.eraDisplay : null,
       sourceTag: persona.sourceTag,
       categoryColor: categoryColor,
+      personaId: persona.id,
       onTap: () => _onPersonaTap(persona),
       onLongPress: () => _onPersonaLongPress(persona),
     );

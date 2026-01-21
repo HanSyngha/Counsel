@@ -74,6 +74,40 @@ class CitationSource {
   }
 }
 
+/// 강조 문구 정보
+class Emphasis {
+  /// 강조할 핵심 문장/구절
+  final String text;
+
+  /// advice 텍스트 내에서 강조 시작 위치 (선택적)
+  final int? startIndex;
+
+  /// advice 텍스트 내에서 강조 끝 위치 (선택적)
+  final int? endIndex;
+
+  const Emphasis({
+    required this.text,
+    this.startIndex,
+    this.endIndex,
+  });
+
+  factory Emphasis.fromJson(Map<String, dynamic> json) {
+    return Emphasis(
+      text: json['text'] as String? ?? '',
+      startIndex: json['start_index'] as int?,
+      endIndex: json['end_index'] as int?,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'text': text,
+      if (startIndex != null) 'start_index': startIndex,
+      if (endIndex != null) 'end_index': endIndex,
+    };
+  }
+}
+
 /// 인용문 정보
 class Citation {
   /// 원어 인용문 (그리스어, 라틴어, 산스크리트어, 한문 등)
@@ -141,6 +175,9 @@ class AdviceResponse {
   /// 조언 본문 (인물 특유의 말투로)
   final String advice;
 
+  /// 강조할 핵심 문구 (선택적)
+  final Emphasis? emphasis;
+
   /// 실천 단계 (3개)
   final List<String> actionSteps;
 
@@ -150,17 +187,22 @@ class AdviceResponse {
   const AdviceResponse({
     required this.citation,
     required this.advice,
+    this.emphasis,
     required this.actionSteps,
     required this.closingWords,
   });
 
   factory AdviceResponse.fromJson(Map<String, dynamic> json) {
     final citationData = json['citation'];
+    final emphasisData = json['emphasis'];
     return AdviceResponse(
       citation: Citation.fromJson(
         citationData is Map ? _deepConvertMap(citationData) : <String, dynamic>{},
       ),
       advice: json['advice'] as String? ?? '',
+      emphasis: emphasisData is Map
+          ? Emphasis.fromJson(_deepConvertMap(emphasisData))
+          : null,
       actionSteps: (json['action_steps'] as List<dynamic>?)
               ?.map((e) => e.toString())
               .toList() ??
@@ -173,6 +215,7 @@ class AdviceResponse {
     return {
       'citation': citation.toJson(),
       'advice': advice,
+      if (emphasis != null) 'emphasis': emphasis!.toJson(),
       'action_steps': actionSteps,
       'closing_words': closingWords,
     };

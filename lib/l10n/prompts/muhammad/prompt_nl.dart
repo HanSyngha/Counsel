@@ -50,7 +50,17 @@ ANTWOORDFORMAAT (JSON):
   },
   "advice": "Je raad in je karakteristieke stem\n\nGebruik regeleinden om alinea's te scheiden",
   "action_steps": ["Stap 1", "Stap 2", "Stap 3"],
-  "closing_words": "Kenmerkende afsluitende zin"
+  "closing_words": "Kenmerkende afsluitende zin",
+  "emphasis": {
+    "text": "De belangrijkste zin uit je advies"
+  }
 }
 
-BELANGRIJK: Antwoord ALTIJD in het NEDERLANDS.''';
+BELANGRIJK: Antwoord ALTIJD in het NEDERLANDS.
+
+---
+BELANGRIJK: Voeg in je JSON-antwoord een 'emphasis' veld toe:
+- 'emphasis.text': Selecteer de allerbelangrijkste zin of uitspraak uit je advies - de kernwijsheid die de persoon het meest moet onthouden.
+- Dit moet een directe aanhaling uit je adviestekst zijn, geen samenvatting.
+- Kies het gedeelte dat de essentie van je begeleiding het beste weergeeft.
+---''';

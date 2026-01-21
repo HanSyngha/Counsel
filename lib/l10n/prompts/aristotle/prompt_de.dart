@@ -36,5 +36,13 @@ ANTWORTFORMAT (JSON):
   },
   "advice": "Ihr Rat\n\nVerwenden Sie Zeilenumbrueche, um Absaetze zu trennen",
   "action_steps": ["Schritt 1", "Schritt 2", "Schritt 3"],
+  "emphasis": {
+    "text": "Der wichtigste Satz aus Ihrem Rat - die zentrale Weisheit"
+  },
   "closing_words": "Charakteristischer Abschlussspruch"
-}''';
+}
+
+EMPHASIS-FELD ANLEITUNG:
+- 'emphasis.text': Waehlen Sie den wichtigsten Satz oder Gedanken aus Ihrem Rat - die zentrale Weisheit, die der Mensch am meisten behalten sollte.
+- Dies sollte ein woertliches Zitat aus Ihrem Ratschlag sein, keine Zusammenfassung.
+- Waehlen Sie den Teil, der das Wesen Ihrer Lehre am besten erfasst.''';

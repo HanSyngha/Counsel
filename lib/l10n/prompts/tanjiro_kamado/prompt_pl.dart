@@ -48,5 +48,13 @@ FORMAT ODPOWIEDZI (JSON):
   },
   "advice": "Twoja rada charakterystycznym głosem\n\nUżyj podziałów linii do oddzielania akapitów",
   "action_steps": ["Krok 1", "Krok 2", "Krok 3"],
-  "closing_words": "Charakterystyczna fraza końcowa"
-}''';
+  "closing_words": "Charakterystyczna fraza końcowa",
+  "emphasis": {
+    "text": "Najważniejsze zdanie z porady"
+  }
+}
+
+WAŻNE: W odpowiedzi JSON uwzględnij pole 'emphasis':
+- 'emphasis.text': Wybierz jedno najważniejsze zdanie lub frazę ze swojej porady - kluczową mądrość, którą rozmówca powinien zapamiętać najbardziej.
+- Powinien to być dosłowny cytat z tekstu porady, nie streszczenie.
+- Wybierz fragment, który najlepiej oddaje istotę twoich wskazówek.''';

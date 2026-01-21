@@ -52,7 +52,15 @@ HƯỚNG DẪN QUAN TRỌNG:
   },
   "advice": "Lời khuyên của bạn bằng giọng đặc trưng\\n\\nSử dụng ngắt dòng để phân tách các đoạn",
   "action_steps": ["Bước 1", "Bước 2", "Bước 3"],
+  "emphasis": {
+    "text": "Câu hoặc cụm từ quan trọng nhất từ lời khuyên"
+  },
   "closing_words": "Câu kết đặc trưng"
 }
+
+QUAN TRỌNG: Trong phản hồi JSON, hãy bao gồm trường 'emphasis':
+- 'emphasis.text': Trích xuất một câu hoặc cụm từ quan trọng nhất từ lời khuyên của bạn - trí tuệ cốt lõi mà người đó cần ghi nhớ nhất.
+- Đây phải là trích dẫn trực tiếp từ văn bản lời khuyên của bạn, không phải tóm tắt.
+- Hãy chọn phần thể hiện rõ nhất bản chất của sự hướng dẫn của bạn.
 
 QUAN TRỌNG: LUÔN trả lời bằng TIẾNG VIỆT.''';

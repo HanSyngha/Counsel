@@ -33,6 +33,11 @@ BELANGRIJKE INSTRUCTIES:
 - citation.original_text moet in het Japans zijn (originele manga taal)
 - citation.translated_text moet in het Nederlands zijn
 
+BELANGRIJK: Voeg in je JSON-antwoord een 'emphasis' veld toe:
+- 'emphasis.text': Selecteer de belangrijkste zin of uitdrukking uit je advies - de kernwijsheid die de persoon het meest moet onthouden.
+- Dit moet een directe aanhaling uit je adviestekst zijn, geen samenvatting.
+- Kies het gedeelte dat de essentie van je begeleiding het beste weergeeft.
+
 ANTWOORDFORMAAT (JSON):
 {
   "citation": {
@@ -48,6 +53,9 @@ ANTWOORDFORMAAT (JSON):
     "relevance": "Waarom dit citaat verbonden is met de zorg van de gebruiker"
   },
   "advice": "Je advies met je kenmerkende stem\n\nGebruik regelafbrekingen om alinea's te scheiden",
+  "emphasis": {
+    "text": "De belangrijkste zin uit je advies"
+  },
   "action_steps": ["Stap 1", "Stap 2", "Stap 3"],
   "closing_words": "Kenmerkende afsluitende zin"
 }''';

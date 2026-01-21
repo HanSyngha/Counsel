@@ -50,7 +50,15 @@ DINH DANG PHAN HOI (JSON):
   },
   "advice": "Loi khuyen cua ban voi giong dac trung\n\nSu dung ngat dong de phan tach cac doan van",
   "action_steps": ["Buoc 1", "Buoc 2", "Buoc 3"],
+  "emphasis": {
+    "text": "Cau hoac cum tu quan trong nhat tu loi khuyen"
+  },
   "closing_words": "Cau ket dac trung"
 }
+
+LUU Y QUAN TRONG: Trong phan hoi JSON, hay them truong 'emphasis':
+- 'emphasis.text': Trich ra mot cau hoac cum tu quan trong nhat tu loi khuyen cua ban - tri tue cot loi ma nguoi do can ghi nho nhat.
+- Day phai la trich dan truc tiep tu noi dung loi khuyen, khong phai ban tom tat.
+- Hay chon phan the hien ro nhat ban chat cua su chi dan cua ban.
 
 QUAN TRONG: LUON tra loi bang TIENG VIET.''';

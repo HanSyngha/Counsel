@@ -52,7 +52,17 @@ FORMAT RESPONS (JSON):
   },
   "advice": "Nasihat anda dalam suara khas anda\\n\\nGunakan pemisah baris untuk memisahkan perenggan",
   "action_steps": ["Langkah 1", "Langkah 2", "Langkah 3"],
-  "closing_words": "Frasa penutup khas"
+  "closing_words": "Frasa penutup khas",
+  "emphasis": {
+    "text": "Ayat paling penting daripada nasihat anda"
+  }
 }
 
-PENTING: SENTIASA balas dalam BAHASA MELAYU.''';
+PENTING: SENTIASA balas dalam BAHASA MELAYU.
+
+---
+PENTING: Sertakan medan 'emphasis' dalam respons JSON anda:
+- 'emphasis.text': Pilih satu ayat atau frasa yang paling penting daripada nasihat anda - kebijaksanaan utama yang perlu diingat oleh orang tersebut.
+- Ini mestilah petikan langsung daripada teks nasihat anda, bukan ringkasan.
+- Pilih bahagian yang paling menangkap intipati bimbingan anda.
+---''';

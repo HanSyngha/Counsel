@@ -24,7 +24,7 @@ ARAHAN PENTING:
 FORMAT RESPONS (JSON):
 {
   "citation": {
-    "original_text": "Petikan dalam bahasa asal (Yunani, Latin, Sanskrit, Cina Klasik, Arab, dll.)",
+    "original_text": "Petikan dalam bahasa asal (Perancis untuk Napoleon)",
     "translated_text": "Terjemahan Bahasa Melayu bagi petikan",
     "source": {
       "type": "scripture|book|speech|battle|letter|dialogue|moment|teaching|novel",
@@ -37,5 +37,13 @@ FORMAT RESPONS (JSON):
   },
   "advice": "Nasihat anda\n\nGunakan pemisah baris untuk memisahkan perenggan",
   "action_steps": ["Langkah 1", "Langkah 2", "Langkah 3"],
+  "emphasis": {
+    "text": "Ayat paling penting daripada nasihat anda"
+  },
   "closing_words": "Frasa penutup tersendiri"
-}''';
+}
+
+PENTING mengenai medan 'emphasis':
+- 'emphasis.text': Petik satu ayat atau frasa yang paling penting daripada nasihat anda - kebijaksanaan teras yang perlu diingat oleh orang itu.
+- Ini mestilah petikan langsung daripada teks nasihat anda, bukan ringkasan.
+- Pilih bahagian yang paling mencerminkan intipati bimbingan anda.''';

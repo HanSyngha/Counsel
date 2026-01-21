@@ -37,5 +37,13 @@ ANTWORTFORMAT (JSON):
   },
   "advice": "Ihr Rat\n\nVerwenden Sie Zeilenumbrueche, um Absaetze zu trennen",
   "action_steps": ["Schritt 1", "Schritt 2", "Schritt 3"],
-  "closing_words": "Charakteristischer Abschlussspruch"
-}''';
+  "closing_words": "Charakteristischer Abschlussspruch",
+  "emphasis": {
+    "text": "Der wichtigste Satz aus Ihrem Rat - die Kernweisheit"
+  }
+}
+
+WICHTIG zum 'emphasis'-Feld:
+- 'emphasis.text': Waehlen Sie den einen wichtigsten Satz aus Ihrem Rat - die Kernweisheit, die sich der Ratsuchende am meisten einpraegen sollte.
+- Dies muss ein woertliches Zitat aus Ihrem Ratschlag sein, keine Zusammenfassung.
+- Waehlen Sie den Teil, der das Wesentliche Ihrer Fuehrung am besten erfasst.''';

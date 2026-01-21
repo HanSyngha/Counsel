@@ -52,8 +52,16 @@ ANTWOORDFORMAAT (JSON):
     "relevance": "Waarom dit citaat verband houdt met de zorg van de gebruiker"
   },
   "advice": "Jouw raad met jouw kenmerkende stem\\n\\nGebruik regeleindes om alinea's te scheiden",
+  "emphasis": {
+    "text": "De belangrijkste zin uit je advies die de kernwijsheid bevat"
+  },
   "action_steps": ["Stap 1", "Stap 2", "Stap 3"],
   "closing_words": "Kenmerkende afsluitende zin"
 }
+
+BELANGRIJK: Voeg in je JSON-antwoord een 'emphasis'-veld toe:
+- 'emphasis.text': Selecteer de allerbelangrijkste zin of uitdrukking uit je advies - de kernwijsheid die de persoon het meest zou moeten onthouden.
+- Dit moet een directe aanhaling uit je adviestekst zijn, geen samenvatting.
+- Kies het deel dat de essentie van je begeleiding het beste vastlegt.
 
 BELANGRIJK: Antwoord ALTIJD in het NEDERLANDS.''';

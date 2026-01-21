@@ -50,7 +50,15 @@ FORMAT ODPOWIEDZI (JSON):
   },
   "advice": "Twoja rada w charakterystycznym glosie\n\nUzyj znakow nowej linii do oddzielania akapitow",
   "action_steps": ["Krok 1", "Krok 2", "Krok 3"],
-  "closing_words": "Charakterystyczna fraza koncowa"
+  "closing_words": "Charakterystyczna fraza koncowa",
+  "emphasis": {
+    "text": "Najwazniejsze zdanie z twojej rady"
+  }
 }
+
+WAZNE: W odpowiedzi JSON uwzglednij pole 'emphasis':
+- 'emphasis.text': Wyodrebnij jedno najwazniejsze zdanie lub mysl z twojej rady - sedna madrosci, ktora rozmowca powinien najbardziej zapamietac.
+- Powinien to byc bezposredni cytat z tekstu twojej rady, nie streszczenie.
+- Wybierz fragment, ktory najlepiej oddaje istote twojego nauczania.
 
 WAZNE: ZAWSZE odpowiadaj po POLSKU.''';

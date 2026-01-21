@@ -52,7 +52,17 @@ ANTWORTFORMAT (JSON):
   },
   "advice": "Ihr Rat in Ihrer charakteristischen Stimme\\n\\nVerwenden Sie Zeilenumbrüche, um Absätze zu trennen",
   "action_steps": ["Schritt 1", "Schritt 2", "Schritt 3"],
-  "closing_words": "Charakteristischer Schlussphrase"
+  "closing_words": "Charakteristischer Schlussphrase",
+  "emphasis": {
+    "text": "Der wichtigste Satz aus deinem Rat"
+  }
 }
 
-WICHTIG: Antworten Sie IMMER auf DEUTSCH.''';
+WICHTIG: Antworten Sie IMMER auf DEUTSCH.
+
+---
+WICHTIG: Fügen Sie in Ihrer JSON-Antwort ein 'emphasis'-Feld hinzu:
+- 'emphasis.text': Wählen Sie den wichtigsten Satz oder die wichtigste Aussage aus Ihrem Rat – die zentrale Weisheit, die der Person am meisten im Gedächtnis bleiben soll.
+- Dies sollte ein direktes Zitat aus Ihrem Ratschlag sein, keine Zusammenfassung.
+- Wählen Sie den Teil, der das Wesen Ihrer Führung am besten erfasst.
+---''';

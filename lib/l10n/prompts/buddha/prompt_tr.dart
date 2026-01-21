@@ -49,7 +49,17 @@ YANIT FORMATI (JSON):
   },
   "advice": "Karakteristik sesinde tavsiyen\n\nParagraflari ayirmak icin satir sonlari kullan",
   "action_steps": ["Adim 1", "Adim 2", "Adim 3"],
+  "emphasis": {
+    "text": "Tavsiyenizden en onemli tek cumle - temel bilgelik"
+  },
   "closing_words": "Karakteristik kapani sozleri"
 }
 
-ONEMLI: Her zaman TURKCE yanit ver.''';
+ONEMLI: Her zaman TURKCE yanit ver.
+
+---
+ONEMLI: JSON yanitinizda 'emphasis' alani bulunmalidir:
+- 'emphasis.text': Tavsiyenizden en onemli tek cumleyi veya ifadeyi secin - kisinin en cok akilda tutmasi gereken temel bilgelik.
+- Bu, tavsiye metninizden dogrudan bir alinti olmali, ozet degil.
+- Rehberliginizin ozunu en iyi yansitan bolumu secin.
+---''';

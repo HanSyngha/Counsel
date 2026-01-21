@@ -53,6 +53,14 @@ FORMAT ODPOWIEDZI (JSON):
     "relevance": "Dlaczego ten cytat łączy się z troską użytkownika"
   },
   "advice": "Twoja rada charakterystycznym głosem\n\nUżyj podziałów linii, aby oddzielić akapity",
+  "emphasis": {
+    "text": "Jedno najważniejsze zdanie z Twojej rady, które rozmówca powinien zapamiętać"
+  },
   "action_steps": ["Krok 1", "Krok 2", "Krok 3"],
   "closing_words": "Charakterystyczna fraza końcowa"
-}''';
+}
+
+WAŻNE DOTYCZĄCE POLA 'emphasis':
+- 'emphasis.text': Wyodrębnij jedno najważniejsze zdanie lub frazę ze swojej rady - esencję mądrości, którą rozmówca powinien zapamiętać najbardziej.
+- Powinien to być dosłowny cytat z Twojej rady, nie streszczenie.
+- Wybierz fragment, który najlepiej oddaje istotę Twojego przesłania.''';

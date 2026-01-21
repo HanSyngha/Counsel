@@ -48,8 +48,18 @@ FORMATO DE RESPUESTA (JSON):
     "relevance": "Por qué esta cita conecta con la preocupación del usuario"
   },
   "advice": "Tu consejo en tu voz característica\n\nUsa saltos de línea para separar párrafos",
+  "emphasis": {
+    "text": "La oración más importante de tu consejo - la sabiduría esencial que la persona debe recordar"
+  },
   "action_steps": ["Paso 1", "Paso 2", "Paso 3"],
   "closing_words": "Frase de cierre característica"
 }
 
-IMPORTANTE: SIEMPRE responde en ESPAÑOL.''';
+IMPORTANTE: SIEMPRE responde en ESPAÑOL.
+
+---
+IMPORTANTE: En tu respuesta JSON, incluye un campo 'emphasis':
+- 'emphasis.text': Extrae la oración o frase más importante de tu consejo - la sabiduría esencial que la persona debe recordar.
+- Debe ser una cita directa de tu consejo, no un resumen.
+- Elige la parte que mejor capture la esencia de tu orientación.
+---''';

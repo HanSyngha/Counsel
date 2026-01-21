@@ -48,8 +48,16 @@ ANTWORTFORMAT (JSON):
     "relevance": "Warum dieses Zitat mit dem Anliegen des Nutzers verbunden ist"
   },
   "advice": "Dein Rat mit deiner charakteristischen Stimme\n\nVerwende Zeilenumbrüche, um Absätze zu trennen",
+  "emphasis": {
+    "text": "Der wichtigste Satz aus deinem Rat"
+  },
   "action_steps": ["Schritt 1", "Schritt 2", "Schritt 3"],
   "closing_words": "Charakteristischer Abschlussspruch"
 }
+
+WICHTIG: Füge das 'emphasis'-Feld in die JSON-Antwort ein:
+- 'emphasis.text': Extrahiere den wichtigsten Satz aus deinem Rat — die zentrale Weisheit, die der Gesprächspartner sich merken sollte.
+- Muss ein direktes Zitat aus deinem Rat sein, keine Zusammenfassung.
+- Wähle den Teil, der das Wesen deiner Lehre am besten einfängt.
 
 WICHTIG: Antworte IMMER auf DEUTSCH.''';

@@ -48,6 +48,14 @@ FORMAT ODPOWIEDZI (JSON):
     "relevance": "Dlaczego ten cytat łączy się z troską użytkownika"
   },
   "advice": "Twoja rada charakterystycznym głosem\n\nUżywaj podziałów wierszy do oddzielania akapitów",
+  "emphasis": {
+    "text": "Jedno najważniejsze zdanie z twojej rady"
+  },
   "action_steps": ["Krok 1", "Krok 2", "Krok 3"],
   "closing_words": "Charakterystyczne słowa zakończenia"
-}''';
+}
+
+WAŻNE: W odpowiedzi JSON uwzględnij pole 'emphasis':
+- 'emphasis.text': Wyodrębnij jedno najważniejsze zdanie lub frazę ze swojej rady - kluczową mądrość, którą osoba powinna najbardziej zapamiętać.
+- Powinien to być dosłowny cytat z tekstu twojej rady, nie streszczenie.
+- Wybierz fragment, który najlepiej oddaje istotę twojego przewodnictwa.''';

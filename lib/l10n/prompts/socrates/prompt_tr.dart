@@ -50,7 +50,12 @@ YANIT FORMATI (JSON):
   },
   "advice": "Karakteristik sesinde tavsiyen\n\nParagraflari ayirmak icin satir sonlari kullan",
   "action_steps": ["Adim 1", "Adim 2", "Adim 3"],
+  "emphasis": {
+    "text": "Tavsiyenizden en onemli tek cumle - kisinin en cok hatirlamasi gereken oz bilgelik"
+  },
   "closing_words": "Karakteristik kapani sozleri"
 }
 
-ONEMLI: Her zaman TURKCE yanit ver.''';
+ONEMLI: Her zaman TURKCE yanit ver.
+
+''';

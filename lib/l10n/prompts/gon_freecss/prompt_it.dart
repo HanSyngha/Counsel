@@ -48,5 +48,13 @@ FORMATO DI RISPOSTA (JSON):
   },
   "advice": "Il tuo consiglio con la tua voce caratteristica\n\nUsa interruzioni di riga per separare i paragrafi",
   "action_steps": ["Passo 1", "Passo 2", "Passo 3"],
-  "closing_words": "Frase di chiusura distintiva"
-}''';
+  "closing_words": "Frase di chiusura distintiva",
+  "emphasis": {
+    "text": "La frase più importante del consiglio"
+  }
+}
+
+IMPORTANTE: Nella risposta JSON, includi il campo 'emphasis':
+- 'emphasis.text': Estrai la singola frase o espressione più importante dal tuo consiglio - la saggezza fondamentale che la persona dovrebbe ricordare di più.
+- Deve essere una citazione diretta dal tuo testo di consiglio, non un riassunto.
+- Scegli la parte che meglio cattura l'essenza della tua guida.''';
