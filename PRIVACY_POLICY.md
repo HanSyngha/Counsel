@@ -40,7 +40,11 @@ You can:
 ### Contact
 
 For questions about this privacy policy, please contact:
-- GitHub: https://github.com/HanSyngha/Counsel
+
+**Developer:** Seungha Han (한승하)
+**Email:** gkstmdgk2731@naver.com
+**Phone:** +82-10-4098-7348
+**GitHub:** https://github.com/HanSyngha/Counsel
 
 ---
 
@@ -82,4 +86,8 @@ For questions about this privacy policy, please contact:
 ### 문의
 
 개인정보 처리방침에 대한 문의:
-- GitHub: https://github.com/HanSyngha/Counsel
+
+**개발자:** 한승하 (Seungha Han)
+**이메일:** gkstmdgk2731@naver.com
+**전화번호:** +82-10-4098-7348
+**GitHub:** https://github.com/HanSyngha/Counsel
