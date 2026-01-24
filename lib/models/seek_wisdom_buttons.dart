@@ -24,8 +24,9 @@ class SeekWisdomButtons {
   static String? getRandomButtonText(String personaId, {String languageCode = 'en'}) {
     final texts = getButtonTexts(personaId, languageCode: languageCode);
     if (texts.isEmpty) return null;
-    texts.shuffle();
-    return texts.first;
+    final shuffled = List<String>.from(texts);
+    shuffled.shuffle();
+    return shuffled.first;
   }
 
   /// Check if a persona has custom button texts
